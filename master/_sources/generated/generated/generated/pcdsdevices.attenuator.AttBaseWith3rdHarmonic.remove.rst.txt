@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBaseWith3rdHarmonic.remove
+====================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBaseWith3rdHarmonic.remove
