@@ -24,7 +24,9 @@
       BaseGon
       GonWithDetArm
       Kappa
+      KappaXYZStage
       SamPhi
+      SimKappa
       XYZStage
    
    

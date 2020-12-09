@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gon.Kappa.get &mdash; PCDS Devices 3.3.0+65.gd63dc11 documentation</title>
+  <title>pcdsdevices.gon.Kappa.get &mdash; PCDS Devices 3.3.0+88.g969ccf5 documentation</title>
   
 
   
@@ -37,8 +37,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.gon.Kappa.read" href="pcdsdevices.gon.Kappa.read.html" />
-    <link rel="prev" title="pcdsdevices.gon.Kappa.describe" href="pcdsdevices.gon.Kappa.describe.html" /> 
+    <link rel="next" title="pcdsdevices.gon.Kappa.inverse" href="pcdsdevices.gon.Kappa.inverse.html" />
+    <link rel="prev" title="pcdsdevices.gon.Kappa.forward" href="pcdsdevices.gon.Kappa.forward.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                3.3.0+65.gd63dc11
+                3.3.0+88.g969ccf5
               </div>
             
           
@@ -122,17 +122,31 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.BaseGon.html">pcdsdevices.gon.BaseGon</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.GonWithDetArm.html">pcdsdevices.gon.GonWithDetArm</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.gon.Kappa.html">pcdsdevices.gon.Kappa</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.check_motor_step.html">pcdsdevices.gon.Kappa.check_motor_step</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.check_single.html">pcdsdevices.gon.Kappa.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.configure.html">pcdsdevices.gon.Kappa.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.describe.html">pcdsdevices.gon.Kappa.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.e_to_k.html">pcdsdevices.gon.Kappa.e_to_k</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.forward.html">pcdsdevices.gon.Kappa.forward</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.gon.Kappa.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.inverse.html">pcdsdevices.gon.Kappa.inverse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.k_to_e.html">pcdsdevices.gon.Kappa.k_to_e</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.move.html">pcdsdevices.gon.Kappa.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.move_single.html">pcdsdevices.gon.Kappa.move_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.read.html">pcdsdevices.gon.Kappa.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.read_configuration.html">pcdsdevices.gon.Kappa.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.set.html">pcdsdevices.gon.Kappa.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.stop.html">pcdsdevices.gon.Kappa.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.summary.html">pcdsdevices.gon.Kappa.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.to_pseudo_tuple.html">pcdsdevices.gon.Kappa.to_pseudo_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.to_real_tuple.html">pcdsdevices.gon.Kappa.to_real_tuple</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.trigger.html">pcdsdevices.gon.Kappa.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.gon.Kappa.wait.html">pcdsdevices.gon.Kappa.wait</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.KappaXYZStage.html">pcdsdevices.gon.KappaXYZStage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.SamPhi.html">pcdsdevices.gon.SamPhi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.SimKappa.html">pcdsdevices.gon.SimKappa</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.gon.XYZStage.html">pcdsdevices.gon.XYZStage</a></li>
 </ul>
 </li>
@@ -252,10 +266,10 @@ beginning with an underscore will not be included.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="pcdsdevices.gon.Kappa.read.html" class="btn btn-neutral float-right" title="pcdsdevices.gon.Kappa.read" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="pcdsdevices.gon.Kappa.inverse.html" class="btn btn-neutral float-right" title="pcdsdevices.gon.Kappa.inverse" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="pcdsdevices.gon.Kappa.describe.html" class="btn btn-neutral float-left" title="pcdsdevices.gon.Kappa.describe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="pcdsdevices.gon.Kappa.forward.html" class="btn btn-neutral float-left" title="pcdsdevices.gon.Kappa.forward" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

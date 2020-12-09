@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.gon &mdash; PCDS Devices 3.3.0+65.gd63dc11 documentation</title>
+  <title>pcdsdevices.gon &mdash; PCDS Devices 3.3.0+88.g969ccf5 documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                3.3.0+65.gd63dc11
+                3.3.0+88.g969ccf5
               </div>
             
           
@@ -122,7 +122,9 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.html">pcdsdevices.gon.BaseGon</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.html">pcdsdevices.gon.GonWithDetArm</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.Kappa.html">pcdsdevices.gon.Kappa</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.KappaXYZStage.html">pcdsdevices.gon.KappaXYZStage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.html">pcdsdevices.gon.SamPhi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.SimKappa.html">pcdsdevices.gon.SimKappa</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.html">pcdsdevices.gon.XYZStage</a></li>
 </ul>
 </li>
@@ -247,10 +249,16 @@
 <td><p>Goniometer with a detector arm, as present in XCS.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.Kappa.html#pcdsdevices.gon.Kappa" title="pcdsdevices.gon.Kappa"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Kappa</span></code></a>(*, name, prefix_x, prefix_y, prefix_z, …)</p></td>
-<td><p>Kappa stage.</p></td>
+<td><p>Kappa stage, control the Kappa diffractometer in spherical coordinates.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.html#pcdsdevices.gon.SamPhi" title="pcdsdevices.gon.SamPhi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SamPhi</span></code></a>(*, name, prefix_samz, prefix_samphi, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.KappaXYZStage.html#pcdsdevices.gon.KappaXYZStage" title="pcdsdevices.gon.KappaXYZStage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">KappaXYZStage</span></code></a>(*args, parent, **kwargs)</p></td>
+<td><p>Helper initializing function for XYZStage object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.html#pcdsdevices.gon.SamPhi" title="pcdsdevices.gon.SamPhi"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SamPhi</span></code></a>(*, name, prefix_samz, prefix_samphi, …)</p></td>
 <td><p>Sample Phi stage.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SimKappa.html#pcdsdevices.gon.SimKappa" title="pcdsdevices.gon.SimKappa"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SimKappa</span></code></a>(*, name, prefix_x, prefix_y, …[, …])</p></td>
+<td><p>Test version of the Kappa object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.XYZStage.html#pcdsdevices.gon.XYZStage" title="pcdsdevices.gon.XYZStage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">XYZStage</span></code></a>(*, name, prefix_x, prefix_y, …)</p></td>
 <td><p>Sample XYZ stage.</p></td>

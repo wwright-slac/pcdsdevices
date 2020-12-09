@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.check\_motor\_step
+========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.check_motor_step
