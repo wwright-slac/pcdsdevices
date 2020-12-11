@@ -3972,6 +3972,7 @@ master/_sources/upcoming_release_notes/679-Mirrors_Custom_Status_Print.rst.txt
 master/_sources/upcoming_release_notes/682-Gon_Custom_Status_Print.rst.txt
 master/_sources/upcoming_release_notes/695-Epics-Motor-Metadata.rst.txt
 master/_sources/upcoming_release_notes/711-Kappa_Pseudo_Motors.rst.txt
+master/_sources/upcoming_release_notes/716-Fix-EventSequencer-Proc.rst.txt
 master/_sources/upcoming_release_notes/718-Add_get_status_float_function_in_utils.rst.txt
 master/_sources/upcoming_release_notes/issue_number-LED_power_add_to_Mono.rst.txt
 master/_sources/upcoming_release_notes/issue_number-add_ExitSlits.rst.txt
@@ -8040,6 +8041,7 @@ master/upcoming_release_notes/679-Mirrors_Custom_Status_Print.html
 master/upcoming_release_notes/682-Gon_Custom_Status_Print.html
 master/upcoming_release_notes/695-Epics-Motor-Metadata.html
 master/upcoming_release_notes/711-Kappa_Pseudo_Motors.html
+master/upcoming_release_notes/716-Fix-EventSequencer-Proc.html
 master/upcoming_release_notes/718-Add_get_status_float_function_in_utils.html
 master/upcoming_release_notes/issue_number-LED_power_add_to_Mono.html
 master/upcoming_release_notes/issue_number-add_ExitSlits.html

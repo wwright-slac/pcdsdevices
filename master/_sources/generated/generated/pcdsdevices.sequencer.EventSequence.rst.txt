@@ -46,7 +46,16 @@ pcdsdevices.sequencer.EventSequence
           -  normal
           -  
    
+       *  -  seq_proc
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:SEQ.PROC``
+          -  
+          -  normal
+          -  
+   
 
+   
+   
    
    
    
