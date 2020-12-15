@@ -3974,9 +3974,9 @@ master/_sources/upcoming_release_notes/695-Epics-Motor-Metadata.rst.txt
 master/_sources/upcoming_release_notes/711-Kappa_Pseudo_Motors.rst.txt
 master/_sources/upcoming_release_notes/716-Fix-EventSequencer-Proc.rst.txt
 master/_sources/upcoming_release_notes/718-Add_get_status_float_function_in_utils.rst.txt
-master/_sources/upcoming_release_notes/issue_number-LED_power_add_to_Mono.rst.txt
-master/_sources/upcoming_release_notes/issue_number-add_ExitSlits.rst.txt
-master/_sources/upcoming_release_notes/issue_number-update_ExitSlits.rst.txt
+master/_sources/upcoming_release_notes/720-add_ExitSlits.rst.txt
+master/_sources/upcoming_release_notes/721-LED_power_add_to_Mono.rst.txt
+master/_sources/upcoming_release_notes/723-update_ExitSlits.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -8043,8 +8043,8 @@ master/upcoming_release_notes/695-Epics-Motor-Metadata.html
 master/upcoming_release_notes/711-Kappa_Pseudo_Motors.html
 master/upcoming_release_notes/716-Fix-EventSequencer-Proc.html
 master/upcoming_release_notes/718-Add_get_status_float_function_in_utils.html
-master/upcoming_release_notes/issue_number-LED_power_add_to_Mono.html
-master/upcoming_release_notes/issue_number-add_ExitSlits.html
-master/upcoming_release_notes/issue_number-update_ExitSlits.html
+master/upcoming_release_notes/720-add_ExitSlits.html
+master/upcoming_release_notes/721-LED_power_add_to_Mono.html
+master/upcoming_release_notes/723-update_ExitSlits.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
