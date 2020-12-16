@@ -3977,6 +3977,7 @@ master/_sources/upcoming_release_notes/718-Add_get_status_float_function_in_util
 master/_sources/upcoming_release_notes/720-add_ExitSlits.rst.txt
 master/_sources/upcoming_release_notes/721-LED_power_add_to_Mono.rst.txt
 master/_sources/upcoming_release_notes/723-update_ExitSlits.rst.txt
+master/_sources/upcoming_release_notes/725-AvgSignal-Spam.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -8046,5 +8047,6 @@ master/upcoming_release_notes/718-Add_get_status_float_function_in_utils.html
 master/upcoming_release_notes/720-add_ExitSlits.html
 master/upcoming_release_notes/721-LED_power_add_to_Mono.html
 master/upcoming_release_notes/723-update_ExitSlits.html
+master/upcoming_release_notes/725-AvgSignal-Spam.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
