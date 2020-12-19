@@ -23,6 +23,7 @@ pcdsdevices.signal.PytmcSignalRO
        ~PytmcSignalRO.read_configuration
        ~PytmcSignalRO.set
        ~PytmcSignalRO.set_default_timeout
+       ~PytmcSignalRO.set_defaults
        ~PytmcSignalRO.trigger
     
     

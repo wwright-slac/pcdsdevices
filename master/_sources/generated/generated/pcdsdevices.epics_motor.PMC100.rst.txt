@@ -96,14 +96,14 @@ pcdsdevices.epics\_motor.PMC100
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
        *  -  high_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.HLS``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
        *  -  low_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.LLS``
           -  
           -  normal

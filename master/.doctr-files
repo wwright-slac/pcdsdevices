@@ -2381,6 +2381,7 @@ master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.rea
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set_default_timeout.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set_defaults.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignal.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.get.rst.txt
@@ -2388,6 +2389,7 @@ master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.r
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set_default_timeout.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set_defaults.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.get.rst.txt
@@ -2396,6 +2398,7 @@ master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.r
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set_default_timeout.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set_defaults.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.UnitConversionDerivedSignal.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.signal.UnitConversionDerivedSignal.forward.rst.txt
@@ -3973,6 +3976,7 @@ master/_sources/upcoming_release_notes/682-Gon_Custom_Status_Print.rst.txt
 master/_sources/upcoming_release_notes/695-Epics-Motor-Metadata.rst.txt
 master/_sources/upcoming_release_notes/711-Kappa_Pseudo_Motors.rst.txt
 master/_sources/upcoming_release_notes/716-Fix-EventSequencer-Proc.rst.txt
+master/_sources/upcoming_release_notes/717-Lxt_devices_update.rst.txt
 master/_sources/upcoming_release_notes/718-Add_get_status_float_function_in_utils.rst.txt
 master/_sources/upcoming_release_notes/720-add_ExitSlits.rst.txt
 master/_sources/upcoming_release_notes/721-LED_power_add_to_Mono.rst.txt
@@ -6446,6 +6450,7 @@ master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.read.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.read_configuration.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set_default_timeout.html
+master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.set_defaults.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignal.trigger.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.describe.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.get.html
@@ -6453,6 +6458,7 @@ master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.read.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.read_configuration.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set_default_timeout.html
+master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.set_defaults.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRO.trigger.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.describe.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.get.html
@@ -6461,6 +6467,7 @@ master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.read.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.read_configuration.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set_default_timeout.html
+master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.set_defaults.html
 master/generated/generated/generated/pcdsdevices.signal.PytmcSignalRW.trigger.html
 master/generated/generated/generated/pcdsdevices.signal.UnitConversionDerivedSignal.describe.html
 master/generated/generated/generated/pcdsdevices.signal.UnitConversionDerivedSignal.forward.html
@@ -8043,6 +8050,7 @@ master/upcoming_release_notes/682-Gon_Custom_Status_Print.html
 master/upcoming_release_notes/695-Epics-Motor-Metadata.html
 master/upcoming_release_notes/711-Kappa_Pseudo_Motors.html
 master/upcoming_release_notes/716-Fix-EventSequencer-Proc.html
+master/upcoming_release_notes/717-Lxt_devices_update.html
 master/upcoming_release_notes/718-Add_get_status_float_function_in_utils.html
 master/upcoming_release_notes/720-add_ExitSlits.html
 master/upcoming_release_notes/721-LED_power_add_to_Mono.html

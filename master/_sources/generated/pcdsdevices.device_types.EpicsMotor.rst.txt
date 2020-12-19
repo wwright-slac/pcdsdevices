@@ -96,14 +96,14 @@
           -  
    
        *  -  high_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.HLS``
           -  
           -  normal
           -  
    
        *  -  low_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.LLS``
           -  
           -  normal

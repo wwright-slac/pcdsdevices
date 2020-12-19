@@ -96,14 +96,14 @@ pcdsdevices.epics\_motor.SmarAct
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
        *  -  high_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.HLS``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
        *  -  low_limit_switch
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``.LLS``
           -  
           -  normal

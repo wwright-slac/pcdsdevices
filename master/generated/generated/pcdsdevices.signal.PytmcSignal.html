@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>pcdsdevices.signal.PytmcSignal &mdash; PCDS Devices 3.3.0+100.g24f94e9 documentation</title>
+  <title>pcdsdevices.signal.PytmcSignal &mdash; PCDS Devices 3.3.0+114.g3af580c documentation</title>
   
 
   
@@ -62,7 +62,7 @@
             
             
               <div class="version">
-                3.3.0+100.g24f94e9
+                3.3.0+114.g3af580c
               </div>
             
           
@@ -153,6 +153,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.read_configuration.html">pcdsdevices.signal.PytmcSignal.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set.html">pcdsdevices.signal.PytmcSignal.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set_default_timeout.html">pcdsdevices.signal.PytmcSignal.set_default_timeout</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set_defaults.html">pcdsdevices.signal.PytmcSignal.set_defaults</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.trigger.html">pcdsdevices.signal.PytmcSignal.trigger</a></li>
 </ul>
 </li>
@@ -261,7 +262,7 @@ depending on your io argument.</p>
 <td><p>Return the description as a dictionary</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.get.html#pcdsdevices.signal.PytmcSignal.get" title="pcdsdevices.signal.PytmcSignal.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(*[, as_string, timeout, …])</p></td>
-<td><p>Get the readback value through an explicit call to EPICS</p></td>
+<td><p>Get the readback value through an explicit call to EPICS.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.read.html#pcdsdevices.signal.PytmcSignal.read" title="pcdsdevices.signal.PytmcSignal.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
 <td><p>Put the status of the signal into a simple dictionary format for data acquisition</p></td>
@@ -272,10 +273,13 @@ depending on your io argument.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set.html#pcdsdevices.signal.PytmcSignal.set" title="pcdsdevices.signal.PytmcSignal.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(value, *[, timeout, settle_time])</p></td>
 <td><p>Set is like <code class="xref any docutils literal notranslate"><span class="pre">put</span></code>, but is here for bluesky compatibility</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set_default_timeout.html#pcdsdevices.signal.PytmcSignal.set_default_timeout" title="pcdsdevices.signal.PytmcSignal.set_default_timeout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_default_timeout</span></code></a>(*[, timeout, …])</p></td>
-<td><p>Set the class-wide defaults for timeouts</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set_default_timeout.html#pcdsdevices.signal.PytmcSignal.set_default_timeout" title="pcdsdevices.signal.PytmcSignal.set_default_timeout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_default_timeout</span></code></a>(**kwargs)</p></td>
+<td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.trigger.html#pcdsdevices.signal.PytmcSignal.trigger" title="pcdsdevices.signal.PytmcSignal.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.set_defaults.html#pcdsdevices.signal.PytmcSignal.set_defaults" title="pcdsdevices.signal.PytmcSignal.set_defaults"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_defaults</span></code></a>(*[, timeout, …])</p></td>
+<td><p>Set class-wide defaults for EPICS CA communications</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.trigger.html#pcdsdevices.signal.PytmcSignal.trigger" title="pcdsdevices.signal.PytmcSignal.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Call that is used by bluesky prior to read()</p></td>
 </tr>
 </tbody>

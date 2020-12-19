@@ -26,8 +26,8 @@
           -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`
    
        *  -  user_offset
-          -  :class:`~ophyd.signal.Signal`
-          -  
+          -  :class:`~pcdsdevices.signal.NotepadLinkedSignal`
+          -  ``:OphydOffset``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.pseudopos.DelayBase`

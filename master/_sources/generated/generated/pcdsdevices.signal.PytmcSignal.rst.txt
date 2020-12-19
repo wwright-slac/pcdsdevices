@@ -23,6 +23,7 @@ pcdsdevices.signal.PytmcSignal
        ~PytmcSignal.read_configuration
        ~PytmcSignal.set
        ~PytmcSignal.set_default_timeout
+       ~PytmcSignal.set_defaults
        ~PytmcSignal.trigger
     
     

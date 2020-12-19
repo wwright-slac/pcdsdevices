@@ -24,6 +24,7 @@ pcdsdevices.signal.PytmcSignalRW
        ~PytmcSignalRW.read_configuration
        ~PytmcSignalRW.set
        ~PytmcSignalRW.set_default_timeout
+       ~PytmcSignalRW.set_defaults
        ~PytmcSignalRW.trigger
     
     
