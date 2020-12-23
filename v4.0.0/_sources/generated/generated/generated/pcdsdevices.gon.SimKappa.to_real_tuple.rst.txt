@@ -1,0 +1,6 @@
+pcdsdevices.gon.SimKappa.to\_real\_tuple
+========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SimKappa.to_real_tuple

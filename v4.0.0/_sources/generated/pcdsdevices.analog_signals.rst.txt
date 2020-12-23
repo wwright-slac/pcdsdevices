@@ -1,0 +1,32 @@
+﻿pcdsdevices.analog\_signals
+===========================
+
+.. automodule:: pcdsdevices.analog_signals
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      AcromagChannel
+      acromag_ch_factory_func
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      Acromag
+      Mesh
+   
+   
+
+   
+   
+   

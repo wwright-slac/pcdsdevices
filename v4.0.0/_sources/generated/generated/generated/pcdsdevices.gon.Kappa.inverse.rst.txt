@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.inverse
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.inverse

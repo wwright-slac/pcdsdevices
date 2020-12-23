@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PMC100.set\_high\_limit
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PMC100.set_high_limit
