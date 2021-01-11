@@ -32,6 +32,13 @@ pcdsdevices.valve.VCN
           -  normal
           -  
    
+       *  -  upper_limit
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:Limit``
+          -  max upper limit position to open the valve 0-100%
+          -  normal
+          -  
+   
        *  -  interlock_ok
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:ILK_OK_RBV``
@@ -61,6 +68,8 @@ pcdsdevices.valve.VCN
           -  
    
 
+   
+   
    
    
    
