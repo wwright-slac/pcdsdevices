@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.attenuator.AttenuatorCalculator_AT2L0 &mdash; PCDS Devices 4.0.0+4.g15639cc documentation</title>
+  <title>pcdsdevices.attenuator.AttenuatorCalculator_AT2L0 &mdash; PCDS Devices 4.0.0+21.g2bb8f7f documentation</title>
   
 
   
@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate.html" />
-    <link rel="prev" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger" href="generated/pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger.html" /> 
+    <link rel="prev" title="pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.trigger" href="generated/pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.trigger.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.0.0+4.g15639cc
+                4.0.0+21.g2bb8f7f
               </div>
             
           
@@ -113,11 +113,14 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AT1K4.html">pcdsdevices.attenuator.AT1K4</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AT2L0.html">pcdsdevices.attenuator.AT2L0</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBaseWith3rdHarmonic.html">pcdsdevices.attenuator.AttBaseWith3rdHarmonic</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html">pcdsdevices.attenuator.AttenuatorCalculatorBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorFilter.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorSXR_Blade.html">pcdsdevices.attenuator.AttenuatorCalculatorSXR_Blade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.html">pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.configure.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.configure</a></li>
@@ -133,6 +136,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.trigger.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.trigger</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorSXR_Ladder.html">pcdsdevices.attenuator.AttenuatorSXR_Ladder</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
@@ -140,6 +144,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.html">pcdsdevices.attenuator.FeeFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.Filter.html">pcdsdevices.attenuator.Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.GasAttenuator.html">pcdsdevices.attenuator.GasAttenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.LadderBladeState.html">pcdsdevices.attenuator.LadderBladeState</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
@@ -330,18 +335,32 @@
 <td><p>config</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>best_config_bitmask</p></td>
+<tr class="row-even"><td><p>best_config</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:SYS:BestConfiguration_RBV</span></code></p></td>
+<td><p>The best configuration of filters for the desired transmission</p></td>
+<td><p>normal</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>best_config_bitmask</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:BestConfigurationBitmask_RBV</span></code></p></td>
 <td><p>The best configuration of filters for the desired transmission.</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>best_config_error</p></td>
+<tr class="row-even"><td><p>best_config_error</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:BestConfigError_RBV</span></code></p></td>
 <td><p>Desired to calculated transmission error</p></td>
 <td><p>normal</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>active_config</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:SYS:ActiveConfiguration_RBV</span></code></p></td>
+<td><p>Where the filters are now</p></td>
+<td><p>omitted</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>active_config_bitmask</p></td>
@@ -351,35 +370,42 @@
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>filters_moving_bitmask</p></td>
+<tr class="row-odd"><td><p>filters_moving</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:SYS:FiltersMoving_RBV</span></code></p></td>
+<td><p>Filter-by-filter motion status (1 if moving)</p></td>
+<td><p>normal</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>filters_moving_bitmask</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:FiltersMovingBitmask_RBV</span></code></p></td>
 <td><p>Filter-by-filter motion status as a bitmask</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>run_calculation</p></td>
+<tr class="row-odd"><td><p>run_calculation</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:Run</span></code></p></td>
 <td><p>Start the calculation</p></td>
 <td><p>config</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>apply_config</p></td>
+<tr class="row-even"><td><p>apply_config</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:ApplyConfiguration</span></code></p></td>
 <td><p>Apply the best configuration (i.e., move the filters)</p></td>
 <td><p>config</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>moving</p></td>
+<tr class="row-odd"><td><p>moving</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:SYS:Moving_RBV</span></code></p></td>
 <td><p>Are filters being moved in/out?</p></td>
 <td><p>config</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorBase.html#pcdsdevices.attenuator.AttenuatorCalculatorBase" title="pcdsdevices.attenuator.AttenuatorCalculatorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">AttenuatorCalculatorBase</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>filters (DDC)</p></td>
+<tr class="row-even"><td><p>filters (DDC)</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Filters</span></code></p></td>
 <td><p>(See below)</p></td>
 <td></td>
@@ -611,7 +637,7 @@
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="generated/pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate.html" class="btn btn-neutral float-right" title="pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.calculate" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="generated/pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="generated/pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

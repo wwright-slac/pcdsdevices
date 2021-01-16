@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.attenuator.AttenuatorCalculatorFilter &mdash; PCDS Devices 4.0.0+4.g15639cc documentation</title>
+  <title>pcdsdevices.attenuator.AttenuatorCalculatorFilter &mdash; PCDS Devices 4.0.0+21.g2bb8f7f documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.0.0+4.g15639cc
+                4.0.0+21.g2bb8f7f
               </div>
             
           
@@ -113,6 +113,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.Attenuator.html">pcdsdevices.attenuator.Attenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.get_blade_enum.html">pcdsdevices.attenuator.get_blade_enum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.render_ascii_att.html">pcdsdevices.attenuator.render_ascii_att</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AT1K4.html">pcdsdevices.attenuator.AT1K4</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AT2L0.html">pcdsdevices.attenuator.AT2L0</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBase.html">pcdsdevices.attenuator.AttBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttBaseWith3rdHarmonic.html">pcdsdevices.attenuator.AttBaseWith3rdHarmonic</a></li>
@@ -128,7 +129,10 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger.html">pcdsdevices.attenuator.AttenuatorCalculatorFilter.trigger</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorSXR_Blade.html">pcdsdevices.attenuator.AttenuatorCalculatorSXR_Blade</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade.html">pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorCalculator_AT2L0.html">pcdsdevices.attenuator.AttenuatorCalculator_AT2L0</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.AttenuatorSXR_Ladder.html">pcdsdevices.attenuator.AttenuatorSXR_Ladder</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.BladeStateEnum.html">pcdsdevices.attenuator.BladeStateEnum</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuator.html">pcdsdevices.attenuator.FEESolidAttenuator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FEESolidAttenuatorBlade.html">pcdsdevices.attenuator.FEESolidAttenuatorBlade</a></li>
@@ -136,6 +140,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.FeeFilter.html">pcdsdevices.attenuator.FeeFilter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.Filter.html">pcdsdevices.attenuator.Filter</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.GasAttenuator.html">pcdsdevices.attenuator.GasAttenuator</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.attenuator.LadderBladeState.html">pcdsdevices.attenuator.LadderBladeState</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
@@ -275,28 +280,35 @@
 <td><p>hinted</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>is_stuck</p></td>
+<tr class="row-even"><td><p>active</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">Active</span></code></p></td>
+<td><p>Should the filter be used in calculations?</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>is_stuck</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">IsStuck</span></code></p></td>
 <td><p>Is the filter stuck / unusable?</p></td>
 <td><p>hinted</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>closest_energy</p></td>
+<tr class="row-even"><td><p>closest_energy</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">ClosestEnergy_RBV</span></code></p></td>
 <td><p>Closest tabulated energy available to the requested one</p></td>
 <td><p>config</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>transmission</p></td>
+<tr class="row-odd"><td><p>transmission</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">Transmission_RBV</span></code></p></td>
 <td><p>Normalized transmission at the reported energy</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>transmission_3omega</p></td>
+<tr class="row-even"><td><p>transmission_3omega</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">Transmission3Omega_RBV</span></code></p></td>
 <td><p>Normalized transmission at 3 * the reported energy</p></td>

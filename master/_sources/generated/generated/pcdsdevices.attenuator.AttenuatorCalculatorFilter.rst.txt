@@ -32,6 +32,13 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
           -  hinted
           -  
    
+       *  -  active
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``Active``
+          -  Should the filter be used in calculations?
+          -  normal
+          -  
+   
        *  -  is_stuck
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``IsStuck``
@@ -61,6 +68,8 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
           -  
    
 
+   
+   
    
    
    

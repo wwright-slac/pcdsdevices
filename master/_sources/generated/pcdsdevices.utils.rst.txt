@@ -10,7 +10,9 @@
    .. autosummary::
       :toctree: generated
    
+      combine_status_info
       convert_unit
+      format_status_table
       get_component
       get_input
       get_status_float

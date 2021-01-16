@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.utils &mdash; PCDS Devices 4.0.0+4.g15639cc documentation</title>
+  <title>pcdsdevices.utils &mdash; PCDS Devices 4.0.0+21.g2bb8f7f documentation</title>
   
 
   
@@ -39,7 +39,7 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.utils.convert_unit" href="generated/pcdsdevices.utils.convert_unit.html" />
+    <link rel="next" title="pcdsdevices.utils.combine_status_info" href="generated/pcdsdevices.utils.combine_status_info.html" />
     <link rel="prev" title="pcdsdevices.timetool.TimetoolWithNav.wm_update" href="generated/generated/pcdsdevices.timetool.TimetoolWithNav.wm_update.html" /> 
 </head>
 
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.0.0+4.g15639cc
+                4.0.0+21.g2bb8f7f
               </div>
             
           
@@ -142,7 +142,9 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.state.html">pcdsdevices.state</a></li>
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.utils</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.combine_status_info.html">pcdsdevices.utils.combine_status_info</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.convert_unit.html">pcdsdevices.utils.convert_unit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.format_status_table.html">pcdsdevices.utils.format_status_table</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.get_component.html">pcdsdevices.utils.get_component</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.get_input.html">pcdsdevices.utils.get_input</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.get_status_float.html">pcdsdevices.utils.get_status_float</a></li>
@@ -233,8 +235,14 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.convert_unit.html#pcdsdevices.utils.convert_unit" title="pcdsdevices.utils.convert_unit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_unit</span></code></a>(value, unit, new_unit)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.combine_status_info.html#pcdsdevices.utils.combine_status_info" title="pcdsdevices.utils.combine_status_info"><code class="xref py py-obj docutils literal notranslate"><span class="pre">combine_status_info</span></code></a>(obj, status_info, attrs)</p></td>
+<td><p>Combine status information from the given attributes.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.convert_unit.html#pcdsdevices.utils.convert_unit" title="pcdsdevices.utils.convert_unit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">convert_unit</span></code></a>(value, unit, new_unit)</p></td>
 <td><p>One-line unit conversion.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.format_status_table.html#pcdsdevices.utils.format_status_table" title="pcdsdevices.utils.format_status_table"><code class="xref py py-obj docutils literal notranslate"><span class="pre">format_status_table</span></code></a>(status_info, row_to_key, …)</p></td>
+<td><p>Create a PrettyTable based on status information.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.get_component.html#pcdsdevices.utils.get_component" title="pcdsdevices.utils.get_component"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_component</span></code></a>(obj)</p></td>
 <td><p>Get the component that made the given object.</p></td>
@@ -267,7 +275,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="generated/pcdsdevices.utils.convert_unit.html" class="btn btn-neutral float-right" title="pcdsdevices.utils.convert_unit" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generated/pcdsdevices.utils.combine_status_info.html" class="btn btn-neutral float-right" title="pcdsdevices.utils.combine_status_info" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="generated/generated/pcdsdevices.timetool.TimetoolWithNav.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.timetool.TimetoolWithNav.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 

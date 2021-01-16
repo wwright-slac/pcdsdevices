@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT1K4.get
+================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT1K4.get
