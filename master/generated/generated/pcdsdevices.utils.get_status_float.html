@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.utils.get_status_float &mdash; PCDS Devices 4.0.0+26.gd3f6749 documentation</title>
+  <title>pcdsdevices.utils.get_status_float &mdash; PCDS Devices 4.0.0+44.g7bffdc0 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.0.0+26.gd3f6749
+                4.0.0+44.g7bffdc0
               </div>
             
           
@@ -232,7 +232,7 @@
 <h1>pcdsdevices.utils.get_status_float<a class="headerlink" href="#pcdsdevices-utils-get-status-float" title="Permalink to this headline">¶</a></h1>
 <dl class="py function">
 <dt id="pcdsdevices.utils.get_status_float">
-<code class="sig-prename descclassname">pcdsdevices.utils.</code><code class="sig-name descname">get_status_float</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">status_info</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em>, <em class="sig-param"><span class="n">default_value</span><span class="o">=</span><span class="default_value">'N/A'</span></em>, <em class="sig-param"><span class="n">precision</span><span class="o">=</span><span class="default_value">4</span></em>, <em class="sig-param"><span class="n">format</span><span class="o">=</span><span class="default_value">'f'</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">1.0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.utils.get_status_float" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname">pcdsdevices.utils.</code><code class="sig-name descname">get_status_float</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">status_info</span></em>, <em class="sig-param"><span class="o">*</span><span class="n">keys</span></em>, <em class="sig-param"><span class="n">default_value</span><span class="o">=</span><span class="default_value">'N/A'</span></em>, <em class="sig-param"><span class="n">precision</span><span class="o">=</span><span class="default_value">4</span></em>, <em class="sig-param"><span class="n">format</span><span class="o">=</span><span class="default_value">'f'</span></em>, <em class="sig-param"><span class="n">scale</span><span class="o">=</span><span class="default_value">1.0</span></em>, <em class="sig-param"><span class="n">include_plus_sign</span><span class="o">=</span><span class="default_value">False</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.utils.get_status_float" title="Permalink to this definition">¶</a></dt>
 <dd><p>Get the value of a dictionary key.</p>
 <p>Format the value with the precision requested if it is a float value.</p>
 <dl class="field-list simple">
@@ -240,10 +240,12 @@
 <dd class="field-odd"><ul class="simple">
 <li><p><strong>status_info</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#dict" title="(in Python v3.9)"><em>dict</em></a>) – Dictionary to look through.</p></li>
 <li><p><strong>keys</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.9)"><em>list</em></a>) – List of keys to look through with nested dictionarie.</p></li>
-<li><p><strong>default_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – A default value to return if the item value was not found.</p></li>
-<li><p><strong>precision</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a>) – Precision requested for the float values. Defaults to 4.</p></li>
-<li><p><strong>format</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Format specifier to use for the floating point value. Defaults to ‘f’.</p></li>
-<li><p><strong>scale</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a>) – Scale to apply to value prior to formatting.</p></li>
+<li><p><strong>default_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – A default value to return if the item value was not found.</p></li>
+<li><p><strong>precision</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a><em>, </em><em>optional</em>) – Precision requested for the float values. Defaults to 4.</p></li>
+<li><p><strong>format</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – Format specifier to use for the floating point value. Defaults to ‘f’.</p></li>
+<li><p><strong>scale</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>optional</em>) – Scale to apply to value prior to formatting.</p></li>
+<li><p><strong>include_plus_sign</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Include a plus sign before a positive value for text alignment
+purposes. Defaults to False.</p></li>
 </ul>
 </dd>
 <dt class="field-even">Returns</dt>
