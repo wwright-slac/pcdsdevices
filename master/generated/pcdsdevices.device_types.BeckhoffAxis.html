@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.BeckhoffAxis &mdash; PCDS Devices 4.0.0+21.g2bb8f7f documentation</title>
+  <title>pcdsdevices.device_types.BeckhoffAxis &mdash; PCDS Devices 4.0.0+26.gd3f6749 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.0.0+21.g2bb8f7f
+                4.0.0+26.gd3f6749
               </div>
             
           
@@ -402,20 +402,6 @@ in-progress move as failed.</p></li>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.html#pcdsdevices.epics_motor.EpicsMotorInterface" title="pcdsdevices.epics_motor.EpicsMotorInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsMotorInterface</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>home_forward</p></td>
-<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">.HOMF</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td><p>Inherited from <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.html#pcdsdevices.epics_motor.EpicsMotorInterface" title="pcdsdevices.epics_motor.EpicsMotorInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsMotorInterface</span></code></a></p></td>
-</tr>
-<tr class="row-even"><td><p>home_reverse</p></td>
-<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">.HOMR</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td><p>Inherited from <a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.html#pcdsdevices.epics_motor.EpicsMotorInterface" title="pcdsdevices.epics_motor.EpicsMotorInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsMotorInterface</span></code></a></p></td>
-</tr>
 <tr class="row-odd"><td><p>disabled</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.DISP</span></code></p></td>
@@ -499,8 +485,8 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.BeckhoffAxis.get_low_limit.html#pcdsdevices.device_types.BeckhoffAxis.get_low_limit" title="pcdsdevices.device_types.BeckhoffAxis.get_low_limit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_low_limit</span></code></a>()</p></td>
 <td><p>Get the low limit.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.BeckhoffAxis.home.html#pcdsdevices.device_types.BeckhoffAxis.home" title="pcdsdevices.device_types.BeckhoffAxis.home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code></a>(direction[, wait])</p></td>
-<td><p>Perform the default homing function in the desired direction</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.BeckhoffAxis.home.html#pcdsdevices.device_types.BeckhoffAxis.home" title="pcdsdevices.device_types.BeckhoffAxis.home"><code class="xref py py-obj docutils literal notranslate"><span class="pre">home</span></code></a>([direction, wait])</p></td>
+<td><p>Perform the configured homing function.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.BeckhoffAxis.move.html#pcdsdevices.device_types.BeckhoffAxis.move" title="pcdsdevices.device_types.BeckhoffAxis.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
@@ -584,6 +570,12 @@ in-progress move as failed.</p></li>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home_forward</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">home_reverse</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>

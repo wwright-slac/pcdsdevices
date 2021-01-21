@@ -39,7 +39,25 @@ pcdsdevices.epics\_motor.BeckhoffAxisPLC
           -  normal
           -  
    
+       *  -  cmd_home
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``bHomeCmd``
+          -  Start TwinCAT homing routine.
+          -  normal
+          -  
+   
+       *  -  home_pos
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``fHomePosition``
+          -  Numeric position of home.
+          -  config
+          -  
+   
 
+   
+   
+   
+   
    
    
    

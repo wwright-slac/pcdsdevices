@@ -137,20 +137,6 @@ pcdsdevices.epics\_motor.BeckhoffAxis
           -  normal
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
-       *  -  home_forward
-          -  :class:`~ophyd.signal.EpicsSignal`
-          -  ``.HOMF``
-          -  
-          -  normal
-          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
-   
-       *  -  home_reverse
-          -  :class:`~ophyd.signal.EpicsSignal`
-          -  ``.HOMR``
-          -  
-          -  normal
-          -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
-   
        *  -  disabled
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.DISP``
@@ -187,10 +173,6 @@ pcdsdevices.epics\_motor.BeckhoffAxis
           -  
    
 
-   
-   
-   
-   
    
    
    
@@ -296,6 +278,8 @@ pcdsdevices.epics\_motor.BeckhoffAxis
        ~BeckhoffAxis.egu
        ~BeckhoffAxis.high_limit
        ~BeckhoffAxis.hints
+       ~BeckhoffAxis.home_forward
+       ~BeckhoffAxis.home_reverse
        ~BeckhoffAxis.kind
        ~BeckhoffAxis.limits
        ~BeckhoffAxis.low_limit
