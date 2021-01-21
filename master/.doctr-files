@@ -4042,6 +4042,7 @@ master/_sources/upcoming_release_notes/734-twincat-homing.rst.txt
 master/_sources/upcoming_release_notes/736-sxr_solid_attenuators.rst.txt
 master/_sources/upcoming_release_notes/739-add_upper_limit_threshold_to_vcn.rst.txt
 master/_sources/upcoming_release_notes/740-status_print_checks.rst.txt
+master/_sources/upcoming_release_notes/742-Fix_3rd_Att_Transmission_Status.rst.txt
 master/_sources/upcoming_release_notes/744-cvmi-motion-class.rst.txt
 master/_sources/upcoming_release_notes/745-pypi-testing.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
@@ -8131,6 +8132,7 @@ master/upcoming_release_notes/734-twincat-homing.html
 master/upcoming_release_notes/736-sxr_solid_attenuators.html
 master/upcoming_release_notes/739-add_upper_limit_threshold_to_vcn.html
 master/upcoming_release_notes/740-status_print_checks.html
+master/upcoming_release_notes/742-Fix_3rd_Att_Transmission_Status.html
 master/upcoming_release_notes/744-cvmi-motion-class.html
 master/upcoming_release_notes/745-pypi-testing.html
 master/upcoming_release_notes/template-full.html
