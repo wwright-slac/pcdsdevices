@@ -4048,6 +4048,7 @@ master/_sources/upcoming_release_notes/744-cvmi-motion-class.rst.txt
 master/_sources/upcoming_release_notes/745-pypi-testing.rst.txt
 master/_sources/upcoming_release_notes/747-find_all_submodules_in_tests.rst.txt
 master/_sources/upcoming_release_notes/happi-names-753.rst.txt
+master/_sources/upcoming_release_notes/recipe-cleanup-733.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -8141,5 +8142,6 @@ master/upcoming_release_notes/744-cvmi-motion-class.html
 master/upcoming_release_notes/745-pypi-testing.html
 master/upcoming_release_notes/747-find_all_submodules_in_tests.html
 master/upcoming_release_notes/happi-names-753.html
+master/upcoming_release_notes/recipe-cleanup-733.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
