@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.clear\_limits
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.clear_limits

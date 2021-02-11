@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGC\_2S.stop
+==============================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGC_2S.stop
