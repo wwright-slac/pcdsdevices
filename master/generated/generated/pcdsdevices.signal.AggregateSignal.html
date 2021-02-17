@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.signal.AggregateSignal &mdash; PCDS Devices 4.1.0 documentation</title>
+  <title>pcdsdevices.signal.AggregateSignal &mdash; PCDS Devices 4.1.0+3.gd88cdec documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.1.0
+                4.1.0+3.gd88cdec
               </div>
             
           
@@ -245,13 +245,13 @@
 <h1>pcdsdevices.signal.AggregateSignal<a class="headerlink" href="#pcdsdevices-signal-aggregatesignal" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.signal.AggregateSignal">
-<em class="property">class </em><code class="sig-prename descclassname">pcdsdevices.signal.</code><code class="sig-name descname">AggregateSignal</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span></em>, <em class="sig-param"><span class="n">name</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.signal.</span></code><code class="sig-name descname"><span class="pre">AggregateSignal</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal" title="Permalink to this definition">¶</a></dt>
 <dd><p>Signal that is composed of a number of other signals.</p>
 <p>This class exists to handle the group subscriptions without repeatedly
 getting the values of all the subsignals at all times.</p>
 <dl class="py attribute">
 <dt id="pcdsdevices.signal.AggregateSignal._cache">
-<code class="sig-name descname">_cache</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._cache" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">_cache</span></code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._cache" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mapping from signal to last known value.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -262,7 +262,7 @@ getting the values of all the subsignals at all times.</p>
 
 <dl class="py attribute">
 <dt id="pcdsdevices.signal.AggregateSignal._sub_signals">
-<code class="sig-name descname">_sub_signals</code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._sub_signals" title="Permalink to this definition">¶</a></dt>
+<code class="sig-name descname"><span class="pre">_sub_signals</span></code><a class="headerlink" href="#pcdsdevices.signal.AggregateSignal._sub_signals" title="Permalink to this definition">¶</a></dt>
 <dd><p>Signals that contribute to this signal.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
