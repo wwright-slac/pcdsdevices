@@ -19,7 +19,7 @@ pcdsdevices.gon.SimKappa
           - Notes
    
        *  -  sample_stage
-          -  :class:`~pcdsdevices.gon.KappaXYZStage`
+          -  :class:`~pcdsdevices.gon.SimSampleStage`
           -  
           -  
           -  normal

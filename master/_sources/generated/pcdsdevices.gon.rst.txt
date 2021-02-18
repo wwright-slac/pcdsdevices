@@ -27,10 +27,18 @@
       KappaXYZStage
       SamPhi
       SimKappa
+      SimSampleStage
       XYZStage
    
    
 
    
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+      :toctree: generated
+   
+      KappaMoveAbort
    
    

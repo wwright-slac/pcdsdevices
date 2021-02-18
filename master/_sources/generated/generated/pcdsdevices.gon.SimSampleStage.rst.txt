@@ -1,0 +1,84 @@
+pcdsdevices.gon.SimSampleStage
+==============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: SimSampleStage
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  x
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.KappaXYZStage`
+   
+       *  -  y
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.KappaXYZStage`
+   
+       *  -  z
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.KappaXYZStage`
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimSampleStage.configure
+       ~SimSampleStage.describe
+       ~SimSampleStage.get
+       ~SimSampleStage.read
+       ~SimSampleStage.read_configuration
+       ~SimSampleStage.stop
+       ~SimSampleStage.summary
+       ~SimSampleStage.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimSampleStage.configuration_attrs
+       ~SimSampleStage.connected
+       ~SimSampleStage.hints
+       ~SimSampleStage.kind
+    
+    
