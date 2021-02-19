@@ -4050,6 +4050,7 @@ master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/757-att-enum.rst.txt
 master/_sources/upcoming_release_notes/762-kappa-fix.rst.txt
+master/_sources/upcoming_release_notes/764-kappa-180.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -8145,5 +8146,6 @@ master/tab.html
 master/upcoming_changes.html
 master/upcoming_release_notes/757-att-enum.html
 master/upcoming_release_notes/762-kappa-fix.html
+master/upcoming_release_notes/764-kappa-180.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
