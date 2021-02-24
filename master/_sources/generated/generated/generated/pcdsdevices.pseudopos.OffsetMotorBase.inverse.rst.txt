@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.OffsetMotorBase.inverse
+=============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: OffsetMotorBase.inverse

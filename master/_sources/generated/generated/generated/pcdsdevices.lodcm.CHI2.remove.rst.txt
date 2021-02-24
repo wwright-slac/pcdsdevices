@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.remove
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.remove

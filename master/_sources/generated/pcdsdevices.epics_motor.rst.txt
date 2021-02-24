@@ -27,6 +27,7 @@
       EpicsMotorInterface
       IMS
       Newport
+      OffsetMotor
       PCDSMotorBase
       PMC100
       SmarAct

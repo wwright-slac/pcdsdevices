@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI1.read\_configuration
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI1.read_configuration

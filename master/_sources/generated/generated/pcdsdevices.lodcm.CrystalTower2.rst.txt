@@ -1,0 +1,241 @@
+pcdsdevices.lodcm.CrystalTower2
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: CrystalTower2
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  z2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:10``
+          -  LOM Xtal2 Z
+          -  normal
+          -  
+   
+       *  -  x2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:11``
+          -  LOM Xtal2 X
+          -  normal
+          -  
+   
+       *  -  y2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:12``
+          -  LOM Xtal2 Y
+          -  normal
+          -  
+   
+       *  -  th2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:13``
+          -  LOM Xtal2 Theta
+          -  normal
+          -  
+   
+       *  -  chi2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:14``
+          -  LOM Xtal2 Chi
+          -  normal
+          -  
+   
+       *  -  h2n (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:15``
+          -  LOM Xtal2 Hn
+          -  normal
+          -  
+   
+       *  -  diode2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:21``
+          -  LOM Xtal2 PIPS
+          -  normal
+          -  
+   
+       *  -  h2n_state
+          -  :class:`~pcdsdevices.lodcm.H2N`
+          -  ``:H2N``
+          -  
+          -  hinted
+          -  
+   
+       *  -  y2_state
+          -  :class:`~pcdsdevices.lodcm.Y2`
+          -  ``:Y2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  chi2_state
+          -  :class:`~pcdsdevices.lodcm.CHI2`
+          -  ``:CHI2``
+          -  
+          -  omitted
+          -  
+   
+       *  -  diamond_reflection
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:T2C:REF``
+          -  Tower 2 Diamond crystal reflection
+          -  omitted
+          -  
+   
+       *  -  silicon_reflection
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:T2Si:REF``
+          -  Tower 2 Silicon crystal reflection
+          -  omitted
+          -  
+   
+       *  -  x2_c (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  X2 motor offset for C [mm]
+          -  normal
+          -  
+   
+       *  -  x2_si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  X2 motor offset for Si [mm]
+          -  normal
+          -  
+   
+       *  -  y2_c (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Y2 motor offset for C [mm]
+          -  normal
+          -  
+   
+       *  -  y2_si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Y2 motor offset for Si [mm]
+          -  normal
+          -  
+   
+       *  -  chi2_c (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Chi 2 motor offset for C [deg]
+          -  normal
+          -  
+   
+       *  -  chi2_si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Chi 2 motor offset for Si [deg]
+          -  normal
+          -  
+   
+       *  -  h2n_c (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -   H2n motor offset for C [mm]
+          -  normal
+          -  
+   
+       *  -  h2n_si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  H2n motor offset for Si [mm]
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CrystalTower2.configure
+       ~CrystalTower2.describe
+       ~CrystalTower2.get
+       ~CrystalTower2.get_material
+       ~CrystalTower2.get_reflection
+       ~CrystalTower2.is_diamond
+       ~CrystalTower2.is_silicon
+       ~CrystalTower2.read
+       ~CrystalTower2.read_configuration
+       ~CrystalTower2.stop
+       ~CrystalTower2.summary
+       ~CrystalTower2.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CrystalTower2.configuration_attrs
+       ~CrystalTower2.connected
+       ~CrystalTower2.hints
+       ~CrystalTower2.kind
+    
+    

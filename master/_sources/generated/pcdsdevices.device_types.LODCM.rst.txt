@@ -18,13 +18,6 @@
           - Kind
           - Notes
    
-       *  -  h1n
-          -  :class:`~pcdsdevices.lodcm.H1N`
-          -  ``:H1N``
-          -  
-          -  hinted
-          -  
-   
        *  -  yag
           -  :class:`~pcdsdevices.lodcm.YagLom`
           -  ``:DV``
@@ -53,7 +46,50 @@
           -  omitted
           -  
    
+       *  -  tower1 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower1`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  tower2 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower2`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  diag_tower (FCpt)
+          -  :class:`~pcdsdevices.lodcm.DiagnosticsTower`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  energy_si (FCpt)
+          -  :class:`~pcdsdevices.lodcm.LODCMEnergySi`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  energy_c (FCpt)
+          -  :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
 
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
@@ -77,9 +113,13 @@
     .. autosummary::
        :toctree: generated
     
+       ~LODCM.calc_energy
        ~LODCM.configure
        ~LODCM.describe
        ~LODCM.get
+       ~LODCM.get_energy
+       ~LODCM.get_material
+       ~LODCM.get_reflection
        ~LODCM.read
        ~LODCM.read_configuration
        ~LODCM.remove
@@ -100,6 +140,7 @@
        ~LODCM.configuration_attrs
        ~LODCM.connected
        ~LODCM.destination
+       ~LODCM.energy
        ~LODCM.hints
        ~LODCM.kind
        ~LODCM.transmission

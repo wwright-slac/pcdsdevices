@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.mv
+=========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.mv

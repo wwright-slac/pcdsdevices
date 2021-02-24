@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetMotor.get
+========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetMotor.get

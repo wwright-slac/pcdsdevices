@@ -14,11 +14,24 @@
    .. autosummary::
       :toctree: generated
    
+      CHI1
+      CHI2
+      CrystalTower1
+      CrystalTower2
       Dectris
+      DiagnosticsTower
       Diode
       Foil
       H1N
+      H2N
       LODCM
+      LODCMEnergyC
+      LODCMEnergySi
+      SimDiagnosticsTower
+      SimFirstTower
+      SimSecondTower
+      Y1
+      Y2
       YagLom
    
    
