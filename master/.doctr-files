@@ -4361,6 +4361,7 @@ master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/650-WFS-Wavefront.rst.txt
 master/_sources/upcoming_release_notes/690-Add_mpod_support_for_questionnaire.rst.txt
 master/_sources/upcoming_release_notes/715-LODCM_Status_Info_and_Energy_Motors.rst.txt
 master/_sources/upcoming_release_notes/757-att-enum.rst.txt
@@ -8773,6 +8774,7 @@ master/searchindex.js
 master/sim_types.html
 master/tab.html
 master/upcoming_changes.html
+master/upcoming_release_notes/650-WFS-Wavefront.html
 master/upcoming_release_notes/690-Add_mpod_support_for_questionnaire.html
 master/upcoming_release_notes/715-LODCM_Status_Info_and_Energy_Motors.html
 master/upcoming_release_notes/757-att-enum.html
