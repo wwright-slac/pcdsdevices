@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H2N.check\_transmission
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H2N.check_transmission

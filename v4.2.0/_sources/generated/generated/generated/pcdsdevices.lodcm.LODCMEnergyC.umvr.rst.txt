@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.umvr
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.umvr

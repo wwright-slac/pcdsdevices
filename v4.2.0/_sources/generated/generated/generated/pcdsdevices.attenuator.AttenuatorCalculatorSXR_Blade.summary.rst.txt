@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorSXR\_Blade.summary
+=============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorSXR_Blade.summary

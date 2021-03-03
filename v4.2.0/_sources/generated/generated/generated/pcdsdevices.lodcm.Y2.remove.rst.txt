@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.remove
+===========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.remove

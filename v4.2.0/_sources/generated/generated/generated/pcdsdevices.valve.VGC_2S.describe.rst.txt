@@ -1,0 +1,6 @@
+pcdsdevices.valve.VGC\_2S.describe
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: VGC_2S.describe

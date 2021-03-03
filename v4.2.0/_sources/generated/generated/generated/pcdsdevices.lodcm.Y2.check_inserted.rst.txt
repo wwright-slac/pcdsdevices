@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.check\_inserted
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.check_inserted

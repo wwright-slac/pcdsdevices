@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI1.insert
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI1.insert

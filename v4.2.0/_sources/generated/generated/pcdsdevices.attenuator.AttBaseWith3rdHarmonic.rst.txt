@@ -1,0 +1,232 @@
+pcdsdevices.attenuator.AttBaseWith3rdHarmonic
+=============================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AttBaseWith3rdHarmonic
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  setpoint
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:R_DES``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  readback
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_CUR``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  actuate
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:GO``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  done
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:STATUS``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  energy
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:T_CALC.VALE``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  trans_ceil
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_CEIL``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  trans_floor
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R_FLOOR``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  user_energy
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:EDES``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  eget_cmd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:EACT.SCAN``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  calcpend
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:CALCP``
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttBase`
+   
+       *  -  setpoint_3rd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:R3_DES``
+          -  
+          -  normal
+          -  
+   
+       *  -  readback_3rd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R3_CUR``
+          -  
+          -  hinted
+          -  
+   
+       *  -  energy_3rd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:T_CALC.VALH``
+          -  
+          -  normal
+          -  
+   
+       *  -  trans_ceil_3rd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R3_CEIL``
+          -  
+          -  omitted
+          -  
+   
+       *  -  trans_floor_3rd
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:COM:R3_FLOOR``
+          -  
+          -  omitted
+          -  
+   
+       *  -  user_energy_3rd
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:COM:E3DES``
+          -  
+          -  omitted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AttBaseWith3rdHarmonic.camonitor
+       ~AttBaseWith3rdHarmonic.configure
+       ~AttBaseWith3rdHarmonic.describe
+       ~AttBaseWith3rdHarmonic.end_monitor_thread
+       ~AttBaseWith3rdHarmonic.get
+       ~AttBaseWith3rdHarmonic.insert
+       ~AttBaseWith3rdHarmonic.move
+       ~AttBaseWith3rdHarmonic.mv
+       ~AttBaseWith3rdHarmonic.mv_ginput
+       ~AttBaseWith3rdHarmonic.mvr
+       ~AttBaseWith3rdHarmonic.read
+       ~AttBaseWith3rdHarmonic.read_configuration
+       ~AttBaseWith3rdHarmonic.remove
+       ~AttBaseWith3rdHarmonic.set
+       ~AttBaseWith3rdHarmonic.set_energy
+       ~AttBaseWith3rdHarmonic.stop
+       ~AttBaseWith3rdHarmonic.summary
+       ~AttBaseWith3rdHarmonic.trigger
+       ~AttBaseWith3rdHarmonic.tweak
+       ~AttBaseWith3rdHarmonic.umv
+       ~AttBaseWith3rdHarmonic.umvr
+       ~AttBaseWith3rdHarmonic.wait
+       ~AttBaseWith3rdHarmonic.wm
+       ~AttBaseWith3rdHarmonic.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AttBaseWith3rdHarmonic.actuate_value
+       ~AttBaseWith3rdHarmonic.configuration_attrs
+       ~AttBaseWith3rdHarmonic.connected
+       ~AttBaseWith3rdHarmonic.done_value
+       ~AttBaseWith3rdHarmonic.egu
+       ~AttBaseWith3rdHarmonic.high_limit
+       ~AttBaseWith3rdHarmonic.hints
+       ~AttBaseWith3rdHarmonic.kind
+       ~AttBaseWith3rdHarmonic.limits
+       ~AttBaseWith3rdHarmonic.low_limit
+       ~AttBaseWith3rdHarmonic.moving
+       ~AttBaseWith3rdHarmonic.position
+       ~AttBaseWith3rdHarmonic.presets
+       ~AttBaseWith3rdHarmonic.put_complete
+       ~AttBaseWith3rdHarmonic.settle_time
+       ~AttBaseWith3rdHarmonic.stop_signal
+       ~AttBaseWith3rdHarmonic.stop_value
+       ~AttBaseWith3rdHarmonic.timeout
+       ~AttBaseWith3rdHarmonic.transmission
+    
+    
