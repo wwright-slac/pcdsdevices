@@ -22,7 +22,7 @@ pcdsdevices.pump.PTMPLC
           -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
           -  ``:RUN_SW``
           -  
-          -  omitted
+          -  normal
           -  
    
        *  -  reset_fault
@@ -43,7 +43,7 @@ pcdsdevices.pump.PTMPLC
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:AT_SPD_RBV``
           -  
-          -  omitted
+          -  normal
           -  
    
        *  -  pump_accelerating
@@ -81,18 +81,18 @@ pcdsdevices.pump.PTMPLC
           -  normal
           -  
    
-       *  -  bp_sp
+       *  -  backingpressure_sp
           -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
           -  ``:BP_SP``
           -  
-          -  omitted
+          -  config
           -  
    
-       *  -  ip_sp
+       *  -  inletpressure_sp
           -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
           -  ``:IP_SP``
           -  
-          -  omitted
+          -  config
           -  
    
        *  -  interlock_status

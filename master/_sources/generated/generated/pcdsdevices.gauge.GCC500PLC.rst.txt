@@ -56,7 +56,7 @@ pcdsdevices.gauge.GCC500PLC
        *  -  high_voltage_on
           -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
           -  ``:HV_SW``
-          -  command to switch the hight voltage on
+          -  command to switch the high voltage on
           -  normal
           -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
    

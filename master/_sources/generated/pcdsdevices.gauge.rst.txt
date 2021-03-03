@@ -25,6 +25,7 @@
       GCC500PLC
       GCCPLC
       GCT
+      GHCPLC
       GaugeColdCathode
       GaugePLC
       GaugePirani

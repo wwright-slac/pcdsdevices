@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 4.1.0+91.g3b3041d documentation</title>
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 4.1.0+115.g9352241 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.1.0+91.g3b3041d
+                4.1.0+115.g9352241
               </div>
             
           
@@ -253,7 +253,7 @@
 <h1>pcdsdevices.pseudopos.PseudoSingleInterface<a class="headerlink" href="#pcdsdevices-pseudopos-pseudosingleinterface" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt id="pcdsdevices.pseudopos.PseudoSingleInterface">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.pseudopos.</span></code><code class="sig-name descname"><span class="pre">PseudoSingleInterface</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.pseudopos.</span></code><code class="sig-name descname"><span class="pre">PseudoSingleInterface</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.PseudoSingleInterface" title="Permalink to this definition">¶</a></dt>
 <dd><p>PseudoSingle with FltMvInterface mixed in.</p>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
@@ -272,14 +272,14 @@
 <td></td>
 <td></td>
 <td><p>hinted</p></td>
-<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.6.0.post2+g03585f0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>setpoint</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">AttributeSignal</span></code></p></td>
 <td></td>
 <td></td>
 <td><p>normal</p></td>
-<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.6.0.post2+g03585f0)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
+<td><p>Inherited from <a class="reference external" href="https://blueskyproject.io/ophyd/positioners.html#ophyd.pseudopos.PseudoSingle" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingle</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>notepad_setpoint</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a></p></td>
@@ -379,46 +379,49 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">calculated_dial_pos</span></code></p></td>
+<td><p>Calculate the dial position of the real motor dial position.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
 <td><p>If the device is connected.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
 <td><p>The engineering units (EGU) for positions</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>The current position of the motor in its engineering units</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
 <td><p>Last commanded target position</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
 <td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
 </tbody>

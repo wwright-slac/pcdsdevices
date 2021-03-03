@@ -99,6 +99,7 @@ pcdsdevices.pseudopos.PseudoSingleInterface
 
     .. autosummary::
     
+       ~PseudoSingleInterface.calculated_dial_pos
        ~PseudoSingleInterface.configuration_attrs
        ~PseudoSingleInterface.connected
        ~PseudoSingleInterface.egu
