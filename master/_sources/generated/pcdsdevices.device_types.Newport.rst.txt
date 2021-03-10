@@ -19,7 +19,7 @@
           - Notes
    
        *  -  user_readback
-          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  :class:`~pcdsdevices.signal.EpicsSignalROEditMD`
           -  ``.RBV``
           -  
           -  hinted
@@ -179,7 +179,16 @@
           -  omitted
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
+       *  -  motor_prec
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``.PREC``
+          -  
+          -  omitted
+          -  
+   
 
+   
+   
    
    
    

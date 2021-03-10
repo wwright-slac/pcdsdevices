@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.Newport &mdash; PCDS Devices 4.2.0+3.gdebe86d documentation</title>
+  <title>pcdsdevices.device_types.Newport &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+3.gdebe86d
+                4.2.0+12.ga80ca3f
               </div>
             
           
@@ -260,9 +260,10 @@
 <dt id="pcdsdevices.device_types.Newport">
 <em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.device_types.</span></code><code class="sig-name descname"><span class="pre">Newport</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.Newport" title="Permalink to this definition">¶</a></dt>
 <dd><p>PCDS implementation of the Motor Record for Newport motors.</p>
-<p>This is a subclass of <code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code> that overwrites missing
-signals and disables the <a class="reference internal" href="generated/pcdsdevices.device_types.Newport.home.html#pcdsdevices.device_types.Newport.home" title="pcdsdevices.device_types.Newport.home"><code class="xref py py-meth docutils literal notranslate"><span class="pre">home()</span></code></a> method, because it will not work the
-same way for Newport motors.</p>
+<p>This is a subclass of <code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code> that:
+- Overwrites missing signals for Newports
+- Disables the <a class="reference internal" href="generated/pcdsdevices.device_types.Newport.home.html#pcdsdevices.device_types.Newport.home" title="pcdsdevices.device_types.Newport.home"><code class="xref py py-meth docutils literal notranslate"><span class="pre">home()</span></code></a> method broken for Newports
+- Does special metadata handling because this is broken for Newports</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
@@ -287,7 +288,7 @@ in-progress move as failed.</p></li>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>user_readback</p></td>
-<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><a class="reference internal" href="generated/pcdsdevices.signal.EpicsSignalROEditMD.html#pcdsdevices.signal.EpicsSignalROEditMD" title="pcdsdevices.signal.EpicsSignalROEditMD"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalROEditMD</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">.RBV</span></code></p></td>
 <td></td>
 <td><p>hinted</p></td>
@@ -446,6 +447,13 @@ in-progress move as failed.</p></li>
 <td></td>
 <td><p>omitted</p></td>
 <td><p>Inherited from <a class="reference internal" href="generated/pcdsdevices.epics_motor.PCDSMotorBase.html#pcdsdevices.epics_motor.PCDSMotorBase" title="pcdsdevices.epics_motor.PCDSMotorBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">PCDSMotorBase</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>motor_prec</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">.PREC</span></code></p></td>
+<td></td>
+<td><p>omitted</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>

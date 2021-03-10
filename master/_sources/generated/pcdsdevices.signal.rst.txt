@@ -24,6 +24,11 @@
    
       AggregateSignal
       AvgSignal
+      EpicsSignalBaseEditMD
+      EpicsSignalEditMD
+      EpicsSignalROEditMD
+      FakeEpicsSignalEditMD
+      FakeEpicsSignalROEditMD
       FakeNotepadLinkedSignal
       FakePytmcSignal
       FakePytmcSignalRO
@@ -34,6 +39,7 @@
       PytmcSignal
       PytmcSignalRO
       PytmcSignalRW
+      SignalEditMD
       UnitConversionDerivedSignal
    
    
