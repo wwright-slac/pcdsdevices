@@ -1,0 +1,6 @@
+pcdsdevices.sim.SlowMotor.set\_position
+=======================================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SlowMotor.set_position

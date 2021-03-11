@@ -116,6 +116,7 @@ pcdsdevices.mirror.OMMotor
        ~OMMotor.read
        ~OMMotor.read_configuration
        ~OMMotor.set
+       ~OMMotor.set_position
        ~OMMotor.stop
        ~OMMotor.summary
        ~OMMotor.trigger

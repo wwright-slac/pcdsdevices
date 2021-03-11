@@ -89,6 +89,7 @@ pcdsdevices.lens.SimLensStackBase
        ~SimLensStackBase.read
        ~SimLensStackBase.read_configuration
        ~SimLensStackBase.set
+       ~SimLensStackBase.set_current_position
        ~SimLensStackBase.stop
        ~SimLensStackBase.summary
        ~SimLensStackBase.to_pseudo_tuple

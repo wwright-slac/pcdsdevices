@@ -80,6 +80,7 @@ pcdsdevices.pseudopos.PseudoSingleInterface
        ~PseudoSingleInterface.read
        ~PseudoSingleInterface.read_configuration
        ~PseudoSingleInterface.set
+       ~PseudoSingleInterface.set_position
        ~PseudoSingleInterface.stop
        ~PseudoSingleInterface.summary
        ~PseudoSingleInterface.sync

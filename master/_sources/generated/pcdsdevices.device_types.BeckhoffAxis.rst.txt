@@ -255,6 +255,7 @@
        ~BeckhoffAxis.set_high_limit
        ~BeckhoffAxis.set_lim
        ~BeckhoffAxis.set_low_limit
+       ~BeckhoffAxis.set_position
        ~BeckhoffAxis.stop
        ~BeckhoffAxis.summary
        ~BeckhoffAxis.trigger

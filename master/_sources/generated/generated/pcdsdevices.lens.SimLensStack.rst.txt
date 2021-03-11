@@ -91,6 +91,7 @@ pcdsdevices.lens.SimLensStack
        ~SimLensStack.read_configuration
        ~SimLensStack.read_lens
        ~SimLensStack.set
+       ~SimLensStack.set_current_position
        ~SimLensStack.set_lens_set
        ~SimLensStack.stop
        ~SimLensStack.summary

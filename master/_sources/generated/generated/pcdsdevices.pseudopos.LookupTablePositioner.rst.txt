@@ -28,6 +28,7 @@ pcdsdevices.pseudopos.LookupTablePositioner
        ~LookupTablePositioner.read
        ~LookupTablePositioner.read_configuration
        ~LookupTablePositioner.set
+       ~LookupTablePositioner.set_current_position
        ~LookupTablePositioner.stop
        ~LookupTablePositioner.summary
        ~LookupTablePositioner.to_pseudo_tuple

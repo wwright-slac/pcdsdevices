@@ -264,6 +264,7 @@
        ~PMC100.set_high_limit
        ~PMC100.set_lim
        ~PMC100.set_low_limit
+       ~PMC100.set_position
        ~PMC100.spg_go
        ~PMC100.spg_pause
        ~PMC100.spg_stop

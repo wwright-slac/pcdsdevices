@@ -1,0 +1,6 @@
+pcdsdevices.gon.SimKappa.set\_current\_position
+===============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SimKappa.set_current_position

@@ -18,12 +18,12 @@ pcdsdevices.ccm.CCMX
           - Kind
           - Notes
    
-       *  -  pseudo
+       *  -  sync
           -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
           -  
-          -  normal
-          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxesBase`
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxis`
    
        *  -  down (FCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
@@ -59,15 +59,19 @@ pcdsdevices.ccm.CCMX
     .. autosummary::
        :toctree: generated
     
-       ~CCMX.calc_combined
        ~CCMX.camonitor
        ~CCMX.check_single
        ~CCMX.configure
+       ~CCMX.consistency_warning
        ~CCMX.describe
        ~CCMX.end_monitor_thread
+       ~CCMX.fix_sync
        ~CCMX.forward
+       ~CCMX.forward_single
        ~CCMX.get
        ~CCMX.inverse
+       ~CCMX.inverse_single
+       ~CCMX.is_synced
        ~CCMX.move
        ~CCMX.move_single
        ~CCMX.mv
@@ -75,8 +79,9 @@ pcdsdevices.ccm.CCMX
        ~CCMX.mvr
        ~CCMX.read
        ~CCMX.read_configuration
-       ~CCMX.save_offsets
        ~CCMX.set
+       ~CCMX.set_current_position
+       ~CCMX.set_position
        ~CCMX.stop
        ~CCMX.summary
        ~CCMX.to_pseudo_tuple
@@ -101,21 +106,30 @@ pcdsdevices.ccm.CCMX
        ~CCMX.concurrent
        ~CCMX.configuration_attrs
        ~CCMX.connected
+       ~CCMX.default_offset
+       ~CCMX.default_scale
        ~CCMX.egu
+       ~CCMX.fix_sync_keep_still
        ~CCMX.high_limit
        ~CCMX.hints
        ~CCMX.kind
        ~CCMX.limits
        ~CCMX.low_limit
        ~CCMX.moving
+       ~CCMX.offset_mode
+       ~CCMX.offsets
        ~CCMX.position
        ~CCMX.presets
        ~CCMX.pseudo_positioners
        ~CCMX.real_position
        ~CCMX.real_positioners
+       ~CCMX.scales
        ~CCMX.sequential
        ~CCMX.settle_time
+       ~CCMX.sync_limits
        ~CCMX.target
        ~CCMX.timeout
+       ~CCMX.warn_deadband
+       ~CCMX.warn_inconsistent
     
     

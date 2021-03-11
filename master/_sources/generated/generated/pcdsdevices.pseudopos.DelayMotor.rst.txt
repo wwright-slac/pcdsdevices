@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor
+================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autofunction:: DelayMotor

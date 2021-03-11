@@ -81,6 +81,7 @@ pcdsdevices.epics\_motor.SmarActOpenLoopPositioner
        ~SmarActOpenLoopPositioner.read
        ~SmarActOpenLoopPositioner.read_configuration
        ~SmarActOpenLoopPositioner.set
+       ~SmarActOpenLoopPositioner.set_position
        ~SmarActOpenLoopPositioner.stop
        ~SmarActOpenLoopPositioner.summary
        ~SmarActOpenLoopPositioner.trigger

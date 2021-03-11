@@ -80,6 +80,7 @@ pcdsdevices.slits.BeckhoffSlitPositioner
        ~BeckhoffSlitPositioner.read
        ~BeckhoffSlitPositioner.read_configuration
        ~BeckhoffSlitPositioner.set
+       ~BeckhoffSlitPositioner.set_position
        ~BeckhoffSlitPositioner.stop
        ~BeckhoffSlitPositioner.summary
        ~BeckhoffSlitPositioner.trigger

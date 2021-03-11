@@ -254,6 +254,7 @@ pcdsdevices.ccm.CCMPico
        ~CCMPico.set_high_limit
        ~CCMPico.set_lim
        ~CCMPico.set_low_limit
+       ~CCMPico.set_position
        ~CCMPico.stop
        ~CCMPico.summary
        ~CCMPico.trigger

@@ -273,6 +273,7 @@ pcdsdevices.epics\_motor.Newport
        ~Newport.set_high_limit
        ~Newport.set_lim
        ~Newport.set_low_limit
+       ~Newport.set_position
        ~Newport.spg_go
        ~Newport.spg_pause
        ~Newport.spg_stop

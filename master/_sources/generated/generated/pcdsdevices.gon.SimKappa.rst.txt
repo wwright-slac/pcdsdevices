@@ -109,6 +109,7 @@ pcdsdevices.gon.SimKappa
        ~SimKappa.read
        ~SimKappa.read_configuration
        ~SimKappa.set
+       ~SimKappa.set_current_position
        ~SimKappa.stop
        ~SimKappa.summary
        ~SimKappa.to_pseudo_tuple

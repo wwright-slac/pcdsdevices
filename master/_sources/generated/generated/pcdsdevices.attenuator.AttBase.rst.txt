@@ -137,6 +137,7 @@ pcdsdevices.attenuator.AttBase
        ~AttBase.remove
        ~AttBase.set
        ~AttBase.set_energy
+       ~AttBase.set_position
        ~AttBase.stop
        ~AttBase.summary
        ~AttBase.trigger

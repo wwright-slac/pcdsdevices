@@ -333,6 +333,7 @@
        ~IMS.set_high_limit
        ~IMS.set_lim
        ~IMS.set_low_limit
+       ~IMS.set_position
        ~IMS.spg_go
        ~IMS.spg_pause
        ~IMS.spg_stop

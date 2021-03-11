@@ -76,6 +76,7 @@ pcdsdevices.pseudopos.SimDelayStage
        ~SimDelayStage.read_configuration
        ~SimDelayStage.set
        ~SimDelayStage.set_current_position
+       ~SimDelayStage.set_position
        ~SimDelayStage.stop
        ~SimDelayStage.summary
        ~SimDelayStage.to_pseudo_tuple

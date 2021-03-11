@@ -71,6 +71,7 @@ pcdsdevices.slits.LusiSlitPositioner
        ~LusiSlitPositioner.read
        ~LusiSlitPositioner.read_configuration
        ~LusiSlitPositioner.set
+       ~LusiSlitPositioner.set_position
        ~LusiSlitPositioner.stop
        ~LusiSlitPositioner.summary
        ~LusiSlitPositioner.trigger

@@ -23,7 +23,6 @@
    
       BeckhoffAxis
       BeckhoffAxisPLC
-      DelayNewport
       EpicsMotorInterface
       IMS
       Newport

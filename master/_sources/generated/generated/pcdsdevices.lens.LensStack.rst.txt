@@ -91,6 +91,7 @@ pcdsdevices.lens.LensStack
        ~LensStack.read_configuration
        ~LensStack.read_lens
        ~LensStack.set
+       ~LensStack.set_current_position
        ~LensStack.set_lens_set
        ~LensStack.stop
        ~LensStack.summary

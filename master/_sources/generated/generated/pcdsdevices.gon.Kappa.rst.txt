@@ -109,6 +109,7 @@ pcdsdevices.gon.Kappa
        ~Kappa.read
        ~Kappa.read_configuration
        ~Kappa.set
+       ~Kappa.set_current_position
        ~Kappa.stop
        ~Kappa.summary
        ~Kappa.to_pseudo_tuple

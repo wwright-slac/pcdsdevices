@@ -107,6 +107,7 @@ pcdsdevices.attenuator.AttenuatorSXR\_Ladder
        ~AttenuatorSXR_Ladder.read
        ~AttenuatorSXR_Ladder.read_configuration
        ~AttenuatorSXR_Ladder.set
+       ~AttenuatorSXR_Ladder.set_position
        ~AttenuatorSXR_Ladder.stop
        ~AttenuatorSXR_Ladder.summary
        ~AttenuatorSXR_Ladder.trigger

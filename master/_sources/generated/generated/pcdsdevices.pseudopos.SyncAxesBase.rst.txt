@@ -59,6 +59,8 @@ pcdsdevices.pseudopos.SyncAxesBase
        ~SyncAxesBase.read_configuration
        ~SyncAxesBase.save_offsets
        ~SyncAxesBase.set
+       ~SyncAxesBase.set_current_position
+       ~SyncAxesBase.set_position
        ~SyncAxesBase.stop
        ~SyncAxesBase.summary
        ~SyncAxesBase.to_pseudo_tuple

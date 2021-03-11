@@ -89,6 +89,7 @@ pcdsdevices.sim.SynMotor
        ~SynMotor.read
        ~SynMotor.read_configuration
        ~SynMotor.set
+       ~SynMotor.set_position
        ~SynMotor.stop
        ~SynMotor.summary
        ~SynMotor.trigger

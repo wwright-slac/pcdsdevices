@@ -254,6 +254,7 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
        ~EpicsMotorInterface.set_high_limit
        ~EpicsMotorInterface.set_lim
        ~EpicsMotorInterface.set_low_limit
+       ~EpicsMotorInterface.set_position
        ~EpicsMotorInterface.stop
        ~EpicsMotorInterface.summary
        ~EpicsMotorInterface.trigger

@@ -89,6 +89,7 @@ pcdsdevices.lens.LensStackBase
        ~LensStackBase.read
        ~LensStackBase.read_configuration
        ~LensStackBase.set
+       ~LensStackBase.set_current_position
        ~LensStackBase.stop
        ~LensStackBase.summary
        ~LensStackBase.to_pseudo_tuple

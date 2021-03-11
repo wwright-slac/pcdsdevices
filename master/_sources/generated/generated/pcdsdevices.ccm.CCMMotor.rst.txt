@@ -72,6 +72,7 @@ pcdsdevices.ccm.CCMMotor
        ~CCMMotor.read
        ~CCMMotor.read_configuration
        ~CCMMotor.set
+       ~CCMMotor.set_position
        ~CCMMotor.stop
        ~CCMMotor.summary
        ~CCMMotor.trigger

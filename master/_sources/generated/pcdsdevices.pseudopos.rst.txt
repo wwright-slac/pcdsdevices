@@ -5,6 +5,15 @@
 
    
    
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      DelayMotor
+      delay_class_factory
+      delay_instance_factory
+   
    
 
    
@@ -21,6 +30,8 @@
       PseudoSingleInterface
       SimDelayStage
       SyncAxesBase
+      SyncAxis
+      SyncAxisOffsetMode
    
    
 

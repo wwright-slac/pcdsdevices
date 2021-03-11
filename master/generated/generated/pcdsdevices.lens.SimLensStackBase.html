@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lens.SimLensStackBase &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.lens.SimLensStackBase &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -142,6 +142,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.read.html">pcdsdevices.lens.SimLensStackBase.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.read_configuration.html">pcdsdevices.lens.SimLensStackBase.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.set.html">pcdsdevices.lens.SimLensStackBase.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.set_current_position.html">pcdsdevices.lens.SimLensStackBase.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.stop.html">pcdsdevices.lens.SimLensStackBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.summary.html">pcdsdevices.lens.SimLensStackBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple.html">pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple</a></li>
@@ -342,22 +343,25 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.set.html#pcdsdevices.lens.SimLensStackBase.set" title="pcdsdevices.lens.SimLensStackBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.stop.html#pcdsdevices.lens.SimLensStackBase.stop" title="pcdsdevices.lens.SimLensStackBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.set_current_position.html#pcdsdevices.lens.SimLensStackBase.set_current_position" title="pcdsdevices.lens.SimLensStackBase.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(position)</p></td>
+<td><p>Adjust all offsets so that the pseudo position matches the input.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.stop.html#pcdsdevices.lens.SimLensStackBase.stop" title="pcdsdevices.lens.SimLensStackBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.summary.html#pcdsdevices.lens.SimLensStackBase.summary" title="pcdsdevices.lens.SimLensStackBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.summary.html#pcdsdevices.lens.SimLensStackBase.summary" title="pcdsdevices.lens.SimLensStackBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple.html#pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple" title="pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple.html#pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple" title="pcdsdevices.lens.SimLensStackBase.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.to_real_tuple.html#pcdsdevices.lens.SimLensStackBase.to_real_tuple" title="pcdsdevices.lens.SimLensStackBase.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.to_real_tuple.html#pcdsdevices.lens.SimLensStackBase.to_real_tuple" title="pcdsdevices.lens.SimLensStackBase.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.trigger.html#pcdsdevices.lens.SimLensStackBase.trigger" title="pcdsdevices.lens.SimLensStackBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.trigger.html#pcdsdevices.lens.SimLensStackBase.trigger" title="pcdsdevices.lens.SimLensStackBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.tweak.html#pcdsdevices.lens.SimLensStackBase.tweak" title="pcdsdevices.lens.SimLensStackBase.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.SimLensStackBase.tweak.html#pcdsdevices.lens.SimLensStackBase.tweak" title="pcdsdevices.lens.SimLensStackBase.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Call the tweak function from <code class="xref any docutils literal notranslate"><span class="pre">pcdsdevice.interface</span></code>.</p></td>
 </tr>
 </tbody>

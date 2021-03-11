@@ -123,6 +123,8 @@ pcdsdevices.lodcm.LODCMEnergyC
        ~LODCMEnergyC.read
        ~LODCMEnergyC.read_configuration
        ~LODCMEnergyC.set
+       ~LODCMEnergyC.set_current_position
+       ~LODCMEnergyC.set_position
        ~LODCMEnergyC.stop
        ~LODCMEnergyC.summary
        ~LODCMEnergyC.to_pseudo_tuple

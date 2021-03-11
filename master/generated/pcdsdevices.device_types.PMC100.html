@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.PMC100 &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.device_types.PMC100 &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -146,6 +146,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_high_limit.html">pcdsdevices.device_types.PMC100.set_high_limit</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_lim.html">pcdsdevices.device_types.PMC100.set_lim</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_low_limit.html">pcdsdevices.device_types.PMC100.set_low_limit</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_position.html">pcdsdevices.device_types.PMC100.set_position</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_go.html">pcdsdevices.device_types.PMC100.spg_go</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_pause.html">pcdsdevices.device_types.PMC100.spg_pause</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_stop.html">pcdsdevices.device_types.PMC100.spg_stop</a></li>
@@ -531,40 +532,43 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_low_limit.html#pcdsdevices.device_types.PMC100.set_low_limit" title="pcdsdevices.device_types.PMC100.set_low_limit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_low_limit</span></code></a>(value)</p></td>
 <td><p>Set the low limit.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_go.html#pcdsdevices.device_types.PMC100.spg_go" title="pcdsdevices.device_types.PMC100.spg_go"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_go</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.set_position.html#pcdsdevices.device_types.PMC100.set_position" title="pcdsdevices.device_types.PMC100.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_go.html#pcdsdevices.device_types.PMC100.spg_go" title="pcdsdevices.device_types.PMC100.spg_go"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_go</span></code></a>()</p></td>
 <td><p>Resumes paused movement.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_pause.html#pcdsdevices.device_types.PMC100.spg_pause" title="pcdsdevices.device_types.PMC100.spg_pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_pause</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_pause.html#pcdsdevices.device_types.PMC100.spg_pause" title="pcdsdevices.device_types.PMC100.spg_pause"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_pause</span></code></a>()</p></td>
 <td><p>Pauses a move.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_stop.html#pcdsdevices.device_types.PMC100.spg_stop" title="pcdsdevices.device_types.PMC100.spg_stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_stop</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.spg_stop.html#pcdsdevices.device_types.PMC100.spg_stop" title="pcdsdevices.device_types.PMC100.spg_stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_stop</span></code></a>()</p></td>
 <td><p>Stops the motor.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.stop.html#pcdsdevices.device_types.PMC100.stop" title="pcdsdevices.device_types.PMC100.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.stop.html#pcdsdevices.device_types.PMC100.stop" title="pcdsdevices.device_types.PMC100.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.summary.html#pcdsdevices.device_types.PMC100.summary" title="pcdsdevices.device_types.PMC100.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.summary.html#pcdsdevices.device_types.PMC100.summary" title="pcdsdevices.device_types.PMC100.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.trigger.html#pcdsdevices.device_types.PMC100.trigger" title="pcdsdevices.device_types.PMC100.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.trigger.html#pcdsdevices.device_types.PMC100.trigger" title="pcdsdevices.device_types.PMC100.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.tweak.html#pcdsdevices.device_types.PMC100.tweak" title="pcdsdevices.device_types.PMC100.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.tweak.html#pcdsdevices.device_types.PMC100.tweak" title="pcdsdevices.device_types.PMC100.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.umv.html#pcdsdevices.device_types.PMC100.umv" title="pcdsdevices.device_types.PMC100.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.umv.html#pcdsdevices.device_types.PMC100.umv" title="pcdsdevices.device_types.PMC100.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.umvr.html#pcdsdevices.device_types.PMC100.umvr" title="pcdsdevices.device_types.PMC100.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.umvr.html#pcdsdevices.device_types.PMC100.umvr" title="pcdsdevices.device_types.PMC100.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wait.html#pcdsdevices.device_types.PMC100.wait" title="pcdsdevices.device_types.PMC100.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wait.html#pcdsdevices.device_types.PMC100.wait" title="pcdsdevices.device_types.PMC100.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wm.html#pcdsdevices.device_types.PMC100.wm" title="pcdsdevices.device_types.PMC100.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wm.html#pcdsdevices.device_types.PMC100.wm" title="pcdsdevices.device_types.PMC100.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wm_update.html#pcdsdevices.device_types.PMC100.wm_update" title="pcdsdevices.device_types.PMC100.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PMC100.wm_update.html#pcdsdevices.device_types.PMC100.wm_update" title="pcdsdevices.device_types.PMC100.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

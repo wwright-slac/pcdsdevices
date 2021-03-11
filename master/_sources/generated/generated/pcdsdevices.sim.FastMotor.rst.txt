@@ -53,6 +53,8 @@ pcdsdevices.sim.FastMotor
        ~FastMotor.read
        ~FastMotor.read_configuration
        ~FastMotor.set
+       ~FastMotor.set_current_position
+       ~FastMotor.set_position
        ~FastMotor.stop
        ~FastMotor.summary
        ~FastMotor.trigger

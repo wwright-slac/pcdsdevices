@@ -209,6 +209,7 @@ pcdsdevices.attenuator.FeeAtt
        ~FeeAtt.remove
        ~FeeAtt.set
        ~FeeAtt.set_energy
+       ~FeeAtt.set_position
        ~FeeAtt.stop
        ~FeeAtt.summary
        ~FeeAtt.trigger

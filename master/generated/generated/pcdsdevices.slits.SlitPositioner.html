@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.slits.SlitPositioner &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -159,6 +159,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.read.html">pcdsdevices.slits.SlitPositioner.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.read_configuration.html">pcdsdevices.slits.SlitPositioner.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set.html">pcdsdevices.slits.SlitPositioner.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set_position.html">pcdsdevices.slits.SlitPositioner.set_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.stop.html">pcdsdevices.slits.SlitPositioner.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.summary.html">pcdsdevices.slits.SlitPositioner.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.trigger.html">pcdsdevices.slits.SlitPositioner.trigger</a></li>
@@ -334,31 +335,34 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set.html#pcdsdevices.slits.SlitPositioner.set" title="pcdsdevices.slits.SlitPositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.stop.html#pcdsdevices.slits.SlitPositioner.stop" title="pcdsdevices.slits.SlitPositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.set_position.html#pcdsdevices.slits.SlitPositioner.set_position" title="pcdsdevices.slits.SlitPositioner.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.stop.html#pcdsdevices.slits.SlitPositioner.stop" title="pcdsdevices.slits.SlitPositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.summary.html#pcdsdevices.slits.SlitPositioner.summary" title="pcdsdevices.slits.SlitPositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.summary.html#pcdsdevices.slits.SlitPositioner.summary" title="pcdsdevices.slits.SlitPositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.trigger.html#pcdsdevices.slits.SlitPositioner.trigger" title="pcdsdevices.slits.SlitPositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.trigger.html#pcdsdevices.slits.SlitPositioner.trigger" title="pcdsdevices.slits.SlitPositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.tweak.html#pcdsdevices.slits.SlitPositioner.tweak" title="pcdsdevices.slits.SlitPositioner.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.tweak.html#pcdsdevices.slits.SlitPositioner.tweak" title="pcdsdevices.slits.SlitPositioner.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.umv.html#pcdsdevices.slits.SlitPositioner.umv" title="pcdsdevices.slits.SlitPositioner.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.umv.html#pcdsdevices.slits.SlitPositioner.umv" title="pcdsdevices.slits.SlitPositioner.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.umvr.html#pcdsdevices.slits.SlitPositioner.umvr" title="pcdsdevices.slits.SlitPositioner.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.umvr.html#pcdsdevices.slits.SlitPositioner.umvr" title="pcdsdevices.slits.SlitPositioner.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wait.html#pcdsdevices.slits.SlitPositioner.wait" title="pcdsdevices.slits.SlitPositioner.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wait.html#pcdsdevices.slits.SlitPositioner.wait" title="pcdsdevices.slits.SlitPositioner.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wm.html#pcdsdevices.slits.SlitPositioner.wm" title="pcdsdevices.slits.SlitPositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wm.html#pcdsdevices.slits.SlitPositioner.wm" title="pcdsdevices.slits.SlitPositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wm_update.html#pcdsdevices.slits.SlitPositioner.wm_update" title="pcdsdevices.slits.SlitPositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.wm_update.html#pcdsdevices.slits.SlitPositioner.wm_update" title="pcdsdevices.slits.SlitPositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

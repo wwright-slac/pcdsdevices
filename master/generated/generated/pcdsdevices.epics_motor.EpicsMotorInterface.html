@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.epics_motor.EpicsMotorInterface &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.epics_motor.EpicsMotorInterface &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.epics_motor.EpicsMotorInterface.camonitor" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html" />
-    <link rel="prev" title="pcdsdevices.epics_motor.DelayNewport.wm_update" href="generated/pcdsdevices.epics_motor.DelayNewport.wm_update.html" /> 
+    <link rel="prev" title="pcdsdevices.epics_motor.BeckhoffAxisPLC.trigger" href="generated/pcdsdevices.epics_motor.BeckhoffAxisPLC.trigger.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -120,7 +120,6 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.epics_motor.Motor.html">pcdsdevices.epics_motor.Motor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.epics_motor.BeckhoffAxis.html">pcdsdevices.epics_motor.BeckhoffAxis</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.epics_motor.BeckhoffAxisPLC.html">pcdsdevices.epics_motor.BeckhoffAxisPLC</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.epics_motor.DelayNewport.html">pcdsdevices.epics_motor.DelayNewport</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.epics_motor.EpicsMotorInterface</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html">pcdsdevices.epics_motor.EpicsMotorInterface.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.check_limit_switches.html">pcdsdevices.epics_motor.EpicsMotorInterface.check_limit_switches</a></li>
@@ -146,6 +145,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_high_limit.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_high_limit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_lim.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_low_limit.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_low_limit</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_position.html">pcdsdevices.epics_motor.EpicsMotorInterface.set_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.stop.html">pcdsdevices.epics_motor.EpicsMotorInterface.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.summary.html">pcdsdevices.epics_motor.EpicsMotorInterface.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.trigger.html">pcdsdevices.epics_motor.EpicsMotorInterface.trigger</a></li>
@@ -542,31 +542,34 @@ the beamline.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_low_limit.html#pcdsdevices.epics_motor.EpicsMotorInterface.set_low_limit" title="pcdsdevices.epics_motor.EpicsMotorInterface.set_low_limit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_low_limit</span></code></a>(value)</p></td>
 <td><p>Set the low limit.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.stop.html#pcdsdevices.epics_motor.EpicsMotorInterface.stop" title="pcdsdevices.epics_motor.EpicsMotorInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.set_position.html#pcdsdevices.epics_motor.EpicsMotorInterface.set_position" title="pcdsdevices.epics_motor.EpicsMotorInterface.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.stop.html#pcdsdevices.epics_motor.EpicsMotorInterface.stop" title="pcdsdevices.epics_motor.EpicsMotorInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.summary.html#pcdsdevices.epics_motor.EpicsMotorInterface.summary" title="pcdsdevices.epics_motor.EpicsMotorInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.summary.html#pcdsdevices.epics_motor.EpicsMotorInterface.summary" title="pcdsdevices.epics_motor.EpicsMotorInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.trigger.html#pcdsdevices.epics_motor.EpicsMotorInterface.trigger" title="pcdsdevices.epics_motor.EpicsMotorInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.trigger.html#pcdsdevices.epics_motor.EpicsMotorInterface.trigger" title="pcdsdevices.epics_motor.EpicsMotorInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.tweak.html#pcdsdevices.epics_motor.EpicsMotorInterface.tweak" title="pcdsdevices.epics_motor.EpicsMotorInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.tweak.html#pcdsdevices.epics_motor.EpicsMotorInterface.tweak" title="pcdsdevices.epics_motor.EpicsMotorInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.umv.html#pcdsdevices.epics_motor.EpicsMotorInterface.umv" title="pcdsdevices.epics_motor.EpicsMotorInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.umv.html#pcdsdevices.epics_motor.EpicsMotorInterface.umv" title="pcdsdevices.epics_motor.EpicsMotorInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.umvr.html#pcdsdevices.epics_motor.EpicsMotorInterface.umvr" title="pcdsdevices.epics_motor.EpicsMotorInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.umvr.html#pcdsdevices.epics_motor.EpicsMotorInterface.umvr" title="pcdsdevices.epics_motor.EpicsMotorInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wait.html#pcdsdevices.epics_motor.EpicsMotorInterface.wait" title="pcdsdevices.epics_motor.EpicsMotorInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wait.html#pcdsdevices.epics_motor.EpicsMotorInterface.wait" title="pcdsdevices.epics_motor.EpicsMotorInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm_update" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.wm_update.html#pcdsdevices.epics_motor.EpicsMotorInterface.wm_update" title="pcdsdevices.epics_motor.EpicsMotorInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -636,7 +639,7 @@ the beamline.</p></li>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="generated/pcdsdevices.epics_motor.EpicsMotorInterface.camonitor.html" class="btn btn-neutral float-right" title="pcdsdevices.epics_motor.EpicsMotorInterface.camonitor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="generated/pcdsdevices.epics_motor.DelayNewport.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.DelayNewport.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="generated/pcdsdevices.epics_motor.BeckhoffAxisPLC.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.epics_motor.BeckhoffAxisPLC.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

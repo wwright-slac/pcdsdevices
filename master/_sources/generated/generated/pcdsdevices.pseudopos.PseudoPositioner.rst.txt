@@ -28,6 +28,7 @@ pcdsdevices.pseudopos.PseudoPositioner
        ~PseudoPositioner.read
        ~PseudoPositioner.read_configuration
        ~PseudoPositioner.set
+       ~PseudoPositioner.set_current_position
        ~PseudoPositioner.stop
        ~PseudoPositioner.summary
        ~PseudoPositioner.to_pseudo_tuple

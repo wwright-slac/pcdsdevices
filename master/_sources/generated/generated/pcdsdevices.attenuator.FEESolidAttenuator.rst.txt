@@ -242,6 +242,7 @@ pcdsdevices.attenuator.FEESolidAttenuator
        ~FEESolidAttenuator.read
        ~FEESolidAttenuator.read_configuration
        ~FEESolidAttenuator.set
+       ~FEESolidAttenuator.set_position
        ~FEESolidAttenuator.stop
        ~FEESolidAttenuator.summary
        ~FEESolidAttenuator.trigger

@@ -102,6 +102,8 @@ pcdsdevices.ccm.CCMCalc
        ~CCMCalc.read
        ~CCMCalc.read_configuration
        ~CCMCalc.set
+       ~CCMCalc.set_current_position
+       ~CCMCalc.set_position
        ~CCMCalc.stop
        ~CCMCalc.summary
        ~CCMCalc.to_pseudo_tuple

@@ -53,6 +53,8 @@ pcdsdevices.sim.SlowMotor
        ~SlowMotor.read
        ~SlowMotor.read_configuration
        ~SlowMotor.set
+       ~SlowMotor.set_current_position
+       ~SlowMotor.set_position
        ~SlowMotor.stop
        ~SlowMotor.summary
        ~SlowMotor.trigger

@@ -62,6 +62,7 @@ pcdsdevices.beam\_stats.BeamEnergyRequest
        ~BeamEnergyRequest.read
        ~BeamEnergyRequest.read_configuration
        ~BeamEnergyRequest.set
+       ~BeamEnergyRequest.set_position
        ~BeamEnergyRequest.stop
        ~BeamEnergyRequest.summary
        ~BeamEnergyRequest.trigger

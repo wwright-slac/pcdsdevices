@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.pseudopos.PseudoSingleInterface &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -132,6 +132,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayMotor.html">pcdsdevices.pseudopos.DelayMotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_class_factory.html">pcdsdevices.pseudopos.delay_class_factory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_instance_factory.html">pcdsdevices.pseudopos.delay_instance_factory</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.OffsetMotorBase.html">pcdsdevices.pseudopos.OffsetMotorBase</a></li>
@@ -149,6 +152,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read.html">pcdsdevices.pseudopos.PseudoSingleInterface.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration.html">pcdsdevices.pseudopos.PseudoSingleInterface.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html">pcdsdevices.pseudopos.PseudoSingleInterface.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set_position.html">pcdsdevices.pseudopos.PseudoSingleInterface.set_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html">pcdsdevices.pseudopos.PseudoSingleInterface.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html">pcdsdevices.pseudopos.PseudoSingleInterface.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html">pcdsdevices.pseudopos.PseudoSingleInterface.sync</a></li>
@@ -163,6 +167,8 @@
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SimDelayStage.html">pcdsdevices.pseudopos.SimDelayStage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxesBase.html">pcdsdevices.pseudopos.SyncAxesBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxis.html">pcdsdevices.pseudopos.SyncAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxisOffsetMode.html">pcdsdevices.pseudopos.SyncAxisOffsetMode</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
@@ -340,34 +346,37 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set.html#pcdsdevices.pseudopos.PseudoSingleInterface.set" title="pcdsdevices.pseudopos.PseudoSingleInterface.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(new_position, *[, timeout, moved_cb, wait])</p></td>
 <td><p>Set a value and return a Status object</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html#pcdsdevices.pseudopos.PseudoSingleInterface.stop" title="pcdsdevices.pseudopos.PseudoSingleInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.set_position.html#pcdsdevices.pseudopos.PseudoSingleInterface.set_position" title="pcdsdevices.pseudopos.PseudoSingleInterface.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.stop.html#pcdsdevices.pseudopos.PseudoSingleInterface.stop" title="pcdsdevices.pseudopos.PseudoSingleInterface.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop motion on the PseudoPositioner</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html#pcdsdevices.pseudopos.PseudoSingleInterface.summary" title="pcdsdevices.pseudopos.PseudoSingleInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.summary.html#pcdsdevices.pseudopos.PseudoSingleInterface.summary" title="pcdsdevices.pseudopos.PseudoSingleInterface.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html#pcdsdevices.pseudopos.PseudoSingleInterface.sync" title="pcdsdevices.pseudopos.PseudoSingleInterface.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.sync.html#pcdsdevices.pseudopos.PseudoSingleInterface.sync" title="pcdsdevices.pseudopos.PseudoSingleInterface.sync"><code class="xref py py-obj docutils literal notranslate"><span class="pre">sync</span></code></a>()</p></td>
 <td><p>Synchronize target position with current readback position</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html#pcdsdevices.pseudopos.PseudoSingleInterface.trigger" title="pcdsdevices.pseudopos.PseudoSingleInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.trigger.html#pcdsdevices.pseudopos.PseudoSingleInterface.trigger" title="pcdsdevices.pseudopos.PseudoSingleInterface.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html#pcdsdevices.pseudopos.PseudoSingleInterface.tweak" title="pcdsdevices.pseudopos.PseudoSingleInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.tweak.html#pcdsdevices.pseudopos.PseudoSingleInterface.tweak" title="pcdsdevices.pseudopos.PseudoSingleInterface.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html#pcdsdevices.pseudopos.PseudoSingleInterface.umv" title="pcdsdevices.pseudopos.PseudoSingleInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umv.html#pcdsdevices.pseudopos.PseudoSingleInterface.umv" title="pcdsdevices.pseudopos.PseudoSingleInterface.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.umvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.umvr.html#pcdsdevices.pseudopos.PseudoSingleInterface.umvr" title="pcdsdevices.pseudopos.PseudoSingleInterface.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html#pcdsdevices.pseudopos.PseudoSingleInterface.wait" title="pcdsdevices.pseudopos.PseudoSingleInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wait.html#pcdsdevices.pseudopos.PseudoSingleInterface.wait" title="pcdsdevices.pseudopos.PseudoSingleInterface.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.PseudoSingleInterface.wm_update.html#pcdsdevices.pseudopos.PseudoSingleInterface.wm_update" title="pcdsdevices.pseudopos.PseudoSingleInterface.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.LookupTablePositioner &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.pseudopos.LookupTablePositioner &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -132,6 +132,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayMotor.html">pcdsdevices.pseudopos.DelayMotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_class_factory.html">pcdsdevices.pseudopos.delay_class_factory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_instance_factory.html">pcdsdevices.pseudopos.delay_instance_factory</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.pseudopos.LookupTablePositioner</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.check_single.html">pcdsdevices.pseudopos.LookupTablePositioner.check_single</a></li>
@@ -145,6 +148,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.read.html">pcdsdevices.pseudopos.LookupTablePositioner.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.read_configuration.html">pcdsdevices.pseudopos.LookupTablePositioner.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.set.html">pcdsdevices.pseudopos.LookupTablePositioner.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.set_current_position.html">pcdsdevices.pseudopos.LookupTablePositioner.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.stop.html">pcdsdevices.pseudopos.LookupTablePositioner.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.summary.html">pcdsdevices.pseudopos.LookupTablePositioner.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple.html">pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple</a></li>
@@ -157,6 +161,8 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.html">pcdsdevices.pseudopos.PseudoSingleInterface</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SimDelayStage.html">pcdsdevices.pseudopos.SimDelayStage</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxesBase.html">pcdsdevices.pseudopos.SyncAxesBase</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxis.html">pcdsdevices.pseudopos.SyncAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxisOffsetMode.html">pcdsdevices.pseudopos.SyncAxisOffsetMode</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
@@ -304,19 +310,22 @@ That is, if you have a real motor <code class="docutils literal notranslate"><sp
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.set.html#pcdsdevices.pseudopos.LookupTablePositioner.set" title="pcdsdevices.pseudopos.LookupTablePositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.stop.html#pcdsdevices.pseudopos.LookupTablePositioner.stop" title="pcdsdevices.pseudopos.LookupTablePositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.set_current_position.html#pcdsdevices.pseudopos.LookupTablePositioner.set_current_position" title="pcdsdevices.pseudopos.LookupTablePositioner.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(position)</p></td>
+<td><p>Adjust all offsets so that the pseudo position matches the input.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.stop.html#pcdsdevices.pseudopos.LookupTablePositioner.stop" title="pcdsdevices.pseudopos.LookupTablePositioner.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.summary.html#pcdsdevices.pseudopos.LookupTablePositioner.summary" title="pcdsdevices.pseudopos.LookupTablePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.summary.html#pcdsdevices.pseudopos.LookupTablePositioner.summary" title="pcdsdevices.pseudopos.LookupTablePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple.html#pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple" title="pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple.html#pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple" title="pcdsdevices.pseudopos.LookupTablePositioner.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple.html#pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple" title="pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple.html#pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple" title="pcdsdevices.pseudopos.LookupTablePositioner.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html#pcdsdevices.pseudopos.LookupTablePositioner.trigger" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.LookupTablePositioner.trigger.html#pcdsdevices.pseudopos.LookupTablePositioner.trigger" title="pcdsdevices.pseudopos.LookupTablePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>

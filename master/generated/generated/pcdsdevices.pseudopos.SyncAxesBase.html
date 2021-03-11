@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.SyncAxesBase &mdash; PCDS Devices 4.2.0+12.ga80ca3f documentation</title>
+  <title>pcdsdevices.pseudopos.SyncAxesBase &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+12.ga80ca3f
+                4.2.0+35.gc8940bd
               </div>
             
           
@@ -132,6 +132,9 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayMotor.html">pcdsdevices.pseudopos.DelayMotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_class_factory.html">pcdsdevices.pseudopos.delay_class_factory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.delay_instance_factory.html">pcdsdevices.pseudopos.delay_instance_factory</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html">pcdsdevices.pseudopos.DelayBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.LookupTablePositioner.html">pcdsdevices.pseudopos.LookupTablePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.OffsetMotorBase.html">pcdsdevices.pseudopos.OffsetMotorBase</a></li>
@@ -157,6 +160,8 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.read_configuration.html">pcdsdevices.pseudopos.SyncAxesBase.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.save_offsets.html">pcdsdevices.pseudopos.SyncAxesBase.save_offsets</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set.html">pcdsdevices.pseudopos.SyncAxesBase.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set_current_position.html">pcdsdevices.pseudopos.SyncAxesBase.set_current_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set_position.html">pcdsdevices.pseudopos.SyncAxesBase.set_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stop.html">pcdsdevices.pseudopos.SyncAxesBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.summary.html">pcdsdevices.pseudopos.SyncAxesBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple.html">pcdsdevices.pseudopos.SyncAxesBase.to_pseudo_tuple</a></li>
@@ -170,6 +175,8 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.wm_update.html">pcdsdevices.pseudopos.SyncAxesBase.wm_update</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxis.html">pcdsdevices.pseudopos.SyncAxis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.pseudopos.SyncAxisOffsetMode.html">pcdsdevices.pseudopos.SyncAxisOffsetMode</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
@@ -262,6 +269,7 @@
 <dt id="pcdsdevices.pseudopos.SyncAxesBase">
 <em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.pseudopos.</span></code><code class="sig-name descname"><span class="pre">SyncAxesBase</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxesBase" title="Permalink to this definition">¶</a></dt>
 <dd><p>Synchronized Axes.</p>
+<p>This class is deprecated. Use <a class="reference internal" href="pcdsdevices.pseudopos.SyncAxis.html#pcdsdevices.pseudopos.SyncAxis" title="pcdsdevices.pseudopos.SyncAxis"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SyncAxis</span></code></a> instead.</p>
 <p>This will move all axes in a coordinated way, retaining offsets.</p>
 <p>This can be configured to report its position as the min, max, mean, or any
 custom function acting on a list of positions. Min is the default.</p>
@@ -357,6 +365,12 @@ move.</p>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set.html#pcdsdevices.pseudopos.SyncAxesBase.set" title="pcdsdevices.pseudopos.SyncAxesBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
 <td><p>Move to a new position asynchronously</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set_current_position.html#pcdsdevices.pseudopos.SyncAxesBase.set_current_position" title="pcdsdevices.pseudopos.SyncAxesBase.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(position)</p></td>
+<td><p>Adjust all offsets so that the pseudo position matches the input.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.set_position.html#pcdsdevices.pseudopos.SyncAxesBase.set_position" title="pcdsdevices.pseudopos.SyncAxesBase.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxesBase.stop.html#pcdsdevices.pseudopos.SyncAxesBase.stop" title="pcdsdevices.pseudopos.SyncAxesBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>

@@ -272,6 +272,7 @@ pcdsdevices.epics\_motor.SmarAct
        ~SmarAct.set_high_limit
        ~SmarAct.set_lim
        ~SmarAct.set_low_limit
+       ~SmarAct.set_position
        ~SmarAct.stop
        ~SmarAct.summary
        ~SmarAct.trigger

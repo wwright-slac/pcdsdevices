@@ -264,6 +264,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
        ~PCDSMotorBase.set_high_limit
        ~PCDSMotorBase.set_lim
        ~PCDSMotorBase.set_low_limit
+       ~PCDSMotorBase.set_position
        ~PCDSMotorBase.spg_go
        ~PCDSMotorBase.spg_pause
        ~PCDSMotorBase.spg_stop
