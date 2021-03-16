@@ -1,0 +1,6 @@
+pcdsdevices.device.ObjectComponent.sub\_default
+===============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: ObjectComponent.sub_default

@@ -1,6 +1,0 @@
-pcdsdevices.component.UnrelatedComponent.sub\_value
-===================================================
-
-.. currentmodule:: pcdsdevices.component
-
-.. automethod:: UnrelatedComponent.sub_value

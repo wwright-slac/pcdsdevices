@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.valve.VFS &mdash; PCDS Devices 4.2.0+35.gc8940bd documentation</title>
+  <title>pcdsdevices.valve.VFS &mdash; PCDS Devices 4.2.0+69.gd523ca4 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+35.gc8940bd
+                4.2.0+69.gd523ca4
               </div>
             
           
@@ -112,8 +112,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.component.html">pcdsdevices.component</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device.html">pcdsdevices.device</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
@@ -275,35 +275,35 @@
 <td></td>
 </tr>
 <tr class="row-even"><td><p>request_close</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:CLS_SW</span></code></p></td>
 <td><p>Request Fast Shutter to Close. When both closeand open are requested, VFS will close.</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>request_open</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:OPN_SW</span></code></p></td>
 <td><p>Request Fast Shutter to Open. Requires a risingEPICS signal to open. When both close andopen are requested, VFS will close.</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>reset_vacuum_fault</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:ALM_RST</span></code></p></td>
 <td><p>Reset Fast Shutter Vacuum Faults: fastsensor triggered, fast sensor turned off.To open VFS, this needs to be reset to TRUEafter a vacuum event.</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>override_mode</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:OVRD_ON</span></code></p></td>
 <td><p>Epics Command to set Override mode</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>override_force_open</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post4+gc35a559)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.areadetector.base.EpicsSignalWithRBV.html#ophyd.areadetector.base.EpicsSignalWithRBV" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalWithRBV</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:FORCE_OPN</span></code></p></td>
 <td><p>Epics Command to force openthe valve in override mode</p></td>
 <td><p>normal</p></td>

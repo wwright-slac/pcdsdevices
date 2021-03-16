@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor.mv\_ginput
+===========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayMotor.mv_ginput

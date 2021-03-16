@@ -17,6 +17,7 @@
       get_units
       get_value
       ophydobj_info
+      positionerbase_info
       set_engineering_mode
       setup_preset_paths
       signal_info

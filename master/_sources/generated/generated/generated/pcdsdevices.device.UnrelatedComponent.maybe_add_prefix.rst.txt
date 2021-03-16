@@ -1,0 +1,6 @@
+pcdsdevices.device.UnrelatedComponent.maybe\_add\_prefix
+========================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UnrelatedComponent.maybe_add_prefix
