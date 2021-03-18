@@ -113,14 +113,14 @@
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.HLM``
           -  
-          -  omitted
+          -  config
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
        *  -  low_limit_travel
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.LLM``
           -  
-          -  omitted
+          -  config
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
        *  -  direction_of_travel

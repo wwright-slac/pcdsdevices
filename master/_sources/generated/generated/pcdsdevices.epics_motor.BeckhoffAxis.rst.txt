@@ -113,14 +113,14 @@ pcdsdevices.epics\_motor.BeckhoffAxis
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.HLM``
           -  
-          -  omitted
+          -  config
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
        *  -  low_limit_travel
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.LLM``
           -  
-          -  omitted
+          -  config
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
        *  -  direction_of_travel

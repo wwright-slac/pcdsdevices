@@ -113,14 +113,14 @@
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.HLM``
           -  
-          -  omitted
+          -  config
           -  
    
        *  -  low_limit_travel
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``.LLM``
           -  
-          -  omitted
+          -  config
           -  
    
        *  -  direction_of_travel
