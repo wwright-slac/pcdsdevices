@@ -4572,6 +4572,7 @@ master/_sources/upcoming_release_notes/780-interface.rst.txt
 master/_sources/upcoming_release_notes/781-newport-md.rst.txt
 master/_sources/upcoming_release_notes/782-fix-kind.rst.txt
 master/_sources/upcoming_release_notes/785-virtual-motor.rst.txt
+master/_sources/upcoming_release_notes/790-delaysync-pp.rst.txt
 master/_sources/upcoming_release_notes/791-LaserTiming-hack.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -9190,6 +9191,7 @@ master/upcoming_release_notes/780-interface.html
 master/upcoming_release_notes/781-newport-md.html
 master/upcoming_release_notes/782-fix-kind.html
 master/upcoming_release_notes/785-virtual-motor.html
+master/upcoming_release_notes/790-delaysync-pp.html
 master/upcoming_release_notes/791-LaserTiming-hack.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.SimSecondTower.trigger &mdash; PCDS Devices 4.2.0+73.g75b0443 documentation</title>
+  <title>pcdsdevices.lodcm.SimSecondTower.trigger &mdash; PCDS Devices 4.2.0+82.ged71d03 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+73.g75b0443
+                4.2.0+82.ged71d03
               </div>
             
           
@@ -257,7 +257,7 @@
 <h1>pcdsdevices.lodcm.SimSecondTower.trigger<a class="headerlink" href="#pcdsdevices-lodcm-simsecondtower-trigger" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.lodcm.SimSecondTower.trigger">
-<code class="sig-prename descclassname"><span class="pre">SimSecondTower.</span></code><code class="sig-name descname"><span class="pre">trigger</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post7+g51c41e2)"><span class="pre">ophyd.status.StatusBase</span></a><a class="headerlink" href="#pcdsdevices.lodcm.SimSecondTower.trigger" title="Permalink to this definition">¶</a></dt>
+<code class="sig-prename descclassname"><span class="pre">SimSecondTower.</span></code><code class="sig-name descname"><span class="pre">trigger</span></code><span class="sig-paren">(</span><span class="sig-paren">)</span> &#x2192; <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post9+g612c90f)"><span class="pre">ophyd.status.StatusBase</span></a><a class="headerlink" href="#pcdsdevices.lodcm.SimSecondTower.trigger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
@@ -265,14 +265,14 @@
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
+<a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post9+g612c90f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
+then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post9+g612c90f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post7+g51c41e2)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
+<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/status.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post9+g612c90f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
 as complete when the device is ready to be read.</p>
 </dd>
 </dl>

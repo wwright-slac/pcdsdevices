@@ -26,7 +26,7 @@
           -  Inherited from :class:`~pcdsdevices.epics_motor.PCDSMotorBase`
    
        *  -  user_setpoint
-          -  :class:`~ophyd.signal.EpicsSignal`
+          -  :class:`~pcdsdevices.signal.EpicsSignalEditMD`
           -  ``.VAL``
           -  
           -  normal
