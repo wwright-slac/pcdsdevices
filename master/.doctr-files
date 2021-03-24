@@ -4577,6 +4577,7 @@ master/_sources/upcoming_release_notes/790-delaysync-pp.rst.txt
 master/_sources/upcoming_release_notes/791-LaserTiming-hack.rst.txt
 master/_sources/upcoming_release_notes/793-config-soft-limits.rst.txt
 master/_sources/upcoming_release_notes/798-Qmini_evr.rst.txt
+master/_sources/upcoming_release_notes/800-New_lamp_configuration_for_magnetic_bottle.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -9199,5 +9200,6 @@ master/upcoming_release_notes/790-delaysync-pp.html
 master/upcoming_release_notes/791-LaserTiming-hack.html
 master/upcoming_release_notes/793-config-soft-limits.html
 master/upcoming_release_notes/798-Qmini_evr.html
+master/upcoming_release_notes/800-New_lamp_configuration_for_magnetic_bottle.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
