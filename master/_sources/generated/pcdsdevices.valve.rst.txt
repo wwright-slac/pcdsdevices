@@ -24,6 +24,7 @@
       VGCLegacy
       VGC_2S
       VRC
+      VRCNO
       VVC
       VVCNO
       ValveBase
