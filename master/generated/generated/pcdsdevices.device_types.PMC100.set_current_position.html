@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.PMC100.set_current_position &mdash; PCDS Devices 4.2.0+110.g8e2963d documentation</title>
+  <title>pcdsdevices.device_types.PMC100.set_current_position &mdash; PCDS Devices 4.2.0+116.g46f9823 documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.2.0+110.g8e2963d
+                4.2.0+116.g46f9823
               </div>
             
           
@@ -262,12 +262,11 @@
 <dl class="py method">
 <dt id="pcdsdevices.device_types.PMC100.set_current_position">
 <code class="sig-prename descclassname"><span class="pre">PMC100.</span></code><code class="sig-name descname"><span class="pre">set_current_position</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">pos</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.PMC100.set_current_position" title="Permalink to this definition">¶</a></dt>
-<dd><p>Configure the motor user position to the given value</p>
-<dl class="field-list simple">
-<dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>pos</strong> – Position to set.</p>
-</dd>
-</dl>
+<dd><p>Change the offset such that pos is the current position.</p>
+<p>This is a re-implementation of the ophyd set_current_position, which
+does not work on some legacy PCDS motors because they do not use the
+standard motor record. This non-standard record does not respond
+correctly to wait=True on the VAL field while SET/USE is set to SET.</p>
 </dd></dl>
 
 </div>

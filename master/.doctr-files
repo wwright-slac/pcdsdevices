@@ -4606,6 +4606,7 @@ master/_sources/upcoming_release_notes/793-config-soft-limits.rst.txt
 master/_sources/upcoming_release_notes/798-Qmini_evr.rst.txt
 master/_sources/upcoming_release_notes/800-New_lamp_configuration_for_magnetic_bottle.rst.txt
 master/_sources/upcoming_release_notes/802-vrcno.rst.txt
+master/_sources/upcoming_release_notes/805-set-position-bug.rst.txt
 master/_sources/upcoming_release_notes/issue-add_coating_states_to_XOffsetMirrorState.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -9258,6 +9259,7 @@ master/upcoming_release_notes/793-config-soft-limits.html
 master/upcoming_release_notes/798-Qmini_evr.html
 master/upcoming_release_notes/800-New_lamp_configuration_for_magnetic_bottle.html
 master/upcoming_release_notes/802-vrcno.html
+master/upcoming_release_notes/805-set-position-bug.html
 master/upcoming_release_notes/issue-add_coating_states_to_XOffsetMirrorState.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
