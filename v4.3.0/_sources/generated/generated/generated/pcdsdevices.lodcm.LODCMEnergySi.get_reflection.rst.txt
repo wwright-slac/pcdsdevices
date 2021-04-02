@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergySi.get\_reflection
+===============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergySi.get_reflection

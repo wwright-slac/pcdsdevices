@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.read
+===================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.read

@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxis.check\_limit\_switches
+============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxis.check_limit_switches

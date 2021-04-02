@@ -1,0 +1,6 @@
+pcdsdevices.device.UnrelatedComponent.create\_component
+=======================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UnrelatedComponent.create_component

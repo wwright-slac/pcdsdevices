@@ -1,0 +1,6 @@
+pcdsdevices.signal.PytmcSignalRO.set\_defaults
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PytmcSignalRO.set_defaults

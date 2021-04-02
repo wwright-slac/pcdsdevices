@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetMotor.camonitor
+==============================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetMotor.camonitor

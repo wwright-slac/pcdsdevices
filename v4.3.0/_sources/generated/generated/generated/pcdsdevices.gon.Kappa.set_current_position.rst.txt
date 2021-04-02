@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.set\_current\_position
+============================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.set_current_position

@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.OffsetMotorBase.umv
+=========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: OffsetMotorBase.umv

@@ -1,0 +1,169 @@
+pcdsdevices.lodcm.LODCMEnergySi
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: LODCMEnergySi
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  tower1 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower1`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  tower2 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower2`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  dr (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._m_prefix}:MON:MMS:19``
+          -  LOM Dia Theta
+          -  normal
+          -  
+   
+       *  -  th1 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Th1 motor offset for Si [deg]
+          -  normal
+          -  
+   
+       *  -  th2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Th2 motor offset for Si [deg]
+          -  normal
+          -  
+   
+       *  -  z1 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Z1 motor offset for Si [mm]
+          -  normal
+          -  
+   
+       *  -  z2 (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  Z2 motor offset for Si [mm]
+          -  normal
+          -  
+   
+       *  -  energy
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  hinted
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~LODCMEnergySi.calc_energy
+       ~LODCMEnergySi.camonitor
+       ~LODCMEnergySi.check_single
+       ~LODCMEnergySi.configure
+       ~LODCMEnergySi.describe
+       ~LODCMEnergySi.end_monitor_thread
+       ~LODCMEnergySi.forward
+       ~LODCMEnergySi.get
+       ~LODCMEnergySi.get_energy
+       ~LODCMEnergySi.get_reflection
+       ~LODCMEnergySi.inverse
+       ~LODCMEnergySi.move
+       ~LODCMEnergySi.move_single
+       ~LODCMEnergySi.mv
+       ~LODCMEnergySi.mv_ginput
+       ~LODCMEnergySi.mvr
+       ~LODCMEnergySi.read
+       ~LODCMEnergySi.read_configuration
+       ~LODCMEnergySi.set
+       ~LODCMEnergySi.set_current_position
+       ~LODCMEnergySi.set_position
+       ~LODCMEnergySi.stop
+       ~LODCMEnergySi.summary
+       ~LODCMEnergySi.to_pseudo_tuple
+       ~LODCMEnergySi.to_real_tuple
+       ~LODCMEnergySi.trigger
+       ~LODCMEnergySi.tweak
+       ~LODCMEnergySi.umv
+       ~LODCMEnergySi.umvr
+       ~LODCMEnergySi.wait
+       ~LODCMEnergySi.wm
+       ~LODCMEnergySi.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LODCMEnergySi.composite_egu
+       ~LODCMEnergySi.concurrent
+       ~LODCMEnergySi.configuration_attrs
+       ~LODCMEnergySi.connected
+       ~LODCMEnergySi.egu
+       ~LODCMEnergySi.high_limit
+       ~LODCMEnergySi.hints
+       ~LODCMEnergySi.kind
+       ~LODCMEnergySi.limits
+       ~LODCMEnergySi.low_limit
+       ~LODCMEnergySi.moving
+       ~LODCMEnergySi.position
+       ~LODCMEnergySi.presets
+       ~LODCMEnergySi.pseudo_positioners
+       ~LODCMEnergySi.real_position
+       ~LODCMEnergySi.real_positioners
+       ~LODCMEnergySi.sequential
+       ~LODCMEnergySi.settle_time
+       ~LODCMEnergySi.target
+       ~LODCMEnergySi.timeout
+    
+    

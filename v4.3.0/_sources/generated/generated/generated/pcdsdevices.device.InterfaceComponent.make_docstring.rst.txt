@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceComponent.make\_docstring
+=====================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceComponent.make_docstring

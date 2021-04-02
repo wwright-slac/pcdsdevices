@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimFirstTower.read
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimFirstTower.read
