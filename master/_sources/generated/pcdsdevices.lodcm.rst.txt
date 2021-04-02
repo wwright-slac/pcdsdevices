@@ -28,7 +28,10 @@
       LODCMEnergyC
       LODCMEnergySi
       SimDiagnosticsTower
+      SimEnergyC
+      SimEnergySi
       SimFirstTower
+      SimLODCM
       SimSecondTower
       Y1
       Y2

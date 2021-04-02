@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergyC.set\_current\_position
+===================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergyC.set_current_position

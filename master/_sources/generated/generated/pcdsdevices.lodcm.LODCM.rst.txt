@@ -113,7 +113,7 @@ pcdsdevices.lodcm.LODCM
     .. autosummary::
        :toctree: generated
     
-       ~LODCM.calc_energy
+       ~LODCM.calc_geometry
        ~LODCM.configure
        ~LODCM.describe
        ~LODCM.get
@@ -124,9 +124,13 @@ pcdsdevices.lodcm.LODCM
        ~LODCM.read_configuration
        ~LODCM.remove
        ~LODCM.remove_dia
+       ~LODCM.set_energy
        ~LODCM.stop
        ~LODCM.summary
        ~LODCM.trigger
+       ~LODCM.tweak_parallel
+       ~LODCM.tweak_x
+       ~LODCM.wait_energy
     
     
 

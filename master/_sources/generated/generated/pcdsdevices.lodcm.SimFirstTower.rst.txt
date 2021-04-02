@@ -78,94 +78,94 @@ pcdsdevices.lodcm.SimFirstTower
           -  :class:`~pcdsdevices.lodcm.Y1`
           -  ``:Y1``
           -  
-          -  omitted
+          -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
        *  -  chi1_state
           -  :class:`~pcdsdevices.lodcm.CHI1`
           -  ``:CHI1``
           -  
-          -  omitted
+          -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
        *  -  diamond_reflection
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:T1C:REF``
           -  Tower 1 Diamond crystal reflection
-          -  omitted
+          -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
        *  -  silicon_reflection
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:T1Si:REF``
           -  Tower 1 Silicon crystal reflection
-          -  omitted
+          -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  x1_c (FCpt)
+       *  -  x1C (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  X1 motor offset for C [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  x1_si (FCpt)
+       *  -  x1Si (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  X1 motor offset for Si [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  y1_c (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  y1C (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  Y1 motor offset for C [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  y1_si (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  y1Si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  Y1 motor offset for Si [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  chi1_c (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  chi1C (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  Chi 1 motor offset for C [deg]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  chi1_si (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  chi1Si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  Chi 1 motor offset for Si [deg]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  h1n_c (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  h1nC (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  H1n motor offset for C [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  h1n_si (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+       *  -  h1nSi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
           -  
           -  H1n motor offset for Si [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  h1p_c (FCpt)
+       *  -  h1pC (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  H1p motor offset for C [mm]
           -  normal
           -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
    
-       *  -  h1p_si (FCpt)
+       *  -  h1pSi (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  H1p motor offset for Si [mm]

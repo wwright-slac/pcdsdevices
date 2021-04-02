@@ -26,6 +26,7 @@
       EpicsMotorInterface
       IMS
       Newport
+      OffsetIMSWithPreset
       OffsetMotor
       PCDSMotorBase
       PMC100

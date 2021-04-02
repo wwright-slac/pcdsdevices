@@ -34,33 +34,33 @@ pcdsdevices.lodcm.LODCMEnergyC
    
        *  -  dr (FCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self._m_prefix}:MON:MMS:19``
+          -  ``{self._hutch_prefix}:MON:MMS:19``
           -  LOM Dia Theta
           -  normal
           -  
    
-       *  -  th1 (FCpt)
+       *  -  th1C (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  Th1 motor offset for C [deg]
           -  normal
           -  
    
-       *  -  th2 (FCpt)
+       *  -  th2C (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  Th2 motor offset for C [deg]
           -  normal
           -  
    
-       *  -  z1 (FCpt)
+       *  -  z1C (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  Z1 motor offset for C [mm]
           -  normal
           -  
    
-       *  -  z2 (FCpt)
+       *  -  z2C (FCpt)
           -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
           -  
           -  Z2 motor offset for C [mm]
@@ -104,7 +104,7 @@ pcdsdevices.lodcm.LODCMEnergyC
     .. autosummary::
        :toctree: generated
     
-       ~LODCMEnergyC.calc_energy
+       ~LODCMEnergyC.calc_geometry
        ~LODCMEnergyC.camonitor
        ~LODCMEnergyC.check_single
        ~LODCMEnergyC.configure

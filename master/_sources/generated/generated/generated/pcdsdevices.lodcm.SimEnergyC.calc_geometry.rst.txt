@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergyC.calc\_geometry
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergyC.calc_geometry

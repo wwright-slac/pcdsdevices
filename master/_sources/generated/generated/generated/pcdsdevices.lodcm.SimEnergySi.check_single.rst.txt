@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergySi.check\_single
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergySi.check_single

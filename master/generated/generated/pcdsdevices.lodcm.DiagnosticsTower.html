@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.DiagnosticsTower &mdash; PCDS Devices 4.3.0 documentation</title>
+  <title>pcdsdevices.lodcm.DiagnosticsTower &mdash; PCDS Devices 4.3.0+20.g3ca950c documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.3.0
+                4.3.0+20.g3ca950c
               </div>
             
           
@@ -150,7 +150,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergyC.html">pcdsdevices.lodcm.LODCMEnergyC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergySi.html">pcdsdevices.lodcm.LODCMEnergySi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimDiagnosticsTower.html">pcdsdevices.lodcm.SimDiagnosticsTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergyC.html">pcdsdevices.lodcm.SimEnergyC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergySi.html">pcdsdevices.lodcm.SimEnergySi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimFirstTower.html">pcdsdevices.lodcm.SimFirstTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimLODCM.html">pcdsdevices.lodcm.SimLODCM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimSecondTower.html">pcdsdevices.lodcm.SimSecondTower</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y1.html">pcdsdevices.lodcm.Y1</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y2.html">pcdsdevices.lodcm.Y2</a></li>
@@ -252,10 +255,17 @@
 <dl class="py class">
 <dt id="pcdsdevices.lodcm.DiagnosticsTower">
 <em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.lodcm.</span></code><code class="sig-name descname"><span class="pre">DiagnosticsTower</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.lodcm.DiagnosticsTower" title="Permalink to this definition">¶</a></dt>
-<dd><p>Diagnostic Tower Motors.</p>
+<dd><p>LODCM Diagnostic Tower.</p>
+<p>Located midway between Crystal Tower 1 and Crystal Tower 2, in the center
+of rotation of the device.
+It contains a pips diode(dd), yag screen(dv), filters wheel (df)
+and vertical (dh) and horizontal slits (dd).</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Epics base PV prefix.</p>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Epics base PV prefix.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The name of this device.</p></li>
+</ul>
 </dd>
 </dl>
 <table class="colwidths-auto docutils align-default" id="id1">
@@ -272,42 +282,42 @@
 <tbody>
 <tr class="row-even"><td><p>dh (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:16</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:16</span></code></p></td>
 <td><p>LOM Dia H</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>dv (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:17</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:17</span></code></p></td>
 <td><p>LOM Dia V</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>dr (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:19</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:19</span></code></p></td>
 <td><p>LOM Dia Theta</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>df (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:{self._df_suffix}</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:{self._df_suffix}</span></code></p></td>
 <td><p>LOM Dia Filter Wheel</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>dd (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:18</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:18</span></code></p></td>
 <td><p>LOM Dia PIPS</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>yag_zoom (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:CLZ:01</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:CLZ:01</span></code></p></td>
 <td><p>LOM Zoom</p></td>
 <td><p>normal</p></td>
 <td></td>

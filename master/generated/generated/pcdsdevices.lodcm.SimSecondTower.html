@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.SimSecondTower &mdash; PCDS Devices 4.3.0 documentation</title>
+  <title>pcdsdevices.lodcm.SimSecondTower &mdash; PCDS Devices 4.3.0+20.g3ca950c documentation</title>
   
 
   
@@ -40,7 +40,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="pcdsdevices.lodcm.SimSecondTower.configure" href="generated/pcdsdevices.lodcm.SimSecondTower.configure.html" />
-    <link rel="prev" title="pcdsdevices.lodcm.SimFirstTower.trigger" href="generated/pcdsdevices.lodcm.SimFirstTower.trigger.html" /> 
+    <link rel="prev" title="pcdsdevices.lodcm.SimLODCM.wait_energy" href="generated/pcdsdevices.lodcm.SimLODCM.wait_energy.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.3.0
+                4.3.0+20.g3ca950c
               </div>
             
           
@@ -140,7 +140,10 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergyC.html">pcdsdevices.lodcm.LODCMEnergyC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergySi.html">pcdsdevices.lodcm.LODCMEnergySi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimDiagnosticsTower.html">pcdsdevices.lodcm.SimDiagnosticsTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergyC.html">pcdsdevices.lodcm.SimEnergyC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergySi.html">pcdsdevices.lodcm.SimEnergySi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimFirstTower.html">pcdsdevices.lodcm.SimFirstTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimLODCM.html">pcdsdevices.lodcm.SimLODCM</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.SimSecondTower</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.configure.html">pcdsdevices.lodcm.SimSecondTower.configure</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.describe.html">pcdsdevices.lodcm.SimSecondTower.describe</a></li>
@@ -318,6 +321,20 @@
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
+<tr class="row-odd"><td><p>x2_retry_deadband (FCpt)</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:11.RDBD</span></code></p></td>
+<td><p>Retry Deadband for x2</p></td>
+<td><p>omitted</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
+</tr>
+<tr class="row-even"><td><p>z2_retry_deadband (FCpt)</p></td>
+<td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:10.RDBD</span></code></p></td>
+<td><p>Retry Deadband for z2</p></td>
+<td><p>omitted</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
+</tr>
 <tr class="row-odd"><td><p>h2n_state</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.lodcm.H2N.html#pcdsdevices.lodcm.H2N" title="pcdsdevices.lodcm.H2N"><code class="xref py py-class docutils literal notranslate"><span class="pre">H2N</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:H2N</span></code></p></td>
@@ -329,81 +346,81 @@
 <td><p><a class="reference internal" href="pcdsdevices.lodcm.Y2.html#pcdsdevices.lodcm.Y2" title="pcdsdevices.lodcm.Y2"><code class="xref py py-class docutils literal notranslate"><span class="pre">Y2</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:Y2</span></code></p></td>
 <td></td>
-<td><p>omitted</p></td>
+<td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>chi2_state</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.lodcm.CHI2.html#pcdsdevices.lodcm.CHI2" title="pcdsdevices.lodcm.CHI2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CHI2</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:CHI2</span></code></p></td>
 <td></td>
-<td><p>omitted</p></td>
+<td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>diamond_reflection</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:T2C:REF</span></code></p></td>
 <td><p>Tower 2 Diamond crystal reflection</p></td>
-<td><p>omitted</p></td>
+<td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>silicon_reflection</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:T2Si:REF</span></code></p></td>
 <td><p>Tower 2 Silicon crystal reflection</p></td>
-<td><p>omitted</p></td>
+<td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>x2_c (FCpt)</p></td>
+<tr class="row-even"><td><p>x2C (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>X2 motor offset for C [mm]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>x2_si (FCpt)</p></td>
+<tr class="row-odd"><td><p>x2Si (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>X2 motor offset for Si [mm]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>y2_c (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-even"><td><p>y2C (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>Y2 motor offset for C [mm]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>y2_si (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-odd"><td><p>y2Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>Y2 motor offset for Si [mm]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>chi2_c (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-even"><td><p>chi2C (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>Chi 2 motor offset for C [deg]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>chi2_si (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-odd"><td><p>chi2Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>Chi 2 motor offset for Si [deg]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>h2n_c (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-even"><td><p>h2nC (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>H2n motor offset for C [mm]</p></td>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>h2n_si (FCpt)</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<tr class="row-odd"><td><p>h2nSi (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetIMSWithPreset.html#pcdsdevices.epics_motor.OffsetIMSWithPreset" title="pcdsdevices.epics_motor.OffsetIMSWithPreset"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetIMSWithPreset</span></code></a></p></td>
 <td></td>
 <td><p>H2n motor offset for Si [mm]</p></td>
 <td><p>normal</p></td>
@@ -430,7 +447,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.get_material.html#pcdsdevices.lodcm.SimSecondTower.get_material" title="pcdsdevices.lodcm.SimSecondTower.get_material"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_material</span></code></a>()</p></td>
 <td><p>Get the current material.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.get_reflection.html#pcdsdevices.lodcm.SimSecondTower.get_reflection" title="pcdsdevices.lodcm.SimSecondTower.get_reflection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_reflection</span></code></a>([as_tuple, check])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.get_reflection.html#pcdsdevices.lodcm.SimSecondTower.get_reflection" title="pcdsdevices.lodcm.SimSecondTower.get_reflection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_reflection</span></code></a>()</p></td>
 <td><p>Get crystal’s reflection.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimSecondTower.is_diamond.html#pcdsdevices.lodcm.SimSecondTower.is_diamond" title="pcdsdevices.lodcm.SimSecondTower.is_diamond"><code class="xref py py-obj docutils literal notranslate"><span class="pre">is_diamond</span></code></a>()</p></td>
@@ -488,7 +505,7 @@
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="generated/pcdsdevices.lodcm.SimSecondTower.configure.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.SimSecondTower.configure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="generated/pcdsdevices.lodcm.SimFirstTower.trigger.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.SimFirstTower.trigger" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="generated/pcdsdevices.lodcm.SimLODCM.wait_energy.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.SimLODCM.wait_energy" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

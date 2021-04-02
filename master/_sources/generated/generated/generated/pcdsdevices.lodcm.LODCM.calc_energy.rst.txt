@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.calc\_energy
-====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.calc_energy

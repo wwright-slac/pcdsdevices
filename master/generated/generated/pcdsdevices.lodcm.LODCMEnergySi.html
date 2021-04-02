@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.LODCMEnergySi &mdash; PCDS Devices 4.3.0 documentation</title>
+  <title>pcdsdevices.lodcm.LODCMEnergySi &mdash; PCDS Devices 4.3.0+20.g3ca950c documentation</title>
   
 
   
@@ -39,7 +39,7 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pcdsdevices.lodcm.LODCMEnergySi.calc_energy" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_energy.html" />
+    <link rel="next" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html" />
     <link rel="prev" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html" /> 
 </head>
 
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.3.0
+                4.3.0+20.g3ca950c
               </div>
             
           
@@ -139,7 +139,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCM.html">pcdsdevices.lodcm.LODCM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergyC.html">pcdsdevices.lodcm.LODCMEnergyC</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.LODCMEnergySi</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_energy.html">pcdsdevices.lodcm.LODCMEnergySi.calc_energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html">pcdsdevices.lodcm.LODCMEnergySi.calc_geometry</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.camonitor.html">pcdsdevices.lodcm.LODCMEnergySi.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.check_single.html">pcdsdevices.lodcm.LODCMEnergySi.check_single</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.configure.html">pcdsdevices.lodcm.LODCMEnergySi.configure</a></li>
@@ -174,7 +174,10 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimDiagnosticsTower.html">pcdsdevices.lodcm.SimDiagnosticsTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergyC.html">pcdsdevices.lodcm.SimEnergyC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergySi.html">pcdsdevices.lodcm.SimEnergySi</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimFirstTower.html">pcdsdevices.lodcm.SimFirstTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimLODCM.html">pcdsdevices.lodcm.SimLODCM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimSecondTower.html">pcdsdevices.lodcm.SimSecondTower</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y1.html">pcdsdevices.lodcm.Y1</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y2.html">pcdsdevices.lodcm.Y2</a></li>
@@ -279,6 +282,14 @@
 <dd><p>Energy calculations for the Si material.</p>
 <p>Assume material is ‘Si’ without checking if the crystal’s materials are
 aligned for both towers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Epics base PV prefix.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The name of this device.</p></li>
+</ul>
+</dd>
+</dl>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
@@ -307,33 +318,33 @@ aligned for both towers.</p>
 </tr>
 <tr class="row-even"><td><p>dr (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self._m_prefix}:MON:MMS:19</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:19</span></code></p></td>
 <td><p>LOM Dia Theta</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>th1 (FCpt)</p></td>
+<tr class="row-odd"><td><p>th1Si (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>Th1 motor offset for Si [deg]</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>th2 (FCpt)</p></td>
+<tr class="row-even"><td><p>th2Si (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>Th2 motor offset for Si [deg]</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>z1 (FCpt)</p></td>
+<tr class="row-odd"><td><p>z1Si (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>Z1 motor offset for Si [mm]</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>z2 (FCpt)</p></td>
+<tr class="row-even"><td><p>z2Si (FCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
 <td></td>
 <td><p>Z2 motor offset for Si [mm]</p></td>
@@ -356,7 +367,7 @@ aligned for both towers.</p>
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_energy.html#pcdsdevices.lodcm.LODCMEnergySi.calc_energy" title="pcdsdevices.lodcm.LODCMEnergySi.calc_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calc_energy</span></code></a>(energy[, material, reflection])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html#pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calc_geometry</span></code></a>(energy[, material, reflection])</p></td>
 <td><p>Calculate the lom geometry.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.camonitor.html#pcdsdevices.lodcm.LODCMEnergySi.camonitor" title="pcdsdevices.lodcm.LODCMEnergySi.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
@@ -383,7 +394,7 @@ aligned for both towers.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_energy.html#pcdsdevices.lodcm.LODCMEnergySi.get_energy" title="pcdsdevices.lodcm.LODCMEnergySi.get_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_energy</span></code></a>([material, reflection])</p></td>
 <td><p>Get photon energy from first tower in keV.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_reflection.html#pcdsdevices.lodcm.LODCMEnergySi.get_reflection" title="pcdsdevices.lodcm.LODCMEnergySi.get_reflection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_reflection</span></code></a>([as_tuple, check])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_reflection.html#pcdsdevices.lodcm.LODCMEnergySi.get_reflection" title="pcdsdevices.lodcm.LODCMEnergySi.get_reflection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_reflection</span></code></a>()</p></td>
 <td><p>Get the crystal reflection.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.inverse.html#pcdsdevices.lodcm.LODCMEnergySi.inverse" title="pcdsdevices.lodcm.LODCMEnergySi.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
@@ -533,7 +544,7 @@ aligned for both towers.</p>
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_energy.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.LODCMEnergySi.calc_energy" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
