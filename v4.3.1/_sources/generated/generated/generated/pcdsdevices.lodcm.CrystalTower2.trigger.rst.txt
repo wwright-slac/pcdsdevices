@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower2.trigger
+=======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower2.trigger

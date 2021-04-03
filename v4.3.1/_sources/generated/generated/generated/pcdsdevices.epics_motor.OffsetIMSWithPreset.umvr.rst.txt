@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetIMSWithPreset.umvr
+=================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetIMSWithPreset.umvr

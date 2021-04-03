@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.Y2
+====================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: Y2
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Y2.camonitor
+       ~Y2.check_inserted
+       ~Y2.check_removed
+       ~Y2.check_transmission
+       ~Y2.configure
+       ~Y2.describe
+       ~Y2.end_monitor_thread
+       ~Y2.get
+       ~Y2.get_state
+       ~Y2.insert
+       ~Y2.move
+       ~Y2.mv
+       ~Y2.read
+       ~Y2.read_configuration
+       ~Y2.remove
+       ~Y2.set
+       ~Y2.stop
+       ~Y2.summary
+       ~Y2.trigger
+       ~Y2.wait
+       ~Y2.wm
+       ~Y2.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Y2.configuration_attrs
+       ~Y2.connected
+       ~Y2.egu
+       ~Y2.high_limit
+       ~Y2.hints
+       ~Y2.in_states
+       ~Y2.kind
+       ~Y2.limits
+       ~Y2.low_limit
+       ~Y2.moving
+       ~Y2.out_states
+       ~Y2.position
+       ~Y2.settle_time
+       ~Y2.states_list
+       ~Y2.timeout
+       ~Y2.transmission
+    
+    

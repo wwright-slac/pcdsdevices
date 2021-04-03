@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.check\_removed
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.check_removed

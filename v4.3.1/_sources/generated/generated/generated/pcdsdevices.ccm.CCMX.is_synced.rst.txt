@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.is\_synced
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.is_synced

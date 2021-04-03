@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.trigger
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.trigger

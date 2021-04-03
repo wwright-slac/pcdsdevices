@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H2N.insert
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H2N.insert

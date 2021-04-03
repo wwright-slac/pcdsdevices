@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT1K4.set\_position
+==========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT1K4.set_position

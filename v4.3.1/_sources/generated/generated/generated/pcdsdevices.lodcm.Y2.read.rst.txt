@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.read
+=========================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.read

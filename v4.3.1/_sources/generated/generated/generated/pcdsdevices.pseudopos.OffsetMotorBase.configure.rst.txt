@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.OffsetMotorBase.configure
+===============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: OffsetMotorBase.configure

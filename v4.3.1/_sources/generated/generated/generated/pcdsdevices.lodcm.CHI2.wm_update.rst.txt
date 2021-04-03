@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.wm\_update
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.wm_update

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.tweak\_x
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.tweak_x

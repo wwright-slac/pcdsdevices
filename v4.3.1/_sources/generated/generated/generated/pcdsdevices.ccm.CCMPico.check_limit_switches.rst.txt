@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMPico.check\_limit\_switches
+==============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMPico.check_limit_switches

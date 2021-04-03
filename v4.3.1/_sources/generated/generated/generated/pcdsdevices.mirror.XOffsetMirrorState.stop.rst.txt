@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirrorState.stop
+==========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirrorState.stop

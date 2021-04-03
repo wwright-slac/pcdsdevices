@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT1K4.stop
+=================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT1K4.stop

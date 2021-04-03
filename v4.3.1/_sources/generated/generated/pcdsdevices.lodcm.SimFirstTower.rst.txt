@@ -1,0 +1,259 @@
+pcdsdevices.lodcm.SimFirstTower
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: SimFirstTower
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  z1
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  x1
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  y1
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  th1
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  chi1
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1n
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1p
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1n_state
+          -  :class:`~pcdsdevices.lodcm.H1N`
+          -  ``:H1N``
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  y1_state
+          -  :class:`~pcdsdevices.lodcm.Y1`
+          -  ``:Y1``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  chi1_state
+          -  :class:`~pcdsdevices.lodcm.CHI1`
+          -  ``:CHI1``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  diamond_reflection
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:T1C:REF``
+          -  Tower 1 Diamond crystal reflection
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  silicon_reflection
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:T1Si:REF``
+          -  Tower 1 Silicon crystal reflection
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  x1C (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  X1 motor offset for C [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  x1Si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  X1 motor offset for Si [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  y1C (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  Y1 motor offset for C [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  y1Si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  Y1 motor offset for Si [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  chi1C (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  Chi 1 motor offset for C [deg]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  chi1Si (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  Chi 1 motor offset for Si [deg]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1nC (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  H1n motor offset for C [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1nSi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetIMSWithPreset`
+          -  
+          -  H1n motor offset for Si [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1pC (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  H1p motor offset for C [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+       *  -  h1pSi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.OffsetMotor`
+          -  
+          -  H1p motor offset for Si [mm]
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.CrystalTower1`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimFirstTower.configure
+       ~SimFirstTower.describe
+       ~SimFirstTower.get
+       ~SimFirstTower.get_material
+       ~SimFirstTower.get_reflection
+       ~SimFirstTower.is_diamond
+       ~SimFirstTower.is_silicon
+       ~SimFirstTower.read
+       ~SimFirstTower.read_configuration
+       ~SimFirstTower.stop
+       ~SimFirstTower.summary
+       ~SimFirstTower.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimFirstTower.configuration_attrs
+       ~SimFirstTower.connected
+       ~SimFirstTower.hints
+       ~SimFirstTower.kind
+    
+    
