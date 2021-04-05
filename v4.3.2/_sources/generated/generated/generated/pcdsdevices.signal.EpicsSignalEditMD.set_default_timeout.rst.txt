@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalEditMD.set\_default\_timeout
+==========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalEditMD.set_default_timeout

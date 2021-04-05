@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimSecondTower.read\_configuration
+====================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimSecondTower.read_configuration

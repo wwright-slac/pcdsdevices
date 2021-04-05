@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorSXR\_Ladder.get
+================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorSXR_Ladder.get

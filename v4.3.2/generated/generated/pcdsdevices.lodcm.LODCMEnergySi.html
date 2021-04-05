@@ -1,0 +1,589 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>pcdsdevices.lodcm.LODCMEnergySi &mdash; PCDS Devices 4.3.2 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html" />
+    <link rel="prev" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> PCDS Devices
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                4.3.2
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Features</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../epics_types.html">Common EPICS Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sim_types.html">Simulated Devices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html">Sample Delivery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../sample_delivery.html#api">API</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Developer Notes</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../releases.html">Release History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../upcoming_changes.html">Upcoming Changes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../api.html">Full API</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.analog_signals.html">pcdsdevices.analog_signals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.attenuator.html">pcdsdevices.attenuator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.beam_stats.html">pcdsdevices.beam_stats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ccm.html">pcdsdevices.ccm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device.html">pcdsdevices.device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.device_types.html">pcdsdevices.device_types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.doc_stubs.html">pcdsdevices.doc_stubs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.epics_motor.html">pcdsdevices.epics_motor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.evr.html">pcdsdevices.evr</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gauge.html">pcdsdevices.gauge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.gon.html">pcdsdevices.gon</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.inout.html">pcdsdevices.inout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.interface.html">pcdsdevices.interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.ipm.html">pcdsdevices.ipm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.CHI1.html">pcdsdevices.lodcm.CHI1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.CHI2.html">pcdsdevices.lodcm.CHI2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.CrystalTower1.html">pcdsdevices.lodcm.CrystalTower1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html">pcdsdevices.lodcm.CrystalTower2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Dectris.html">pcdsdevices.lodcm.Dectris</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.DiagnosticsTower.html">pcdsdevices.lodcm.DiagnosticsTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Diode.html">pcdsdevices.lodcm.Diode</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Foil.html">pcdsdevices.lodcm.Foil</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.H1N.html">pcdsdevices.lodcm.H1N</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.H2N.html">pcdsdevices.lodcm.H2N</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCM.html">pcdsdevices.lodcm.LODCM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.LODCMEnergyC.html">pcdsdevices.lodcm.LODCMEnergyC</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.lodcm.LODCMEnergySi</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html">pcdsdevices.lodcm.LODCMEnergySi.calc_geometry</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.camonitor.html">pcdsdevices.lodcm.LODCMEnergySi.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.check_single.html">pcdsdevices.lodcm.LODCMEnergySi.check_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.configure.html">pcdsdevices.lodcm.LODCMEnergySi.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.describe.html">pcdsdevices.lodcm.LODCMEnergySi.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.end_monitor_thread.html">pcdsdevices.lodcm.LODCMEnergySi.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.forward.html">pcdsdevices.lodcm.LODCMEnergySi.forward</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get.html">pcdsdevices.lodcm.LODCMEnergySi.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_energy.html">pcdsdevices.lodcm.LODCMEnergySi.get_energy</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_reflection.html">pcdsdevices.lodcm.LODCMEnergySi.get_reflection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.inverse.html">pcdsdevices.lodcm.LODCMEnergySi.inverse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.move.html">pcdsdevices.lodcm.LODCMEnergySi.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.move_single.html">pcdsdevices.lodcm.LODCMEnergySi.move_single</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mv.html">pcdsdevices.lodcm.LODCMEnergySi.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mv_ginput.html">pcdsdevices.lodcm.LODCMEnergySi.mv_ginput</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mvr.html">pcdsdevices.lodcm.LODCMEnergySi.mvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.read.html">pcdsdevices.lodcm.LODCMEnergySi.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.read_configuration.html">pcdsdevices.lodcm.LODCMEnergySi.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set.html">pcdsdevices.lodcm.LODCMEnergySi.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set_current_position.html">pcdsdevices.lodcm.LODCMEnergySi.set_current_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set_position.html">pcdsdevices.lodcm.LODCMEnergySi.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.stop.html">pcdsdevices.lodcm.LODCMEnergySi.stop</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.summary.html">pcdsdevices.lodcm.LODCMEnergySi.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.to_pseudo_tuple.html">pcdsdevices.lodcm.LODCMEnergySi.to_pseudo_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.to_real_tuple.html">pcdsdevices.lodcm.LODCMEnergySi.to_real_tuple</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.trigger.html">pcdsdevices.lodcm.LODCMEnergySi.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.tweak.html">pcdsdevices.lodcm.LODCMEnergySi.tweak</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.umv.html">pcdsdevices.lodcm.LODCMEnergySi.umv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.umvr.html">pcdsdevices.lodcm.LODCMEnergySi.umvr</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wait.html">pcdsdevices.lodcm.LODCMEnergySi.wait</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wm.html">pcdsdevices.lodcm.LODCMEnergySi.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wm_update.html">pcdsdevices.lodcm.LODCMEnergySi.wm_update</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimDiagnosticsTower.html">pcdsdevices.lodcm.SimDiagnosticsTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergyC.html">pcdsdevices.lodcm.SimEnergyC</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimEnergySi.html">pcdsdevices.lodcm.SimEnergySi</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimFirstTower.html">pcdsdevices.lodcm.SimFirstTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimLODCM.html">pcdsdevices.lodcm.SimLODCM</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.SimSecondTower.html">pcdsdevices.lodcm.SimSecondTower</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y1.html">pcdsdevices.lodcm.Y1</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.Y2.html">pcdsdevices.lodcm.Y2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.lodcm.YagLom.html">pcdsdevices.lodcm.YagLom</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.signal.html">pcdsdevices.signal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.sim.html">pcdsdevices.sim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.slits.html">pcdsdevices.slits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.timetool.html">pcdsdevices.timetool</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.utils.html">pcdsdevices.utils</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pcdsdevices.valve.html">pcdsdevices.valve</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">PCDS Devices</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../api.html">Full API</a> &raquo;</li>
+        
+          <li><a href="../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a> &raquo;</li>
+        
+      <li>pcdsdevices.lodcm.LODCMEnergySi</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/generated/generated/pcdsdevices.lodcm.LODCMEnergySi.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="pcdsdevices-lodcm-lodcmenergysi">
+<h1>pcdsdevices.lodcm.LODCMEnergySi<a class="headerlink" href="#pcdsdevices-lodcm-lodcmenergysi" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt id="pcdsdevices.lodcm.LODCMEnergySi">
+<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.lodcm.</span></code><code class="sig-name descname"><span class="pre">LODCMEnergySi</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.lodcm.LODCMEnergySi" title="Permalink to this definition">¶</a></dt>
+<dd><p>Energy calculations for the Si material.</p>
+<p>Assume material is ‘Si’ without checking if the crystal’s materials are
+aligned for both towers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – Epics base PV prefix.</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The name of this device.</p></li>
+</ul>
+</dd>
+</dl>
+<table class="colwidths-auto docutils align-default" id="id1">
+<caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
+<thead>
+<tr class="row-odd"><th class="head"><p>Attribute</p></th>
+<th class="head"><p>Class</p></th>
+<th class="head"><p>Suffix</p></th>
+<th class="head"><p>Docs</p></th>
+<th class="head"><p>Kind</p></th>
+<th class="head"><p>Notes</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>tower1 (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.lodcm.CrystalTower1.html#pcdsdevices.lodcm.CrystalTower1" title="pcdsdevices.lodcm.CrystalTower1"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower1</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._prefix}</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>tower2 (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.lodcm.CrystalTower2.html#pcdsdevices.lodcm.CrystalTower2" title="pcdsdevices.lodcm.CrystalTower2"><code class="xref py py-class docutils literal notranslate"><span class="pre">CrystalTower2</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._prefix}</span></code></p></td>
+<td></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>dr (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{self._hutch_prefix}:MON:MMS:19</span></code></p></td>
+<td><p>LOM Dia Theta</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>th1Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<td></td>
+<td><p>Th1 motor offset for Si [deg]</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>th2Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<td></td>
+<td><p>Th2 motor offset for Si [deg]</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>z1Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<td></td>
+<td><p>Z1 motor offset for Si [mm]</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>z2Si (FCpt)</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.epics_motor.OffsetMotor.html#pcdsdevices.epics_motor.OffsetMotor" title="pcdsdevices.epics_motor.OffsetMotor"><code class="xref py py-class docutils literal notranslate"><span class="pre">OffsetMotor</span></code></a></p></td>
+<td></td>
+<td><p>Z2 motor offset for Si [mm]</p></td>
+<td><p>normal</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>energy</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.pseudopos.PseudoSingleInterface.html#pcdsdevices.pseudopos.PseudoSingleInterface" title="pcdsdevices.pseudopos.PseudoSingleInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">PseudoSingleInterface</span></code></a></p></td>
+<td></td>
+<td></td>
+<td><p>hinted</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Methods</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html#pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry"><code class="xref py py-obj docutils literal notranslate"><span class="pre">calc_geometry</span></code></a>(energy[, material, reflection])</p></td>
+<td><p>Calculate the lom geometry.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.camonitor.html#pcdsdevices.lodcm.LODCMEnergySi.camonitor" title="pcdsdevices.lodcm.LODCMEnergySi.camonitor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">camonitor</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.check_single.html#pcdsdevices.lodcm.LODCMEnergySi.check_single" title="pcdsdevices.lodcm.LODCMEnergySi.check_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">check_single</span></code></a>(pseudo_single, single_pos)</p></td>
+<td><p>Check if a new position for a single pseudo positioner is valid</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.configure.html#pcdsdevices.lodcm.LODCMEnergySi.configure" title="pcdsdevices.lodcm.LODCMEnergySi.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
+<td><p>Configure the device for something during a run</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.describe.html#pcdsdevices.lodcm.LODCMEnergySi.describe" title="pcdsdevices.lodcm.LODCMEnergySi.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
+<td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.end_monitor_thread.html#pcdsdevices.lodcm.LODCMEnergySi.end_monitor_thread" title="pcdsdevices.lodcm.LODCMEnergySi.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
+<td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.camonitor.html#pcdsdevices.lodcm.LODCMEnergySi.camonitor" title="pcdsdevices.lodcm.LODCMEnergySi.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wm_update.html#pcdsdevices.lodcm.LODCMEnergySi.wm_update" title="pcdsdevices.lodcm.LODCMEnergySi.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.forward.html#pcdsdevices.lodcm.LODCMEnergySi.forward" title="pcdsdevices.lodcm.LODCMEnergySi.forward"><code class="xref py py-obj docutils literal notranslate"><span class="pre">forward</span></code></a>(pseudo_pos)</p></td>
+<td><p>Calculate a RealPosition from a given PseudoPosition.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get.html#pcdsdevices.lodcm.LODCMEnergySi.get" title="pcdsdevices.lodcm.LODCMEnergySi.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<td><p>Get the value of all components in the device</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_energy.html#pcdsdevices.lodcm.LODCMEnergySi.get_energy" title="pcdsdevices.lodcm.LODCMEnergySi.get_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_energy</span></code></a>([material, reflection])</p></td>
+<td><p>Get photon energy from first tower in keV.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.get_reflection.html#pcdsdevices.lodcm.LODCMEnergySi.get_reflection" title="pcdsdevices.lodcm.LODCMEnergySi.get_reflection"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_reflection</span></code></a>()</p></td>
+<td><p>Get the crystal reflection.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.inverse.html#pcdsdevices.lodcm.LODCMEnergySi.inverse" title="pcdsdevices.lodcm.LODCMEnergySi.inverse"><code class="xref py py-obj docutils literal notranslate"><span class="pre">inverse</span></code></a>(real_pos)</p></td>
+<td><p>Calculate a PseudoPosition from a given RealPosition.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.move.html#pcdsdevices.lodcm.LODCMEnergySi.move" title="pcdsdevices.lodcm.LODCMEnergySi.move"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Move to a specified position, optionally waiting for motion to complete.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.move_single.html#pcdsdevices.lodcm.LODCMEnergySi.move_single" title="pcdsdevices.lodcm.LODCMEnergySi.move_single"><code class="xref py py-obj docutils literal notranslate"><span class="pre">move_single</span></code></a>(pseudo, position, **kwargs)</p></td>
+<td><p>Move one PseudoSingle axis to a position</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mv.html#pcdsdevices.lodcm.LODCMEnergySi.mv" title="pcdsdevices.lodcm.LODCMEnergySi.mv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv</span></code></a>(position[, timeout, wait, log])</p></td>
+<td><p>Absolute move to a position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mv_ginput.html#pcdsdevices.lodcm.LODCMEnergySi.mv_ginput" title="pcdsdevices.lodcm.LODCMEnergySi.mv_ginput"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mv_ginput</span></code></a>([timeout])</p></td>
+<td><p>Moves to a location the user clicks on.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.mvr.html#pcdsdevices.lodcm.LODCMEnergySi.mvr" title="pcdsdevices.lodcm.LODCMEnergySi.mvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">mvr</span></code></a>(delta[, timeout, wait, log])</p></td>
+<td><p>Relative move from this position.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.read.html#pcdsdevices.lodcm.LODCMEnergySi.read" title="pcdsdevices.lodcm.LODCMEnergySi.read"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read</span></code></a>()</p></td>
+<td><p>Read data from the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.read_configuration.html#pcdsdevices.lodcm.LODCMEnergySi.read_configuration" title="pcdsdevices.lodcm.LODCMEnergySi.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
+<td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set.html#pcdsdevices.lodcm.LODCMEnergySi.set" title="pcdsdevices.lodcm.LODCMEnergySi.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position, **kwargs)</p></td>
+<td><p>Move to a new position asynchronously</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set_current_position.html#pcdsdevices.lodcm.LODCMEnergySi.set_current_position" title="pcdsdevices.lodcm.LODCMEnergySi.set_current_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_current_position</span></code></a>(position)</p></td>
+<td><p>Adjust all offsets so that the pseudo position matches the input.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.set_position.html#pcdsdevices.lodcm.LODCMEnergySi.set_position" title="pcdsdevices.lodcm.LODCMEnergySi.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
+<td><p>Alias for set_current_position.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.stop.html#pcdsdevices.lodcm.LODCMEnergySi.stop" title="pcdsdevices.lodcm.LODCMEnergySi.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<td><p>Stop the Device and all (instantiated) subdevices</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.summary.html#pcdsdevices.lodcm.LODCMEnergySi.summary" title="pcdsdevices.lodcm.LODCMEnergySi.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.to_pseudo_tuple.html#pcdsdevices.lodcm.LODCMEnergySi.to_pseudo_tuple" title="pcdsdevices.lodcm.LODCMEnergySi.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.to_real_tuple.html#pcdsdevices.lodcm.LODCMEnergySi.to_real_tuple" title="pcdsdevices.lodcm.LODCMEnergySi.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.trigger.html#pcdsdevices.lodcm.LODCMEnergySi.trigger" title="pcdsdevices.lodcm.LODCMEnergySi.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<td><p>Trigger the device and return status object.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.tweak.html#pcdsdevices.lodcm.LODCMEnergySi.tweak" title="pcdsdevices.lodcm.LODCMEnergySi.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<td><p>Control this motor using the arrow keys.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.umv.html#pcdsdevices.lodcm.LODCMEnergySi.umv" title="pcdsdevices.lodcm.LODCMEnergySi.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<td><p>Move to a position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.umvr.html#pcdsdevices.lodcm.LODCMEnergySi.umvr" title="pcdsdevices.lodcm.LODCMEnergySi.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wait.html#pcdsdevices.lodcm.LODCMEnergySi.wait" title="pcdsdevices.lodcm.LODCMEnergySi.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wm.html#pcdsdevices.lodcm.LODCMEnergySi.wm" title="pcdsdevices.lodcm.LODCMEnergySi.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<td><p>Get the mover’s current positon (where motor).</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergySi.wm_update.html#pcdsdevices.lodcm.LODCMEnergySi.wm_update" title="pcdsdevices.lodcm.LODCMEnergySi.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<td><p>Shows a live-updating motor position in the terminal.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Attributes</p>
+<table class="longtable docutils align-default">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">composite_egu</span></code></p></td>
+<td><p>The composite engineering units (EGU) from all PseudoSingles</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">concurrent</span></code></p></td>
+<td><p>If concurrent is set, motors will move concurrently (in parallel)</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">configuration_attrs</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">connected</span></code></p></td>
+<td><p>If the device is connected.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">egu</span></code></p></td>
+<td><p>The engineering units (EGU) for positions</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">high_limit</span></code></p></td>
+<td><p>All PseudoSingle high limits as a namedtuple</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">hints</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">limits</span></code></p></td>
+<td><p>All PseudoSingle limits as a namedtuple</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">low_limit</span></code></p></td>
+<td><p>All PseudoSingle low limits as a namedtuple</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
+<td><p>Whether or not the motor is moving</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<td><p>Pseudo motor position namedtuple</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">presets</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
+<td><p>Pseudo positioners instances in a namedtuple</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
+<td><p>Real motor position namedtuple</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
+<td><p>Real positioners instances in a namedtuple</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
+<td><p>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
+<td><p>Last commanded target positions</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<td><p>Amount of time to wait before to considering a motion as failed</p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="generated/pcdsdevices.lodcm.LODCMEnergySi.calc_geometry.html" class="btn btn-neutral float-right" title="pcdsdevices.lodcm.LODCMEnergySi.calc_geometry" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html" class="btn btn-neutral float-left" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, SLAC National Accelerator Laboratory.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

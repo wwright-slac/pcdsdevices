@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.wait\_energy
+=======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.wait_energy

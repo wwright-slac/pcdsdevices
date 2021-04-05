@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceDevice.get
+======================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceDevice.get

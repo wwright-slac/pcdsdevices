@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalROEditMD.get
+==========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalROEditMD.get

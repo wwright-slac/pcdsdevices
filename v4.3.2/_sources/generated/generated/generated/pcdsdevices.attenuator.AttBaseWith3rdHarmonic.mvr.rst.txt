@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBaseWith3rdHarmonic.mvr
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBaseWith3rdHarmonic.mvr

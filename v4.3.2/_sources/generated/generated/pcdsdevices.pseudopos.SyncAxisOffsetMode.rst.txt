@@ -1,0 +1,26 @@
+pcdsdevices.pseudopos.SyncAxisOffsetMode
+========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: SyncAxisOffsetMode
+
+   
+   
+   
+
+
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SyncAxisOffsetMode.AUTO_FIXED
+       ~SyncAxisOffsetMode.STATIC_FIXED
+    
+    

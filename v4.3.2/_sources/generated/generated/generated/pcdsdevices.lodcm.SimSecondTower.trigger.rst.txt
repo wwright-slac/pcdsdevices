@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimSecondTower.trigger
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimSecondTower.trigger

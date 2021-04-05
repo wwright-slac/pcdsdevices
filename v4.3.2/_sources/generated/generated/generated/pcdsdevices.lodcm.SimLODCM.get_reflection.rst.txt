@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.get\_reflection
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.get_reflection

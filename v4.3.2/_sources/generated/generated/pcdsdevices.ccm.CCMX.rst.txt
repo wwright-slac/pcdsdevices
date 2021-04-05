@@ -1,0 +1,135 @@
+pcdsdevices.ccm.CCMX
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMX
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  sync
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxis`
+   
+       *  -  down (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.down_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMX.camonitor
+       ~CCMX.check_single
+       ~CCMX.configure
+       ~CCMX.consistency_warning
+       ~CCMX.describe
+       ~CCMX.end_monitor_thread
+       ~CCMX.fix_sync
+       ~CCMX.forward
+       ~CCMX.forward_single
+       ~CCMX.get
+       ~CCMX.inverse
+       ~CCMX.inverse_single
+       ~CCMX.is_synced
+       ~CCMX.move
+       ~CCMX.move_single
+       ~CCMX.mv
+       ~CCMX.mv_ginput
+       ~CCMX.mvr
+       ~CCMX.read
+       ~CCMX.read_configuration
+       ~CCMX.set
+       ~CCMX.set_current_position
+       ~CCMX.set_position
+       ~CCMX.stop
+       ~CCMX.summary
+       ~CCMX.to_pseudo_tuple
+       ~CCMX.to_real_tuple
+       ~CCMX.trigger
+       ~CCMX.tweak
+       ~CCMX.umv
+       ~CCMX.umvr
+       ~CCMX.wait
+       ~CCMX.wm
+       ~CCMX.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMX.composite_egu
+       ~CCMX.concurrent
+       ~CCMX.configuration_attrs
+       ~CCMX.connected
+       ~CCMX.default_offset
+       ~CCMX.default_scale
+       ~CCMX.egu
+       ~CCMX.fix_sync_keep_still
+       ~CCMX.high_limit
+       ~CCMX.hints
+       ~CCMX.kind
+       ~CCMX.limits
+       ~CCMX.low_limit
+       ~CCMX.moving
+       ~CCMX.offset_mode
+       ~CCMX.offsets
+       ~CCMX.position
+       ~CCMX.presets
+       ~CCMX.pseudo_positioners
+       ~CCMX.real_position
+       ~CCMX.real_positioners
+       ~CCMX.scales
+       ~CCMX.sequential
+       ~CCMX.settle_time
+       ~CCMX.sync_limits
+       ~CCMX.target
+       ~CCMX.timeout
+       ~CCMX.warn_deadband
+       ~CCMX.warn_inconsistent
+    
+    

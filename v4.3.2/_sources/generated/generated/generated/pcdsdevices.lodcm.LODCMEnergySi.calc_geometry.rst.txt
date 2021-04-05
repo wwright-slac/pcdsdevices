@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergySi.calc\_geometry
+==============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergySi.calc_geometry

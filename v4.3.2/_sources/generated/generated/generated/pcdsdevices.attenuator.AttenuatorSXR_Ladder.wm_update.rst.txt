@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorSXR\_Ladder.wm\_update
+=======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorSXR_Ladder.wm_update

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower2.stop
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower2.stop

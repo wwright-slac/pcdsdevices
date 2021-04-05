@@ -1,0 +1,6 @@
+pcdsdevices.slits.ExitSlits.read
+================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: ExitSlits.read

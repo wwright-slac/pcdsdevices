@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.tweak\_parallel
+==========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.tweak_parallel

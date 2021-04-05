@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalBaseEditMD.get
+============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalBaseEditMD.get

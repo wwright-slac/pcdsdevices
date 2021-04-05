@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.e\_to\_k
+==============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.e_to_k

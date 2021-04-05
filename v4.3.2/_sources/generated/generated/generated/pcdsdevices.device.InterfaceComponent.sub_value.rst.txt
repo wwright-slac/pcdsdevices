@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceComponent.sub\_value
+================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceComponent.sub_value

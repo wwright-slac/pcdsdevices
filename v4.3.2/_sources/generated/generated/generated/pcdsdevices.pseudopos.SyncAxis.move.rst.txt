@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.move
+===================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.move

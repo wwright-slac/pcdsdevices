@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor.end\_monitor\_thread
+=====================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayMotor.end_monitor_thread

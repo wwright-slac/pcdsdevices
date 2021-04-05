@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.get\_reflection
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.get_reflection
