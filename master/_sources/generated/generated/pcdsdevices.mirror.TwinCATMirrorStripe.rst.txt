@@ -1,0 +1,173 @@
+pcdsdevices.mirror.TwinCATMirrorStripe
+======================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. autoclass:: TwinCATMirrorStripe
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``:GET_RBV``
+          -  Setpoint and readback for TwinCAT state position.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  error
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERR``
+          -  True if we have an error.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  error_id
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRID``
+          -  Error code.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  error_message
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:ERRMSG``
+          -  Error message
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  busy
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:BUSY``
+          -  True if we have an ongoing move.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  done
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:DONE``
+          -  True if we completed the last move.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  reset_cmd
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:RESET``
+          -  Command to reset an error.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  config
+          -  :class:`~pcdsdevices.state.TwinCATStateConfigAll`
+          -  
+          -  Configuration of state positions, deltas, etc.
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  arb_enable
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:PMPS:ARB:ENABLE``
+          -  Enables PMPS pre-emptive protections. This can be disabled to fall back on fast-fault-only protections. Disabling this will also clear arbiter requests.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+       *  -  maint_mode
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:PMPS:MAINT``
+          -  If this is on, we trip a fast fault and then can move the motor freely. Useful for debugging motion issues.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~TwinCATMirrorStripe.camonitor
+       ~TwinCATMirrorStripe.check_inserted
+       ~TwinCATMirrorStripe.check_removed
+       ~TwinCATMirrorStripe.check_transmission
+       ~TwinCATMirrorStripe.configure
+       ~TwinCATMirrorStripe.describe
+       ~TwinCATMirrorStripe.end_monitor_thread
+       ~TwinCATMirrorStripe.get
+       ~TwinCATMirrorStripe.get_state
+       ~TwinCATMirrorStripe.insert
+       ~TwinCATMirrorStripe.move
+       ~TwinCATMirrorStripe.mv
+       ~TwinCATMirrorStripe.read
+       ~TwinCATMirrorStripe.read_configuration
+       ~TwinCATMirrorStripe.remove
+       ~TwinCATMirrorStripe.set
+       ~TwinCATMirrorStripe.stop
+       ~TwinCATMirrorStripe.summary
+       ~TwinCATMirrorStripe.trigger
+       ~TwinCATMirrorStripe.wait
+       ~TwinCATMirrorStripe.wm
+       ~TwinCATMirrorStripe.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TwinCATMirrorStripe.configuration_attrs
+       ~TwinCATMirrorStripe.connected
+       ~TwinCATMirrorStripe.egu
+       ~TwinCATMirrorStripe.high_limit
+       ~TwinCATMirrorStripe.hints
+       ~TwinCATMirrorStripe.in_states
+       ~TwinCATMirrorStripe.kind
+       ~TwinCATMirrorStripe.limits
+       ~TwinCATMirrorStripe.low_limit
+       ~TwinCATMirrorStripe.moving
+       ~TwinCATMirrorStripe.out_states
+       ~TwinCATMirrorStripe.position
+       ~TwinCATMirrorStripe.settle_time
+       ~TwinCATMirrorStripe.states_list
+       ~TwinCATMirrorStripe.timeout
+       ~TwinCATMirrorStripe.transmission
+    
+    

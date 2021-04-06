@@ -19,7 +19,7 @@ pcdsdevices.mirror.CoatingState
           - Notes
    
        *  -  coating
-          -  :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          -  :class:`~pcdsdevices.mirror.TwinCATMirrorStripe`
           -  ``:COATING:STATE``
           -  Control of the coating states via saved positions.
           -  hinted
