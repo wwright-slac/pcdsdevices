@@ -21,6 +21,7 @@
       LusiSlitPositioner
       LusiSlits
       PowerSlits
+      SimLusiSlits
       SlitPositioner
       Slits
       SlitsBase

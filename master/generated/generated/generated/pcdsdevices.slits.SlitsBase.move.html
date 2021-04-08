@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.slits.SlitsBase.move &mdash; PCDS Devices 4.3.2+8.g26042aa documentation</title>
+  <title>pcdsdevices.slits.SlitsBase.move &mdash; PCDS Devices 4.3.2+20.g170294f documentation</title>
   
 
   
@@ -64,7 +64,7 @@
             
             
               <div class="version">
-                4.3.2+8.g26042aa
+                4.3.2+20.g170294f
               </div>
             
           
@@ -146,6 +146,7 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.LusiSlitPositioner.html">pcdsdevices.slits.LusiSlitPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.LusiSlits.html">pcdsdevices.slits.LusiSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.PowerSlits.html">pcdsdevices.slits.PowerSlits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.SimLusiSlits.html">pcdsdevices.slits.SimLusiSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.SlitPositioner.html">pcdsdevices.slits.SlitPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.slits.Slits.html">pcdsdevices.slits.Slits</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.slits.SlitsBase.html">pcdsdevices.slits.SlitsBase</a><ul class="current">
@@ -253,15 +254,16 @@
 <h1>pcdsdevices.slits.SlitsBase.move<a class="headerlink" href="#pcdsdevices-slits-slitsbase-move" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt id="pcdsdevices.slits.SlitsBase.move">
-<code class="sig-prename descclassname"><span class="pre">SlitsBase.</span></code><code class="sig-name descname"><span class="pre">move</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">size</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moved_cb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitsBase.move" title="Permalink to this definition">¶</a></dt>
-<dd><p>Set the dimensions of the width/height of the gap to width paramater.</p>
+<code class="sig-prename descclassname"><span class="pre">SlitsBase.</span></code><code class="sig-name descname"><span class="pre">move</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">width</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">height</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moved_cb</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.slits.SlitsBase.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set the dimensions of the width/height of the slits gap.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><em>tuple of float</em>) – Target size for slits in both x and y axis. Either specify as a
-tuple for a rectangular aperture, <code class="docutils literal notranslate"><span class="pre">(width,</span> <span class="pre">height)</span></code>, or set both
-with single floating point value to use a square opening.</p></li>
-<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, block until move is completed.</p></li>
+<li><p><strong>size</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><em>tuple of float</em>) – Target size for slits in both x and y axis. If a square gap is
+desired, a single value can be entered. Otherwise, the width and
+height can both be entered, either as separate arguments or as a
+tuple.</p></li>
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, block until move is completed. Defaults to <a class="reference external" href="https://docs.python.org/3/library/constants.html#False" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">False</span></code></a>.</p></li>
 <li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>optional</em>) – Maximum time for the motion. If <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> is given, the default value
 of <code class="xref any docutils literal notranslate"><span class="pre">xwidth</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">ywidth</span></code> positioners is used.</p></li>
 <li><p><strong>moved_cb</strong> (<em>callable</em><em>, </em><em>optional</em>) – Function to be run when the operation finishes. This callback
