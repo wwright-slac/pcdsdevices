@@ -4764,6 +4764,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/811-Slit_interface_changes_and_precision_in_status_printout.rst.txt
 master/_sources/upcoming_release_notes/812-mirror-states.rst.txt
 master/_sources/upcoming_release_notes/814-rtdsk0-mpas.rst.txt
+master/_sources/upcoming_release_notes/816-lightpath-stuff.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -9610,5 +9611,6 @@ master/upcoming_changes.html
 master/upcoming_release_notes/811-Slit_interface_changes_and_precision_in_status_printout.html
 master/upcoming_release_notes/812-mirror-states.html
 master/upcoming_release_notes/814-rtdsk0-mpas.html
+master/upcoming_release_notes/816-lightpath-stuff.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
