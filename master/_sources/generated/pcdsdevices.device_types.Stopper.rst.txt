@@ -28,21 +28,21 @@
        *  -  open_limit
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:OPEN``
-          -  
+          -  Reads 1 if the stopper is out, at the open limit.
           -  normal
           -  
    
        *  -  closed_limit
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:CLOSE``
-          -  
+          -  Reads 1 if the stopper is in, at the closed limit.
           -  normal
           -  
    
        *  -  command
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``:CMD``
-          -  
+          -  Put here to command a stopper move.
           -  omitted
           -  
    

@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.check\_transmission
-=============================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.check_transmission

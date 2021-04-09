@@ -1,6 +1,0 @@
-pcdsdevices.valve.Stopper.check\_inserted
-=========================================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: Stopper.check_inserted

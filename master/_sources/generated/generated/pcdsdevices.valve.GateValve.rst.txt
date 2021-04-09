@@ -23,28 +23,28 @@ pcdsdevices.valve.GateValve
           -  
           -  
           -  hinted
-          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+          -  Inherited from :class:`~pcdsdevices.stopper.Stopper`
    
        *  -  open_limit
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:OPN_DI``
           -  
           -  normal
-          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+          -  Inherited from :class:`~pcdsdevices.stopper.Stopper`
    
        *  -  closed_limit
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:CLS_DI``
           -  
           -  normal
-          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+          -  Inherited from :class:`~pcdsdevices.stopper.Stopper`
    
        *  -  command
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``:OPN_SW``
           -  
           -  omitted
-          -  Inherited from :class:`~pcdsdevices.valve.Stopper`
+          -  Inherited from :class:`~pcdsdevices.stopper.Stopper`
    
        *  -  interlock
           -  :class:`~ophyd.signal.EpicsSignalRO`
