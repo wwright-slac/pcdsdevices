@@ -4713,6 +4713,7 @@ master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/722-add_confirm_tag.rst.txt
 master/_sources/upcoming_release_notes/811-Slit_interface_changes_and_precision_in_status_printout.rst.txt
 master/_sources/upcoming_release_notes/812-mirror-states.rst.txt
 master/_sources/upcoming_release_notes/814-rtdsk0-mpas.rst.txt
@@ -9513,6 +9514,7 @@ master/searchindex.js
 master/sim_types.html
 master/tab.html
 master/upcoming_changes.html
+master/upcoming_release_notes/722-add_confirm_tag.html
 master/upcoming_release_notes/811-Slit_interface_changes_and_precision_in_status_printout.html
 master/upcoming_release_notes/812-mirror-states.html
 master/upcoming_release_notes/814-rtdsk0-mpas.html
