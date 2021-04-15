@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxesBase.set\_current\_position
+=========================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxesBase.set_current_position

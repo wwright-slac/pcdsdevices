@@ -1,0 +1,6 @@
+pcdsdevices.mirror.TwinCATMirrorStripe.insert
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: TwinCATMirrorStripe.insert

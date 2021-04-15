@@ -1,0 +1,6 @@
+pcdsdevices.device.ObjectComponent.create\_component
+====================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: ObjectComponent.create_component

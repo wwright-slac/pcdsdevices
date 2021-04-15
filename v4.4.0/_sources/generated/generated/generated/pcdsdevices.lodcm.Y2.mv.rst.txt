@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.mv
+=======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.mv

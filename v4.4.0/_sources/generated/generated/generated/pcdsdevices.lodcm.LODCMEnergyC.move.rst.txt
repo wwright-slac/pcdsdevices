@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.move
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.move

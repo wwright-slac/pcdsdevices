@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.IMS.set\_low\_limit
+=============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: IMS.set_low_limit

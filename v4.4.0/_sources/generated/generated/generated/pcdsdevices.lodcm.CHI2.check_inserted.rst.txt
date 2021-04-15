@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.check\_inserted
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.check_inserted

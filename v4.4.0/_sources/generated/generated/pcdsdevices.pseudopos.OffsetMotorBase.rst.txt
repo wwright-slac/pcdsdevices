@@ -1,0 +1,113 @@
+pcdsdevices.pseudopos.OffsetMotorBase
+=====================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. autoclass:: OffsetMotorBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pseudo_motor
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~OffsetMotorBase.camonitor
+       ~OffsetMotorBase.check_single
+       ~OffsetMotorBase.configure
+       ~OffsetMotorBase.describe
+       ~OffsetMotorBase.end_monitor_thread
+       ~OffsetMotorBase.forward
+       ~OffsetMotorBase.get
+       ~OffsetMotorBase.inverse
+       ~OffsetMotorBase.move
+       ~OffsetMotorBase.move_single
+       ~OffsetMotorBase.mv
+       ~OffsetMotorBase.mv_ginput
+       ~OffsetMotorBase.mvr
+       ~OffsetMotorBase.read
+       ~OffsetMotorBase.read_configuration
+       ~OffsetMotorBase.set
+       ~OffsetMotorBase.set_current_position
+       ~OffsetMotorBase.set_position
+       ~OffsetMotorBase.stop
+       ~OffsetMotorBase.summary
+       ~OffsetMotorBase.to_pseudo_tuple
+       ~OffsetMotorBase.to_real_tuple
+       ~OffsetMotorBase.trigger
+       ~OffsetMotorBase.tweak
+       ~OffsetMotorBase.umv
+       ~OffsetMotorBase.umvr
+       ~OffsetMotorBase.wait
+       ~OffsetMotorBase.wm
+       ~OffsetMotorBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~OffsetMotorBase.composite_egu
+       ~OffsetMotorBase.concurrent
+       ~OffsetMotorBase.configuration_attrs
+       ~OffsetMotorBase.connected
+       ~OffsetMotorBase.egu
+       ~OffsetMotorBase.high_limit
+       ~OffsetMotorBase.hints
+       ~OffsetMotorBase.kind
+       ~OffsetMotorBase.limits
+       ~OffsetMotorBase.low_limit
+       ~OffsetMotorBase.motor
+       ~OffsetMotorBase.moving
+       ~OffsetMotorBase.position
+       ~OffsetMotorBase.presets
+       ~OffsetMotorBase.pseudo_positioners
+       ~OffsetMotorBase.real_position
+       ~OffsetMotorBase.real_positioners
+       ~OffsetMotorBase.sequential
+       ~OffsetMotorBase.settle_time
+       ~OffsetMotorBase.target
+       ~OffsetMotorBase.timeout
+    
+    

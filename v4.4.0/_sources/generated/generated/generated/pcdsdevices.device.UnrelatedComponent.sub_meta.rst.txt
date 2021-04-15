@@ -1,0 +1,6 @@
+pcdsdevices.device.UnrelatedComponent.sub\_meta
+===============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UnrelatedComponent.sub_meta

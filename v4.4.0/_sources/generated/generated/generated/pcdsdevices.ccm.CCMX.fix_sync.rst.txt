@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMX.fix\_sync
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMX.fix_sync

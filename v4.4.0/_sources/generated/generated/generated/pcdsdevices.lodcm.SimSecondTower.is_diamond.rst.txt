@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimSecondTower.is\_diamond
+============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimSecondTower.is_diamond

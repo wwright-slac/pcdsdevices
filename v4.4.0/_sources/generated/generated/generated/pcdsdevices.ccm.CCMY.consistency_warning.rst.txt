@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMY.consistency\_warning
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMY.consistency_warning

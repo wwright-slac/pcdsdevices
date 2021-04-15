@@ -1,0 +1,6 @@
+pcdsdevices.mirror.CoatingState.stop
+====================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: CoatingState.stop

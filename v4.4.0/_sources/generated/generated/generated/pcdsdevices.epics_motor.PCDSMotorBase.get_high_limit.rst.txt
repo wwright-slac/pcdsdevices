@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.PCDSMotorBase.get\_high\_limit
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: PCDSMotorBase.get_high_limit

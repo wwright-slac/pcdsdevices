@@ -1,0 +1,6 @@
+pcdsdevices.mirror.CoatingState.get
+===================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: CoatingState.get

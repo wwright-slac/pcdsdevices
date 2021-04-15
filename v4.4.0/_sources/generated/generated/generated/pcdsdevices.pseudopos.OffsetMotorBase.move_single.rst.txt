@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.OffsetMotorBase.move\_single
+==================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: OffsetMotorBase.move_single
