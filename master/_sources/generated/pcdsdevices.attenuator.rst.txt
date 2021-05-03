@@ -24,6 +24,7 @@
       :toctree: generated
    
       AT1K4
+      AT2K2
       AT2L0
       AttBase
       AttBaseWith3rdHarmonic

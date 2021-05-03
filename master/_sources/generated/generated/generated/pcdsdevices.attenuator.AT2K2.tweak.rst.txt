@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT2K2.tweak
+==================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT2K2.tweak
