@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.SyncAxis &mdash; PCDS Devices 4.4.0+2.g868d215 documentation</title>
+  <title>pcdsdevices.pseudopos.SyncAxis &mdash; PCDS Devices 4.4.0+5.g01da5f8 documentation</title>
   
 
   
@@ -30,6 +30,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -64,7 +65,7 @@
             
             
               <div class="version">
-                4.4.0+2.g868d215
+                4.4.0+5.g01da5f8
               </div>
             
           
@@ -269,8 +270,8 @@
   <div class="section" id="pcdsdevices-pseudopos-syncaxis">
 <h1>pcdsdevices.pseudopos.SyncAxis<a class="headerlink" href="#pcdsdevices-pseudopos-syncaxis" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="pcdsdevices.pseudopos.SyncAxis">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.pseudopos.</span></code><code class="sig-name descname"><span class="pre">SyncAxis</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.pseudopos.</span></span><span class="sig-name descname"><span class="pre">SyncAxis</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis" title="Permalink to this definition">¶</a></dt>
 <dd><p>Pseudomotor class for moving motors with linear relationships.</p>
 <p>This will move all axes in a configurable coordinated way. It handles all
 cases where the motor coordination can be described by a simple scale and
@@ -295,8 +296,8 @@ will pick them up and include them correctly into the coordinated move.</p>
 move.</p>
 <p>See the following attributes for a dive into the settings and internals:</p>
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.offset_mode">
-<code class="sig-name descname"><span class="pre">offset_mode</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.offset_mode" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.offset_mode">
+<span class="sig-name descname"><span class="pre">offset_mode</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.offset_mode" title="Permalink to this definition">¶</a></dt>
 <dd><p>Selection of how and when offsets are interpreted. The default is
 <code class="docutils literal notranslate"><span class="pre">STATIC_FIXED</span></code>, which means “define static offsets at class creation
 and never change them.” Also available is <code class="docutils literal notranslate"><span class="pre">AUTO_FIXED</span></code>, which means
@@ -310,8 +311,8 @@ and do not change them during this session.”</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.offsets">
-<code class="sig-name descname"><span class="pre">offsets</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.offsets" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.offsets">
+<span class="sig-name descname"><span class="pre">offsets</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.offsets" title="Permalink to this definition">¶</a></dt>
 <dd><p>Specification of which offset to use for each motor. The mapping should
 be from attribute name to offset value. Any omitted motor will have an
 offset of <code class="docutils literal notranslate"><span class="pre">default_offset</span></code>.</p>
@@ -323,8 +324,8 @@ offset of <code class="docutils literal notranslate"><span class="pre">default_o
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.default_offset">
-<code class="sig-name descname"><span class="pre">default_offset</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.default_offset" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.default_offset">
+<span class="sig-name descname"><span class="pre">default_offset</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.default_offset" title="Permalink to this definition">¶</a></dt>
 <dd><p>Any motor omitted from <code class="docutils literal notranslate"><span class="pre">offsets</span></code> will have this number assigned to
 them and its offset. The default value is 0.</p>
 <dl class="field-list simple">
@@ -335,8 +336,8 @@ them and its offset. The default value is 0.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.scales">
-<code class="sig-name descname"><span class="pre">scales</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.scales" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.scales">
+<span class="sig-name descname"><span class="pre">scales</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.scales" title="Permalink to this definition">¶</a></dt>
 <dd><p>Specification of which scale to use for each motor. The mapping should
 be from attribute name to scale value. Any omitted motor will have a
 scale of <code class="docutils literal notranslate"><span class="pre">default_scale</span></code>.</p>
@@ -348,8 +349,8 @@ scale of <code class="docutils literal notranslate"><span class="pre">default_sc
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.default_scale">
-<code class="sig-name descname"><span class="pre">default_scale</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.default_scale" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.default_scale">
+<span class="sig-name descname"><span class="pre">default_scale</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.default_scale" title="Permalink to this definition">¶</a></dt>
 <dd><p>Any motor omitted from <code class="docutils literal notranslate"><span class="pre">scales</span></code> will have this number assigned to
 them and its scale. The default value is 1.</p>
 <dl class="field-list simple">
@@ -360,8 +361,8 @@ them and its scale. The default value is 1.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.warn_inconsistent">
-<code class="sig-name descname"><span class="pre">warn_inconsistent</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.warn_inconsistent" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.warn_inconsistent">
+<span class="sig-name descname"><span class="pre">warn_inconsistent</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.warn_inconsistent" title="Permalink to this definition">¶</a></dt>
 <dd><p>If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> (the default), warn the user if the real motors are not in a
 consistent position. An inconsistent position, or desync, can occur if
 a motor in the <a class="reference internal" href="#pcdsdevices.pseudopos.SyncAxis" title="pcdsdevices.pseudopos.SyncAxis"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SyncAxis</span></code></a> group has been moved manually.</p>
@@ -373,8 +374,8 @@ a motor in the <a class="reference internal" href="#pcdsdevices.pseudopos.SyncAx
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.warn_deadband">
-<code class="sig-name descname"><span class="pre">warn_deadband</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.warn_deadband" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.warn_deadband">
+<span class="sig-name descname"><span class="pre">warn_deadband</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.warn_deadband" title="Permalink to this definition">¶</a></dt>
 <dd><p>How far out of sync our motors can be before we consider ourselves to
 be in an inconsistent, or desync state. Defaults to 0.001.</p>
 <dl class="field-list simple">
@@ -385,8 +386,8 @@ be in an inconsistent, or desync state. Defaults to 0.001.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.fix_sync_keep_still">
-<code class="sig-name descname"><span class="pre">fix_sync_keep_still</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.fix_sync_keep_still" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.fix_sync_keep_still">
+<span class="sig-name descname"><span class="pre">fix_sync_keep_still</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.fix_sync_keep_still" title="Permalink to this definition">¶</a></dt>
 <dd><p>Which motor to keep still when we recover the position using the
 <a class="reference internal" href="generated/pcdsdevices.pseudopos.SyncAxis.fix_sync.html#pcdsdevices.pseudopos.SyncAxis.fix_sync" title="pcdsdevices.pseudopos.SyncAxis.fix_sync"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">fix_sync</span></code></a> method. We will assume one motor (this motor) is in the
 correct position and move all the other motors to their correct
@@ -400,8 +401,8 @@ motor that we do not move.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.pseudopos.SyncAxis.sync_limits">
-<code class="sig-name descname"><span class="pre">sync_limits</span></code><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.sync_limits" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.sync_limits">
+<span class="sig-name descname"><span class="pre">sync_limits</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.sync_limits" title="Permalink to this definition">¶</a></dt>
 <dd><p>Limits to apply to the sync axis. Set these if you don’t think your
 real motor limits are sufficient to protect your application.
 e.g. sync_limits = (-100, 100) will bind the <a class="reference internal" href="#pcdsdevices.pseudopos.SyncAxis" title="pcdsdevices.pseudopos.SyncAxis"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SyncAxis</span></code></a> to move between

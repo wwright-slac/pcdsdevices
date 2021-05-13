@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 4.4.0+2.g868d215 documentation</title>
+  <title>pcdsdevices.state.PVStatePositioner &mdash; PCDS Devices 4.4.0+5.g01da5f8 documentation</title>
   
 
   
@@ -30,6 +30,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -64,7 +65,7 @@
             
             
               <div class="version">
-                4.4.0+2.g868d215
+                4.4.0+5.g01da5f8
               </div>
             
           
@@ -250,8 +251,8 @@
   <div class="section" id="pcdsdevices-state-pvstatepositioner">
 <h1>pcdsdevices.state.PVStatePositioner<a class="headerlink" href="#pcdsdevices-state-pvstatepositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="pcdsdevices.state.PVStatePositioner">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.state.</span></code><code class="sig-name descname"><span class="pre">PVStatePositioner</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.state.PVStatePositioner">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.state.</span></span><span class="sig-name descname"><span class="pre">PVStatePositioner</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>A <a class="reference internal" href="pcdsdevices.state.StatePositioner.html#pcdsdevices.state.StatePositioner" title="pcdsdevices.state.StatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">StatePositioner</span></code></a> that combines a set of PVs into a single state.</p>
 <p>The user can provide state logic and a move method if desired.</p>
 <dl class="field-list simple">
@@ -266,8 +267,8 @@ in-progress move as failed.</p></li>
 </dd>
 </dl>
 <dl class="py attribute">
-<dt id="pcdsdevices.state.PVStatePositioner._state_logic">
-<code class="sig-name descname"><span class="pre">_state_logic</span></code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.state.PVStatePositioner._state_logic">
+<span class="sig-name descname"><span class="pre">_state_logic</span></span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="Permalink to this definition">¶</a></dt>
 <dd><p>Information dictionaries for each state of the following form:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
   <span class="s2">&quot;signal_name&quot;</span><span class="p">:</span> <span class="p">{</span>
@@ -292,8 +293,8 @@ requirements, replace the <a class="reference internal" href="generated/pcdsdevi
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
-<code class="sig-name descname"><span class="pre">_state_logic_mode</span></code><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.state.PVStatePositioner._state_logic_mode">
+<span class="sig-name descname"><span class="pre">_state_logic_mode</span></span><a class="headerlink" href="#pcdsdevices.state.PVStatePositioner._state_logic_mode" title="Permalink to this definition">¶</a></dt>
 <dd><p>This should be ‘ALL’ (default) if the pvs need to agree for a valid
 state. You can set this to ‘FIRST’ instead to use the first state
 found while traversing the <a class="reference internal" href="#pcdsdevices.state.PVStatePositioner._state_logic" title="pcdsdevices.state.PVStatePositioner._state_logic"><code class="xref any py py-attr docutils literal notranslate"><span class="pre">_state_logic</span></code></a> tree. This means an earlier

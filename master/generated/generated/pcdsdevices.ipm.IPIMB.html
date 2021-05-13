@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 4.4.0+2.g868d215 documentation</title>
+  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 4.4.0+5.g01da5f8 documentation</title>
   
 
   
@@ -30,6 +30,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -64,7 +65,7 @@
             
             
               <div class="version">
-                4.4.0+2.g868d215
+                4.4.0+5.g01da5f8
               </div>
             
           
@@ -243,8 +244,8 @@
   <div class="section" id="pcdsdevices-ipm-ipimb">
 <h1>pcdsdevices.ipm.IPIMB<a class="headerlink" href="#pcdsdevices-ipm-ipimb" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="pcdsdevices.ipm.IPIMB">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.ipm.</span></code><code class="sig-name descname"><span class="pre">IPIMB</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix_ioc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.ipm.IPIMB">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.ipm.</span></span><span class="sig-name descname"><span class="pre">IPIMB</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">prefix_ioc</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB" title="Permalink to this definition">¶</a></dt>
 <dd><p>Class for an IPIMB box.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
@@ -256,32 +257,32 @@
 </dd>
 </dl>
 <dl class="py attribute">
-<dt id="pcdsdevices.ipm.IPIMB.isum">
-<code class="sig-name descname"><span class="pre">isum</span></code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.isum" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.ipm.IPIMB.isum">
+<span class="sig-name descname"><span class="pre">isum</span></span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.isum" title="Permalink to this definition">¶</a></dt>
 <dd><p>Total sum of all 4 channels (i0 if standard IPM device).</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt>
-<code class="sig-name descname"><span class="pre">xpos,</span> <span class="pre">ypos</span></code></dt>
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">xpos,</span> <span class="pre">ypos</span></span></dt>
 <dd><p>X&amp;Y beam position position calculated from 4 channels.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.ipm.IPIMB.bias">
-<code class="sig-name descname"><span class="pre">bias</span></code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.bias" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.ipm.IPIMB.bias">
+<span class="sig-name descname"><span class="pre">bias</span></span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.bias" title="Permalink to this definition">¶</a></dt>
 <dd><p>Voltage applied to diodes in V.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.ipm.IPIMB.delay">
-<code class="sig-name descname"><span class="pre">delay</span></code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.delay" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.ipm.IPIMB.delay">
+<span class="sig-name descname"><span class="pre">delay</span></span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.delay" title="Permalink to this definition">¶</a></dt>
 <dd><p>Delay of trigger relative to input EVR.</p>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.ipm.IPIMB.evr_channel">
-<code class="sig-name descname"><span class="pre">evr_channel</span></code><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.evr_channel" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.ipm.IPIMB.evr_channel">
+<span class="sig-name descname"><span class="pre">evr_channel</span></span><a class="headerlink" href="#pcdsdevices.ipm.IPIMB.evr_channel" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger component.</p>
 </dd></dl>
 

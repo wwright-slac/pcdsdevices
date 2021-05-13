@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 4.4.0+2.g868d215 documentation</title>
+  <title>pcdsdevices.inout.InOutPositioner &mdash; PCDS Devices 4.4.0+5.g01da5f8 documentation</title>
   
 
   
@@ -30,6 +30,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
         <script src="../../_static/jquery.js"></script>
         <script src="../../_static/underscore.js"></script>
         <script src="../../_static/doctools.js"></script>
@@ -64,7 +65,7 @@
             
             
               <div class="version">
-                4.4.0+2.g868d215
+                4.4.0+5.g01da5f8
               </div>
             
           
@@ -252,8 +253,8 @@
   <div class="section" id="pcdsdevices-inout-inoutpositioner">
 <h1>pcdsdevices.inout.InOutPositioner<a class="headerlink" href="#pcdsdevices-inout-inoutpositioner" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="pcdsdevices.inout.InOutPositioner">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.inout.</span></code><code class="sig-name descname"><span class="pre">InOutPositioner</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.inout.InOutPositioner">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.inout.</span></span><span class="sig-name descname"><span class="pre">InOutPositioner</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner" title="Permalink to this definition">¶</a></dt>
 <dd><p>Base class for a device that can be inserted and removed from the beam.</p>
 <p>This must be subclassed and given a <code class="xref py py-attr docutils literal notranslate"><span class="pre">state</span></code> signal to work properly.
 You should also update the <code class="xref py py-attr docutils literal notranslate"><span class="pre">states_list</span></code>, <a class="reference internal" href="#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a>, and
@@ -273,8 +274,8 @@ in-progress move as failed.</p></li>
 </dd>
 </dl>
 <dl class="py attribute">
-<dt id="pcdsdevices.inout.InOutPositioner.in_states">
-<code class="sig-name descname"><span class="pre">in_states</span></code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.in_states" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.inout.InOutPositioner.in_states">
+<span class="sig-name descname"><span class="pre">in_states</span></span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.in_states" title="Permalink to this definition">¶</a></dt>
 <dd><p>State values that should be considered ‘IN’.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -284,8 +285,8 @@ in-progress move as failed.</p></li>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.inout.InOutPositioner.out_states">
-<code class="sig-name descname"><span class="pre">out_states</span></code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.out_states" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.inout.InOutPositioner.out_states">
+<span class="sig-name descname"><span class="pre">out_states</span></span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner.out_states" title="Permalink to this definition">¶</a></dt>
 <dd><p>State values that should be considered ‘OUT’.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -295,8 +296,8 @@ in-progress move as failed.</p></li>
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.inout.InOutPositioner._transmission">
-<code class="sig-name descname"><span class="pre">_transmission</span></code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._transmission" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.inout.InOutPositioner._transmission">
+<span class="sig-name descname"><span class="pre">_transmission</span></span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._transmission" title="Permalink to this definition">¶</a></dt>
 <dd><p>Mapping from each state to the transmission ratio. This should be a
 number from 0 to 1. Default values will be 1 (full transmission) for
 <a class="reference internal" href="#pcdsdevices.inout.InOutPositioner.out_states" title="pcdsdevices.inout.InOutPositioner.out_states"><code class="xref py py-attr docutils literal notranslate"><span class="pre">out_states</span></code></a>, 0 (full block) for <a class="reference internal" href="#pcdsdevices.inout.InOutPositioner.in_states" title="pcdsdevices.inout.InOutPositioner.in_states"><code class="xref py py-attr docutils literal notranslate"><span class="pre">in_states</span></code></a>,
@@ -309,8 +310,8 @@ and <code class="xref py py-const docutils literal notranslate"><span class="pre
 </dd></dl>
 
 <dl class="py attribute">
-<dt id="pcdsdevices.inout.InOutPositioner._in_if_not_out">
-<code class="sig-name descname"><span class="pre">_in_if_not_out</span></code><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._in_if_not_out" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.inout.InOutPositioner._in_if_not_out">
+<span class="sig-name descname"><span class="pre">_in_if_not_out</span></span><a class="headerlink" href="#pcdsdevices.inout.InOutPositioner._in_if_not_out" title="Permalink to this definition">¶</a></dt>
 <dd><p>If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a>, shorthand for saying “All states not unknown and
 not in out_states belong in the in_states list.”</p>
 <dl class="field-list simple">

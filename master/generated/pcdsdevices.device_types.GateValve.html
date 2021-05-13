@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.GateValve &mdash; PCDS Devices 4.4.0+2.g868d215 documentation</title>
+  <title>pcdsdevices.device_types.GateValve &mdash; PCDS Devices 4.4.0+5.g01da5f8 documentation</title>
   
 
   
@@ -30,6 +30,7 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
         <script src="../_static/jquery.js"></script>
         <script src="../_static/underscore.js"></script>
         <script src="../_static/doctools.js"></script>
@@ -64,7 +65,7 @@
             
             
               <div class="version">
-                4.4.0+2.g868d215
+                4.4.0+5.g01da5f8
               </div>
             
           
@@ -244,8 +245,8 @@
   <div class="section" id="pcdsdevices-device-types-gatevalve">
 <h1>pcdsdevices.device_types.GateValve<a class="headerlink" href="#pcdsdevices-device-types-gatevalve" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
-<dt id="pcdsdevices.device_types.GateValve">
-<em class="property"><span class="pre">class</span> </em><code class="sig-prename descclassname"><span class="pre">pcdsdevices.device_types.</span></code><code class="sig-name descname"><span class="pre">GateValve</span></code><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.GateValve" title="Permalink to this definition">¶</a></dt>
+<dt class="sig sig-object py" id="pcdsdevices.device_types.GateValve">
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.device_types.</span></span><span class="sig-name descname"><span class="pre">GateValve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.device_types.GateValve" title="Permalink to this definition">¶</a></dt>
 <dd><p>Basic Vacuum Valve.</p>
 <p>This inherits directly from <code class="xref any docutils literal notranslate"><span class="pre">.Stopper</span></code> but adds additional logic to check
 the state of the interlock before requesting motion. This is not a safety
@@ -269,28 +270,28 @@ some elements still need to be carried over.</p>
 <td></td>
 <td></td>
 <td><p>hinted</p></td>
-<td><p>Inherited from <code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.device_types.Stopper.html#pcdsdevices.device_types.Stopper" title="pcdsdevices.stopper.Stopper"><code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>open_limit</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:OPN_DI</span></code></p></td>
 <td></td>
 <td><p>normal</p></td>
-<td><p>Inherited from <code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.device_types.Stopper.html#pcdsdevices.device_types.Stopper" title="pcdsdevices.stopper.Stopper"><code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>closed_limit</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:CLS_DI</span></code></p></td>
 <td></td>
 <td><p>normal</p></td>
-<td><p>Inherited from <code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.device_types.Stopper.html#pcdsdevices.device_types.Stopper" title="pcdsdevices.stopper.Stopper"><code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>command</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:OPN_SW</span></code></p></td>
 <td></td>
 <td><p>omitted</p></td>
-<td><p>Inherited from <code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.device_types.Stopper.html#pcdsdevices.device_types.Stopper" title="pcdsdevices.stopper.Stopper"><code class="xref py py-class docutils literal notranslate"><span class="pre">Stopper</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>interlock</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code></p></td>
