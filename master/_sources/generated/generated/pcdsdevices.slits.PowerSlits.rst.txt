@@ -103,28 +103,28 @@ pcdsdevices.slits.PowerSlits
           -  Inherited from :class:`~pcdsdevices.slits.BeckhoffSlits`
    
        *  -  top
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:TOP``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.slits.BeckhoffSlits`
    
        *  -  bottom
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:BOTTOM``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.slits.BeckhoffSlits`
    
        *  -  north
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:NORTH``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.slits.BeckhoffSlits`
    
        *  -  south
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:SOUTH``
           -  
           -  normal

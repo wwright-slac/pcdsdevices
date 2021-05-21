@@ -19,21 +19,21 @@ pcdsdevices.mirror.FFMirror
           - Notes
    
        *  -  x
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:X``
           -  
           -  hinted
           -  
    
        *  -  y
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:Y``
           -  
           -  hinted
           -  
    
        *  -  pitch
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:PITCH``
           -  
           -  hinted

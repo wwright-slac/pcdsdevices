@@ -19,21 +19,21 @@ pcdsdevices.mirror.XOffsetMirrorSwitch
           - Notes
    
        *  -  x_up
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XUP``
           -  Xupstream master [um]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  pitch
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:PITCH``
           -  Pitch stepper and piezo axes [urad]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  x_dwn
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XDWN``
           -  Xdwnstream slave axis [um]
           -  config
@@ -117,14 +117,14 @@ pcdsdevices.mirror.XOffsetMirrorSwitch
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  y_left
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YLEFT``
           -  Yleft master axis [um]
           -  hinted
           -  
    
        *  -  y_right
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YRIGHT``
           -  Yright slave axis [um]
           -  config

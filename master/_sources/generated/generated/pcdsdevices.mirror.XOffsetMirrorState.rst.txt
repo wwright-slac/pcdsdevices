@@ -26,42 +26,42 @@ pcdsdevices.mirror.XOffsetMirrorState
           -  Inherited from :class:`~pcdsdevices.mirror.CoatingState`
    
        *  -  y_up
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YUP``
           -  Yupstream master axis [um]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  x_up
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XUP``
           -  Xupstream master [um]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  pitch
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:PITCH``
           -  Pitch stepper and piezo axes [urad]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  bender
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:BENDER``
           -  Bender motor [um]
           -  normal
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  y_dwn
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YDWN``
           -  Ydwnstream slave axis [um]
           -  config
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  x_dwn
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XDWN``
           -  Xdwnstream slave axis [um]
           -  config

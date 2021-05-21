@@ -1,0 +1,6 @@
+pcdsdevices.device.UpdateComponent.maybe\_add\_prefix
+=====================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UpdateComponent.maybe_add_prefix

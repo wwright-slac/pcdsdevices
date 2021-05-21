@@ -22,6 +22,7 @@
       :toctree: generated
    
       BeckhoffAxis
+      BeckhoffAxisNoOffset
       BeckhoffAxisPLC
       EpicsMotorInterface
       IMS

@@ -25,6 +25,7 @@
       InterfaceDevice
       ObjectComponent
       UnrelatedComponent
+      UpdateComponent
    
    
 

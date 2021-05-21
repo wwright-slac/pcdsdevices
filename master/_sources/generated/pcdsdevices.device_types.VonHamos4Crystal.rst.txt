@@ -19,14 +19,14 @@
           - Notes
    
        *  -  f (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``{self._prefix_focus}``
           -  
           -  normal
           -  Inherited from :class:`~pcdsdevices.spectrometer.VonHamosFE`
    
        *  -  e (FCpt)
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``{self._prefix_energy}``
           -  
           -  normal

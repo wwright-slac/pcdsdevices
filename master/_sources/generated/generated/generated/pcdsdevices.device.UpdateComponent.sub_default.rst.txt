@@ -1,0 +1,6 @@
+pcdsdevices.device.UpdateComponent.sub\_default
+===============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UpdateComponent.sub_default

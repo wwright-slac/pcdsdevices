@@ -26,35 +26,35 @@ pcdsdevices.slits.ExitSlits
           -  
    
        *  -  yag_motor
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YAG``
           -  Direct control of the Yag Stack motor.
           -  normal
           -  
    
        *  -  pitch_motor
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:PITCH``
           -  Direct control of the slits assembly pitch  motor.
           -  normal
           -  
    
        *  -  vert_motor
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:VERT``
           -  Direct control of the slits assembly vertical motor.
           -  normal
           -  
    
        *  -  roll_motor
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:ROLL``
           -  Direct control of the slits assembly roll motor.
           -  normal
           -  
    
        *  -  gap_motor
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:GAP``
           -  Direct control of the slits gap  motor.
           -  normal

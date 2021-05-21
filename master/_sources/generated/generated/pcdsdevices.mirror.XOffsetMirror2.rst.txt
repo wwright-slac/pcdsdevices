@@ -19,35 +19,35 @@ pcdsdevices.mirror.XOffsetMirror2
           - Notes
    
        *  -  y_up
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YUP``
           -  Yupstream master axis [um]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  x_up
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XUP``
           -  Xupstream master [um]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  pitch
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:PITCH``
           -  Pitch stepper and piezo axes [urad]
           -  hinted
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  y_dwn
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:YDWN``
           -  Ydwnstream slave axis [um]
           -  config
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  x_dwn
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:XDWN``
           -  Xdwnstream slave axis [um]
           -  config
@@ -131,14 +131,14 @@ pcdsdevices.mirror.XOffsetMirror2
           -  Inherited from :class:`~pcdsdevices.mirror.XOffsetMirror`
    
        *  -  bender_us
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:US``
           -  
           -  hinted
           -  
    
        *  -  bender_ds
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:DS``
           -  
           -  hinted

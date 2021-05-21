@@ -103,28 +103,28 @@ pcdsdevices.slits.BeckhoffSlits
           -  
    
        *  -  top
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:TOP``
           -  
           -  normal
           -  
    
        *  -  bottom
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:BOTTOM``
           -  
           -  normal
           -  
    
        *  -  north
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:NORTH``
           -  
           -  normal
           -  
    
        *  -  south
-          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
           -  ``:MMS:SOUTH``
           -  
           -  normal
