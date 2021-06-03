@@ -4780,12 +4780,6 @@ master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
-master/_sources/upcoming_release_notes/827-add_at2k2.rst.txt
-master/_sources/upcoming_release_notes/830-kmono-threshold.rst.txt
-master/_sources/upcoming_release_notes/833-mrco_motion.rst.txt
-master/_sources/upcoming_release_notes/834-slit-dmov.rst.txt
-master/_sources/upcoming_release_notes/835-st1k2-pps.rst.txt
-master/_sources/upcoming_release_notes/mirror-offsets-829.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -9648,11 +9642,5 @@ master/searchindex.js
 master/sim_types.html
 master/tab.html
 master/upcoming_changes.html
-master/upcoming_release_notes/827-add_at2k2.html
-master/upcoming_release_notes/830-kmono-threshold.html
-master/upcoming_release_notes/833-mrco_motion.html
-master/upcoming_release_notes/834-slit-dmov.html
-master/upcoming_release_notes/835-st1k2-pps.html
-master/upcoming_release_notes/mirror-offsets-829.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
