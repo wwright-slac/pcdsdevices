@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeEpicsSignalROEditMD.sim\_set\_enum\_strs
+===============================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeEpicsSignalROEditMD.sim_set_enum_strs

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.get\_material
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.get_material

@@ -1,0 +1,144 @@
+pcdsdevices.ccm.CCMY
+====================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMY
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  sync
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  omitted
+          -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxis`
+   
+       *  -  down (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.down_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up_north (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_north_prefix}``
+          -  
+          -  normal
+          -  
+   
+       *  -  up_south (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self.up_south_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMY.camonitor
+       ~CCMY.check_single
+       ~CCMY.configure
+       ~CCMY.consistency_warning
+       ~CCMY.describe
+       ~CCMY.end_monitor_thread
+       ~CCMY.fix_sync
+       ~CCMY.forward
+       ~CCMY.forward_single
+       ~CCMY.get
+       ~CCMY.inverse
+       ~CCMY.inverse_single
+       ~CCMY.is_synced
+       ~CCMY.move
+       ~CCMY.move_single
+       ~CCMY.mv
+       ~CCMY.mv_ginput
+       ~CCMY.mvr
+       ~CCMY.read
+       ~CCMY.read_configuration
+       ~CCMY.set
+       ~CCMY.set_current_position
+       ~CCMY.set_position
+       ~CCMY.stop
+       ~CCMY.summary
+       ~CCMY.to_pseudo_tuple
+       ~CCMY.to_real_tuple
+       ~CCMY.trigger
+       ~CCMY.tweak
+       ~CCMY.umv
+       ~CCMY.umvr
+       ~CCMY.wait
+       ~CCMY.wm
+       ~CCMY.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMY.composite_egu
+       ~CCMY.concurrent
+       ~CCMY.configuration_attrs
+       ~CCMY.connected
+       ~CCMY.default_offset
+       ~CCMY.default_scale
+       ~CCMY.egu
+       ~CCMY.fix_sync_keep_still
+       ~CCMY.high_limit
+       ~CCMY.hints
+       ~CCMY.kind
+       ~CCMY.limits
+       ~CCMY.low_limit
+       ~CCMY.moving
+       ~CCMY.offset_mode
+       ~CCMY.offsets
+       ~CCMY.position
+       ~CCMY.presets
+       ~CCMY.pseudo_positioners
+       ~CCMY.real_position
+       ~CCMY.real_positioners
+       ~CCMY.scales
+       ~CCMY.sequential
+       ~CCMY.settle_time
+       ~CCMY.sync_limits
+       ~CCMY.target
+       ~CCMY.timeout
+       ~CCMY.warn_deadband
+       ~CCMY.warn_inconsistent
+    
+    

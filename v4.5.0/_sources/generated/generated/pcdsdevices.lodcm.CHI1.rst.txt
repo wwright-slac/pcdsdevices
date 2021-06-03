@@ -1,0 +1,101 @@
+pcdsdevices.lodcm.CHI1
+======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: CHI1
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CHI1.camonitor
+       ~CHI1.check_inserted
+       ~CHI1.check_removed
+       ~CHI1.check_transmission
+       ~CHI1.configure
+       ~CHI1.describe
+       ~CHI1.end_monitor_thread
+       ~CHI1.get
+       ~CHI1.get_state
+       ~CHI1.insert
+       ~CHI1.move
+       ~CHI1.mv
+       ~CHI1.read
+       ~CHI1.read_configuration
+       ~CHI1.remove
+       ~CHI1.set
+       ~CHI1.stop
+       ~CHI1.summary
+       ~CHI1.trigger
+       ~CHI1.wait
+       ~CHI1.wm
+       ~CHI1.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CHI1.configuration_attrs
+       ~CHI1.connected
+       ~CHI1.egu
+       ~CHI1.high_limit
+       ~CHI1.hints
+       ~CHI1.in_states
+       ~CHI1.kind
+       ~CHI1.limits
+       ~CHI1.low_limit
+       ~CHI1.moving
+       ~CHI1.out_states
+       ~CHI1.position
+       ~CHI1.settle_time
+       ~CHI1.states_list
+       ~CHI1.timeout
+       ~CHI1.transmission
+    
+    

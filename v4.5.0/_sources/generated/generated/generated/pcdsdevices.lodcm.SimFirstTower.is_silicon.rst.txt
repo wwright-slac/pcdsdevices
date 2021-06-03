@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimFirstTower.is\_silicon
+===========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimFirstTower.is_silicon

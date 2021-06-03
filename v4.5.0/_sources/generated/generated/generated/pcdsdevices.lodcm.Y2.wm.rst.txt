@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.wm
+=======================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.wm

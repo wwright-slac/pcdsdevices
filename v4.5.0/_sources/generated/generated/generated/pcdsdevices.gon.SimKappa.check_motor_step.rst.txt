@@ -1,0 +1,6 @@
+pcdsdevices.gon.SimKappa.check\_motor\_step
+===========================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SimKappa.check_motor_step

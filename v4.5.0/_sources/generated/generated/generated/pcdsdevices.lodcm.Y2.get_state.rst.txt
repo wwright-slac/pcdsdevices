@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Y2.get\_state
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Y2.get_state

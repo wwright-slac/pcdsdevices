@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimFirstTower.stop
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimFirstTower.stop

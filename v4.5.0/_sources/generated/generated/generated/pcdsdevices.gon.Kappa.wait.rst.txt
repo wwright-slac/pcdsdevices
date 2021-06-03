@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.wait
+==========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.wait

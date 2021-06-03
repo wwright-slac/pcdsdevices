@@ -1,0 +1,39 @@
+pcdsdevices.device.UpdateComponent
+==================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. autoclass:: UpdateComponent
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~UpdateComponent.create_component
+       ~UpdateComponent.make_docstring
+       ~UpdateComponent.maybe_add_prefix
+       ~UpdateComponent.sub_default
+       ~UpdateComponent.sub_meta
+       ~UpdateComponent.sub_value
+       ~UpdateComponent.subscriptions
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~UpdateComponent.is_device
+       ~UpdateComponent.is_signal
+    
+    

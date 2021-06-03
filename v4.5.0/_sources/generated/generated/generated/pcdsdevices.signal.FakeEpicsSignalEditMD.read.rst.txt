@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeEpicsSignalEditMD.read
+=============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeEpicsSignalEditMD.read

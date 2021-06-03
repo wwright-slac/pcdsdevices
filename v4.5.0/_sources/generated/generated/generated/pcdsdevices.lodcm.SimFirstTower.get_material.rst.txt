@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimFirstTower.get\_material
+=============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimFirstTower.get_material

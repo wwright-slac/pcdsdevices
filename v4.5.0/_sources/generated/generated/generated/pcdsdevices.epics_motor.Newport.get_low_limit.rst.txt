@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.get\_low\_limit
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.get_low_limit

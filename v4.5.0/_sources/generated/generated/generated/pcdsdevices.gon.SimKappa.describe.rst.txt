@@ -1,0 +1,6 @@
+pcdsdevices.gon.SimKappa.describe
+=================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SimKappa.describe

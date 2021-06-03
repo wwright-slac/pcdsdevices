@@ -1,0 +1,34 @@
+pcdsdevices.attenuator.LadderBladeState
+=======================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: LadderBladeState
+
+   
+   
+   
+
+
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~LadderBladeState.In_01
+       ~LadderBladeState.In_02
+       ~LadderBladeState.In_03
+       ~LadderBladeState.In_04
+       ~LadderBladeState.In_05
+       ~LadderBladeState.In_06
+       ~LadderBladeState.In_07
+       ~LadderBladeState.In_08
+       ~LadderBladeState.Moving
+       ~LadderBladeState.Out
+    
+    

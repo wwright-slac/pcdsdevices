@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor.stop
+=====================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayMotor.stop

@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalBaseEditMD.set\_defaults
+======================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalBaseEditMD.set_defaults

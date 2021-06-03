@@ -1,0 +1,6 @@
+pcdsdevices.device.UpdateComponent.sub\_value
+=============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UpdateComponent.sub_value

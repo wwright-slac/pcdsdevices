@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower1.get\_reflection
+===============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower1.get_reflection

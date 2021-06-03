@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeEpicsSignalEditMD.trigger
+================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeEpicsSignalEditMD.trigger
