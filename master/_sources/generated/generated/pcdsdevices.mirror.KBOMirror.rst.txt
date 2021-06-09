@@ -83,7 +83,7 @@ pcdsdevices.mirror.KBOMirror
    
        *  -  bender_ds_enc_rms
           -  :class:`~pcdsdevices.signal.PytmcSignal`
-          -  ``:ENC:BENDER:DS:RMS``
+          -  ``:ENC:BEND:DS:RMS``
           -  
           -  normal
           -  
