@@ -111,7 +111,6 @@ pcdsdevices.slits.BeckhoffSlitPositioner
        ~BeckhoffSlitPositioner.low_limit
        ~BeckhoffSlitPositioner.moving
        ~BeckhoffSlitPositioner.position
-       ~BeckhoffSlitPositioner.presets
        ~BeckhoffSlitPositioner.put_complete
        ~BeckhoffSlitPositioner.settle_time
        ~BeckhoffSlitPositioner.stop_signal

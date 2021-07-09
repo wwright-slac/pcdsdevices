@@ -148,7 +148,6 @@ pcdsdevices.mirror.OMMotor
        ~OMMotor.low_limit
        ~OMMotor.moving
        ~OMMotor.position
-       ~OMMotor.presets
        ~OMMotor.put_complete
        ~OMMotor.settle_time
        ~OMMotor.stop_signal

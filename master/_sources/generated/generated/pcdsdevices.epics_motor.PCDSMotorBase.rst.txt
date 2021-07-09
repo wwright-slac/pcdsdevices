@@ -297,7 +297,6 @@ pcdsdevices.epics\_motor.PCDSMotorBase
        ~PCDSMotorBase.moving
        ~PCDSMotorBase.position
        ~PCDSMotorBase.precision
-       ~PCDSMotorBase.presets
        ~PCDSMotorBase.settle_time
        ~PCDSMotorBase.timeout
        ~PCDSMotorBase.tolerated_alarm

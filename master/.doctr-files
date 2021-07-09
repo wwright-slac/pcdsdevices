@@ -4800,6 +4800,7 @@ master/_sources/upcoming_release_notes/843-vfs-veto.rst.txt
 master/_sources/upcoming_release_notes/844-im2k0-setup.rst.txt
 master/_sources/upcoming_release_notes/845-scp-cleanup.rst.txt
 master/_sources/upcoming_release_notes/846-pmgr-ci.rst.txt
+master/_sources/upcoming_release_notes/847-init-preset.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -9682,5 +9683,6 @@ master/upcoming_release_notes/843-vfs-veto.html
 master/upcoming_release_notes/844-im2k0-setup.html
 master/upcoming_release_notes/845-scp-cleanup.html
 master/upcoming_release_notes/846-pmgr-ci.html
+master/upcoming_release_notes/847-init-preset.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

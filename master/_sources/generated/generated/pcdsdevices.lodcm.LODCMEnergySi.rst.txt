@@ -157,7 +157,6 @@ pcdsdevices.lodcm.LODCMEnergySi
        ~LODCMEnergySi.low_limit
        ~LODCMEnergySi.moving
        ~LODCMEnergySi.position
-       ~LODCMEnergySi.presets
        ~LODCMEnergySi.pseudo_positioners
        ~LODCMEnergySi.real_position
        ~LODCMEnergySi.real_positioners

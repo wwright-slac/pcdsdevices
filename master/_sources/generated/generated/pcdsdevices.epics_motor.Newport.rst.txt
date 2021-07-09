@@ -306,7 +306,6 @@ pcdsdevices.epics\_motor.Newport
        ~Newport.moving
        ~Newport.position
        ~Newport.precision
-       ~Newport.presets
        ~Newport.settle_time
        ~Newport.timeout
        ~Newport.tolerated_alarm

@@ -109,7 +109,6 @@
        ~DelayNewport.low_limit
        ~DelayNewport.moving
        ~DelayNewport.position
-       ~DelayNewport.presets
        ~DelayNewport.pseudo_positioners
        ~DelayNewport.real_position
        ~DelayNewport.real_positioners

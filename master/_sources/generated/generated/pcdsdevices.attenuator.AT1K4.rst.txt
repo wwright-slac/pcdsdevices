@@ -141,7 +141,6 @@ pcdsdevices.attenuator.AT1K4
        ~AT1K4.low_limit
        ~AT1K4.moving
        ~AT1K4.position
-       ~AT1K4.presets
        ~AT1K4.put_complete
        ~AT1K4.readback
        ~AT1K4.setpoint

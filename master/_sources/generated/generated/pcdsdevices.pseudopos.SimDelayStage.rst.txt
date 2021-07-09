@@ -109,7 +109,6 @@ pcdsdevices.pseudopos.SimDelayStage
        ~SimDelayStage.low_limit
        ~SimDelayStage.moving
        ~SimDelayStage.position
-       ~SimDelayStage.presets
        ~SimDelayStage.pseudo_positioners
        ~SimDelayStage.real_position
        ~SimDelayStage.real_positioners

@@ -109,7 +109,6 @@ pcdsdevices.epics\_motor.OffsetMotor
        ~OffsetMotor.low_limit
        ~OffsetMotor.moving
        ~OffsetMotor.position
-       ~OffsetMotor.presets
        ~OffsetMotor.pseudo_positioners
        ~OffsetMotor.real_position
        ~OffsetMotor.real_positioners

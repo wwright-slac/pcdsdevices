@@ -284,7 +284,6 @@ pcdsdevices.ccm.CCMPico
        ~CCMPico.moving
        ~CCMPico.position
        ~CCMPico.precision
-       ~CCMPico.presets
        ~CCMPico.settle_time
        ~CCMPico.timeout
        ~CCMPico.tolerated_alarm

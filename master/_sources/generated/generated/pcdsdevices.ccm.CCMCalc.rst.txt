@@ -136,7 +136,6 @@ pcdsdevices.ccm.CCMCalc
        ~CCMCalc.low_limit
        ~CCMCalc.moving
        ~CCMCalc.position
-       ~CCMCalc.presets
        ~CCMCalc.pseudo_positioners
        ~CCMCalc.real_position
        ~CCMCalc.real_positioners

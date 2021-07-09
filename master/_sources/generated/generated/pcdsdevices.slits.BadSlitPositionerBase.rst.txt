@@ -95,7 +95,6 @@ pcdsdevices.slits.BadSlitPositionerBase
        ~BadSlitPositionerBase.low_limit
        ~BadSlitPositionerBase.moving
        ~BadSlitPositionerBase.position
-       ~BadSlitPositionerBase.presets
        ~BadSlitPositionerBase.put_complete
        ~BadSlitPositionerBase.settle_time
        ~BadSlitPositionerBase.stop_signal

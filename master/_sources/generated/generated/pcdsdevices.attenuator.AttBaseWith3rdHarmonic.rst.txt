@@ -222,7 +222,6 @@ pcdsdevices.attenuator.AttBaseWith3rdHarmonic
        ~AttBaseWith3rdHarmonic.low_limit
        ~AttBaseWith3rdHarmonic.moving
        ~AttBaseWith3rdHarmonic.position
-       ~AttBaseWith3rdHarmonic.presets
        ~AttBaseWith3rdHarmonic.put_complete
        ~AttBaseWith3rdHarmonic.settle_time
        ~AttBaseWith3rdHarmonic.stop_signal

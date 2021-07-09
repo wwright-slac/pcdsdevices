@@ -101,7 +101,6 @@ pcdsdevices.pseudopos.SyncAxis
        ~SyncAxis.offset_mode
        ~SyncAxis.offsets
        ~SyncAxis.position
-       ~SyncAxis.presets
        ~SyncAxis.pseudo_positioners
        ~SyncAxis.real_position
        ~SyncAxis.real_positioners

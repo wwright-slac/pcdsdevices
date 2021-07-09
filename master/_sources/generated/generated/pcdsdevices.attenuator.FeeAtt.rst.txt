@@ -242,7 +242,6 @@ pcdsdevices.attenuator.FeeAtt
        ~FeeAtt.moving
        ~FeeAtt.num_att
        ~FeeAtt.position
-       ~FeeAtt.presets
        ~FeeAtt.put_complete
        ~FeeAtt.settle_time
        ~FeeAtt.stop_signal

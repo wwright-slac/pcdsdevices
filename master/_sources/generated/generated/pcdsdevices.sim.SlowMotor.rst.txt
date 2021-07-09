@@ -83,7 +83,6 @@ pcdsdevices.sim.SlowMotor
        ~SlowMotor.low_limit
        ~SlowMotor.moving
        ~SlowMotor.position
-       ~SlowMotor.presets
        ~SlowMotor.settle_time
        ~SlowMotor.timeout
     

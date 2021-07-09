@@ -128,7 +128,6 @@ pcdsdevices.ccm.CCMY
        ~CCMY.offset_mode
        ~CCMY.offsets
        ~CCMY.position
-       ~CCMY.presets
        ~CCMY.pseudo_positioners
        ~CCMY.real_position
        ~CCMY.real_positioners

@@ -35,10 +35,4 @@ pcdsdevices.interface.FltMvInterface
 
     
     
-    .. rubric:: Attributes
-
-    .. autosummary::
-    
-       ~FltMvInterface.presets
-    
     

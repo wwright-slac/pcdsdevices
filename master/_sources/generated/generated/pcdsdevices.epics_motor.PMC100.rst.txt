@@ -297,7 +297,6 @@ pcdsdevices.epics\_motor.PMC100
        ~PMC100.moving
        ~PMC100.position
        ~PMC100.precision
-       ~PMC100.presets
        ~PMC100.settle_time
        ~PMC100.timeout
        ~PMC100.tolerated_alarm

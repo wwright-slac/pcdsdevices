@@ -114,7 +114,6 @@ pcdsdevices.epics\_motor.SmarActOpenLoopPositioner
        ~SmarActOpenLoopPositioner.low_limit
        ~SmarActOpenLoopPositioner.moving
        ~SmarActOpenLoopPositioner.position
-       ~SmarActOpenLoopPositioner.presets
        ~SmarActOpenLoopPositioner.put_complete
        ~SmarActOpenLoopPositioner.settle_time
        ~SmarActOpenLoopPositioner.stop_signal

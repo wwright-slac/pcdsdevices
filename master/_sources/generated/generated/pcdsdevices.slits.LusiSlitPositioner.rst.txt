@@ -103,7 +103,6 @@ pcdsdevices.slits.LusiSlitPositioner
        ~LusiSlitPositioner.low_limit
        ~LusiSlitPositioner.moving
        ~LusiSlitPositioner.position
-       ~LusiSlitPositioner.presets
        ~LusiSlitPositioner.put_complete
        ~LusiSlitPositioner.settle_time
        ~LusiSlitPositioner.stop_signal

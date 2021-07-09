@@ -168,7 +168,6 @@ pcdsdevices.attenuator.AttBase
        ~AttBase.low_limit
        ~AttBase.moving
        ~AttBase.position
-       ~AttBase.presets
        ~AttBase.put_complete
        ~AttBase.settle_time
        ~AttBase.stop_signal

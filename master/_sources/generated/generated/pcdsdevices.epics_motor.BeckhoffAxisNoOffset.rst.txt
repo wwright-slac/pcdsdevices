@@ -303,7 +303,6 @@ pcdsdevices.epics\_motor.BeckhoffAxisNoOffset
        ~BeckhoffAxisNoOffset.moving
        ~BeckhoffAxisNoOffset.position
        ~BeckhoffAxisNoOffset.precision
-       ~BeckhoffAxisNoOffset.presets
        ~BeckhoffAxisNoOffset.settle_time
        ~BeckhoffAxisNoOffset.timeout
        ~BeckhoffAxisNoOffset.tolerated_alarm

@@ -368,7 +368,6 @@
        ~IMS.moving
        ~IMS.position
        ~IMS.precision
-       ~IMS.presets
        ~IMS.settle_time
        ~IMS.timeout
        ~IMS.tolerated_alarm

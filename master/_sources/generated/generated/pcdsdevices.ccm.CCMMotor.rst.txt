@@ -105,7 +105,6 @@ pcdsdevices.ccm.CCMMotor
        ~CCMMotor.low_limit
        ~CCMMotor.moving
        ~CCMMotor.position
-       ~CCMMotor.presets
        ~CCMMotor.put_complete
        ~CCMMotor.rtol
        ~CCMMotor.settle_time

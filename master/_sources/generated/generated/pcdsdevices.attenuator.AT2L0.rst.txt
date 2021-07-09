@@ -276,7 +276,6 @@ pcdsdevices.attenuator.AT2L0
        ~AT2L0.low_limit
        ~AT2L0.moving
        ~AT2L0.position
-       ~AT2L0.presets
        ~AT2L0.put_complete
        ~AT2L0.readback
        ~AT2L0.setpoint

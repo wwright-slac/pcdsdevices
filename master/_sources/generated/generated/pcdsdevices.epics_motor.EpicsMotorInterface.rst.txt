@@ -284,7 +284,6 @@ pcdsdevices.epics\_motor.EpicsMotorInterface
        ~EpicsMotorInterface.moving
        ~EpicsMotorInterface.position
        ~EpicsMotorInterface.precision
-       ~EpicsMotorInterface.presets
        ~EpicsMotorInterface.settle_time
        ~EpicsMotorInterface.timeout
        ~EpicsMotorInterface.tolerated_alarm

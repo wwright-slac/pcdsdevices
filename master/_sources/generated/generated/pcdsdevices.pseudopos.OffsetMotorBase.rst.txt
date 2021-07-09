@@ -101,7 +101,6 @@ pcdsdevices.pseudopos.OffsetMotorBase
        ~OffsetMotorBase.motor
        ~OffsetMotorBase.moving
        ~OffsetMotorBase.position
-       ~OffsetMotorBase.presets
        ~OffsetMotorBase.pseudo_positioners
        ~OffsetMotorBase.real_position
        ~OffsetMotorBase.real_positioners

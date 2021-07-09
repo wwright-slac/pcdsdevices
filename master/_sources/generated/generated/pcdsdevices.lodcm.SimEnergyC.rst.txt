@@ -157,7 +157,6 @@ pcdsdevices.lodcm.SimEnergyC
        ~SimEnergyC.low_limit
        ~SimEnergyC.moving
        ~SimEnergyC.position
-       ~SimEnergyC.presets
        ~SimEnergyC.pseudo_positioners
        ~SimEnergyC.real_position
        ~SimEnergyC.real_positioners

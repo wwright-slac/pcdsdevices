@@ -101,7 +101,6 @@ pcdsdevices.pseudopos.DelayBase
        ~DelayBase.motor
        ~DelayBase.moving
        ~DelayBase.position
-       ~DelayBase.presets
        ~DelayBase.pseudo_positioners
        ~DelayBase.real_position
        ~DelayBase.real_positioners

@@ -141,7 +141,6 @@ pcdsdevices.attenuator.AT2K2
        ~AT2K2.low_limit
        ~AT2K2.moving
        ~AT2K2.position
-       ~AT2K2.presets
        ~AT2K2.put_complete
        ~AT2K2.readback
        ~AT2K2.setpoint

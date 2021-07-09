@@ -118,7 +118,6 @@ pcdsdevices.epics\_motor.OffsetIMSWithPreset
        ~OffsetIMSWithPreset.low_limit
        ~OffsetIMSWithPreset.moving
        ~OffsetIMSWithPreset.position
-       ~OffsetIMSWithPreset.presets
        ~OffsetIMSWithPreset.pseudo_positioners
        ~OffsetIMSWithPreset.real_position
        ~OffsetIMSWithPreset.real_positioners

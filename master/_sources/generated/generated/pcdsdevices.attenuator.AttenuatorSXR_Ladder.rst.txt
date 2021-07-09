@@ -141,7 +141,6 @@ pcdsdevices.attenuator.AttenuatorSXR\_Ladder
        ~AttenuatorSXR_Ladder.low_limit
        ~AttenuatorSXR_Ladder.moving
        ~AttenuatorSXR_Ladder.position
-       ~AttenuatorSXR_Ladder.presets
        ~AttenuatorSXR_Ladder.put_complete
        ~AttenuatorSXR_Ladder.readback
        ~AttenuatorSXR_Ladder.setpoint

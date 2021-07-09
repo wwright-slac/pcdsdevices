@@ -287,7 +287,6 @@
        ~BeckhoffAxis.moving
        ~BeckhoffAxis.position
        ~BeckhoffAxis.precision
-       ~BeckhoffAxis.presets
        ~BeckhoffAxis.settle_time
        ~BeckhoffAxis.timeout
        ~BeckhoffAxis.tolerated_alarm

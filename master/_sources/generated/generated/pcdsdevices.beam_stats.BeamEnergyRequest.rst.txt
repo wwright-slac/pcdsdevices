@@ -95,7 +95,6 @@ pcdsdevices.beam\_stats.BeamEnergyRequest
        ~BeamEnergyRequest.low_limit
        ~BeamEnergyRequest.moving
        ~BeamEnergyRequest.position
-       ~BeamEnergyRequest.presets
        ~BeamEnergyRequest.put_complete
        ~BeamEnergyRequest.readback
        ~BeamEnergyRequest.settle_time

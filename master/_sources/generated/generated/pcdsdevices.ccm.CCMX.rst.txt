@@ -119,7 +119,6 @@ pcdsdevices.ccm.CCMX
        ~CCMX.offset_mode
        ~CCMX.offsets
        ~CCMX.position
-       ~CCMX.presets
        ~CCMX.pseudo_positioners
        ~CCMX.real_position
        ~CCMX.real_positioners

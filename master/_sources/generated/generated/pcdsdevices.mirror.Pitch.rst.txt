@@ -166,7 +166,6 @@ pcdsdevices.mirror.Pitch
        ~Pitch.low_limit
        ~Pitch.moving
        ~Pitch.position
-       ~Pitch.presets
        ~Pitch.put_complete
        ~Pitch.settle_time
        ~Pitch.stop_value

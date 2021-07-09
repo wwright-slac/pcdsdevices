@@ -193,7 +193,6 @@ pcdsdevices.mirror.Gantry
        ~Gantry.low_limit
        ~Gantry.moving
        ~Gantry.position
-       ~Gantry.presets
        ~Gantry.put_complete
        ~Gantry.settle_time
        ~Gantry.stop_signal

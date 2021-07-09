@@ -302,7 +302,6 @@ pcdsdevices.epics\_motor.SmarAct
        ~SmarAct.moving
        ~SmarAct.position
        ~SmarAct.precision
-       ~SmarAct.presets
        ~SmarAct.settle_time
        ~SmarAct.timeout
        ~SmarAct.tolerated_alarm

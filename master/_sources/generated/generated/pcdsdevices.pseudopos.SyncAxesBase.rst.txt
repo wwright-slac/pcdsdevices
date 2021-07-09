@@ -93,7 +93,6 @@ pcdsdevices.pseudopos.SyncAxesBase
        ~SyncAxesBase.low_limit
        ~SyncAxesBase.moving
        ~SyncAxesBase.position
-       ~SyncAxesBase.presets
        ~SyncAxesBase.pseudo_positioners
        ~SyncAxesBase.real_position
        ~SyncAxesBase.real_positioners

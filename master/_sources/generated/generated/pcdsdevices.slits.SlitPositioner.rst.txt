@@ -103,7 +103,6 @@ pcdsdevices.slits.SlitPositioner
        ~SlitPositioner.low_limit
        ~SlitPositioner.moving
        ~SlitPositioner.position
-       ~SlitPositioner.presets
        ~SlitPositioner.put_complete
        ~SlitPositioner.settle_time
        ~SlitPositioner.stop_signal

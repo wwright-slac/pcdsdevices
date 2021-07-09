@@ -83,7 +83,6 @@ pcdsdevices.sim.FastMotor
        ~FastMotor.low_limit
        ~FastMotor.moving
        ~FastMotor.position
-       ~FastMotor.presets
        ~FastMotor.settle_time
        ~FastMotor.timeout
     

@@ -111,7 +111,6 @@ pcdsdevices.pseudopos.PseudoSingleInterface
        ~PseudoSingleInterface.low_limit
        ~PseudoSingleInterface.moving
        ~PseudoSingleInterface.position
-       ~PseudoSingleInterface.presets
        ~PseudoSingleInterface.settle_time
        ~PseudoSingleInterface.target
        ~PseudoSingleInterface.timeout

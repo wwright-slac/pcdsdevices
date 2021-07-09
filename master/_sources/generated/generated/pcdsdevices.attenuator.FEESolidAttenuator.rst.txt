@@ -276,7 +276,6 @@ pcdsdevices.attenuator.FEESolidAttenuator
        ~FEESolidAttenuator.low_limit
        ~FEESolidAttenuator.moving
        ~FEESolidAttenuator.position
-       ~FEESolidAttenuator.presets
        ~FEESolidAttenuator.put_complete
        ~FEESolidAttenuator.readback
        ~FEESolidAttenuator.setpoint
