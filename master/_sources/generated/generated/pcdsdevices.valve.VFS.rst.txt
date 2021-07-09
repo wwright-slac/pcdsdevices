@@ -109,7 +109,16 @@ pcdsdevices.valve.VFS
           -  normal
           -  
    
+       *  -  veto_device
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:VETO_DEVICE_RBV``
+          -  Name of device that can veto this VFS
+          -  normal
+          -  
+   
 
+   
+   
    
    
    

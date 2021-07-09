@@ -4796,6 +4796,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/839-mrco_motion_axis_no_offset.rst.txt
 master/_sources/upcoming_release_notes/840-kbo-typo.rst.txt
 master/_sources/upcoming_release_notes/842-egu-cb-failure.rst.txt
+master/_sources/upcoming_release_notes/843-vfs-veto.rst.txt
 master/_sources/upcoming_release_notes/844-im2k0-setup.rst.txt
 master/_sources/upcoming_release_notes/845-scp-cleanup.rst.txt
 master/_sources/upcoming_release_notes/846-pmgr-ci.rst.txt
@@ -9677,6 +9678,7 @@ master/upcoming_changes.html
 master/upcoming_release_notes/839-mrco_motion_axis_no_offset.html
 master/upcoming_release_notes/840-kbo-typo.html
 master/upcoming_release_notes/842-egu-cb-failure.html
+master/upcoming_release_notes/843-vfs-veto.html
 master/upcoming_release_notes/844-im2k0-setup.html
 master/upcoming_release_notes/845-scp-cleanup.html
 master/upcoming_release_notes/846-pmgr-ci.html
