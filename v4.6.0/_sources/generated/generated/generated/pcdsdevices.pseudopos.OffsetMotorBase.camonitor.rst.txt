@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.OffsetMotorBase.camonitor
+===============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: OffsetMotorBase.camonitor

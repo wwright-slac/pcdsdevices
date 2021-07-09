@@ -1,0 +1,168 @@
+pcdsdevices.lodcm.SimEnergyC
+============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: SimEnergyC
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  tower1 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower1`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  tower2 (FCpt)
+          -  :class:`~pcdsdevices.lodcm.CrystalTower2`
+          -  ``{self._prefix}``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  dr
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  th1C
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  th2C
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  z1C
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  z2C
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+       *  -  energy
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.lodcm.LODCMEnergyC`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimEnergyC.calc_geometry
+       ~SimEnergyC.camonitor
+       ~SimEnergyC.check_single
+       ~SimEnergyC.configure
+       ~SimEnergyC.describe
+       ~SimEnergyC.end_monitor_thread
+       ~SimEnergyC.forward
+       ~SimEnergyC.get
+       ~SimEnergyC.get_energy
+       ~SimEnergyC.get_reflection
+       ~SimEnergyC.inverse
+       ~SimEnergyC.move
+       ~SimEnergyC.move_single
+       ~SimEnergyC.mv
+       ~SimEnergyC.mv_ginput
+       ~SimEnergyC.mvr
+       ~SimEnergyC.read
+       ~SimEnergyC.read_configuration
+       ~SimEnergyC.set
+       ~SimEnergyC.set_current_position
+       ~SimEnergyC.set_position
+       ~SimEnergyC.stop
+       ~SimEnergyC.summary
+       ~SimEnergyC.to_pseudo_tuple
+       ~SimEnergyC.to_real_tuple
+       ~SimEnergyC.trigger
+       ~SimEnergyC.tweak
+       ~SimEnergyC.umv
+       ~SimEnergyC.umvr
+       ~SimEnergyC.wait
+       ~SimEnergyC.wm
+       ~SimEnergyC.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimEnergyC.composite_egu
+       ~SimEnergyC.concurrent
+       ~SimEnergyC.configuration_attrs
+       ~SimEnergyC.connected
+       ~SimEnergyC.egu
+       ~SimEnergyC.high_limit
+       ~SimEnergyC.hints
+       ~SimEnergyC.kind
+       ~SimEnergyC.limits
+       ~SimEnergyC.low_limit
+       ~SimEnergyC.moving
+       ~SimEnergyC.position
+       ~SimEnergyC.pseudo_positioners
+       ~SimEnergyC.real_position
+       ~SimEnergyC.real_positioners
+       ~SimEnergyC.sequential
+       ~SimEnergyC.settle_time
+       ~SimEnergyC.target
+       ~SimEnergyC.timeout
+    
+    

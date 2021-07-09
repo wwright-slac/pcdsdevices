@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeEpicsSignalROEditMD.sim\_set\_func
+=========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeEpicsSignalROEditMD.sim_set_func

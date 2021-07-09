@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergySi.tweak
+=====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergySi.tweak

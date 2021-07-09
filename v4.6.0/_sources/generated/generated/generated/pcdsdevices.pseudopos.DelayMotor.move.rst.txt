@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor.move
+=====================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayMotor.move

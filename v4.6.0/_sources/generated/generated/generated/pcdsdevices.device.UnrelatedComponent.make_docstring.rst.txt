@@ -1,0 +1,6 @@
+pcdsdevices.device.UnrelatedComponent.make\_docstring
+=====================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UnrelatedComponent.make_docstring

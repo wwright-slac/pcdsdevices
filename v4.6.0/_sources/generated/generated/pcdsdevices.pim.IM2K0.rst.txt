@@ -1,0 +1,105 @@
+pcdsdevices.pim.IM2K0
+=====================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. autoclass:: IM2K0
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  target
+          -  :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          -  ``:MMS:STATE``
+          -  Control of the diagnostic stack via saved positions.
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  y_motor
+          -  :class:`~pcdsdevices.epics_motor.BeckhoffAxisNoOffset`
+          -  ``:MMS``
+          -  Direct control of the diagnostic stack motor.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  detector
+          -  :class:`~pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger`
+          -  ``:CAM:``
+          -  Area detector settings and readbacks.
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  cam_power
+          -  :class:`~pcdsdevices.signal.PytmcSignal`
+          -  ``:CAM:PWR``
+          -  Camera power supply controls.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.pim.LCLS2ImagerBase`
+   
+       *  -  led
+          -  :class:`~pcdsdevices.pim.XPIMLED`
+          -  ``:CIL``
+          -  LED for viewing the reticle.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~IM2K0.configure
+       ~IM2K0.describe
+       ~IM2K0.get
+       ~IM2K0.read
+       ~IM2K0.read_configuration
+       ~IM2K0.stop
+       ~IM2K0.summary
+       ~IM2K0.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~IM2K0.configuration_attrs
+       ~IM2K0.connected
+       ~IM2K0.hints
+       ~IM2K0.kind
+       ~IM2K0.lightpath_cpts
+       ~IM2K0.transmission
+       ~IM2K0.y_states
+    
+    

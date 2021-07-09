@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimSecondTower.get\_reflection
+================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimSecondTower.get_reflection

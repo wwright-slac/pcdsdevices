@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.forward\_single
+==============================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.forward_single

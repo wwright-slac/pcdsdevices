@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.DelayMotor.umvr
+=====================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: DelayMotor.umvr

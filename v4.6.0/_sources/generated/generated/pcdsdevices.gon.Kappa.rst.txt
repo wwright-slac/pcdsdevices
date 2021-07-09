@@ -1,0 +1,151 @@
+pcdsdevices.gon.Kappa
+=====================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: Kappa
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  sample_stage
+          -  :class:`~pcdsdevices.gon.KappaXYZStage`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  eta (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_eta}``
+          -  
+          -  normal
+          -  
+   
+       *  -  kappa (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_kappa}``
+          -  
+          -  normal
+          -  
+   
+       *  -  phi (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._prefix_phi}``
+          -  
+          -  normal
+          -  
+   
+       *  -  e_eta (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  e_chi (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  e_phi (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~Kappa.check_motor_step
+       ~Kappa.check_single
+       ~Kappa.configure
+       ~Kappa.describe
+       ~Kappa.e_to_k
+       ~Kappa.forward
+       ~Kappa.get
+       ~Kappa.inverse
+       ~Kappa.k_to_e
+       ~Kappa.move
+       ~Kappa.move_single
+       ~Kappa.read
+       ~Kappa.read_configuration
+       ~Kappa.set
+       ~Kappa.set_current_position
+       ~Kappa.stop
+       ~Kappa.summary
+       ~Kappa.to_pseudo_tuple
+       ~Kappa.to_real_tuple
+       ~Kappa.trigger
+       ~Kappa.wait
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~Kappa.composite_egu
+       ~Kappa.concurrent
+       ~Kappa.configuration_attrs
+       ~Kappa.connected
+       ~Kappa.e_chi_coord
+       ~Kappa.e_eta_coord
+       ~Kappa.e_phi_coord
+       ~Kappa.egu
+       ~Kappa.high_limit
+       ~Kappa.hints
+       ~Kappa.kind
+       ~Kappa.limits
+       ~Kappa.low_limit
+       ~Kappa.moving
+       ~Kappa.position
+       ~Kappa.pseudo_positioners
+       ~Kappa.real_position
+       ~Kappa.real_positioners
+       ~Kappa.sequential
+       ~Kappa.settle_time
+       ~Kappa.target
+       ~Kappa.timeout
+    
+    

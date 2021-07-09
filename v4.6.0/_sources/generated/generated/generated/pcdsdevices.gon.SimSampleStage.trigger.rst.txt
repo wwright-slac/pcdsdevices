@@ -1,0 +1,6 @@
+pcdsdevices.gon.SimSampleStage.trigger
+======================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: SimSampleStage.trigger

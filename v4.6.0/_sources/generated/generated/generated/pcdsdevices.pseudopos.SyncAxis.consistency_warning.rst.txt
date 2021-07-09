@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.consistency\_warning
+===================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.consistency_warning
