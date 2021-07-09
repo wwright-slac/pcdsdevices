@@ -2408,6 +2408,14 @@ master/_sources/generated/generated/generated/pcdsdevices.mps.MPSLimits.read_con
 master/_sources/generated/generated/generated/pcdsdevices.mps.MPSLimits.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mps.MPSLimits.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mps.MPSLimits.trigger.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.configure.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.describe.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.get.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.read.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.read_configuration.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.stop.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.summary.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.pim.IM2K0.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.get.rst.txt
@@ -4504,6 +4512,7 @@ master/_sources/generated/generated/pcdsdevices.mps.MPSLimits.rst.txt
 master/_sources/generated/generated/pcdsdevices.mps.mps_factory.rst.txt
 master/_sources/generated/generated/pcdsdevices.mps.must_be_known.rst.txt
 master/_sources/generated/generated/pcdsdevices.mps.must_be_out.rst.txt
+master/_sources/generated/generated/pcdsdevices.pim.IM2K0.rst.txt
 master/_sources/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.rst.txt
 master/_sources/generated/generated/pcdsdevices.pim.PIM.rst.txt
 master/_sources/generated/generated/pcdsdevices.pim.PIMWithBoth.rst.txt
@@ -4782,6 +4791,7 @@ master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/839-mrco_motion_axis_no_offset.rst.txt
 master/_sources/upcoming_release_notes/840-kbo-typo.rst.txt
+master/_sources/upcoming_release_notes/844-im2k0-setup.rst.txt
 master/_sources/upcoming_release_notes/845-scp-cleanup.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -7268,6 +7278,14 @@ master/generated/generated/generated/pcdsdevices.mps.MPSLimits.read_configuratio
 master/generated/generated/generated/pcdsdevices.mps.MPSLimits.stop.html
 master/generated/generated/generated/pcdsdevices.mps.MPSLimits.summary.html
 master/generated/generated/generated/pcdsdevices.mps.MPSLimits.trigger.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.configure.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.describe.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.get.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.read.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.read_configuration.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.stop.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.summary.html
+master/generated/generated/generated/pcdsdevices.pim.IM2K0.trigger.html
 master/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.configure.html
 master/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.describe.html
 master/generated/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.get.html
@@ -9364,6 +9382,7 @@ master/generated/generated/pcdsdevices.mps.MPSLimits.html
 master/generated/generated/pcdsdevices.mps.mps_factory.html
 master/generated/generated/pcdsdevices.mps.must_be_known.html
 master/generated/generated/pcdsdevices.mps.must_be_out.html
+master/generated/generated/pcdsdevices.pim.IM2K0.html
 master/generated/generated/pcdsdevices.pim.LCLS2ImagerBase.html
 master/generated/generated/pcdsdevices.pim.PIM.html
 master/generated/generated/pcdsdevices.pim.PIMWithBoth.html
@@ -9647,6 +9666,7 @@ master/tab.html
 master/upcoming_changes.html
 master/upcoming_release_notes/839-mrco_motion_axis_no_offset.html
 master/upcoming_release_notes/840-kbo-typo.html
+master/upcoming_release_notes/844-im2k0-setup.html
 master/upcoming_release_notes/845-scp-cleanup.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
