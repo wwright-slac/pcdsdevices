@@ -315,7 +315,9 @@ pcdsdevices.epics\_motor.IMS
        ~IMS.disable
        ~IMS.enable
        ~IMS.end_monitor_thread
+       ~IMS.find_configuration
        ~IMS.get
+       ~IMS.get_configuration
        ~IMS.get_high_limit
        ~IMS.get_lim
        ~IMS.get_low_limit

@@ -729,7 +729,9 @@ master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.descri
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.find_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_high_limit.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_lim.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_low_limit.rst.txt
@@ -3947,7 +3949,9 @@ master/_sources/generated/generated/pcdsdevices.device_types.IMS.describe.rst.tx
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.disable.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.enable.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.end_monitor_thread.rst.txt
+master/_sources/generated/generated/pcdsdevices.device_types.IMS.find_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.get.rst.txt
+master/_sources/generated/generated/pcdsdevices.device_types.IMS.get_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.get_high_limit.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.get_lim.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.IMS.get_low_limit.rst.txt
@@ -4791,8 +4795,10 @@ master/_sources/tab.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/839-mrco_motion_axis_no_offset.rst.txt
 master/_sources/upcoming_release_notes/840-kbo-typo.rst.txt
+master/_sources/upcoming_release_notes/842-egu-cb-failure.rst.txt
 master/_sources/upcoming_release_notes/844-im2k0-setup.rst.txt
 master/_sources/upcoming_release_notes/845-scp-cleanup.rst.txt
+master/_sources/upcoming_release_notes/846-pmgr-ci.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -5599,7 +5605,9 @@ master/generated/generated/generated/pcdsdevices.epics_motor.IMS.describe.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.disable.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.enable.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.html
+master/generated/generated/generated/pcdsdevices.epics_motor.IMS.find_configuration.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.get.html
+master/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_configuration.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_high_limit.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_lim.html
 master/generated/generated/generated/pcdsdevices.epics_motor.IMS.get_low_limit.html
@@ -8817,7 +8825,9 @@ master/generated/generated/pcdsdevices.device_types.IMS.describe.html
 master/generated/generated/pcdsdevices.device_types.IMS.disable.html
 master/generated/generated/pcdsdevices.device_types.IMS.enable.html
 master/generated/generated/pcdsdevices.device_types.IMS.end_monitor_thread.html
+master/generated/generated/pcdsdevices.device_types.IMS.find_configuration.html
 master/generated/generated/pcdsdevices.device_types.IMS.get.html
+master/generated/generated/pcdsdevices.device_types.IMS.get_configuration.html
 master/generated/generated/pcdsdevices.device_types.IMS.get_high_limit.html
 master/generated/generated/pcdsdevices.device_types.IMS.get_lim.html
 master/generated/generated/pcdsdevices.device_types.IMS.get_low_limit.html
@@ -9666,7 +9676,9 @@ master/tab.html
 master/upcoming_changes.html
 master/upcoming_release_notes/839-mrco_motion_axis_no_offset.html
 master/upcoming_release_notes/840-kbo-typo.html
+master/upcoming_release_notes/842-egu-cb-failure.html
 master/upcoming_release_notes/844-im2k0-setup.html
 master/upcoming_release_notes/845-scp-cleanup.html
+master/upcoming_release_notes/846-pmgr-ci.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

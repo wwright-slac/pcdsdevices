@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.epics_motor.IMS &mdash; PCDS Devices 4.5.0+20.gd889a35 documentation</title>
+  <title>pcdsdevices.epics_motor.IMS &mdash; PCDS Devices 4.5.0+32.gc8f9a7b documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.5.0+20.gd889a35
+                4.5.0+32.gc8f9a7b
               </div>
             
           
@@ -137,7 +137,9 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.disable.html">pcdsdevices.epics_motor.IMS.disable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.enable.html">pcdsdevices.epics_motor.IMS.enable</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.html">pcdsdevices.epics_motor.IMS.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.find_configuration.html">pcdsdevices.epics_motor.IMS.find_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get.html">pcdsdevices.epics_motor.IMS.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_configuration.html">pcdsdevices.epics_motor.IMS.get_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_high_limit.html">pcdsdevices.epics_motor.IMS.get_high_limit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_lim.html">pcdsdevices.epics_motor.IMS.get_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_low_limit.html">pcdsdevices.epics_motor.IMS.get_low_limit</a></li>
@@ -554,8 +556,8 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.clear_stall.html#pcdsdevices.epics_motor.IMS.clear_stall" title="pcdsdevices.epics_motor.IMS.clear_stall"><code class="xref py py-obj docutils literal notranslate"><span class="pre">clear_stall</span></code></a>([wait, timeout])</p></td>
 <td><p>Clear stall flag.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.configure.html#pcdsdevices.epics_motor.IMS.configure" title="pcdsdevices.epics_motor.IMS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>(d)</p></td>
-<td><p>Configure the device for something during a run</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.configure.html#pcdsdevices.epics_motor.IMS.configure" title="pcdsdevices.epics_motor.IMS.configure"><code class="xref py py-obj docutils literal notranslate"><span class="pre">configure</span></code></a>([cfgname])</p></td>
+<td><p>Use the parameter manager to configure the motor.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.describe.html#pcdsdevices.epics_motor.IMS.describe" title="pcdsdevices.epics_motor.IMS.describe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">describe</span></code></a>()</p></td>
 <td><p>Provide schema and meta-data for <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code>.</p></td>
@@ -569,8 +571,14 @@ in-progress move as failed.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.end_monitor_thread.html#pcdsdevices.epics_motor.IMS.end_monitor_thread" title="pcdsdevices.epics_motor.IMS.end_monitor_thread"><code class="xref py py-obj docutils literal notranslate"><span class="pre">end_monitor_thread</span></code></a>()</p></td>
 <td><p>Stop a <a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.camonitor.html#pcdsdevices.epics_motor.IMS.camonitor" title="pcdsdevices.epics_motor.IMS.camonitor"><code class="xref py py-meth docutils literal notranslate"><span class="pre">camonitor()</span></code></a> or <a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.wm_update.html#pcdsdevices.epics_motor.IMS.wm_update" title="pcdsdevices.epics_motor.IMS.wm_update"><code class="xref py py-meth docutils literal notranslate"><span class="pre">wm_update()</span></code></a> that is running in another thread.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get.html#pcdsdevices.epics_motor.IMS.get" title="pcdsdevices.epics_motor.IMS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.find_configuration.html#pcdsdevices.epics_motor.IMS.find_configuration" title="pcdsdevices.epics_motor.IMS.find_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">find_configuration</span></code></a>(pattern[, …])</p></td>
+<td><p>Find parameter manager configurations that match the pattern.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get.html#pcdsdevices.epics_motor.IMS.get" title="pcdsdevices.epics_motor.IMS.get"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get</span></code></a>(**kwargs)</p></td>
 <td><p>Get the value of all components in the device</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_configuration.html#pcdsdevices.epics_motor.IMS.get_configuration" title="pcdsdevices.epics_motor.IMS.get_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_configuration</span></code></a>()</p></td>
+<td><p>Find the current configuration of the motor in the parameter manager.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.epics_motor.IMS.get_high_limit.html#pcdsdevices.epics_motor.IMS.get_high_limit" title="pcdsdevices.epics_motor.IMS.get_high_limit"><code class="xref py py-obj docutils literal notranslate"><span class="pre">get_high_limit</span></code></a>()</p></td>
 <td><p>Get high limit.</p></td>
