@@ -50,5 +50,7 @@ pcdsdevices.signal.UnitConversionDerivedSignal
        ~UnitConversionDerivedSignal.user_offset
        ~UnitConversionDerivedSignal.value
        ~UnitConversionDerivedSignal.write_access
+       ~UnitConversionDerivedSignal.derived_units
+       ~UnitConversionDerivedSignal.original_units
     
     

@@ -20,10 +20,12 @@ pcdsdevices.attenuator.BladeStateEnum
 
     .. autosummary::
     
-       ~BladeStateEnum.IN
-       ~BladeStateEnum.OUT
-       ~BladeStateEnum.STUCK_IN
-       ~BladeStateEnum.STUCK_OUT
        ~BladeStateEnum.Unknown
+       ~BladeStateEnum.OUT
+       ~BladeStateEnum.IN
+       ~BladeStateEnum.STUCK_OUT
+       ~BladeStateEnum.STUCK_IN
+       ~BladeStateEnum.as_out_row
+       ~BladeStateEnum.as_in_row
     
     

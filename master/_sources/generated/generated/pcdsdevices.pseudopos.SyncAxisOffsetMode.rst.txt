@@ -20,7 +20,7 @@ pcdsdevices.pseudopos.SyncAxisOffsetMode
 
     .. autosummary::
     
-       ~SyncAxisOffsetMode.AUTO_FIXED
        ~SyncAxisOffsetMode.STATIC_FIXED
+       ~SyncAxisOffsetMode.AUTO_FIXED
     
     

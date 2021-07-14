@@ -27,4 +27,10 @@ pcdsdevices.interface.TabCompletionHelperClass
 
     
     
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TabCompletionHelperClass.cls
+    
     

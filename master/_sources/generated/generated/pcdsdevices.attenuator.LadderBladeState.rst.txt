@@ -20,6 +20,8 @@ pcdsdevices.attenuator.LadderBladeState
 
     .. autosummary::
     
+       ~LadderBladeState.Moving
+       ~LadderBladeState.Out
        ~LadderBladeState.In_01
        ~LadderBladeState.In_02
        ~LadderBladeState.In_03
@@ -28,7 +30,8 @@ pcdsdevices.attenuator.LadderBladeState
        ~LadderBladeState.In_06
        ~LadderBladeState.In_07
        ~LadderBladeState.In_08
-       ~LadderBladeState.Moving
-       ~LadderBladeState.Out
+       ~LadderBladeState.filter_index
+       ~LadderBladeState.is_inserted
+       ~LadderBladeState.is_moving
     
     

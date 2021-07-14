@@ -62,5 +62,7 @@ pcdsdevices.pseudopos.LookupTablePositioner
        ~LookupTablePositioner.settle_time
        ~LookupTablePositioner.target
        ~LookupTablePositioner.timeout
+       ~LookupTablePositioner.table
+       ~LookupTablePositioner.column_names
     
     

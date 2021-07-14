@@ -28,4 +28,12 @@ pcdsdevices.interface.TabCompletionHelperInstance
 
     
     
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~TabCompletionHelperInstance.class_helper
+       ~TabCompletionHelperInstance.instance
+       ~TabCompletionHelperInstance.super_dir
+    
     
