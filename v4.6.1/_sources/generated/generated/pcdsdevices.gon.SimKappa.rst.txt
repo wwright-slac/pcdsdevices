@@ -1,0 +1,151 @@
+pcdsdevices.gon.SimKappa
+========================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. autoclass:: SimKappa
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  sample_stage
+          -  :class:`~pcdsdevices.gon.SimSampleStage`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  eta
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  kappa
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  phi
+          -  :class:`~pcdsdevices.sim.FastMotor`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  e_eta (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  e_chi (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+       *  -  e_phi (FCpt)
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gon.Kappa`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SimKappa.check_motor_step
+       ~SimKappa.check_single
+       ~SimKappa.configure
+       ~SimKappa.describe
+       ~SimKappa.e_to_k
+       ~SimKappa.forward
+       ~SimKappa.get
+       ~SimKappa.inverse
+       ~SimKappa.k_to_e
+       ~SimKappa.move
+       ~SimKappa.move_single
+       ~SimKappa.read
+       ~SimKappa.read_configuration
+       ~SimKappa.set
+       ~SimKappa.set_current_position
+       ~SimKappa.stop
+       ~SimKappa.summary
+       ~SimKappa.to_pseudo_tuple
+       ~SimKappa.to_real_tuple
+       ~SimKappa.trigger
+       ~SimKappa.wait
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SimKappa.composite_egu
+       ~SimKappa.concurrent
+       ~SimKappa.configuration_attrs
+       ~SimKappa.connected
+       ~SimKappa.e_chi_coord
+       ~SimKappa.e_eta_coord
+       ~SimKappa.e_phi_coord
+       ~SimKappa.egu
+       ~SimKappa.high_limit
+       ~SimKappa.hints
+       ~SimKappa.kind
+       ~SimKappa.limits
+       ~SimKappa.low_limit
+       ~SimKappa.moving
+       ~SimKappa.position
+       ~SimKappa.pseudo_positioners
+       ~SimKappa.real_position
+       ~SimKappa.real_positioners
+       ~SimKappa.sequential
+       ~SimKappa.settle_time
+       ~SimKappa.target
+       ~SimKappa.timeout
+    
+    

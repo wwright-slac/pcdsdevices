@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.wm\_update
+=========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.wm_update

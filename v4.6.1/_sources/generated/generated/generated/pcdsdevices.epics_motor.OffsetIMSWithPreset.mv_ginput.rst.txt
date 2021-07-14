@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetIMSWithPreset.mv\_ginput
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetIMSWithPreset.mv_ginput

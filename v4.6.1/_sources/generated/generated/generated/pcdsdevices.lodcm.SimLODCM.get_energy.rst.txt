@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.get\_energy
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.get_energy

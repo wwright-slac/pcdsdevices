@@ -1,0 +1,6 @@
+pcdsdevices.pim.IM2K0.stop
+==========================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: IM2K0.stop

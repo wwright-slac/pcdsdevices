@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.stop
+===================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.stop

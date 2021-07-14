@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H2N.get\_state
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H2N.get_state

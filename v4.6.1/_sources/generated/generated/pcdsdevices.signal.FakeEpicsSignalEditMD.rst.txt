@@ -1,0 +1,56 @@
+pcdsdevices.signal.FakeEpicsSignalEditMD
+========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. autoclass:: FakeEpicsSignalEditMD
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FakeEpicsSignalEditMD.describe
+       ~FakeEpicsSignalEditMD.get
+       ~FakeEpicsSignalEditMD.read
+       ~FakeEpicsSignalEditMD.read_configuration
+       ~FakeEpicsSignalEditMD.set
+       ~FakeEpicsSignalEditMD.sim_put
+       ~FakeEpicsSignalEditMD.sim_set_enum_strs
+       ~FakeEpicsSignalEditMD.sim_set_func
+       ~FakeEpicsSignalEditMD.sim_set_limits
+       ~FakeEpicsSignalEditMD.sim_set_putter
+       ~FakeEpicsSignalEditMD.trigger
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~FakeEpicsSignalEditMD.SUB_META
+       ~FakeEpicsSignalEditMD.connected
+       ~FakeEpicsSignalEditMD.enum_strs
+       ~FakeEpicsSignalEditMD.high_limit
+       ~FakeEpicsSignalEditMD.hints
+       ~FakeEpicsSignalEditMD.kind
+       ~FakeEpicsSignalEditMD.limits
+       ~FakeEpicsSignalEditMD.low_limit
+       ~FakeEpicsSignalEditMD.metadata
+       ~FakeEpicsSignalEditMD.metadata_keys
+       ~FakeEpicsSignalEditMD.read_access
+       ~FakeEpicsSignalEditMD.timestamp
+       ~FakeEpicsSignalEditMD.tolerance
+       ~FakeEpicsSignalEditMD.value
+       ~FakeEpicsSignalEditMD.write_access
+    
+    

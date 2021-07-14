@@ -1,0 +1,6 @@
+pcdsdevices.slits.SimLusiSlits.camonitor
+========================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SimLusiSlits.camonitor

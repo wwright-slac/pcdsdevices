@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffAxis.set\_high\_limit
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffAxis.set_high_limit

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergyC.end\_monitor\_thread
+=================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergyC.end_monitor_thread

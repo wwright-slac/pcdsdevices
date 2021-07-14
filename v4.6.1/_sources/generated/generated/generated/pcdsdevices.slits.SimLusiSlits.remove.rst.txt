@@ -1,0 +1,6 @@
+pcdsdevices.slits.SimLusiSlits.remove
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SimLusiSlits.remove

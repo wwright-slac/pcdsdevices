@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.camonitor
+========================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.camonitor

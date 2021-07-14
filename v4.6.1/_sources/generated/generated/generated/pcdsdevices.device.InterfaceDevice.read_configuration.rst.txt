@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceDevice.read\_configuration
+======================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceDevice.read_configuration

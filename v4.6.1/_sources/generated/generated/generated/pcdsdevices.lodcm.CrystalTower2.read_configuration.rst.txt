@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower2.read\_configuration
+===================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower2.read_configuration

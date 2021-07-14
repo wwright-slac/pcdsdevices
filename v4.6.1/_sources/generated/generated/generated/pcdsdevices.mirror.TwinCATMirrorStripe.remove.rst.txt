@@ -1,0 +1,6 @@
+pcdsdevices.mirror.TwinCATMirrorStripe.remove
+=============================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: TwinCATMirrorStripe.remove

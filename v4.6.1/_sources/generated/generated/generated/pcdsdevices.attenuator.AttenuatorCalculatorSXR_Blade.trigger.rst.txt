@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorSXR\_Blade.trigger
+=============================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorSXR_Blade.trigger
