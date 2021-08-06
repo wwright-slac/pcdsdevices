@@ -70,7 +70,6 @@ pcdsdevices.pim.XPIMFilterWheel
        ~XPIMFilterWheel.read
        ~XPIMFilterWheel.read_configuration
        ~XPIMFilterWheel.set
-       ~XPIMFilterWheel.stop
        ~XPIMFilterWheel.summary
        ~XPIMFilterWheel.trigger
        ~XPIMFilterWheel.wait
@@ -97,6 +96,7 @@ pcdsdevices.pim.XPIMFilterWheel
        ~XPIMFilterWheel.position
        ~XPIMFilterWheel.settle_time
        ~XPIMFilterWheel.states_list
+       ~XPIMFilterWheel.stop
        ~XPIMFilterWheel.timeout
     
     

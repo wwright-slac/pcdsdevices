@@ -75,7 +75,6 @@
        ~Prefocus.read_configuration
        ~Prefocus.remove
        ~Prefocus.set
-       ~Prefocus.stop
        ~Prefocus.summary
        ~Prefocus.trigger
        ~Prefocus.wait
@@ -104,6 +103,7 @@
        ~Prefocus.position
        ~Prefocus.settle_time
        ~Prefocus.states_list
+       ~Prefocus.stop
        ~Prefocus.timeout
        ~Prefocus.transmission
     

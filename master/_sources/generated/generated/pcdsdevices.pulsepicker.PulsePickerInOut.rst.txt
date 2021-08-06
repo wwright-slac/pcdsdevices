@@ -144,7 +144,6 @@ pcdsdevices.pulsepicker.PulsePickerInOut
        ~PulsePickerInOut.remove
        ~PulsePickerInOut.reset
        ~PulsePickerInOut.set
-       ~PulsePickerInOut.stop
        ~PulsePickerInOut.summary
        ~PulsePickerInOut.trigger
        ~PulsePickerInOut.wait
@@ -173,6 +172,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
        ~PulsePickerInOut.position
        ~PulsePickerInOut.settle_time
        ~PulsePickerInOut.states_list
+       ~PulsePickerInOut.stop
        ~PulsePickerInOut.timeout
        ~PulsePickerInOut.transmission
     

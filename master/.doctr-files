@@ -283,7 +283,6 @@ master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.r
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.wait.rst.txt
@@ -305,7 +304,6 @@ master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.read
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.attenuator.Filter.wait.rst.txt
@@ -378,7 +376,6 @@ master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.ccm.CCM.wait.rst.txt
@@ -1275,7 +1272,6 @@ master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRec
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.wait.rst.txt
@@ -1297,7 +1293,6 @@ master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePosi
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wait.rst.txt
@@ -1319,7 +1314,6 @@ master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.InOutPositioner.wait.rst.txt
@@ -1395,6 +1389,7 @@ master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPosi
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_inserted.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_removed.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_transmission.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.clear_error.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.end_monitor_thread.rst.txt
@@ -1407,7 +1402,6 @@ master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPosi
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.wait.rst.txt
@@ -1673,7 +1667,6 @@ master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.read.rst
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.lens.Prefocus.wait.rst.txt
@@ -2314,6 +2307,7 @@ master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorSt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_inserted.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_removed.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.clear_error.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.end_monitor_thread.rst.txt
@@ -2326,7 +2320,6 @@ master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorSt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.wait.rst.txt
@@ -2388,7 +2381,6 @@ master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableSt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.movablestand.MovableStand.wait.rst.txt
@@ -2527,7 +2519,6 @@ master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.mv
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.wait.rst.txt
@@ -2801,7 +2792,6 @@ master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicke
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.reset.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wait.rst.txt
@@ -2829,7 +2819,6 @@ master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicke
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.reset.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.rst.txt
@@ -3465,7 +3454,6 @@ master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRec
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.wait.rst.txt
@@ -3482,7 +3470,6 @@ master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositione
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.PVStatePositioner.wait.rst.txt
@@ -3505,7 +3492,6 @@ master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StatePositioner.wait.rst.txt
@@ -3539,7 +3525,6 @@ master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPosit
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.wait.rst.txt
@@ -3568,6 +3553,7 @@ master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStateConf
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigOne.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigOne.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.camonitor.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.clear_error.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.end_monitor_thread.rst.txt
@@ -3578,7 +3564,6 @@ master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePosi
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.read.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.wait.rst.txt
@@ -3600,7 +3585,6 @@ master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.read
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.Timetool.wait.rst.txt
@@ -3622,7 +3606,6 @@ master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithN
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.wait.rst.txt
@@ -3646,7 +3629,6 @@ master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.read.r
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.read_configuration.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.remove.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.set.rst.txt
-master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.valve.GateValve.wait.rst.txt
@@ -3849,7 +3831,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.CCM.read.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.CCM.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.CCM.wait.rst.txt
@@ -3930,7 +3911,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.GateValve.read.rst.
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.GateValve.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.GateValve.wait.rst.txt
@@ -4016,7 +3996,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.read.r
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.MovableStand.wait.rst.txt
@@ -4183,7 +4162,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.read.rst.t
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Prefocus.wait.rst.txt
@@ -4211,7 +4189,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.read_co
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.reset.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.PulsePicker.wait.rst.txt
@@ -4277,7 +4254,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.Stopper.read.rst.tx
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.Stopper.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Stopper.wait.rst.txt
@@ -4321,7 +4297,6 @@ master/_sources/generated/generated/pcdsdevices.device_types.Timetool.read.rst.t
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.read_configuration.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.remove.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.set.rst.txt
-master/_sources/generated/generated/pcdsdevices.device_types.Timetool.stop.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.summary.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.trigger.rst.txt
 master/_sources/generated/generated/pcdsdevices.device_types.Timetool.wait.rst.txt
@@ -4792,8 +4767,10 @@ master/_sources/releases.rst.txt
 master/_sources/sample_delivery.rst.txt
 master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
+master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/853-add_Apalis_mpod_device.rst.txt
+master/_sources/upcoming_release_notes/854-typhos-templates.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -5154,7 +5131,6 @@ master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.read.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.read_configuration.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.remove.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.set.html
-master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.stop.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.summary.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.trigger.html
 master/generated/generated/generated/pcdsdevices.attenuator.FeeFilter.wait.html
@@ -5176,7 +5152,6 @@ master/generated/generated/generated/pcdsdevices.attenuator.Filter.read.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.read_configuration.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.remove.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.set.html
-master/generated/generated/generated/pcdsdevices.attenuator.Filter.stop.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.summary.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.trigger.html
 master/generated/generated/generated/pcdsdevices.attenuator.Filter.wait.html
@@ -5249,7 +5224,6 @@ master/generated/generated/generated/pcdsdevices.ccm.CCM.read.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.read_configuration.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.remove.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.set.html
-master/generated/generated/generated/pcdsdevices.ccm.CCM.stop.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.summary.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.trigger.html
 master/generated/generated/generated/pcdsdevices.ccm.CCM.wait.html
@@ -6146,7 +6120,6 @@ master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositi
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.remove.html
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.set.html
-master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.stop.html
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.summary.html
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.inout.CombinedInOutRecordPositioner.wait.html
@@ -6168,7 +6141,6 @@ master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.re
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.remove.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.set.html
-master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.stop.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.summary.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPVStatePositioner.wait.html
@@ -6190,7 +6162,6 @@ master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.read.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.remove.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.set.html
-master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.stop.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.summary.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.inout.InOutPositioner.wait.html
@@ -6266,6 +6237,7 @@ master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.ca
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_inserted.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_removed.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.check_transmission.html
+master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.clear_error.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.configure.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.describe.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.end_monitor_thread.html
@@ -6278,7 +6250,6 @@ master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.re
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.remove.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.set.html
-master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.stop.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.summary.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.inout.TwinCATInOutPositioner.wait.html
@@ -6544,7 +6515,6 @@ master/generated/generated/generated/pcdsdevices.lens.Prefocus.read.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.read_configuration.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.remove.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.set.html
-master/generated/generated/generated/pcdsdevices.lens.Prefocus.stop.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.summary.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.trigger.html
 master/generated/generated/generated/pcdsdevices.lens.Prefocus.wait.html
@@ -7185,6 +7155,7 @@ master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.camo
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_inserted.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_removed.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission.html
+master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.clear_error.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.configure.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.describe.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.end_monitor_thread.html
@@ -7197,7 +7168,6 @@ master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.read
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.read_configuration.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.remove.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.set.html
-master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.stop.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.summary.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.trigger.html
 master/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.wait.html
@@ -7259,7 +7229,6 @@ master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.read.
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.read_configuration.html
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.remove.html
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.set.html
-master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.stop.html
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.summary.html
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.trigger.html
 master/generated/generated/generated/pcdsdevices.movablestand.MovableStand.wait.html
@@ -7398,7 +7367,6 @@ master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.mv.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.read.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.read_configuration.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.set.html
-master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.stop.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.summary.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.trigger.html
 master/generated/generated/generated/pcdsdevices.pim.XPIMFilterWheel.wait.html
@@ -7672,7 +7640,6 @@ master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.read_co
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.remove.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.reset.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.set.html
-master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.stop.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.summary.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.trigger.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.wait.html
@@ -7700,7 +7667,6 @@ master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.re
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.remove.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.reset.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.set.html
-master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.stop.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.summary.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html
 master/generated/generated/generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.html
@@ -8336,7 +8302,6 @@ master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositi
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.read.html
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.set.html
-master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.stop.html
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.summary.html
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.state.CombinedStateRecordPositioner.wait.html
@@ -8353,7 +8318,6 @@ master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.mv.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.read.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.set.html
-master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.stop.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.summary.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.state.PVStatePositioner.wait.html
@@ -8376,7 +8340,6 @@ master/generated/generated/generated/pcdsdevices.state.StatePositioner.mv.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.read.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.set.html
-master/generated/generated/generated/pcdsdevices.state.StatePositioner.stop.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.summary.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.state.StatePositioner.wait.html
@@ -8410,7 +8373,6 @@ master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.read.html
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.read_configuration.html
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.set.html
-master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.stop.html
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.summary.html
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.trigger.html
 master/generated/generated/generated/pcdsdevices.state.StateRecordPositionerBase.wait.html
@@ -8439,6 +8401,7 @@ master/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigOne.sto
 master/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigOne.summary.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStateConfigOne.trigger.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.camonitor.html
+master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.clear_error.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.configure.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.describe.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.end_monitor_thread.html
@@ -8449,7 +8412,6 @@ master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.mv
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.read.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.read_configuration.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.set.html
-master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.stop.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.summary.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.trigger.html
 master/generated/generated/generated/pcdsdevices.state.TwinCATStatePositioner.wait.html
@@ -8471,7 +8433,6 @@ master/generated/generated/generated/pcdsdevices.timetool.Timetool.read.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.read_configuration.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.remove.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.set.html
-master/generated/generated/generated/pcdsdevices.timetool.Timetool.stop.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.summary.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.trigger.html
 master/generated/generated/generated/pcdsdevices.timetool.Timetool.wait.html
@@ -8493,7 +8454,6 @@ master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.read.h
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.read_configuration.html
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.remove.html
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.set.html
-master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.stop.html
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.summary.html
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.trigger.html
 master/generated/generated/generated/pcdsdevices.timetool.TimetoolWithNav.wait.html
@@ -8517,7 +8477,6 @@ master/generated/generated/generated/pcdsdevices.valve.GateValve.read.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.read_configuration.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.remove.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.set.html
-master/generated/generated/generated/pcdsdevices.valve.GateValve.stop.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.summary.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.trigger.html
 master/generated/generated/generated/pcdsdevices.valve.GateValve.wait.html
@@ -8720,7 +8679,6 @@ master/generated/generated/pcdsdevices.device_types.CCM.read.html
 master/generated/generated/pcdsdevices.device_types.CCM.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.CCM.remove.html
 master/generated/generated/pcdsdevices.device_types.CCM.set.html
-master/generated/generated/pcdsdevices.device_types.CCM.stop.html
 master/generated/generated/pcdsdevices.device_types.CCM.summary.html
 master/generated/generated/pcdsdevices.device_types.CCM.trigger.html
 master/generated/generated/pcdsdevices.device_types.CCM.wait.html
@@ -8801,7 +8759,6 @@ master/generated/generated/pcdsdevices.device_types.GateValve.read.html
 master/generated/generated/pcdsdevices.device_types.GateValve.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.GateValve.remove.html
 master/generated/generated/pcdsdevices.device_types.GateValve.set.html
-master/generated/generated/pcdsdevices.device_types.GateValve.stop.html
 master/generated/generated/pcdsdevices.device_types.GateValve.summary.html
 master/generated/generated/pcdsdevices.device_types.GateValve.trigger.html
 master/generated/generated/pcdsdevices.device_types.GateValve.wait.html
@@ -8887,7 +8844,6 @@ master/generated/generated/pcdsdevices.device_types.MovableStand.read.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.remove.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.set.html
-master/generated/generated/pcdsdevices.device_types.MovableStand.stop.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.summary.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.trigger.html
 master/generated/generated/pcdsdevices.device_types.MovableStand.wait.html
@@ -9054,7 +9010,6 @@ master/generated/generated/pcdsdevices.device_types.Prefocus.read.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.remove.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.set.html
-master/generated/generated/pcdsdevices.device_types.Prefocus.stop.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.summary.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.trigger.html
 master/generated/generated/pcdsdevices.device_types.Prefocus.wait.html
@@ -9082,7 +9037,6 @@ master/generated/generated/pcdsdevices.device_types.PulsePicker.read_configurati
 master/generated/generated/pcdsdevices.device_types.PulsePicker.remove.html
 master/generated/generated/pcdsdevices.device_types.PulsePicker.reset.html
 master/generated/generated/pcdsdevices.device_types.PulsePicker.set.html
-master/generated/generated/pcdsdevices.device_types.PulsePicker.stop.html
 master/generated/generated/pcdsdevices.device_types.PulsePicker.summary.html
 master/generated/generated/pcdsdevices.device_types.PulsePicker.trigger.html
 master/generated/generated/pcdsdevices.device_types.PulsePicker.wait.html
@@ -9148,7 +9102,6 @@ master/generated/generated/pcdsdevices.device_types.Stopper.read.html
 master/generated/generated/pcdsdevices.device_types.Stopper.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.Stopper.remove.html
 master/generated/generated/pcdsdevices.device_types.Stopper.set.html
-master/generated/generated/pcdsdevices.device_types.Stopper.stop.html
 master/generated/generated/pcdsdevices.device_types.Stopper.summary.html
 master/generated/generated/pcdsdevices.device_types.Stopper.trigger.html
 master/generated/generated/pcdsdevices.device_types.Stopper.wait.html
@@ -9192,7 +9145,6 @@ master/generated/generated/pcdsdevices.device_types.Timetool.read.html
 master/generated/generated/pcdsdevices.device_types.Timetool.read_configuration.html
 master/generated/generated/pcdsdevices.device_types.Timetool.remove.html
 master/generated/generated/pcdsdevices.device_types.Timetool.set.html
-master/generated/generated/pcdsdevices.device_types.Timetool.stop.html
 master/generated/generated/pcdsdevices.device_types.Timetool.summary.html
 master/generated/generated/pcdsdevices.device_types.Timetool.trigger.html
 master/generated/generated/pcdsdevices.device_types.Timetool.wait.html
@@ -9668,7 +9620,9 @@ master/search.html
 master/searchindex.js
 master/sim_types.html
 master/tab.html
+master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/853-add_Apalis_mpod_device.html
+master/upcoming_release_notes/854-typhos-templates.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

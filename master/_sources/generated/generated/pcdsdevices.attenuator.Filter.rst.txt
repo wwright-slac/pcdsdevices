@@ -93,7 +93,6 @@ pcdsdevices.attenuator.Filter
        ~Filter.read_configuration
        ~Filter.remove
        ~Filter.set
-       ~Filter.stop
        ~Filter.summary
        ~Filter.trigger
        ~Filter.wait
@@ -122,6 +121,7 @@ pcdsdevices.attenuator.Filter
        ~Filter.position
        ~Filter.settle_time
        ~Filter.states_list
+       ~Filter.stop
        ~Filter.timeout
        ~Filter.transmission
     

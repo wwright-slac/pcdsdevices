@@ -75,7 +75,6 @@
        ~MovableStand.read_configuration
        ~MovableStand.remove
        ~MovableStand.set
-       ~MovableStand.stop
        ~MovableStand.summary
        ~MovableStand.trigger
        ~MovableStand.wait
@@ -104,6 +103,7 @@
        ~MovableStand.position
        ~MovableStand.settle_time
        ~MovableStand.states_list
+       ~MovableStand.stop
        ~MovableStand.timeout
        ~MovableStand.transmission
     

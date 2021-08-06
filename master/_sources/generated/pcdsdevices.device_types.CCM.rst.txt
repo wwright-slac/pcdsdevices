@@ -111,7 +111,6 @@
        ~CCM.read_configuration
        ~CCM.remove
        ~CCM.set
-       ~CCM.stop
        ~CCM.summary
        ~CCM.trigger
        ~CCM.wait
@@ -140,6 +139,7 @@
        ~CCM.position
        ~CCM.settle_time
        ~CCM.states_list
+       ~CCM.stop
        ~CCM.timeout
        ~CCM.transmission
     

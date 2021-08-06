@@ -108,6 +108,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
        ~TwinCATInOutPositioner.check_inserted
        ~TwinCATInOutPositioner.check_removed
        ~TwinCATInOutPositioner.check_transmission
+       ~TwinCATInOutPositioner.clear_error
        ~TwinCATInOutPositioner.configure
        ~TwinCATInOutPositioner.describe
        ~TwinCATInOutPositioner.end_monitor_thread
@@ -120,7 +121,6 @@ pcdsdevices.inout.TwinCATInOutPositioner
        ~TwinCATInOutPositioner.read_configuration
        ~TwinCATInOutPositioner.remove
        ~TwinCATInOutPositioner.set
-       ~TwinCATInOutPositioner.stop
        ~TwinCATInOutPositioner.summary
        ~TwinCATInOutPositioner.trigger
        ~TwinCATInOutPositioner.wait
@@ -149,6 +149,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
        ~TwinCATInOutPositioner.position
        ~TwinCATInOutPositioner.settle_time
        ~TwinCATInOutPositioner.states_list
+       ~TwinCATInOutPositioner.stop
        ~TwinCATInOutPositioner.timeout
        ~TwinCATInOutPositioner.transmission
     

@@ -66,7 +66,6 @@ pcdsdevices.attenuator.FeeFilter
        ~FeeFilter.read_configuration
        ~FeeFilter.remove
        ~FeeFilter.set
-       ~FeeFilter.stop
        ~FeeFilter.summary
        ~FeeFilter.trigger
        ~FeeFilter.wait
@@ -95,6 +94,7 @@ pcdsdevices.attenuator.FeeFilter
        ~FeeFilter.position
        ~FeeFilter.settle_time
        ~FeeFilter.states_list
+       ~FeeFilter.stop
        ~FeeFilter.timeout
        ~FeeFilter.transmission
     

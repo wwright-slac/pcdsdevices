@@ -57,7 +57,6 @@ pcdsdevices.inout.InOutPVStatePositioner
        ~InOutPVStatePositioner.read_configuration
        ~InOutPVStatePositioner.remove
        ~InOutPVStatePositioner.set
-       ~InOutPVStatePositioner.stop
        ~InOutPVStatePositioner.summary
        ~InOutPVStatePositioner.trigger
        ~InOutPVStatePositioner.wait
@@ -86,6 +85,7 @@ pcdsdevices.inout.InOutPVStatePositioner
        ~InOutPVStatePositioner.position
        ~InOutPVStatePositioner.settle_time
        ~InOutPVStatePositioner.states_list
+       ~InOutPVStatePositioner.stop
        ~InOutPVStatePositioner.timeout
        ~InOutPVStatePositioner.transmission
     

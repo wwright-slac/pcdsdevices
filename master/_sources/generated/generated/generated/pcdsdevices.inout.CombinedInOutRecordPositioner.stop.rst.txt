@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.stop
-====================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.stop

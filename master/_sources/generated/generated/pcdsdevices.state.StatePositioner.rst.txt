@@ -28,7 +28,6 @@ pcdsdevices.state.StatePositioner
        ~StatePositioner.read
        ~StatePositioner.read_configuration
        ~StatePositioner.set
-       ~StatePositioner.stop
        ~StatePositioner.summary
        ~StatePositioner.trigger
        ~StatePositioner.wait
@@ -56,6 +55,7 @@ pcdsdevices.state.StatePositioner
        ~StatePositioner.settle_time
        ~StatePositioner.state
        ~StatePositioner.states_list
+       ~StatePositioner.stop
        ~StatePositioner.timeout
     
     

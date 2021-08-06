@@ -126,6 +126,7 @@ pcdsdevices.mirror.TwinCATMirrorStripe
        ~TwinCATMirrorStripe.check_inserted
        ~TwinCATMirrorStripe.check_removed
        ~TwinCATMirrorStripe.check_transmission
+       ~TwinCATMirrorStripe.clear_error
        ~TwinCATMirrorStripe.configure
        ~TwinCATMirrorStripe.describe
        ~TwinCATMirrorStripe.end_monitor_thread
@@ -138,7 +139,6 @@ pcdsdevices.mirror.TwinCATMirrorStripe
        ~TwinCATMirrorStripe.read_configuration
        ~TwinCATMirrorStripe.remove
        ~TwinCATMirrorStripe.set
-       ~TwinCATMirrorStripe.stop
        ~TwinCATMirrorStripe.summary
        ~TwinCATMirrorStripe.trigger
        ~TwinCATMirrorStripe.wait
@@ -167,6 +167,7 @@ pcdsdevices.mirror.TwinCATMirrorStripe
        ~TwinCATMirrorStripe.position
        ~TwinCATMirrorStripe.settle_time
        ~TwinCATMirrorStripe.states_list
+       ~TwinCATMirrorStripe.stop
        ~TwinCATMirrorStripe.timeout
        ~TwinCATMirrorStripe.transmission
     

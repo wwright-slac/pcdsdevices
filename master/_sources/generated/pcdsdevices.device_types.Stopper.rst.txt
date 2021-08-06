@@ -86,7 +86,6 @@
        ~Stopper.read_configuration
        ~Stopper.remove
        ~Stopper.set
-       ~Stopper.stop
        ~Stopper.summary
        ~Stopper.trigger
        ~Stopper.wait
@@ -115,6 +114,7 @@
        ~Stopper.position
        ~Stopper.settle_time
        ~Stopper.states_list
+       ~Stopper.stop
        ~Stopper.timeout
        ~Stopper.transmission
     

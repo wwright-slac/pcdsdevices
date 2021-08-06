@@ -105,6 +105,7 @@ pcdsdevices.state.TwinCATStatePositioner
        :toctree: generated
     
        ~TwinCATStatePositioner.camonitor
+       ~TwinCATStatePositioner.clear_error
        ~TwinCATStatePositioner.configure
        ~TwinCATStatePositioner.describe
        ~TwinCATStatePositioner.end_monitor_thread
@@ -115,7 +116,6 @@ pcdsdevices.state.TwinCATStatePositioner
        ~TwinCATStatePositioner.read
        ~TwinCATStatePositioner.read_configuration
        ~TwinCATStatePositioner.set
-       ~TwinCATStatePositioner.stop
        ~TwinCATStatePositioner.summary
        ~TwinCATStatePositioner.trigger
        ~TwinCATStatePositioner.wait
@@ -142,6 +142,7 @@ pcdsdevices.state.TwinCATStatePositioner
        ~TwinCATStatePositioner.position
        ~TwinCATStatePositioner.settle_time
        ~TwinCATStatePositioner.states_list
+       ~TwinCATStatePositioner.stop
        ~TwinCATStatePositioner.timeout
     
     

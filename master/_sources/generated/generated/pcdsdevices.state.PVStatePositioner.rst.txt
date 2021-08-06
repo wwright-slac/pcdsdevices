@@ -52,7 +52,6 @@ pcdsdevices.state.PVStatePositioner
        ~PVStatePositioner.read
        ~PVStatePositioner.read_configuration
        ~PVStatePositioner.set
-       ~PVStatePositioner.stop
        ~PVStatePositioner.summary
        ~PVStatePositioner.trigger
        ~PVStatePositioner.wait
@@ -79,6 +78,7 @@ pcdsdevices.state.PVStatePositioner
        ~PVStatePositioner.position
        ~PVStatePositioner.settle_time
        ~PVStatePositioner.states_list
+       ~PVStatePositioner.stop
        ~PVStatePositioner.timeout
     
     

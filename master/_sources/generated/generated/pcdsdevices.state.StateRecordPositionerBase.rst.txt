@@ -52,7 +52,6 @@ pcdsdevices.state.StateRecordPositionerBase
        ~StateRecordPositionerBase.read
        ~StateRecordPositionerBase.read_configuration
        ~StateRecordPositionerBase.set
-       ~StateRecordPositionerBase.stop
        ~StateRecordPositionerBase.summary
        ~StateRecordPositionerBase.trigger
        ~StateRecordPositionerBase.wait
@@ -79,6 +78,7 @@ pcdsdevices.state.StateRecordPositionerBase
        ~StateRecordPositionerBase.position
        ~StateRecordPositionerBase.settle_time
        ~StateRecordPositionerBase.states_list
+       ~StateRecordPositionerBase.stop
        ~StateRecordPositionerBase.timeout
     
     

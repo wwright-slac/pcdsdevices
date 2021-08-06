@@ -95,7 +95,6 @@ pcdsdevices.valve.GateValve
        ~GateValve.read_configuration
        ~GateValve.remove
        ~GateValve.set
-       ~GateValve.stop
        ~GateValve.summary
        ~GateValve.trigger
        ~GateValve.wait
@@ -125,6 +124,7 @@ pcdsdevices.valve.GateValve
        ~GateValve.position
        ~GateValve.settle_time
        ~GateValve.states_list
+       ~GateValve.stop
        ~GateValve.timeout
        ~GateValve.transmission
     

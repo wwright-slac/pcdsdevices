@@ -102,7 +102,6 @@ pcdsdevices.timetool.TimetoolWithNav
        ~TimetoolWithNav.read_configuration
        ~TimetoolWithNav.remove
        ~TimetoolWithNav.set
-       ~TimetoolWithNav.stop
        ~TimetoolWithNav.summary
        ~TimetoolWithNav.trigger
        ~TimetoolWithNav.wait
@@ -131,6 +130,7 @@ pcdsdevices.timetool.TimetoolWithNav
        ~TimetoolWithNav.position
        ~TimetoolWithNav.settle_time
        ~TimetoolWithNav.states_list
+       ~TimetoolWithNav.stop
        ~TimetoolWithNav.timeout
        ~TimetoolWithNav.transmission
     

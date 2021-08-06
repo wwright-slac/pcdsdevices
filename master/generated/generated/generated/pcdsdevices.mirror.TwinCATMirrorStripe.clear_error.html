@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pulsepicker.PulsePicker.stop &mdash; PCDS Devices 4.6.1+20.g476e184 documentation</title>
+  <title>pcdsdevices.mirror.TwinCATMirrorStripe.clear_error &mdash; PCDS Devices 4.6.1+29.gbce9f65 documentation</title>
   
 
   
@@ -40,8 +40,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="pcdsdevices.pulsepicker.PulsePicker.summary" href="pcdsdevices.pulsepicker.PulsePicker.summary.html" />
-    <link rel="prev" title="pcdsdevices.pulsepicker.PulsePicker.set" href="pcdsdevices.pulsepicker.PulsePicker.set.html" /> 
+    <link rel="next" title="pcdsdevices.mirror.TwinCATMirrorStripe.configure" href="pcdsdevices.mirror.TwinCATMirrorStripe.configure.html" />
+    <link rel="prev" title="pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission" href="pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.6.1+20.g476e184
+                4.6.1+29.gbce9f65
               </div>
             
           
@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ui.html">UI Templates</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -127,47 +128,53 @@
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.jet.html">pcdsdevices.jet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lens.html">pcdsdevices.lens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.lodcm.html">pcdsdevices.lodcm</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.CoatingState.html">pcdsdevices.mirror.CoatingState</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.FFMirror.html">pcdsdevices.mirror.FFMirror</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.Gantry.html">pcdsdevices.mirror.Gantry</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.KBOMirror.html">pcdsdevices.mirror.KBOMirror</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.OffsetMirror.html">pcdsdevices.mirror.OffsetMirror</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.Pitch.html">pcdsdevices.mirror.Pitch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.PointingMirror.html">pcdsdevices.mirror.PointingMirror</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.mirror.TwinCATMirrorStripe.html">pcdsdevices.mirror.TwinCATMirrorStripe</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.camonitor.html">pcdsdevices.mirror.TwinCATMirrorStripe.camonitor</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.check_inserted.html">pcdsdevices.mirror.TwinCATMirrorStripe.check_inserted</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.check_removed.html">pcdsdevices.mirror.TwinCATMirrorStripe.check_removed</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission.html">pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.mirror.TwinCATMirrorStripe.clear_error</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.configure.html">pcdsdevices.mirror.TwinCATMirrorStripe.configure</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.describe.html">pcdsdevices.mirror.TwinCATMirrorStripe.describe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.end_monitor_thread.html">pcdsdevices.mirror.TwinCATMirrorStripe.end_monitor_thread</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.get.html">pcdsdevices.mirror.TwinCATMirrorStripe.get</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.get_state.html">pcdsdevices.mirror.TwinCATMirrorStripe.get_state</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.insert.html">pcdsdevices.mirror.TwinCATMirrorStripe.insert</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.move.html">pcdsdevices.mirror.TwinCATMirrorStripe.move</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.mv.html">pcdsdevices.mirror.TwinCATMirrorStripe.mv</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.read.html">pcdsdevices.mirror.TwinCATMirrorStripe.read</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.read_configuration.html">pcdsdevices.mirror.TwinCATMirrorStripe.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.remove.html">pcdsdevices.mirror.TwinCATMirrorStripe.remove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.set.html">pcdsdevices.mirror.TwinCATMirrorStripe.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.summary.html">pcdsdevices.mirror.TwinCATMirrorStripe.summary</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.trigger.html">pcdsdevices.mirror.TwinCATMirrorStripe.trigger</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.wait.html">pcdsdevices.mirror.TwinCATMirrorStripe.wait</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.wm.html">pcdsdevices.mirror.TwinCATMirrorStripe.wm</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.mirror.TwinCATMirrorStripe.wm_update.html">pcdsdevices.mirror.TwinCATMirrorStripe.wm_update</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.XOffsetMirror.html">pcdsdevices.mirror.XOffsetMirror</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.XOffsetMirror2.html">pcdsdevices.mirror.XOffsetMirror2</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.XOffsetMirrorBend.html">pcdsdevices.mirror.XOffsetMirrorBend</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.XOffsetMirrorState.html">pcdsdevices.mirror.XOffsetMirrorState</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.mirror.XOffsetMirrorSwitch.html">pcdsdevices.mirror.XOffsetMirrorSwitch</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.movablestand.html">pcdsdevices.movablestand</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mps.html">pcdsdevices.mps</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.mv_interface.html">pcdsdevices.mv_interface</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pim.html">pcdsdevices.pim</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pseudopos.html">pcdsdevices.pseudopos</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.pulsepicker.PulsePicker.html">pcdsdevices.pulsepicker.PulsePicker</a><ul class="current">
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.burst.html">pcdsdevices.pulsepicker.PulsePicker.burst</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.camonitor.html">pcdsdevices.pulsepicker.PulsePicker.camonitor</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.check_inserted.html">pcdsdevices.pulsepicker.PulsePicker.check_inserted</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.check_removed.html">pcdsdevices.pulsepicker.PulsePicker.check_removed</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.check_transmission.html">pcdsdevices.pulsepicker.PulsePicker.check_transmission</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.close.html">pcdsdevices.pulsepicker.PulsePicker.close</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.configure.html">pcdsdevices.pulsepicker.PulsePicker.configure</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.describe.html">pcdsdevices.pulsepicker.PulsePicker.describe</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread.html">pcdsdevices.pulsepicker.PulsePicker.end_monitor_thread</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.flipflop.html">pcdsdevices.pulsepicker.PulsePicker.flipflop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.follower.html">pcdsdevices.pulsepicker.PulsePicker.follower</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.get.html">pcdsdevices.pulsepicker.PulsePicker.get</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.get_state.html">pcdsdevices.pulsepicker.PulsePicker.get_state</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.insert.html">pcdsdevices.pulsepicker.PulsePicker.insert</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.move.html">pcdsdevices.pulsepicker.PulsePicker.move</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.mv.html">pcdsdevices.pulsepicker.PulsePicker.mv</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.open.html">pcdsdevices.pulsepicker.PulsePicker.open</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.read.html">pcdsdevices.pulsepicker.PulsePicker.read</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.read_configuration.html">pcdsdevices.pulsepicker.PulsePicker.read_configuration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.remove.html">pcdsdevices.pulsepicker.PulsePicker.remove</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.reset.html">pcdsdevices.pulsepicker.PulsePicker.reset</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.set.html">pcdsdevices.pulsepicker.PulsePicker.set</a></li>
-<li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.pulsepicker.PulsePicker.stop</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.summary.html">pcdsdevices.pulsepicker.PulsePicker.summary</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.trigger.html">pcdsdevices.pulsepicker.PulsePicker.trigger</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wait.html">pcdsdevices.pulsepicker.PulsePicker.wait</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wm.html">pcdsdevices.pulsepicker.PulsePicker.wm</a></li>
-<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.pulsepicker.PulsePicker.wm_update.html">pcdsdevices.pulsepicker.PulsePicker.wm_update</a></li>
-</ul>
-</li>
-<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.pulsepicker.PulsePickerInOut.html">pcdsdevices.pulsepicker.PulsePickerInOut</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.pump.html">pcdsdevices.pump</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sensors.html">pcdsdevices.sensors</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../pcdsdevices.sequencer.html">pcdsdevices.sequencer</a></li>
@@ -230,17 +237,17 @@
         
           <li><a href="../../../api.html">Full API</a> &raquo;</li>
         
-          <li><a href="../../pcdsdevices.pulsepicker.html">pcdsdevices.pulsepicker</a> &raquo;</li>
+          <li><a href="../../pcdsdevices.mirror.html">pcdsdevices.mirror</a> &raquo;</li>
         
-          <li><a href="../pcdsdevices.pulsepicker.PulsePicker.html">pcdsdevices.pulsepicker.PulsePicker</a> &raquo;</li>
+          <li><a href="../pcdsdevices.mirror.TwinCATMirrorStripe.html">pcdsdevices.mirror.TwinCATMirrorStripe</a> &raquo;</li>
         
-      <li>pcdsdevices.pulsepicker.PulsePicker.stop</li>
+      <li>pcdsdevices.mirror.TwinCATMirrorStripe.clear_error</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../../_sources/generated/generated/generated/pcdsdevices.pulsepicker.PulsePicker.stop.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../_sources/generated/generated/generated/pcdsdevices.mirror.TwinCATMirrorStripe.clear_error.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -253,13 +260,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="pcdsdevices-pulsepicker-pulsepicker-stop">
-<h1>pcdsdevices.pulsepicker.PulsePicker.stop<a class="headerlink" href="#pcdsdevices-pulsepicker-pulsepicker-stop" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="pcdsdevices-mirror-twincatmirrorstripe-clear-error">
+<h1>pcdsdevices.mirror.TwinCATMirrorStripe.clear_error<a class="headerlink" href="#pcdsdevices-mirror-twincatmirrorstripe-clear-error" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
-<dt class="sig sig-object py" id="pcdsdevices.pulsepicker.PulsePicker.stop">
-<span class="sig-prename descclassname"><span class="pre">PulsePicker.</span></span><span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">success</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.pulsepicker.PulsePicker.stop" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stop the Device and all (instantiated) subdevices</p>
-</dd></dl>
+<dt class="sig sig-object py" id="pcdsdevices.mirror.TwinCATMirrorStripe.clear_error">
+<span class="sig-prename descclassname"><span class="pre">TwinCATMirrorStripe.</span></span><span class="sig-name descname"><span class="pre">clear_error</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.mirror.TwinCATMirrorStripe.clear_error" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
 
 </div>
 
@@ -269,8 +275,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="pcdsdevices.pulsepicker.PulsePicker.summary.html" class="btn btn-neutral float-right" title="pcdsdevices.pulsepicker.PulsePicker.summary" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="pcdsdevices.pulsepicker.PulsePicker.set.html" class="btn btn-neutral float-left" title="pcdsdevices.pulsepicker.PulsePicker.set" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="pcdsdevices.mirror.TwinCATMirrorStripe.configure.html" class="btn btn-neutral float-right" title="pcdsdevices.mirror.TwinCATMirrorStripe.configure" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission.html" class="btn btn-neutral float-left" title="pcdsdevices.mirror.TwinCATMirrorStripe.check_transmission" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

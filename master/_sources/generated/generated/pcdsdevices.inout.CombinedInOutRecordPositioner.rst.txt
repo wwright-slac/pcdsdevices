@@ -75,7 +75,6 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
        ~CombinedInOutRecordPositioner.read_configuration
        ~CombinedInOutRecordPositioner.remove
        ~CombinedInOutRecordPositioner.set
-       ~CombinedInOutRecordPositioner.stop
        ~CombinedInOutRecordPositioner.summary
        ~CombinedInOutRecordPositioner.trigger
        ~CombinedInOutRecordPositioner.wait
@@ -104,6 +103,7 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
        ~CombinedInOutRecordPositioner.position
        ~CombinedInOutRecordPositioner.settle_time
        ~CombinedInOutRecordPositioner.states_list
+       ~CombinedInOutRecordPositioner.stop
        ~CombinedInOutRecordPositioner.timeout
        ~CombinedInOutRecordPositioner.transmission
     

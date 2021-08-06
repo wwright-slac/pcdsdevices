@@ -135,7 +135,6 @@
        ~PulsePicker.remove
        ~PulsePicker.reset
        ~PulsePicker.set
-       ~PulsePicker.stop
        ~PulsePicker.summary
        ~PulsePicker.trigger
        ~PulsePicker.wait
@@ -164,6 +163,7 @@
        ~PulsePicker.position
        ~PulsePicker.settle_time
        ~PulsePicker.states_list
+       ~PulsePicker.stop
        ~PulsePicker.timeout
        ~PulsePicker.transmission
     

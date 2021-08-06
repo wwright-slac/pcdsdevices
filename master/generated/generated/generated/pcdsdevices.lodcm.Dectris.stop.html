@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.Dectris.stop &mdash; PCDS Devices 4.6.1+20.g476e184 documentation</title>
+  <title>pcdsdevices.lodcm.Dectris.stop &mdash; PCDS Devices 4.6.1+29.gbce9f65 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.6.1+20.g476e184
+                4.6.1+29.gbce9f65
               </div>
             
           
@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../presets.html">Preset Positions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../tab.html">IPython Tab Curation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ui.html">UI Templates</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -272,7 +273,9 @@
 <dl class="py method">
 <dt class="sig sig-object py" id="pcdsdevices.lodcm.Dectris.stop">
 <span class="sig-prename descclassname"><span class="pre">Dectris.</span></span><span class="sig-name descname"><span class="pre">stop</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">success</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.lodcm.Dectris.stop" title="Permalink to this definition">¶</a></dt>
-<dd><p>Stop the Device and all (instantiated) subdevices</p>
+<dd><p>Hide the stop method behind an AttributeError.</p>
+<p>This makes it so that other interfaces know that the stop method can’t
+be run without needing to run it to find out.</p>
 </dd></dl>
 
 </div>

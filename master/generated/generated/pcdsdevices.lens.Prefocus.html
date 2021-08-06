@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lens.Prefocus &mdash; PCDS Devices 4.6.1+20.g476e184 documentation</title>
+  <title>pcdsdevices.lens.Prefocus &mdash; PCDS Devices 4.6.1+29.gbce9f65 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.6.1+20.g476e184
+                4.6.1+29.gbce9f65
               </div>
             
           
@@ -95,6 +95,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../../mv.html">Shortcuts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../presets.html">Preset Positions</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../tab.html">IPython Tab Curation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../ui.html">UI Templates</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Device Types</span></p>
 <ul>
@@ -145,7 +146,6 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.read_configuration.html">pcdsdevices.lens.Prefocus.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.remove.html">pcdsdevices.lens.Prefocus.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.set.html">pcdsdevices.lens.Prefocus.set</a></li>
-<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.stop.html">pcdsdevices.lens.Prefocus.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html">pcdsdevices.lens.Prefocus.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html">pcdsdevices.lens.Prefocus.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html">pcdsdevices.lens.Prefocus.wait</a></li>
@@ -355,22 +355,19 @@ record controlling an X and a Y motor.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.set.html#pcdsdevices.lens.Prefocus.set" title="pcdsdevices.lens.Prefocus.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.stop.html#pcdsdevices.lens.Prefocus.stop" title="pcdsdevices.lens.Prefocus.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
-<td><p>Stop the Device and all (instantiated) subdevices</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html#pcdsdevices.lens.Prefocus.summary" title="pcdsdevices.lens.Prefocus.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html#pcdsdevices.lens.Prefocus.summary" title="pcdsdevices.lens.Prefocus.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html#pcdsdevices.lens.Prefocus.trigger" title="pcdsdevices.lens.Prefocus.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html#pcdsdevices.lens.Prefocus.trigger" title="pcdsdevices.lens.Prefocus.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html#pcdsdevices.lens.Prefocus.wait" title="pcdsdevices.lens.Prefocus.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html#pcdsdevices.lens.Prefocus.wait" title="pcdsdevices.lens.Prefocus.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm.html#pcdsdevices.lens.Prefocus.wm" title="pcdsdevices.lens.Prefocus.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm.html#pcdsdevices.lens.Prefocus.wm" title="pcdsdevices.lens.Prefocus.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm_update.html#pcdsdevices.lens.Prefocus.wm_update" title="pcdsdevices.lens.Prefocus.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm_update.html#pcdsdevices.lens.Prefocus.wm_update" title="pcdsdevices.lens.Prefocus.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -424,10 +421,13 @@ record controlling an X and a Y motor.</p>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></p></td>
+<td><p>Hide the stop method behind an AttributeError.</p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">timeout</span></code></p></td>
 <td><p>Amount of time to wait before to considering a motion as failed</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>
 <td><p>The proportion of incoming beam that makes it through the device.</p></td>
 </tr>
 </tbody>

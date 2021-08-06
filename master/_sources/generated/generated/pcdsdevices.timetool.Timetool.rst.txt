@@ -84,7 +84,6 @@ pcdsdevices.timetool.Timetool
        ~Timetool.read_configuration
        ~Timetool.remove
        ~Timetool.set
-       ~Timetool.stop
        ~Timetool.summary
        ~Timetool.trigger
        ~Timetool.wait
@@ -113,6 +112,7 @@ pcdsdevices.timetool.Timetool
        ~Timetool.position
        ~Timetool.settle_time
        ~Timetool.states_list
+       ~Timetool.stop
        ~Timetool.timeout
        ~Timetool.transmission
     
