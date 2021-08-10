@@ -1,0 +1,6 @@
+pcdsdevices.mirror.TwinCATMirrorStripe.check\_inserted
+======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: TwinCATMirrorStripe.check_inserted

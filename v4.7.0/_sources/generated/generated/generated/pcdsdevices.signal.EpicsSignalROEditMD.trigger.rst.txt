@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalROEditMD.trigger
+==============================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalROEditMD.trigger

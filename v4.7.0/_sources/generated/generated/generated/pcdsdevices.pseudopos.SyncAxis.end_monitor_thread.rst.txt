@@ -1,0 +1,6 @@
+pcdsdevices.pseudopos.SyncAxis.end\_monitor\_thread
+===================================================
+
+.. currentmodule:: pcdsdevices.pseudopos
+
+.. automethod:: SyncAxis.end_monitor_thread

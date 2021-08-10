@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimDiagnosticsTower.summary
+=============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimDiagnosticsTower.summary

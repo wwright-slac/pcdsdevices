@@ -1,0 +1,6 @@
+pcdsdevices.mirror.CoatingState.configure
+=========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: CoatingState.configure

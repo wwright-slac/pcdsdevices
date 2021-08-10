@@ -1,0 +1,6 @@
+pcdsdevices.slits.ExitSlits.trigger
+===================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: ExitSlits.trigger

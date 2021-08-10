@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergySi.get
+=================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergySi.get

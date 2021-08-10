@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergySi.stop
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergySi.stop

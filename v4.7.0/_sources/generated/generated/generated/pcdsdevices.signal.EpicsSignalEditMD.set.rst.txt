@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalEditMD.set
+========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalEditMD.set

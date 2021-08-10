@@ -1,0 +1,44 @@
+﻿pcdsdevices.gon
+===============
+
+.. automodule:: pcdsdevices.gon
+
+   
+   
+   .. rubric:: Functions
+
+   .. autosummary::
+      :toctree: generated
+   
+      Goniometer
+   
+   
+
+   
+   
+   .. rubric:: Classes
+
+   .. autosummary::
+      :toctree: generated
+   
+      BaseGon
+      GonWithDetArm
+      Kappa
+      KappaXYZStage
+      SamPhi
+      SimKappa
+      SimSampleStage
+      XYZStage
+   
+   
+
+   
+   
+   .. rubric:: Exceptions
+
+   .. autosummary::
+      :toctree: generated
+   
+      KappaMoveAbort
+   
+   

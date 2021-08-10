@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.LODCM.tweak\_parallel
+===============================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: LODCM.tweak_parallel

@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT2K2.end\_monitor\_thread
+=================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT2K2.end_monitor_thread

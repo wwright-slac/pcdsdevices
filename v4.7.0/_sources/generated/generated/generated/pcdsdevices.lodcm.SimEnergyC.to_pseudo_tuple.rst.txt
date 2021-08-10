@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergyC.to\_pseudo\_tuple
+==============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergyC.to_pseudo_tuple

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergyC.umv
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergyC.umv

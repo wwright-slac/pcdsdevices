@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimSecondTower.summary
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimSecondTower.summary

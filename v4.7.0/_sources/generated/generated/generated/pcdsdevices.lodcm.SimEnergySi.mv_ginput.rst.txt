@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergySi.mv\_ginput
+========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergySi.mv_ginput

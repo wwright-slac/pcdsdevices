@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.summary
+==================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.summary

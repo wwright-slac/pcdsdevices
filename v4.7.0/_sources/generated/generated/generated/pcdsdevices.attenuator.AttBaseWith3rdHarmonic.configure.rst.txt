@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBaseWith3rdHarmonic.configure
+=======================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBaseWith3rdHarmonic.configure
