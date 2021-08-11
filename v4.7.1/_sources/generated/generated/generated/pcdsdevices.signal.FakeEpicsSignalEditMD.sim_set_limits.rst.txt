@@ -1,0 +1,6 @@
+pcdsdevices.signal.FakeEpicsSignalEditMD.sim\_set\_limits
+=========================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: FakeEpicsSignalEditMD.sim_set_limits

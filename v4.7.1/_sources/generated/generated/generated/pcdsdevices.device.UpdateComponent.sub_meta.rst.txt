@@ -1,0 +1,6 @@
+pcdsdevices.device.UpdateComponent.sub\_meta
+============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: UpdateComponent.sub_meta

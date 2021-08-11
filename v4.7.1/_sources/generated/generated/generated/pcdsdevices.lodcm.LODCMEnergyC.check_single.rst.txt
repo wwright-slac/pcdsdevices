@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.check\_single
+============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.check_single

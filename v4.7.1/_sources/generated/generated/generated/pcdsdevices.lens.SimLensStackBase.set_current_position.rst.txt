@@ -1,0 +1,6 @@
+pcdsdevices.lens.SimLensStackBase.set\_current\_position
+========================================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: SimLensStackBase.set_current_position

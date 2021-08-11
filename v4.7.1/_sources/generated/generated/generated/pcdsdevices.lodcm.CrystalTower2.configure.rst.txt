@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower2.configure
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower2.configure

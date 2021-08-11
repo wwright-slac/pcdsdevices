@@ -1,0 +1,6 @@
+pcdsdevices.slits.SimLusiSlits.read\_configuration
+==================================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SimLusiSlits.read_configuration

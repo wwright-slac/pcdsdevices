@@ -1,0 +1,6 @@
+pcdsdevices.signal.EpicsSignalEditMD.get\_setpoint
+==================================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: EpicsSignalEditMD.get_setpoint

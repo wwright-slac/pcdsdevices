@@ -1,0 +1,6 @@
+pcdsdevices.slits.SimLusiSlits.get
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SimLusiSlits.get

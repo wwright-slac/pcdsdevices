@@ -1,0 +1,6 @@
+pcdsdevices.mirror.TwinCATMirrorStripe.get
+==========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: TwinCATMirrorStripe.get

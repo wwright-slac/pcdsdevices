@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Newport.get\_high\_limit
+==================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Newport.get_high_limit

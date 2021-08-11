@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.calc\_geometry
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.calc_geometry

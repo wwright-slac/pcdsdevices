@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceDevice.configure
+============================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceDevice.configure

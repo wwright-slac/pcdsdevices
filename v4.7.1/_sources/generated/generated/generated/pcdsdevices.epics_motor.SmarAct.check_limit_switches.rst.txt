@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.SmarAct.check\_limit\_switches
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: SmarAct.check_limit_switches

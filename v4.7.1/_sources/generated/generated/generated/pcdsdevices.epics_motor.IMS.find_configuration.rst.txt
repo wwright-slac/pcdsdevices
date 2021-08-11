@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.IMS.find\_configuration
+================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: IMS.find_configuration

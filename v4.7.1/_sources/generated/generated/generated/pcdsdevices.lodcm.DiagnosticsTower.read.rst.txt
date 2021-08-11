@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.DiagnosticsTower.read
+=======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: DiagnosticsTower.read
