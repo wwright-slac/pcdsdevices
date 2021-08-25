@@ -30,28 +30,28 @@ pcdsdevices.slits.BeckhoffSlits
           -  
           -  
           -  hinted
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  ywidth
           -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
           -  
           -  
           -  hinted
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  xcenter
           -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
           -  
           -  
           -  normal
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  ycenter
           -  :class:`~pcdsdevices.slits.BeckhoffSlitPositioner`
           -  
           -  
           -  normal
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  exec_queue
           -  :class:`~ophyd.signal.Signal`
@@ -187,6 +187,7 @@ pcdsdevices.slits.BeckhoffSlits
        ~BeckhoffSlits.read_configuration
        ~BeckhoffSlits.remove
        ~BeckhoffSlits.set
+       ~BeckhoffSlits.stage_group_instances
        ~BeckhoffSlits.stop
        ~BeckhoffSlits.summary
        ~BeckhoffSlits.trigger
@@ -208,7 +209,9 @@ pcdsdevices.slits.BeckhoffSlits
        ~BeckhoffSlits.hints
        ~BeckhoffSlits.kind
        ~BeckhoffSlits.lightpath_cpts
+       ~BeckhoffSlits.needs_parent
        ~BeckhoffSlits.position
+       ~BeckhoffSlits.stage_group
        ~BeckhoffSlits.transmission
     
     

@@ -1,0 +1,6 @@
+pcdsdevices.dc\_devices.ICT.stage\_group\_instances
+===================================================
+
+.. currentmodule:: pcdsdevices.dc_devices
+
+.. automethod:: ICT.stage_group_instances

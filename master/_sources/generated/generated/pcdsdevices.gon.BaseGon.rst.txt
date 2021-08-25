@@ -82,6 +82,7 @@ pcdsdevices.gon.BaseGon
        ~BaseGon.get
        ~BaseGon.read
        ~BaseGon.read_configuration
+       ~BaseGon.stage_group_instances
        ~BaseGon.stop
        ~BaseGon.summary
        ~BaseGon.trigger
@@ -98,5 +99,7 @@ pcdsdevices.gon.BaseGon
        ~BaseGon.connected
        ~BaseGon.hints
        ~BaseGon.kind
+       ~BaseGon.needs_parent
+       ~BaseGon.stage_group
     
     

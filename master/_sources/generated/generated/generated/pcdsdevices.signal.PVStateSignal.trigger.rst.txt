@@ -1,0 +1,6 @@
+pcdsdevices.signal.PVStateSignal.trigger
+========================================
+
+.. currentmodule:: pcdsdevices.signal
+
+.. automethod:: PVStateSignal.trigger

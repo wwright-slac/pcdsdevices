@@ -111,6 +111,7 @@
        ~CCM.read_configuration
        ~CCM.remove
        ~CCM.set
+       ~CCM.stage_group_instances
        ~CCM.summary
        ~CCM.trigger
        ~CCM.wait
@@ -135,9 +136,11 @@
        ~CCM.limits
        ~CCM.low_limit
        ~CCM.moving
+       ~CCM.needs_parent
        ~CCM.out_states
        ~CCM.position
        ~CCM.settle_time
+       ~CCM.stage_group
        ~CCM.states_list
        ~CCM.stop
        ~CCM.timeout

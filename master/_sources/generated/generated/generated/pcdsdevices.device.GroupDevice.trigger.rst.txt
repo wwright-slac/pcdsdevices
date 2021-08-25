@@ -1,0 +1,6 @@
+pcdsdevices.device.GroupDevice.trigger
+======================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: GroupDevice.trigger

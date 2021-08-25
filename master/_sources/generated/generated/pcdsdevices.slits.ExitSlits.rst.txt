@@ -172,6 +172,7 @@ pcdsdevices.slits.ExitSlits
        ~ExitSlits.get
        ~ExitSlits.read
        ~ExitSlits.read_configuration
+       ~ExitSlits.stage_group_instances
        ~ExitSlits.stop
        ~ExitSlits.summary
        ~ExitSlits.trigger
@@ -189,6 +190,8 @@ pcdsdevices.slits.ExitSlits
        ~ExitSlits.hints
        ~ExitSlits.kind
        ~ExitSlits.lightpath_cpts
+       ~ExitSlits.needs_parent
+       ~ExitSlits.stage_group
        ~ExitSlits.transmission
        ~ExitSlits.y_states
     

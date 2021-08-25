@@ -66,6 +66,7 @@ pcdsdevices.lodcm.Diode
        ~Diode.read_configuration
        ~Diode.remove
        ~Diode.set
+       ~Diode.stage_group_instances
        ~Diode.stop
        ~Diode.summary
        ~Diode.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.Diode
        ~Diode.limits
        ~Diode.low_limit
        ~Diode.moving
+       ~Diode.needs_parent
        ~Diode.out_states
        ~Diode.position
        ~Diode.settle_time
+       ~Diode.stage_group
        ~Diode.states_list
        ~Diode.timeout
        ~Diode.transmission

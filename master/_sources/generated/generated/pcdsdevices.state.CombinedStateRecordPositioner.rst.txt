@@ -70,6 +70,7 @@ pcdsdevices.state.CombinedStateRecordPositioner
        ~CombinedStateRecordPositioner.read
        ~CombinedStateRecordPositioner.read_configuration
        ~CombinedStateRecordPositioner.set
+       ~CombinedStateRecordPositioner.stage_group_instances
        ~CombinedStateRecordPositioner.summary
        ~CombinedStateRecordPositioner.trigger
        ~CombinedStateRecordPositioner.wait
@@ -93,8 +94,10 @@ pcdsdevices.state.CombinedStateRecordPositioner
        ~CombinedStateRecordPositioner.limits
        ~CombinedStateRecordPositioner.low_limit
        ~CombinedStateRecordPositioner.moving
+       ~CombinedStateRecordPositioner.needs_parent
        ~CombinedStateRecordPositioner.position
        ~CombinedStateRecordPositioner.settle_time
+       ~CombinedStateRecordPositioner.stage_group
        ~CombinedStateRecordPositioner.states_list
        ~CombinedStateRecordPositioner.stop
        ~CombinedStateRecordPositioner.timeout

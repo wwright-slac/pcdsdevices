@@ -66,6 +66,7 @@ pcdsdevices.pim.PIMY
        ~PIMY.read_configuration
        ~PIMY.remove
        ~PIMY.set
+       ~PIMY.stage_group_instances
        ~PIMY.stop
        ~PIMY.summary
        ~PIMY.trigger
@@ -91,9 +92,11 @@ pcdsdevices.pim.PIMY
        ~PIMY.limits
        ~PIMY.low_limit
        ~PIMY.moving
+       ~PIMY.needs_parent
        ~PIMY.out_states
        ~PIMY.position
        ~PIMY.settle_time
+       ~PIMY.stage_group
        ~PIMY.states_list
        ~PIMY.timeout
        ~PIMY.transmission

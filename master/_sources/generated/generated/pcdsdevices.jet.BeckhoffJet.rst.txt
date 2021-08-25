@@ -64,6 +64,7 @@ pcdsdevices.jet.BeckhoffJet
        ~BeckhoffJet.get
        ~BeckhoffJet.read
        ~BeckhoffJet.read_configuration
+       ~BeckhoffJet.stage_group_instances
        ~BeckhoffJet.stop
        ~BeckhoffJet.summary
        ~BeckhoffJet.trigger
@@ -80,5 +81,7 @@ pcdsdevices.jet.BeckhoffJet
        ~BeckhoffJet.connected
        ~BeckhoffJet.hints
        ~BeckhoffJet.kind
+       ~BeckhoffJet.needs_parent
+       ~BeckhoffJet.stage_group
     
     

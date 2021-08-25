@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMDiode.stage\_group\_instances
+================================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMDiode.stage_group_instances

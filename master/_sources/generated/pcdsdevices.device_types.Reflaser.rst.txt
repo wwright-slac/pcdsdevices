@@ -66,6 +66,7 @@
        ~Reflaser.read_configuration
        ~Reflaser.remove
        ~Reflaser.set
+       ~Reflaser.stage_group_instances
        ~Reflaser.stop
        ~Reflaser.summary
        ~Reflaser.trigger
@@ -91,9 +92,11 @@
        ~Reflaser.limits
        ~Reflaser.low_limit
        ~Reflaser.moving
+       ~Reflaser.needs_parent
        ~Reflaser.out_states
        ~Reflaser.position
        ~Reflaser.settle_time
+       ~Reflaser.stage_group
        ~Reflaser.states_list
        ~Reflaser.timeout
        ~Reflaser.transmission

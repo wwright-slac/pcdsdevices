@@ -125,6 +125,7 @@ pcdsdevices.lodcm.SimEnergyC
        ~SimEnergyC.set
        ~SimEnergyC.set_current_position
        ~SimEnergyC.set_position
+       ~SimEnergyC.stage_group_instances
        ~SimEnergyC.stop
        ~SimEnergyC.summary
        ~SimEnergyC.to_pseudo_tuple
@@ -156,12 +157,14 @@ pcdsdevices.lodcm.SimEnergyC
        ~SimEnergyC.limits
        ~SimEnergyC.low_limit
        ~SimEnergyC.moving
+       ~SimEnergyC.needs_parent
        ~SimEnergyC.position
        ~SimEnergyC.pseudo_positioners
        ~SimEnergyC.real_position
        ~SimEnergyC.real_positioners
        ~SimEnergyC.sequential
        ~SimEnergyC.settle_time
+       ~SimEnergyC.stage_group
        ~SimEnergyC.target
        ~SimEnergyC.timeout
     

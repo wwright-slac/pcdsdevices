@@ -109,6 +109,7 @@ pcdsdevices.gon.GonWithDetArm
        ~GonWithDetArm.get
        ~GonWithDetArm.read
        ~GonWithDetArm.read_configuration
+       ~GonWithDetArm.stage_group_instances
        ~GonWithDetArm.stop
        ~GonWithDetArm.summary
        ~GonWithDetArm.trigger
@@ -125,5 +126,7 @@ pcdsdevices.gon.GonWithDetArm
        ~GonWithDetArm.connected
        ~GonWithDetArm.hints
        ~GonWithDetArm.kind
+       ~GonWithDetArm.needs_parent
+       ~GonWithDetArm.stage_group
     
     

@@ -125,6 +125,7 @@ pcdsdevices.lodcm.SimLODCM
        ~SimLODCM.remove
        ~SimLODCM.remove_dia
        ~SimLODCM.set_energy
+       ~SimLODCM.stage_group_instances
        ~SimLODCM.stop
        ~SimLODCM.summary
        ~SimLODCM.trigger
@@ -147,6 +148,8 @@ pcdsdevices.lodcm.SimLODCM
        ~SimLODCM.energy
        ~SimLODCM.hints
        ~SimLODCM.kind
+       ~SimLODCM.needs_parent
+       ~SimLODCM.stage_group
        ~SimLODCM.transmission
     
     

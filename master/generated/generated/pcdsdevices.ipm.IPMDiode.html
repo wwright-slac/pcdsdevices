@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ipm.IPMDiode &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.ipm.IPMDiode &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -136,6 +136,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.read.html">pcdsdevices.ipm.IPMDiode.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.read_configuration.html">pcdsdevices.ipm.IPMDiode.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.remove.html">pcdsdevices.ipm.IPMDiode.remove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.stage_group_instances.html">pcdsdevices.ipm.IPMDiode.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.stop.html">pcdsdevices.ipm.IPMDiode.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.summary.html">pcdsdevices.ipm.IPMDiode.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.trigger.html">pcdsdevices.ipm.IPMDiode.trigger</a></li>
@@ -309,13 +310,16 @@ y, which points to the motor of the y-motion.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.remove.html#pcdsdevices.ipm.IPMDiode.remove" title="pcdsdevices.ipm.IPMDiode.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the diode out of the beam.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.stop.html#pcdsdevices.ipm.IPMDiode.stop" title="pcdsdevices.ipm.IPMDiode.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.stage_group_instances.html#pcdsdevices.ipm.IPMDiode.stage_group_instances" title="pcdsdevices.ipm.IPMDiode.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.stop.html#pcdsdevices.ipm.IPMDiode.stop" title="pcdsdevices.ipm.IPMDiode.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.summary.html#pcdsdevices.ipm.IPMDiode.summary" title="pcdsdevices.ipm.IPMDiode.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.summary.html#pcdsdevices.ipm.IPMDiode.summary" title="pcdsdevices.ipm.IPMDiode.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.trigger.html#pcdsdevices.ipm.IPMDiode.trigger" title="pcdsdevices.ipm.IPMDiode.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPMDiode.trigger.html#pcdsdevices.ipm.IPMDiode.trigger" title="pcdsdevices.ipm.IPMDiode.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -337,6 +341,12 @@ y, which points to the motor of the y-motion.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>

@@ -127,6 +127,7 @@ pcdsdevices.pim.XPIM
        ~XPIM.get
        ~XPIM.read
        ~XPIM.read_configuration
+       ~XPIM.stage_group_instances
        ~XPIM.stop
        ~XPIM.summary
        ~XPIM.trigger
@@ -144,6 +145,8 @@ pcdsdevices.pim.XPIM
        ~XPIM.hints
        ~XPIM.kind
        ~XPIM.lightpath_cpts
+       ~XPIM.needs_parent
+       ~XPIM.stage_group
        ~XPIM.transmission
        ~XPIM.y_states
     

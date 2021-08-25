@@ -93,6 +93,7 @@ pcdsdevices.mirror.PointingMirror
        ~PointingMirror.read_configuration
        ~PointingMirror.remove
        ~PointingMirror.set
+       ~PointingMirror.stage_group_instances
        ~PointingMirror.stop
        ~PointingMirror.summary
        ~PointingMirror.trigger
@@ -120,9 +121,11 @@ pcdsdevices.mirror.PointingMirror
        ~PointingMirror.limits
        ~PointingMirror.low_limit
        ~PointingMirror.moving
+       ~PointingMirror.needs_parent
        ~PointingMirror.out_states
        ~PointingMirror.position
        ~PointingMirror.settle_time
+       ~PointingMirror.stage_group
        ~PointingMirror.states_list
        ~PointingMirror.timeout
        ~PointingMirror.transmission

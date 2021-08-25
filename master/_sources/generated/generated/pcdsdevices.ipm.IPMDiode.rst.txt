@@ -57,6 +57,7 @@ pcdsdevices.ipm.IPMDiode
        ~IPMDiode.read
        ~IPMDiode.read_configuration
        ~IPMDiode.remove
+       ~IPMDiode.stage_group_instances
        ~IPMDiode.stop
        ~IPMDiode.summary
        ~IPMDiode.trigger
@@ -73,6 +74,8 @@ pcdsdevices.ipm.IPMDiode
        ~IPMDiode.connected
        ~IPMDiode.hints
        ~IPMDiode.kind
+       ~IPMDiode.needs_parent
+       ~IPMDiode.stage_group
        ~IPMDiode.transmission
     
     

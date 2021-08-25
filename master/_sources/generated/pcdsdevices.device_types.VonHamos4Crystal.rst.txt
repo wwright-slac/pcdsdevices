@@ -91,6 +91,7 @@
        ~VonHamos4Crystal.get
        ~VonHamos4Crystal.read
        ~VonHamos4Crystal.read_configuration
+       ~VonHamos4Crystal.stage_group_instances
        ~VonHamos4Crystal.stop
        ~VonHamos4Crystal.summary
        ~VonHamos4Crystal.trigger
@@ -107,5 +108,7 @@
        ~VonHamos4Crystal.connected
        ~VonHamos4Crystal.hints
        ~VonHamos4Crystal.kind
+       ~VonHamos4Crystal.needs_parent
+       ~VonHamos4Crystal.stage_group
     
     

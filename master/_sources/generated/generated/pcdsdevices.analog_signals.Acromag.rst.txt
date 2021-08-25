@@ -325,6 +325,7 @@ pcdsdevices.analog\_signals.Acromag
        ~Acromag.get
        ~Acromag.read
        ~Acromag.read_configuration
+       ~Acromag.stage_group_instances
        ~Acromag.stop
        ~Acromag.summary
        ~Acromag.trigger
@@ -341,5 +342,7 @@ pcdsdevices.analog\_signals.Acromag
        ~Acromag.connected
        ~Acromag.hints
        ~Acromag.kind
+       ~Acromag.needs_parent
+       ~Acromag.stage_group
     
     

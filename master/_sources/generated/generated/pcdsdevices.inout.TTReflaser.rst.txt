@@ -66,6 +66,7 @@ pcdsdevices.inout.TTReflaser
        ~TTReflaser.read_configuration
        ~TTReflaser.remove
        ~TTReflaser.set
+       ~TTReflaser.stage_group_instances
        ~TTReflaser.stop
        ~TTReflaser.summary
        ~TTReflaser.trigger
@@ -91,9 +92,11 @@ pcdsdevices.inout.TTReflaser
        ~TTReflaser.limits
        ~TTReflaser.low_limit
        ~TTReflaser.moving
+       ~TTReflaser.needs_parent
        ~TTReflaser.out_states
        ~TTReflaser.position
        ~TTReflaser.settle_time
+       ~TTReflaser.stage_group
        ~TTReflaser.states_list
        ~TTReflaser.timeout
        ~TTReflaser.transmission

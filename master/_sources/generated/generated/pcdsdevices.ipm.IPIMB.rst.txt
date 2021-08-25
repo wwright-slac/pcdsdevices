@@ -128,6 +128,7 @@ pcdsdevices.ipm.IPIMB
        ~IPIMB.read
        ~IPIMB.read_configuration
        ~IPIMB.screen
+       ~IPIMB.stage_group_instances
        ~IPIMB.stop
        ~IPIMB.summary
        ~IPIMB.trigger
@@ -144,5 +145,7 @@ pcdsdevices.ipm.IPIMB
        ~IPIMB.connected
        ~IPIMB.hints
        ~IPIMB.kind
+       ~IPIMB.needs_parent
+       ~IPIMB.stage_group
     
     

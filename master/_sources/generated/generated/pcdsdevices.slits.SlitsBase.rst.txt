@@ -25,7 +25,43 @@ pcdsdevices.slits.SlitsBase
           -  normal
           -  
    
+       *  -  xwidth
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ywidth
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  xcenter
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ycenter
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
 
+   
+   
+   
+   
+   
+   
+   
+   
    
    
    
@@ -52,6 +88,7 @@ pcdsdevices.slits.SlitsBase
        ~SlitsBase.read_configuration
        ~SlitsBase.remove
        ~SlitsBase.set
+       ~SlitsBase.stage_group_instances
        ~SlitsBase.stop
        ~SlitsBase.summary
        ~SlitsBase.trigger
@@ -73,11 +110,9 @@ pcdsdevices.slits.SlitsBase
        ~SlitsBase.hints
        ~SlitsBase.kind
        ~SlitsBase.lightpath_cpts
+       ~SlitsBase.needs_parent
        ~SlitsBase.position
+       ~SlitsBase.stage_group
        ~SlitsBase.transmission
-       ~SlitsBase.xcenter
-       ~SlitsBase.xwidth
-       ~SlitsBase.ycenter
-       ~SlitsBase.ywidth
     
     

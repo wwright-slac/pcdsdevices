@@ -75,6 +75,7 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
        ~CombinedInOutRecordPositioner.read_configuration
        ~CombinedInOutRecordPositioner.remove
        ~CombinedInOutRecordPositioner.set
+       ~CombinedInOutRecordPositioner.stage_group_instances
        ~CombinedInOutRecordPositioner.summary
        ~CombinedInOutRecordPositioner.trigger
        ~CombinedInOutRecordPositioner.wait
@@ -99,9 +100,11 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
        ~CombinedInOutRecordPositioner.limits
        ~CombinedInOutRecordPositioner.low_limit
        ~CombinedInOutRecordPositioner.moving
+       ~CombinedInOutRecordPositioner.needs_parent
        ~CombinedInOutRecordPositioner.out_states
        ~CombinedInOutRecordPositioner.position
        ~CombinedInOutRecordPositioner.settle_time
+       ~CombinedInOutRecordPositioner.stage_group
        ~CombinedInOutRecordPositioner.states_list
        ~CombinedInOutRecordPositioner.stop
        ~CombinedInOutRecordPositioner.timeout

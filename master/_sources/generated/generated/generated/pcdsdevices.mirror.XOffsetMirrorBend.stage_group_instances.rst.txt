@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirrorBend.stage\_group\_instances
+============================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirrorBend.stage_group_instances

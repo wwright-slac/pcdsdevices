@@ -66,6 +66,7 @@
        ~XFLS.read_configuration
        ~XFLS.remove
        ~XFLS.set
+       ~XFLS.stage_group_instances
        ~XFLS.stop
        ~XFLS.summary
        ~XFLS.trigger
@@ -91,9 +92,11 @@
        ~XFLS.limits
        ~XFLS.low_limit
        ~XFLS.moving
+       ~XFLS.needs_parent
        ~XFLS.out_states
        ~XFLS.position
        ~XFLS.settle_time
+       ~XFLS.stage_group
        ~XFLS.states_list
        ~XFLS.timeout
        ~XFLS.transmission

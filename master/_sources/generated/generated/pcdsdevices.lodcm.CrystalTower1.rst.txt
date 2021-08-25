@@ -239,6 +239,7 @@ pcdsdevices.lodcm.CrystalTower1
        ~CrystalTower1.is_silicon
        ~CrystalTower1.read
        ~CrystalTower1.read_configuration
+       ~CrystalTower1.stage_group_instances
        ~CrystalTower1.stop
        ~CrystalTower1.summary
        ~CrystalTower1.trigger
@@ -255,5 +256,7 @@ pcdsdevices.lodcm.CrystalTower1
        ~CrystalTower1.connected
        ~CrystalTower1.hints
        ~CrystalTower1.kind
+       ~CrystalTower1.needs_parent
+       ~CrystalTower1.stage_group
     
     

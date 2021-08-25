@@ -1,0 +1,6 @@
+pcdsdevices.inout.Reflaser.stage\_group\_instances
+==================================================
+
+.. currentmodule:: pcdsdevices.inout
+
+.. automethod:: Reflaser.stage_group_instances

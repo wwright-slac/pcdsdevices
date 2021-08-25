@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.PIM &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.device_types.PIM &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -130,6 +130,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.read.html">pcdsdevices.device_types.PIM.read</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.read_configuration.html">pcdsdevices.device_types.PIM.read_configuration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.remove.html">pcdsdevices.device_types.PIM.remove</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.stage_group_instances.html">pcdsdevices.device_types.PIM.stage_group_instances</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.stop.html">pcdsdevices.device_types.PIM.stop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.summary.html">pcdsdevices.device_types.PIM.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.trigger.html">pcdsdevices.device_types.PIM.trigger</a></li>
@@ -315,13 +316,16 @@ be inferred from <code class="xref any docutils literal notranslate"><span class
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.remove.html#pcdsdevices.device_types.PIM.remove" title="pcdsdevices.device_types.PIM.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the YAG and diode out of the beam.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.stop.html#pcdsdevices.device_types.PIM.stop" title="pcdsdevices.device_types.PIM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.stage_group_instances.html#pcdsdevices.device_types.PIM.stage_group_instances" title="pcdsdevices.device_types.PIM.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.stop.html#pcdsdevices.device_types.PIM.stop" title="pcdsdevices.device_types.PIM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.summary.html#pcdsdevices.device_types.PIM.summary" title="pcdsdevices.device_types.PIM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.summary.html#pcdsdevices.device_types.PIM.summary" title="pcdsdevices.device_types.PIM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.trigger.html#pcdsdevices.device_types.PIM.trigger" title="pcdsdevices.device_types.PIM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.PIM.trigger.html#pcdsdevices.device_types.PIM.trigger" title="pcdsdevices.device_types.PIM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -345,8 +349,14 @@ be inferred from <code class="xref any docutils literal notranslate"><span class
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">prefix_start</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">prefix_start</span></code></p></td>
 <td><p>Returns the first two segments of the prefix PV.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>

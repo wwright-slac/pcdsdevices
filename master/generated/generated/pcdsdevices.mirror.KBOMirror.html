@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.mirror.KBOMirror &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.mirror.KBOMirror &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -138,6 +138,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.get.html">pcdsdevices.mirror.KBOMirror.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.read.html">pcdsdevices.mirror.KBOMirror.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.read_configuration.html">pcdsdevices.mirror.KBOMirror.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.stage_group_instances.html">pcdsdevices.mirror.KBOMirror.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.stop.html">pcdsdevices.mirror.KBOMirror.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.summary.html">pcdsdevices.mirror.KBOMirror.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.trigger.html">pcdsdevices.mirror.KBOMirror.trigger</a></li>
@@ -379,13 +380,16 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.read_configuration.html#pcdsdevices.mirror.KBOMirror.read_configuration" title="pcdsdevices.mirror.KBOMirror.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.stop.html#pcdsdevices.mirror.KBOMirror.stop" title="pcdsdevices.mirror.KBOMirror.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.stage_group_instances.html#pcdsdevices.mirror.KBOMirror.stage_group_instances" title="pcdsdevices.mirror.KBOMirror.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.stop.html#pcdsdevices.mirror.KBOMirror.stop" title="pcdsdevices.mirror.KBOMirror.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.summary.html#pcdsdevices.mirror.KBOMirror.summary" title="pcdsdevices.mirror.KBOMirror.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.summary.html#pcdsdevices.mirror.KBOMirror.summary" title="pcdsdevices.mirror.KBOMirror.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.trigger.html#pcdsdevices.mirror.KBOMirror.trigger" title="pcdsdevices.mirror.KBOMirror.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.trigger.html#pcdsdevices.mirror.KBOMirror.trigger" title="pcdsdevices.mirror.KBOMirror.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -407,6 +411,12 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
 <td><p></p></td>
 </tr>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">transmission</span></code></p></td>

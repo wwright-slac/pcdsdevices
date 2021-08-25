@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.device &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -117,6 +117,7 @@
 <li class="toctree-l2"><a class="reference internal" href="pcdsdevices.dc_devices.html">pcdsdevices.dc_devices</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">pcdsdevices.device</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device.to_interface.html">pcdsdevices.device.to_interface</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device.GroupDevice.html">pcdsdevices.device.GroupDevice</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device.InterfaceComponent.html">pcdsdevices.device.InterfaceComponent</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device.InterfaceDevice.html">pcdsdevices.device.InterfaceDevice</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device.ObjectComponent.html">pcdsdevices.device.ObjectComponent</a></li>
@@ -245,19 +246,22 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.InterfaceComponent.html#pcdsdevices.device.InterfaceComponent" title="pcdsdevices.device.InterfaceComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InterfaceComponent</span></code></a>(cls[, kind])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.GroupDevice.html#pcdsdevices.device.GroupDevice" title="pcdsdevices.device.GroupDevice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">GroupDevice</span></code></a>(*args, **kwargs)</p></td>
+<td><p>A device that is a group of components that will act independently.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device.InterfaceComponent.html#pcdsdevices.device.InterfaceComponent" title="pcdsdevices.device.InterfaceComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InterfaceComponent</span></code></a>(cls[, kind])</p></td>
 <td><p>A special component to be used in the <a class="reference internal" href="generated/pcdsdevices.device.InterfaceDevice.html#pcdsdevices.device.InterfaceDevice" title="pcdsdevices.device.InterfaceDevice"><code class="xref any py py-class docutils literal notranslate"><span class="pre">InterfaceDevice</span></code></a>.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device.InterfaceDevice.html#pcdsdevices.device.InterfaceDevice" title="pcdsdevices.device.InterfaceDevice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InterfaceDevice</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.InterfaceDevice.html#pcdsdevices.device.InterfaceDevice" title="pcdsdevices.device.InterfaceDevice"><code class="xref py py-obj docutils literal notranslate"><span class="pre">InterfaceDevice</span></code></a>(*args, **kwargs)</p></td>
 <td><p>A device that can include pre-instantiated objects on init.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.ObjectComponent.html#pcdsdevices.device.ObjectComponent" title="pcdsdevices.device.ObjectComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ObjectComponent</span></code></a>(obj[, kind])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device.ObjectComponent.html#pcdsdevices.device.ObjectComponent" title="pcdsdevices.device.ObjectComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ObjectComponent</span></code></a>(obj[, kind])</p></td>
 <td><p>A component that includes an existing instantiated object into a Device.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device.UnrelatedComponent.html#pcdsdevices.device.UnrelatedComponent" title="pcdsdevices.device.UnrelatedComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UnrelatedComponent</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.UnrelatedComponent.html#pcdsdevices.device.UnrelatedComponent" title="pcdsdevices.device.UnrelatedComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UnrelatedComponent</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Components that are unrelated to the main <code class="docutils literal notranslate"><span class="pre">prefix</span></code> attribute.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device.UpdateComponent.html#pcdsdevices.device.UpdateComponent" title="pcdsdevices.device.UpdateComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateComponent</span></code></a>(**kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device.UpdateComponent.html#pcdsdevices.device.UpdateComponent" title="pcdsdevices.device.UpdateComponent"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UpdateComponent</span></code></a>(**kwargs)</p></td>
 <td><p>A component that copies and updates a parent component in a subclass.</p></td>
 </tr>
 </tbody>

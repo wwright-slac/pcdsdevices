@@ -1,0 +1,6 @@
+pcdsdevices.timetool.Timetool.stage\_group\_instances
+=====================================================
+
+.. currentmodule:: pcdsdevices.timetool
+
+.. automethod:: Timetool.stage_group_instances

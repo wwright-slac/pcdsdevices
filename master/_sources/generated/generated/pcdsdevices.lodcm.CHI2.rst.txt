@@ -66,6 +66,7 @@ pcdsdevices.lodcm.CHI2
        ~CHI2.read_configuration
        ~CHI2.remove
        ~CHI2.set
+       ~CHI2.stage_group_instances
        ~CHI2.stop
        ~CHI2.summary
        ~CHI2.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.CHI2
        ~CHI2.limits
        ~CHI2.low_limit
        ~CHI2.moving
+       ~CHI2.needs_parent
        ~CHI2.out_states
        ~CHI2.position
        ~CHI2.settle_time
+       ~CHI2.stage_group
        ~CHI2.states_list
        ~CHI2.timeout
        ~CHI2.transmission

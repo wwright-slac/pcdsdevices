@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.signal &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.signal &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -155,6 +155,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.InternalSignal.html">pcdsdevices.signal.InternalSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.NotImplementedSignal.html">pcdsdevices.signal.NotImplementedSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.NotepadLinkedSignal.html">pcdsdevices.signal.NotepadLinkedSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PVStateSignal.html">pcdsdevices.signal.PVStateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html">pcdsdevices.signal.PytmcSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html">pcdsdevices.signal.PytmcSignalRO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html">pcdsdevices.signal.PytmcSignalRW</a></li>
@@ -306,19 +307,22 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.NotepadLinkedSignal.html#pcdsdevices.signal.NotepadLinkedSignal" title="pcdsdevices.signal.NotepadLinkedSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NotepadLinkedSignal</span></code></a>(read_pv[, write_pv, …])</p></td>
 <td><p>Create the notepad metadata dict for usage by pcdsdevices-notepad.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a>(prefix[, io])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PVStateSignal.html#pcdsdevices.signal.PVStateSignal" title="pcdsdevices.signal.PVStateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PVStateSignal</span></code></a>(*, name, **kwargs)</p></td>
+<td><p>Signal that implements the <a class="reference internal" href="generated/pcdsdevices.state.PVStatePositioner.html#pcdsdevices.state.PVStatePositioner" title="pcdsdevices.state.PVStatePositioner"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PVStatePositioner</span></code></a> state logic.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a>(prefix[, io])</p></td>
 <td><p>Class for a connection to a pytmc-generated EPICS record.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html#pcdsdevices.signal.PytmcSignalRO" title="pcdsdevices.signal.PytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRO</span></code></a>(prefix[, io])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRO.html#pcdsdevices.signal.PytmcSignalRO" title="pcdsdevices.signal.PytmcSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRO</span></code></a>(prefix[, io])</p></td>
 <td><p>Read-only connection to a pytmc-generated EPICS record.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html#pcdsdevices.signal.PytmcSignalRW" title="pcdsdevices.signal.PytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRW</span></code></a>(prefix[, io])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.PytmcSignalRW.html#pcdsdevices.signal.PytmcSignalRW" title="pcdsdevices.signal.PytmcSignalRW"><code class="xref py py-obj docutils literal notranslate"><span class="pre">PytmcSignalRW</span></code></a>(prefix[, io])</p></td>
 <td><p>Read-write connection to a pytmc-generated EPICS record.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.SignalEditMD.html#pcdsdevices.signal.SignalEditMD" title="pcdsdevices.signal.SignalEditMD"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SignalEditMD</span></code></a>(*, name[, value, timestamp, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.SignalEditMD.html#pcdsdevices.signal.SignalEditMD" title="pcdsdevices.signal.SignalEditMD"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SignalEditMD</span></code></a>(*, name[, value, timestamp, …])</p></td>
 <td><p>Subclass for allowing an external override of signal metadata.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.UnitConversionDerivedSignal.html#pcdsdevices.signal.UnitConversionDerivedSignal" title="pcdsdevices.signal.UnitConversionDerivedSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UnitConversionDerivedSignal</span></code></a>(derived_from, *, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.UnitConversionDerivedSignal.html#pcdsdevices.signal.UnitConversionDerivedSignal" title="pcdsdevices.signal.UnitConversionDerivedSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">UnitConversionDerivedSignal</span></code></a>(derived_from, *, …)</p></td>
 <td><p>A DerivedSignal which performs unit conversion.</p></td>
 </tr>
 </tbody>

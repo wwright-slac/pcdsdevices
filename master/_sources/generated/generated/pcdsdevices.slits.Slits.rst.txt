@@ -127,6 +127,7 @@ pcdsdevices.slits.Slits
        ~Slits.read_configuration
        ~Slits.remove
        ~Slits.set
+       ~Slits.stage_group_instances
        ~Slits.stop
        ~Slits.summary
        ~Slits.trigger
@@ -148,7 +149,9 @@ pcdsdevices.slits.Slits
        ~Slits.hints
        ~Slits.kind
        ~Slits.lightpath_cpts
+       ~Slits.needs_parent
        ~Slits.position
+       ~Slits.stage_group
        ~Slits.transmission
     
     

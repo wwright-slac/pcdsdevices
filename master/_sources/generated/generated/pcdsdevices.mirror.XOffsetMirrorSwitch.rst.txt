@@ -181,6 +181,7 @@ pcdsdevices.mirror.XOffsetMirrorSwitch
        ~XOffsetMirrorSwitch.get
        ~XOffsetMirrorSwitch.read
        ~XOffsetMirrorSwitch.read_configuration
+       ~XOffsetMirrorSwitch.stage_group_instances
        ~XOffsetMirrorSwitch.stop
        ~XOffsetMirrorSwitch.summary
        ~XOffsetMirrorSwitch.trigger
@@ -199,6 +200,8 @@ pcdsdevices.mirror.XOffsetMirrorSwitch
        ~XOffsetMirrorSwitch.connected
        ~XOffsetMirrorSwitch.hints
        ~XOffsetMirrorSwitch.kind
+       ~XOffsetMirrorSwitch.needs_parent
+       ~XOffsetMirrorSwitch.stage_group
        ~XOffsetMirrorSwitch.transmission
        ~XOffsetMirrorSwitch.y_dwn
        ~XOffsetMirrorSwitch.y_up

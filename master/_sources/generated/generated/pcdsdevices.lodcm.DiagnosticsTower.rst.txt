@@ -91,6 +91,7 @@ pcdsdevices.lodcm.DiagnosticsTower
        ~DiagnosticsTower.get
        ~DiagnosticsTower.read
        ~DiagnosticsTower.read_configuration
+       ~DiagnosticsTower.stage_group_instances
        ~DiagnosticsTower.stop
        ~DiagnosticsTower.summary
        ~DiagnosticsTower.trigger
@@ -107,5 +108,7 @@ pcdsdevices.lodcm.DiagnosticsTower
        ~DiagnosticsTower.connected
        ~DiagnosticsTower.hints
        ~DiagnosticsTower.kind
+       ~DiagnosticsTower.needs_parent
+       ~DiagnosticsTower.stage_group
     
     

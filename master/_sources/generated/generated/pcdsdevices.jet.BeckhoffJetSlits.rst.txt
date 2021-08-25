@@ -73,6 +73,7 @@ pcdsdevices.jet.BeckhoffJetSlits
        ~BeckhoffJetSlits.get
        ~BeckhoffJetSlits.read
        ~BeckhoffJetSlits.read_configuration
+       ~BeckhoffJetSlits.stage_group_instances
        ~BeckhoffJetSlits.stop
        ~BeckhoffJetSlits.summary
        ~BeckhoffJetSlits.trigger
@@ -89,5 +90,7 @@ pcdsdevices.jet.BeckhoffJetSlits
        ~BeckhoffJetSlits.connected
        ~BeckhoffJetSlits.hints
        ~BeckhoffJetSlits.kind
+       ~BeckhoffJetSlits.needs_parent
+       ~BeckhoffJetSlits.stage_group
     
     

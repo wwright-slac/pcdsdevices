@@ -68,6 +68,7 @@ pcdsdevices.ipm.IPM\_Wave8
        ~IPM_Wave8.read
        ~IPM_Wave8.read_configuration
        ~IPM_Wave8.remove
+       ~IPM_Wave8.stage_group_instances
        ~IPM_Wave8.stop
        ~IPM_Wave8.summary
        ~IPM_Wave8.target_in
@@ -88,6 +89,8 @@ pcdsdevices.ipm.IPM\_Wave8
        ~IPM_Wave8.connected
        ~IPM_Wave8.hints
        ~IPM_Wave8.kind
+       ~IPM_Wave8.needs_parent
+       ~IPM_Wave8.stage_group
        ~IPM_Wave8.transmission
     
     

@@ -19,7 +19,7 @@ pcdsdevices.state.PVStatePositioner
           - Notes
    
        *  -  state
-          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  :class:`~pcdsdevices.signal.PVStateSignal`
           -  
           -  
           -  hinted

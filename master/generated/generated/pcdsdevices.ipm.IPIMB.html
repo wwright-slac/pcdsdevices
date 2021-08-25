@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.ipm.IPIMB &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -133,6 +133,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.read.html">pcdsdevices.ipm.IPIMB.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.read_configuration.html">pcdsdevices.ipm.IPIMB.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.screen.html">pcdsdevices.ipm.IPIMB.screen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stage_group_instances.html">pcdsdevices.ipm.IPIMB.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stop.html">pcdsdevices.ipm.IPIMB.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.summary.html">pcdsdevices.ipm.IPIMB.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.trigger.html">pcdsdevices.ipm.IPIMB.trigger</a></li>
@@ -396,13 +397,16 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.screen.html#pcdsdevices.ipm.IPIMB.screen" title="pcdsdevices.ipm.IPIMB.screen"><code class="xref py py-obj docutils literal notranslate"><span class="pre">screen</span></code></a>()</p></td>
 <td><p>Function to call the (pyQT) screen for an IPIMB box.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stop.html#pcdsdevices.ipm.IPIMB.stop" title="pcdsdevices.ipm.IPIMB.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stage_group_instances.html#pcdsdevices.ipm.IPIMB.stage_group_instances" title="pcdsdevices.ipm.IPIMB.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.stop.html#pcdsdevices.ipm.IPIMB.stop" title="pcdsdevices.ipm.IPIMB.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.summary.html#pcdsdevices.ipm.IPIMB.summary" title="pcdsdevices.ipm.IPIMB.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.summary.html#pcdsdevices.ipm.IPIMB.summary" title="pcdsdevices.ipm.IPIMB.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.trigger.html#pcdsdevices.ipm.IPIMB.trigger" title="pcdsdevices.ipm.IPIMB.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMB.trigger.html#pcdsdevices.ipm.IPIMB.trigger" title="pcdsdevices.ipm.IPIMB.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -424,6 +428,12 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

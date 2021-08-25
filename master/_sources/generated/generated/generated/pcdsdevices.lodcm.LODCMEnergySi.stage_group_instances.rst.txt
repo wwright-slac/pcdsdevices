@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergySi.stage\_group\_instances
+=======================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergySi.stage_group_instances

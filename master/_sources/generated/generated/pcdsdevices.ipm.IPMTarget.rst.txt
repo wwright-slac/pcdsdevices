@@ -103,6 +103,7 @@ pcdsdevices.ipm.IPMTarget
        ~IPMTarget.read_configuration
        ~IPMTarget.remove
        ~IPMTarget.set
+       ~IPMTarget.stage_group_instances
        ~IPMTarget.stop
        ~IPMTarget.summary
        ~IPMTarget.trigger
@@ -128,9 +129,11 @@ pcdsdevices.ipm.IPMTarget
        ~IPMTarget.limits
        ~IPMTarget.low_limit
        ~IPMTarget.moving
+       ~IPMTarget.needs_parent
        ~IPMTarget.out_states
        ~IPMTarget.position
        ~IPMTarget.settle_time
+       ~IPMTarget.stage_group
        ~IPMTarget.states_list
        ~IPMTarget.timeout
        ~IPMTarget.transmission

@@ -281,6 +281,7 @@ pcdsdevices.slits.PowerSlits
        ~PowerSlits.read_configuration
        ~PowerSlits.remove
        ~PowerSlits.set
+       ~PowerSlits.stage_group_instances
        ~PowerSlits.stop
        ~PowerSlits.summary
        ~PowerSlits.trigger
@@ -302,7 +303,9 @@ pcdsdevices.slits.PowerSlits
        ~PowerSlits.hints
        ~PowerSlits.kind
        ~PowerSlits.lightpath_cpts
+       ~PowerSlits.needs_parent
        ~PowerSlits.position
+       ~PowerSlits.stage_group
        ~PowerSlits.transmission
     
     

@@ -67,6 +67,7 @@ pcdsdevices.pim.PIM
        ~PIM.read
        ~PIM.read_configuration
        ~PIM.remove
+       ~PIM.stage_group_instances
        ~PIM.stop
        ~PIM.summary
        ~PIM.trigger
@@ -83,6 +84,8 @@ pcdsdevices.pim.PIM
        ~PIM.connected
        ~PIM.hints
        ~PIM.kind
+       ~PIM.needs_parent
        ~PIM.prefix_start
+       ~PIM.stage_group
     
     

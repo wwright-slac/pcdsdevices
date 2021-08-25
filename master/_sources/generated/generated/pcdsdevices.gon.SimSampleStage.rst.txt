@@ -64,6 +64,7 @@ pcdsdevices.gon.SimSampleStage
        ~SimSampleStage.get
        ~SimSampleStage.read
        ~SimSampleStage.read_configuration
+       ~SimSampleStage.stage_group_instances
        ~SimSampleStage.stop
        ~SimSampleStage.summary
        ~SimSampleStage.trigger
@@ -80,5 +81,7 @@ pcdsdevices.gon.SimSampleStage
        ~SimSampleStage.connected
        ~SimSampleStage.hints
        ~SimSampleStage.kind
+       ~SimSampleStage.needs_parent
+       ~SimSampleStage.stage_group
     
     

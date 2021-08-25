@@ -30,28 +30,28 @@ pcdsdevices.slits.LusiSlits
           -  
           -  
           -  hinted
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  ywidth
           -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
           -  
           -  
           -  hinted
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  xcenter
           -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
           -  
           -  
           -  normal
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  ycenter
           -  :class:`~pcdsdevices.slits.LusiSlitPositioner`
           -  
           -  
           -  normal
-          -  
+          -  Inherited from :class:`~pcdsdevices.slits.SlitsBase`
    
        *  -  blocked
           -  :class:`~ophyd.signal.EpicsSignalRO`
@@ -127,6 +127,7 @@ pcdsdevices.slits.LusiSlits
        ~LusiSlits.read_configuration
        ~LusiSlits.remove
        ~LusiSlits.set
+       ~LusiSlits.stage_group_instances
        ~LusiSlits.stop
        ~LusiSlits.summary
        ~LusiSlits.trigger
@@ -148,7 +149,9 @@ pcdsdevices.slits.LusiSlits
        ~LusiSlits.hints
        ~LusiSlits.kind
        ~LusiSlits.lightpath_cpts
+       ~LusiSlits.needs_parent
        ~LusiSlits.position
+       ~LusiSlits.stage_group
        ~LusiSlits.transmission
     
     

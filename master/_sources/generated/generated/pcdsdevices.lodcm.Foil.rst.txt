@@ -66,6 +66,7 @@ pcdsdevices.lodcm.Foil
        ~Foil.read_configuration
        ~Foil.remove
        ~Foil.set
+       ~Foil.stage_group_instances
        ~Foil.stop
        ~Foil.summary
        ~Foil.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.Foil
        ~Foil.limits
        ~Foil.low_limit
        ~Foil.moving
+       ~Foil.needs_parent
        ~Foil.out_states
        ~Foil.position
        ~Foil.settle_time
+       ~Foil.stage_group
        ~Foil.states_list
        ~Foil.timeout
        ~Foil.transmission

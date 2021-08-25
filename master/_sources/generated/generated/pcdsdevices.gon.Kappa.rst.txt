@@ -110,6 +110,7 @@ pcdsdevices.gon.Kappa
        ~Kappa.read_configuration
        ~Kappa.set
        ~Kappa.set_current_position
+       ~Kappa.stage_group_instances
        ~Kappa.stop
        ~Kappa.summary
        ~Kappa.to_pseudo_tuple
@@ -139,12 +140,14 @@ pcdsdevices.gon.Kappa
        ~Kappa.limits
        ~Kappa.low_limit
        ~Kappa.moving
+       ~Kappa.needs_parent
        ~Kappa.position
        ~Kappa.pseudo_positioners
        ~Kappa.real_position
        ~Kappa.real_positioners
        ~Kappa.sequential
        ~Kappa.settle_time
+       ~Kappa.stage_group
        ~Kappa.target
        ~Kappa.timeout
     

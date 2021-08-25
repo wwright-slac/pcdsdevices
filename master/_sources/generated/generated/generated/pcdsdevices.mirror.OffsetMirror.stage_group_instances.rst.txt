@@ -1,0 +1,6 @@
+pcdsdevices.mirror.OffsetMirror.stage\_group\_instances
+=======================================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: OffsetMirror.stage_group_instances

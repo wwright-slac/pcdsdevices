@@ -82,6 +82,7 @@ pcdsdevices.pim.IM2K0
        ~IM2K0.get
        ~IM2K0.read
        ~IM2K0.read_configuration
+       ~IM2K0.stage_group_instances
        ~IM2K0.stop
        ~IM2K0.summary
        ~IM2K0.trigger
@@ -99,6 +100,8 @@ pcdsdevices.pim.IM2K0
        ~IM2K0.hints
        ~IM2K0.kind
        ~IM2K0.lightpath_cpts
+       ~IM2K0.needs_parent
+       ~IM2K0.stage_group
        ~IM2K0.transmission
        ~IM2K0.y_states
     

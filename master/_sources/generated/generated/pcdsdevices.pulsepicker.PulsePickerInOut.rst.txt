@@ -19,7 +19,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
           - Notes
    
        *  -  state
-          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  :class:`~pcdsdevices.signal.PVStateSignal`
           -  
           -  
           -  hinted
@@ -144,6 +144,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
        ~PulsePickerInOut.remove
        ~PulsePickerInOut.reset
        ~PulsePickerInOut.set
+       ~PulsePickerInOut.stage_group_instances
        ~PulsePickerInOut.summary
        ~PulsePickerInOut.trigger
        ~PulsePickerInOut.wait
@@ -168,9 +169,11 @@ pcdsdevices.pulsepicker.PulsePickerInOut
        ~PulsePickerInOut.limits
        ~PulsePickerInOut.low_limit
        ~PulsePickerInOut.moving
+       ~PulsePickerInOut.needs_parent
        ~PulsePickerInOut.out_states
        ~PulsePickerInOut.position
        ~PulsePickerInOut.settle_time
+       ~PulsePickerInOut.stage_group
        ~PulsePickerInOut.states_list
        ~PulsePickerInOut.stop
        ~PulsePickerInOut.timeout

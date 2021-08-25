@@ -19,7 +19,7 @@ pcdsdevices.pulsepicker.PulsePicker
           - Notes
    
        *  -  state
-          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  :class:`~pcdsdevices.signal.PVStateSignal`
           -  
           -  
           -  hinted

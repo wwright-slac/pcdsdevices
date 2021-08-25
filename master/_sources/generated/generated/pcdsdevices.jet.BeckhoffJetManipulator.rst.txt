@@ -64,6 +64,7 @@ pcdsdevices.jet.BeckhoffJetManipulator
        ~BeckhoffJetManipulator.get
        ~BeckhoffJetManipulator.read
        ~BeckhoffJetManipulator.read_configuration
+       ~BeckhoffJetManipulator.stage_group_instances
        ~BeckhoffJetManipulator.stop
        ~BeckhoffJetManipulator.summary
        ~BeckhoffJetManipulator.trigger
@@ -80,5 +81,7 @@ pcdsdevices.jet.BeckhoffJetManipulator
        ~BeckhoffJetManipulator.connected
        ~BeckhoffJetManipulator.hints
        ~BeckhoffJetManipulator.kind
+       ~BeckhoffJetManipulator.needs_parent
+       ~BeckhoffJetManipulator.stage_group
     
     

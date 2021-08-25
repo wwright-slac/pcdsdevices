@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.BeckhoffJet.stage\_group\_instances
+=============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: BeckhoffJet.stage_group_instances

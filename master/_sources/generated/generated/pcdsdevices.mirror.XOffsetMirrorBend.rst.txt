@@ -235,6 +235,7 @@ pcdsdevices.mirror.XOffsetMirrorBend
        ~XOffsetMirrorBend.get
        ~XOffsetMirrorBend.read
        ~XOffsetMirrorBend.read_configuration
+       ~XOffsetMirrorBend.stage_group_instances
        ~XOffsetMirrorBend.stop
        ~XOffsetMirrorBend.summary
        ~XOffsetMirrorBend.trigger
@@ -253,6 +254,8 @@ pcdsdevices.mirror.XOffsetMirrorBend
        ~XOffsetMirrorBend.connected
        ~XOffsetMirrorBend.hints
        ~XOffsetMirrorBend.kind
+       ~XOffsetMirrorBend.needs_parent
+       ~XOffsetMirrorBend.stage_group
        ~XOffsetMirrorBend.transmission
     
     

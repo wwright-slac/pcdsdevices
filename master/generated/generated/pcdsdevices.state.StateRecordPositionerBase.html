@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.state.StateRecordPositionerBase &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.state.StateRecordPositionerBase &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -144,7 +144,6 @@
 <li class="toctree-l2 current"><a class="reference internal" href="../pcdsdevices.state.html">pcdsdevices.state</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.CombinedStateRecordPositioner.html">pcdsdevices.state.CombinedStateRecordPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.PVStatePositioner.html">pcdsdevices.state.PVStatePositioner</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.PVStateSignal.html">pcdsdevices.state.PVStateSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.StatePositioner.html">pcdsdevices.state.StatePositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.state.StateRecordPositioner.html">pcdsdevices.state.StateRecordPositioner</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.state.StateRecordPositionerBase</a><ul>
@@ -159,6 +158,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.read.html">pcdsdevices.state.StateRecordPositionerBase.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.read_configuration.html">pcdsdevices.state.StateRecordPositionerBase.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.set.html">pcdsdevices.state.StateRecordPositionerBase.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.stage_group_instances.html">pcdsdevices.state.StateRecordPositionerBase.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.summary.html">pcdsdevices.state.StateRecordPositionerBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.trigger.html">pcdsdevices.state.StateRecordPositionerBase.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wait.html">pcdsdevices.state.StateRecordPositionerBase.wait</a></li>
@@ -316,19 +316,22 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.set.html#pcdsdevices.state.StateRecordPositionerBase.set" title="pcdsdevices.state.StateRecordPositionerBase.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.summary.html#pcdsdevices.state.StateRecordPositionerBase.summary" title="pcdsdevices.state.StateRecordPositionerBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.stage_group_instances.html#pcdsdevices.state.StateRecordPositionerBase.stage_group_instances" title="pcdsdevices.state.StateRecordPositionerBase.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.summary.html#pcdsdevices.state.StateRecordPositionerBase.summary" title="pcdsdevices.state.StateRecordPositionerBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.trigger.html#pcdsdevices.state.StateRecordPositionerBase.trigger" title="pcdsdevices.state.StateRecordPositionerBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.trigger.html#pcdsdevices.state.StateRecordPositionerBase.trigger" title="pcdsdevices.state.StateRecordPositionerBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wait.html#pcdsdevices.state.StateRecordPositionerBase.wait" title="pcdsdevices.state.StateRecordPositionerBase.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wait.html#pcdsdevices.state.StateRecordPositionerBase.wait" title="pcdsdevices.state.StateRecordPositionerBase.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm.html#pcdsdevices.state.StateRecordPositionerBase.wm" title="pcdsdevices.state.StateRecordPositionerBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm.html#pcdsdevices.state.StateRecordPositionerBase.wm" title="pcdsdevices.state.StateRecordPositionerBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html#pcdsdevices.state.StateRecordPositionerBase.wm_update" title="pcdsdevices.state.StateRecordPositionerBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StateRecordPositionerBase.wm_update.html#pcdsdevices.state.StateRecordPositionerBase.wm_update" title="pcdsdevices.state.StateRecordPositionerBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -367,11 +370,17 @@
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>

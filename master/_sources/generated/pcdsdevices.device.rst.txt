@@ -21,6 +21,7 @@
    .. autosummary::
       :toctree: generated
    
+      GroupDevice
       InterfaceComponent
       InterfaceDevice
       ObjectComponent

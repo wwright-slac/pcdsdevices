@@ -64,6 +64,7 @@ pcdsdevices.jet.Injector
        ~Injector.get
        ~Injector.read
        ~Injector.read_configuration
+       ~Injector.stage_group_instances
        ~Injector.stop
        ~Injector.summary
        ~Injector.trigger
@@ -80,5 +81,7 @@ pcdsdevices.jet.Injector
        ~Injector.connected
        ~Injector.hints
        ~Injector.kind
+       ~Injector.needs_parent
+       ~Injector.stage_group
     
     

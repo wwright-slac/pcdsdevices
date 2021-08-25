@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.LODCMEnergyC &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.lodcm.LODCMEnergyC &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -161,6 +161,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.set.html">pcdsdevices.lodcm.LODCMEnergyC.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.set_current_position.html">pcdsdevices.lodcm.LODCMEnergyC.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.set_position.html">pcdsdevices.lodcm.LODCMEnergyC.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.stage_group_instances.html">pcdsdevices.lodcm.LODCMEnergyC.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.stop.html">pcdsdevices.lodcm.LODCMEnergyC.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.summary.html">pcdsdevices.lodcm.LODCMEnergyC.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple.html">pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple</a></li>
@@ -432,37 +433,40 @@ aligned for both towers.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.set_position.html#pcdsdevices.lodcm.LODCMEnergyC.set_position" title="pcdsdevices.lodcm.LODCMEnergyC.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.stop.html#pcdsdevices.lodcm.LODCMEnergyC.stop" title="pcdsdevices.lodcm.LODCMEnergyC.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.stage_group_instances.html#pcdsdevices.lodcm.LODCMEnergyC.stage_group_instances" title="pcdsdevices.lodcm.LODCMEnergyC.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.stop.html#pcdsdevices.lodcm.LODCMEnergyC.stop" title="pcdsdevices.lodcm.LODCMEnergyC.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.summary.html#pcdsdevices.lodcm.LODCMEnergyC.summary" title="pcdsdevices.lodcm.LODCMEnergyC.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.summary.html#pcdsdevices.lodcm.LODCMEnergyC.summary" title="pcdsdevices.lodcm.LODCMEnergyC.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple.html#pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple" title="pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple.html#pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple" title="pcdsdevices.lodcm.LODCMEnergyC.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple.html#pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple" title="pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple.html#pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple" title="pcdsdevices.lodcm.LODCMEnergyC.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.trigger.html#pcdsdevices.lodcm.LODCMEnergyC.trigger" title="pcdsdevices.lodcm.LODCMEnergyC.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.trigger.html#pcdsdevices.lodcm.LODCMEnergyC.trigger" title="pcdsdevices.lodcm.LODCMEnergyC.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.tweak.html#pcdsdevices.lodcm.LODCMEnergyC.tweak" title="pcdsdevices.lodcm.LODCMEnergyC.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.tweak.html#pcdsdevices.lodcm.LODCMEnergyC.tweak" title="pcdsdevices.lodcm.LODCMEnergyC.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.umv.html#pcdsdevices.lodcm.LODCMEnergyC.umv" title="pcdsdevices.lodcm.LODCMEnergyC.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.umv.html#pcdsdevices.lodcm.LODCMEnergyC.umv" title="pcdsdevices.lodcm.LODCMEnergyC.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.umvr.html#pcdsdevices.lodcm.LODCMEnergyC.umvr" title="pcdsdevices.lodcm.LODCMEnergyC.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.umvr.html#pcdsdevices.lodcm.LODCMEnergyC.umvr" title="pcdsdevices.lodcm.LODCMEnergyC.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wait.html#pcdsdevices.lodcm.LODCMEnergyC.wait" title="pcdsdevices.lodcm.LODCMEnergyC.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wait.html#pcdsdevices.lodcm.LODCMEnergyC.wait" title="pcdsdevices.lodcm.LODCMEnergyC.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm.html#pcdsdevices.lodcm.LODCMEnergyC.wm" title="pcdsdevices.lodcm.LODCMEnergyC.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm.html#pcdsdevices.lodcm.LODCMEnergyC.wm" title="pcdsdevices.lodcm.LODCMEnergyC.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html#pcdsdevices.lodcm.LODCMEnergyC.wm_update" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.LODCMEnergyC.wm_update.html#pcdsdevices.lodcm.LODCMEnergyC.wm_update" title="pcdsdevices.lodcm.LODCMEnergyC.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -507,23 +511,29 @@ aligned for both towers.</p>
 <tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Pseudo motor position namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">pseudo_positioners</span></code></p></td>
 <td><p>Pseudo positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_position</span></code></p></td>
 <td><p>Real motor position namedtuple</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">real_positioners</span></code></p></td>
 <td><p>Real positioners instances in a namedtuple</p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">sequential</span></code></p></td>
 <td><p>If sequential is set, motors will move in the sequence they were defined in (i.e., in series)</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">target</span></code></p></td>
 <td><p>Last commanded target positions</p></td>

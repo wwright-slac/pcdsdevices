@@ -239,6 +239,7 @@ pcdsdevices.lodcm.SimSecondTower
        ~SimSecondTower.is_silicon
        ~SimSecondTower.read
        ~SimSecondTower.read_configuration
+       ~SimSecondTower.stage_group_instances
        ~SimSecondTower.stop
        ~SimSecondTower.summary
        ~SimSecondTower.trigger
@@ -255,5 +256,7 @@ pcdsdevices.lodcm.SimSecondTower
        ~SimSecondTower.connected
        ~SimSecondTower.hints
        ~SimSecondTower.kind
+       ~SimSecondTower.needs_parent
+       ~SimSecondTower.stage_group
     
     

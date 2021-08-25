@@ -68,6 +68,7 @@ pcdsdevices.ipm.IPM\_IPIMB
        ~IPM_IPIMB.read
        ~IPM_IPIMB.read_configuration
        ~IPM_IPIMB.remove
+       ~IPM_IPIMB.stage_group_instances
        ~IPM_IPIMB.stop
        ~IPM_IPIMB.summary
        ~IPM_IPIMB.target_in
@@ -88,6 +89,8 @@ pcdsdevices.ipm.IPM\_IPIMB
        ~IPM_IPIMB.connected
        ~IPM_IPIMB.hints
        ~IPM_IPIMB.kind
+       ~IPM_IPIMB.needs_parent
+       ~IPM_IPIMB.stage_group
        ~IPM_IPIMB.transmission
     
     

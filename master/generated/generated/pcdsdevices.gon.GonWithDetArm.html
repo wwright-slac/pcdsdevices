@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.gon.GonWithDetArm &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.gon.GonWithDetArm &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -130,6 +130,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.get.html">pcdsdevices.gon.GonWithDetArm.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.read.html">pcdsdevices.gon.GonWithDetArm.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.read_configuration.html">pcdsdevices.gon.GonWithDetArm.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.stage_group_instances.html">pcdsdevices.gon.GonWithDetArm.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.stop.html">pcdsdevices.gon.GonWithDetArm.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.summary.html">pcdsdevices.gon.GonWithDetArm.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.trigger.html">pcdsdevices.gon.GonWithDetArm.trigger</a></li>
@@ -355,13 +356,16 @@ arguments, and they are all labelled accordingly.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.read_configuration.html#pcdsdevices.gon.GonWithDetArm.read_configuration" title="pcdsdevices.gon.GonWithDetArm.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.stop.html#pcdsdevices.gon.GonWithDetArm.stop" title="pcdsdevices.gon.GonWithDetArm.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.stage_group_instances.html#pcdsdevices.gon.GonWithDetArm.stage_group_instances" title="pcdsdevices.gon.GonWithDetArm.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.stop.html#pcdsdevices.gon.GonWithDetArm.stop" title="pcdsdevices.gon.GonWithDetArm.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.summary.html#pcdsdevices.gon.GonWithDetArm.summary" title="pcdsdevices.gon.GonWithDetArm.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.summary.html#pcdsdevices.gon.GonWithDetArm.summary" title="pcdsdevices.gon.GonWithDetArm.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.trigger.html#pcdsdevices.gon.GonWithDetArm.trigger" title="pcdsdevices.gon.GonWithDetArm.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.GonWithDetArm.trigger.html#pcdsdevices.gon.GonWithDetArm.trigger" title="pcdsdevices.gon.GonWithDetArm.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -383,6 +387,12 @@ arguments, and they are all labelled accordingly.</p>
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

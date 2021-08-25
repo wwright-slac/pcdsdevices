@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pim.PIMWithLED &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.pim.PIMWithLED &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -147,6 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.read.html">pcdsdevices.pim.PIMWithLED.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.read_configuration.html">pcdsdevices.pim.PIMWithLED.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.remove.html">pcdsdevices.pim.PIMWithLED.remove</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.stage_group_instances.html">pcdsdevices.pim.PIMWithLED.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.stop.html">pcdsdevices.pim.PIMWithLED.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.summary.html">pcdsdevices.pim.PIMWithLED.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.trigger.html">pcdsdevices.pim.PIMWithLED.trigger</a></li>
@@ -339,13 +340,16 @@ inferred from <code class="xref any docutils literal notranslate"><span class="p
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.remove.html#pcdsdevices.pim.PIMWithLED.remove" title="pcdsdevices.pim.PIMWithLED.remove"><code class="xref py py-obj docutils literal notranslate"><span class="pre">remove</span></code></a>([moved_cb, timeout, wait])</p></td>
 <td><p>Moves the YAG and diode out of the beam.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.stop.html#pcdsdevices.pim.PIMWithLED.stop" title="pcdsdevices.pim.PIMWithLED.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.stage_group_instances.html#pcdsdevices.pim.PIMWithLED.stage_group_instances" title="pcdsdevices.pim.PIMWithLED.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.stop.html#pcdsdevices.pim.PIMWithLED.stop" title="pcdsdevices.pim.PIMWithLED.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.summary.html#pcdsdevices.pim.PIMWithLED.summary" title="pcdsdevices.pim.PIMWithLED.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.summary.html#pcdsdevices.pim.PIMWithLED.summary" title="pcdsdevices.pim.PIMWithLED.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.trigger.html#pcdsdevices.pim.PIMWithLED.trigger" title="pcdsdevices.pim.PIMWithLED.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMWithLED.trigger.html#pcdsdevices.pim.PIMWithLED.trigger" title="pcdsdevices.pim.PIMWithLED.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -369,8 +373,14 @@ inferred from <code class="xref any docutils literal notranslate"><span class="p
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">prefix_start</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">prefix_start</span></code></p></td>
 <td><p>Returns the first two segments of the prefix PV.</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 </tbody>
 </table>

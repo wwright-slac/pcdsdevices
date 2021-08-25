@@ -19,7 +19,7 @@ pcdsdevices.valve.GateValve
           - Notes
    
        *  -  state
-          -  :class:`~pcdsdevices.state.PVStateSignal`
+          -  :class:`~pcdsdevices.signal.PVStateSignal`
           -  
           -  
           -  hinted

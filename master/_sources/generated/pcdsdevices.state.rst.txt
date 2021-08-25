@@ -16,7 +16,6 @@
    
       CombinedStateRecordPositioner
       PVStatePositioner
-      PVStateSignal
       StatePositioner
       StateRecordPositioner
       StateRecordPositionerBase

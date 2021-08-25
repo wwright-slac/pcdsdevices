@@ -1,0 +1,6 @@
+pcdsdevices.lens.XFLS.stage\_group\_instances
+=============================================
+
+.. currentmodule:: pcdsdevices.lens
+
+.. automethod:: XFLS.stage_group_instances

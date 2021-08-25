@@ -66,6 +66,7 @@ pcdsdevices.lodcm.Y2
        ~Y2.read_configuration
        ~Y2.remove
        ~Y2.set
+       ~Y2.stage_group_instances
        ~Y2.stop
        ~Y2.summary
        ~Y2.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.Y2
        ~Y2.limits
        ~Y2.low_limit
        ~Y2.moving
+       ~Y2.needs_parent
        ~Y2.out_states
        ~Y2.position
        ~Y2.settle_time
+       ~Y2.stage_group
        ~Y2.states_list
        ~Y2.timeout
        ~Y2.transmission

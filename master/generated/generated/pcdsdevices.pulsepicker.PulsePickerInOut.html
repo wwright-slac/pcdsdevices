@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pulsepicker.PulsePickerInOut &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.pulsepicker.PulsePickerInOut &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -159,6 +159,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.remove.html">pcdsdevices.pulsepicker.PulsePickerInOut.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.reset.html">pcdsdevices.pulsepicker.PulsePickerInOut.reset</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.set.html">pcdsdevices.pulsepicker.PulsePickerInOut.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.stage_group_instances.html">pcdsdevices.pulsepicker.PulsePickerInOut.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.summary.html">pcdsdevices.pulsepicker.PulsePickerInOut.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html">pcdsdevices.pulsepicker.PulsePickerInOut.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.html">pcdsdevices.pulsepicker.PulsePickerInOut.wait</a></li>
@@ -289,7 +290,7 @@ in-progress move as failed.</p></li>
 </thead>
 <tbody>
 <tr class="row-even"><td><p>state</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.state.PVStateSignal.html#pcdsdevices.state.PVStateSignal" title="pcdsdevices.state.PVStateSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PVStateSignal</span></code></a></p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.PVStateSignal.html#pcdsdevices.signal.PVStateSignal" title="pcdsdevices.signal.PVStateSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PVStateSignal</span></code></a></p></td>
 <td></td>
 <td></td>
 <td><p>hinted</p></td>
@@ -433,19 +434,22 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.set.html#pcdsdevices.pulsepicker.PulsePickerInOut.set" title="pcdsdevices.pulsepicker.PulsePickerInOut.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.summary.html#pcdsdevices.pulsepicker.PulsePickerInOut.summary" title="pcdsdevices.pulsepicker.PulsePickerInOut.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.stage_group_instances.html#pcdsdevices.pulsepicker.PulsePickerInOut.stage_group_instances" title="pcdsdevices.pulsepicker.PulsePickerInOut.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.summary.html#pcdsdevices.pulsepicker.PulsePickerInOut.summary" title="pcdsdevices.pulsepicker.PulsePickerInOut.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html#pcdsdevices.pulsepicker.PulsePickerInOut.trigger" title="pcdsdevices.pulsepicker.PulsePickerInOut.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.trigger.html#pcdsdevices.pulsepicker.PulsePickerInOut.trigger" title="pcdsdevices.pulsepicker.PulsePickerInOut.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.html#pcdsdevices.pulsepicker.PulsePickerInOut.wait" title="pcdsdevices.pulsepicker.PulsePickerInOut.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wait.html#pcdsdevices.pulsepicker.PulsePickerInOut.wait" title="pcdsdevices.pulsepicker.PulsePickerInOut.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm.html#pcdsdevices.pulsepicker.PulsePickerInOut.wm" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm.html#pcdsdevices.pulsepicker.PulsePickerInOut.wm" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html#pcdsdevices.pulsepicker.PulsePickerInOut.wm_update" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pulsepicker.PulsePickerInOut.wm_update.html#pcdsdevices.pulsepicker.PulsePickerInOut.wm_update" title="pcdsdevices.pulsepicker.PulsePickerInOut.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -487,14 +491,20 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>

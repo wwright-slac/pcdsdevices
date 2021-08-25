@@ -1,0 +1,6 @@
+pcdsdevices.gon.KappaXYZStage.stage\_group\_instances
+=====================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: KappaXYZStage.stage_group_instances

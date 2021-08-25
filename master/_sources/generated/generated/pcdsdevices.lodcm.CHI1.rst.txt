@@ -66,6 +66,7 @@ pcdsdevices.lodcm.CHI1
        ~CHI1.read_configuration
        ~CHI1.remove
        ~CHI1.set
+       ~CHI1.stage_group_instances
        ~CHI1.stop
        ~CHI1.summary
        ~CHI1.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.CHI1
        ~CHI1.limits
        ~CHI1.low_limit
        ~CHI1.moving
+       ~CHI1.needs_parent
        ~CHI1.out_states
        ~CHI1.position
        ~CHI1.settle_time
+       ~CHI1.stage_group
        ~CHI1.states_list
        ~CHI1.timeout
        ~CHI1.transmission

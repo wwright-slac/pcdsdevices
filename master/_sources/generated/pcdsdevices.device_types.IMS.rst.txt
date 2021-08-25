@@ -305,6 +305,7 @@
        ~IMS.auto_setup
        ~IMS.camonitor
        ~IMS.check_limit_switches
+       ~IMS.check_pmgr
        ~IMS.clear_all_flags
        ~IMS.clear_error
        ~IMS.clear_limits

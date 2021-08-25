@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.gon.SamPhi &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.gon.SamPhi &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -133,6 +133,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.get.html">pcdsdevices.gon.SamPhi.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.read.html">pcdsdevices.gon.SamPhi.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.read_configuration.html">pcdsdevices.gon.SamPhi.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.stage_group_instances.html">pcdsdevices.gon.SamPhi.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.stop.html">pcdsdevices.gon.SamPhi.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.summary.html">pcdsdevices.gon.SamPhi.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.trigger.html">pcdsdevices.gon.SamPhi.trigger</a></li>
@@ -305,13 +306,16 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.read_configuration.html#pcdsdevices.gon.SamPhi.read_configuration" title="pcdsdevices.gon.SamPhi.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.stop.html#pcdsdevices.gon.SamPhi.stop" title="pcdsdevices.gon.SamPhi.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.stage_group_instances.html#pcdsdevices.gon.SamPhi.stage_group_instances" title="pcdsdevices.gon.SamPhi.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.stop.html#pcdsdevices.gon.SamPhi.stop" title="pcdsdevices.gon.SamPhi.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.summary.html#pcdsdevices.gon.SamPhi.summary" title="pcdsdevices.gon.SamPhi.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.summary.html#pcdsdevices.gon.SamPhi.summary" title="pcdsdevices.gon.SamPhi.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.trigger.html#pcdsdevices.gon.SamPhi.trigger" title="pcdsdevices.gon.SamPhi.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.SamPhi.trigger.html#pcdsdevices.gon.SamPhi.trigger" title="pcdsdevices.gon.SamPhi.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>
@@ -333,6 +337,12 @@
 <td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">kind</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

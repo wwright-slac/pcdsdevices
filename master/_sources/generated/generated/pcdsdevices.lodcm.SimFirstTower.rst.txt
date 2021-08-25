@@ -239,6 +239,7 @@ pcdsdevices.lodcm.SimFirstTower
        ~SimFirstTower.is_silicon
        ~SimFirstTower.read
        ~SimFirstTower.read_configuration
+       ~SimFirstTower.stage_group_instances
        ~SimFirstTower.stop
        ~SimFirstTower.summary
        ~SimFirstTower.trigger
@@ -255,5 +256,7 @@ pcdsdevices.lodcm.SimFirstTower
        ~SimFirstTower.connected
        ~SimFirstTower.hints
        ~SimFirstTower.kind
+       ~SimFirstTower.needs_parent
+       ~SimFirstTower.stage_group
     
     

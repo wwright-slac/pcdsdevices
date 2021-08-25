@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.inout.Reflaser &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.inout.Reflaser &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -144,6 +144,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.read_configuration.html">pcdsdevices.inout.Reflaser.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.remove.html">pcdsdevices.inout.Reflaser.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.set.html">pcdsdevices.inout.Reflaser.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.stage_group_instances.html">pcdsdevices.inout.Reflaser.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.stop.html">pcdsdevices.inout.Reflaser.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.summary.html">pcdsdevices.inout.Reflaser.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.trigger.html">pcdsdevices.inout.Reflaser.trigger</a></li>
@@ -351,22 +352,25 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.set.html#pcdsdevices.inout.Reflaser.set" title="pcdsdevices.inout.Reflaser.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.stop.html#pcdsdevices.inout.Reflaser.stop" title="pcdsdevices.inout.Reflaser.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.stage_group_instances.html#pcdsdevices.inout.Reflaser.stage_group_instances" title="pcdsdevices.inout.Reflaser.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.stop.html#pcdsdevices.inout.Reflaser.stop" title="pcdsdevices.inout.Reflaser.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Hide the stop method behind an AttributeError.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.summary.html#pcdsdevices.inout.Reflaser.summary" title="pcdsdevices.inout.Reflaser.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.summary.html#pcdsdevices.inout.Reflaser.summary" title="pcdsdevices.inout.Reflaser.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.trigger.html#pcdsdevices.inout.Reflaser.trigger" title="pcdsdevices.inout.Reflaser.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.trigger.html#pcdsdevices.inout.Reflaser.trigger" title="pcdsdevices.inout.Reflaser.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wait.html#pcdsdevices.inout.Reflaser.wait" title="pcdsdevices.inout.Reflaser.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wait.html#pcdsdevices.inout.Reflaser.wait" title="pcdsdevices.inout.Reflaser.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wm.html#pcdsdevices.inout.Reflaser.wm" title="pcdsdevices.inout.Reflaser.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wm.html#pcdsdevices.inout.Reflaser.wm" title="pcdsdevices.inout.Reflaser.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wm_update.html#pcdsdevices.inout.Reflaser.wm_update" title="pcdsdevices.inout.Reflaser.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.inout.Reflaser.wm_update.html#pcdsdevices.inout.Reflaser.wm_update" title="pcdsdevices.inout.Reflaser.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -408,14 +412,20 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>

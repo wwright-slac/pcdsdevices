@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.Slits.stage\_group\_instances
+=======================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: Slits.stage_group_instances

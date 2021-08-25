@@ -125,6 +125,7 @@ pcdsdevices.lodcm.LODCMEnergyC
        ~LODCMEnergyC.set
        ~LODCMEnergyC.set_current_position
        ~LODCMEnergyC.set_position
+       ~LODCMEnergyC.stage_group_instances
        ~LODCMEnergyC.stop
        ~LODCMEnergyC.summary
        ~LODCMEnergyC.to_pseudo_tuple
@@ -156,12 +157,14 @@ pcdsdevices.lodcm.LODCMEnergyC
        ~LODCMEnergyC.limits
        ~LODCMEnergyC.low_limit
        ~LODCMEnergyC.moving
+       ~LODCMEnergyC.needs_parent
        ~LODCMEnergyC.position
        ~LODCMEnergyC.pseudo_positioners
        ~LODCMEnergyC.real_position
        ~LODCMEnergyC.real_positioners
        ~LODCMEnergyC.sequential
        ~LODCMEnergyC.settle_time
+       ~LODCMEnergyC.stage_group
        ~LODCMEnergyC.target
        ~LODCMEnergyC.timeout
     

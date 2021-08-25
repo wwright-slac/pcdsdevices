@@ -127,6 +127,7 @@ pcdsdevices.slits.SimLusiSlits
        ~SimLusiSlits.read_configuration
        ~SimLusiSlits.remove
        ~SimLusiSlits.set
+       ~SimLusiSlits.stage_group_instances
        ~SimLusiSlits.stop
        ~SimLusiSlits.summary
        ~SimLusiSlits.trigger
@@ -148,7 +149,9 @@ pcdsdevices.slits.SimLusiSlits
        ~SimLusiSlits.hints
        ~SimLusiSlits.kind
        ~SimLusiSlits.lightpath_cpts
+       ~SimLusiSlits.needs_parent
        ~SimLusiSlits.position
+       ~SimLusiSlits.stage_group
        ~SimLusiSlits.transmission
     
     

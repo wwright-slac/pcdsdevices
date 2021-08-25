@@ -75,6 +75,7 @@
        ~Prefocus.read_configuration
        ~Prefocus.remove
        ~Prefocus.set
+       ~Prefocus.stage_group_instances
        ~Prefocus.summary
        ~Prefocus.trigger
        ~Prefocus.wait
@@ -99,9 +100,11 @@
        ~Prefocus.limits
        ~Prefocus.low_limit
        ~Prefocus.moving
+       ~Prefocus.needs_parent
        ~Prefocus.out_states
        ~Prefocus.position
        ~Prefocus.settle_time
+       ~Prefocus.stage_group
        ~Prefocus.states_list
        ~Prefocus.stop
        ~Prefocus.timeout

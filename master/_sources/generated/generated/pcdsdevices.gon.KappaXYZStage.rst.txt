@@ -64,6 +64,7 @@ pcdsdevices.gon.KappaXYZStage
        ~KappaXYZStage.get
        ~KappaXYZStage.read
        ~KappaXYZStage.read_configuration
+       ~KappaXYZStage.stage_group_instances
        ~KappaXYZStage.stop
        ~KappaXYZStage.summary
        ~KappaXYZStage.trigger
@@ -80,5 +81,7 @@ pcdsdevices.gon.KappaXYZStage
        ~KappaXYZStage.connected
        ~KappaXYZStage.hints
        ~KappaXYZStage.kind
+       ~KappaXYZStage.needs_parent
+       ~KappaXYZStage.stage_group
     
     

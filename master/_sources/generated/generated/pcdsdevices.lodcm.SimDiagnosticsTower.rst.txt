@@ -91,6 +91,7 @@ pcdsdevices.lodcm.SimDiagnosticsTower
        ~SimDiagnosticsTower.get
        ~SimDiagnosticsTower.read
        ~SimDiagnosticsTower.read_configuration
+       ~SimDiagnosticsTower.stage_group_instances
        ~SimDiagnosticsTower.stop
        ~SimDiagnosticsTower.summary
        ~SimDiagnosticsTower.trigger
@@ -107,5 +108,7 @@ pcdsdevices.lodcm.SimDiagnosticsTower
        ~SimDiagnosticsTower.connected
        ~SimDiagnosticsTower.hints
        ~SimDiagnosticsTower.kind
+       ~SimDiagnosticsTower.needs_parent
+       ~SimDiagnosticsTower.stage_group
     
     

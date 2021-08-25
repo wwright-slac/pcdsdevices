@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pim.PIMY &mdash; PCDS Devices 4.7.1 documentation</title>
+  <title>pcdsdevices.pim.PIMY &mdash; PCDS Devices 4.7.1+50.ge6c0d4e documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1
+                4.7.1+50.ge6c0d4e
               </div>
             
           
@@ -156,6 +156,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.read_configuration.html">pcdsdevices.pim.PIMY.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.remove.html">pcdsdevices.pim.PIMY.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.set.html">pcdsdevices.pim.PIMY.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.stage_group_instances.html">pcdsdevices.pim.PIMY.stage_group_instances</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.stop.html">pcdsdevices.pim.PIMY.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.summary.html">pcdsdevices.pim.PIMY.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.trigger.html">pcdsdevices.pim.PIMY.trigger</a></li>
@@ -347,22 +348,25 @@ beam path.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.set.html#pcdsdevices.pim.PIMY.set" title="pcdsdevices.pim.PIMY.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.stop.html#pcdsdevices.pim.PIMY.stop" title="pcdsdevices.pim.PIMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.stage_group_instances.html#pcdsdevices.pim.PIMY.stage_group_instances" title="pcdsdevices.pim.PIMY.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
+<td><p>Yields an iterator of subdevices that should be staged.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.stop.html#pcdsdevices.pim.PIMY.stop" title="pcdsdevices.pim.PIMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Hide the stop method behind an AttributeError.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.summary.html#pcdsdevices.pim.PIMY.summary" title="pcdsdevices.pim.PIMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.summary.html#pcdsdevices.pim.PIMY.summary" title="pcdsdevices.pim.PIMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.trigger.html#pcdsdevices.pim.PIMY.trigger" title="pcdsdevices.pim.PIMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.trigger.html#pcdsdevices.pim.PIMY.trigger" title="pcdsdevices.pim.PIMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wait.html#pcdsdevices.pim.PIMY.wait" title="pcdsdevices.pim.PIMY.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wait.html#pcdsdevices.pim.PIMY.wait" title="pcdsdevices.pim.PIMY.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wm.html#pcdsdevices.pim.PIMY.wm" title="pcdsdevices.pim.PIMY.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wm.html#pcdsdevices.pim.PIMY.wm" title="pcdsdevices.pim.PIMY.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wm_update.html#pcdsdevices.pim.PIMY.wm_update" title="pcdsdevices.pim.PIMY.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.PIMY.wm_update.html#pcdsdevices.pim.PIMY.wm_update" title="pcdsdevices.pim.PIMY.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>
@@ -404,14 +408,20 @@ beam path.</p>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">moving</span></code></p></td>
 <td><p>Whether or not the motor is moving</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">needs_parent</span></code></p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">out_states</span></code></p></td>
+<td><p></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">position</span></code></p></td>
 <td><p>Name of the positioner’s current state.</p></td>
 </tr>
-<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
+<tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">settle_time</span></code></p></td>
 <td><p>Amount of time to wait after moves to report status completion</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group</span></code></p></td>
+<td><p></p></td>
 </tr>
 <tr class="row-even"><td><p><code class="xref py py-obj docutils literal notranslate"><span class="pre">states_list</span></code></p></td>
 <td><p></p></td>

@@ -102,6 +102,7 @@ pcdsdevices.timetool.TimetoolWithNav
        ~TimetoolWithNav.read_configuration
        ~TimetoolWithNav.remove
        ~TimetoolWithNav.set
+       ~TimetoolWithNav.stage_group_instances
        ~TimetoolWithNav.summary
        ~TimetoolWithNav.trigger
        ~TimetoolWithNav.wait
@@ -126,9 +127,11 @@ pcdsdevices.timetool.TimetoolWithNav
        ~TimetoolWithNav.limits
        ~TimetoolWithNav.low_limit
        ~TimetoolWithNav.moving
+       ~TimetoolWithNav.needs_parent
        ~TimetoolWithNav.out_states
        ~TimetoolWithNav.position
        ~TimetoolWithNav.settle_time
+       ~TimetoolWithNav.stage_group
        ~TimetoolWithNav.states_list
        ~TimetoolWithNav.stop
        ~TimetoolWithNav.timeout

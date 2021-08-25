@@ -73,6 +73,7 @@ pcdsdevices.pim.LCLS2ImagerBase
        ~LCLS2ImagerBase.get
        ~LCLS2ImagerBase.read
        ~LCLS2ImagerBase.read_configuration
+       ~LCLS2ImagerBase.stage_group_instances
        ~LCLS2ImagerBase.stop
        ~LCLS2ImagerBase.summary
        ~LCLS2ImagerBase.trigger
@@ -90,6 +91,8 @@ pcdsdevices.pim.LCLS2ImagerBase
        ~LCLS2ImagerBase.hints
        ~LCLS2ImagerBase.kind
        ~LCLS2ImagerBase.lightpath_cpts
+       ~LCLS2ImagerBase.needs_parent
+       ~LCLS2ImagerBase.stage_group
        ~LCLS2ImagerBase.transmission
        ~LCLS2ImagerBase.y_states
     

@@ -55,6 +55,7 @@ pcdsdevices.gon.SamPhi
        ~SamPhi.get
        ~SamPhi.read
        ~SamPhi.read_configuration
+       ~SamPhi.stage_group_instances
        ~SamPhi.stop
        ~SamPhi.summary
        ~SamPhi.trigger
@@ -71,5 +72,7 @@ pcdsdevices.gon.SamPhi
        ~SamPhi.connected
        ~SamPhi.hints
        ~SamPhi.kind
+       ~SamPhi.needs_parent
+       ~SamPhi.stage_group
     
     

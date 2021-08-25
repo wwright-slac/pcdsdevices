@@ -66,6 +66,7 @@ pcdsdevices.lodcm.YagLom
        ~YagLom.read_configuration
        ~YagLom.remove
        ~YagLom.set
+       ~YagLom.stage_group_instances
        ~YagLom.stop
        ~YagLom.summary
        ~YagLom.trigger
@@ -91,9 +92,11 @@ pcdsdevices.lodcm.YagLom
        ~YagLom.limits
        ~YagLom.low_limit
        ~YagLom.moving
+       ~YagLom.needs_parent
        ~YagLom.out_states
        ~YagLom.position
        ~YagLom.settle_time
+       ~YagLom.stage_group
        ~YagLom.states_list
        ~YagLom.timeout
        ~YagLom.transmission

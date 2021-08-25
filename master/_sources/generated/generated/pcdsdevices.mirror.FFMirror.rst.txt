@@ -91,6 +91,7 @@ pcdsdevices.mirror.FFMirror
        ~FFMirror.get
        ~FFMirror.read
        ~FFMirror.read_configuration
+       ~FFMirror.stage_group_instances
        ~FFMirror.stop
        ~FFMirror.summary
        ~FFMirror.trigger
@@ -107,6 +108,8 @@ pcdsdevices.mirror.FFMirror
        ~FFMirror.connected
        ~FFMirror.hints
        ~FFMirror.kind
+       ~FFMirror.needs_parent
+       ~FFMirror.stage_group
        ~FFMirror.transmission
     
     

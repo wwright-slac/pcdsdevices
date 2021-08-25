@@ -125,6 +125,7 @@
        ~LODCM.remove
        ~LODCM.remove_dia
        ~LODCM.set_energy
+       ~LODCM.stage_group_instances
        ~LODCM.stop
        ~LODCM.summary
        ~LODCM.trigger
@@ -147,6 +148,8 @@
        ~LODCM.energy
        ~LODCM.hints
        ~LODCM.kind
+       ~LODCM.needs_parent
+       ~LODCM.stage_group
        ~LODCM.transmission
     
     

@@ -61,6 +61,7 @@ pcdsdevices.state.StateRecordPositioner
        ~StateRecordPositioner.read
        ~StateRecordPositioner.read_configuration
        ~StateRecordPositioner.set
+       ~StateRecordPositioner.stage_group_instances
        ~StateRecordPositioner.stop
        ~StateRecordPositioner.summary
        ~StateRecordPositioner.trigger
@@ -85,8 +86,10 @@ pcdsdevices.state.StateRecordPositioner
        ~StateRecordPositioner.limits
        ~StateRecordPositioner.low_limit
        ~StateRecordPositioner.moving
+       ~StateRecordPositioner.needs_parent
        ~StateRecordPositioner.position
        ~StateRecordPositioner.settle_time
+       ~StateRecordPositioner.stage_group
        ~StateRecordPositioner.states_list
        ~StateRecordPositioner.timeout
     

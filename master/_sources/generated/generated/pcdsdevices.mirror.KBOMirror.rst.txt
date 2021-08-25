@@ -145,6 +145,7 @@ pcdsdevices.mirror.KBOMirror
        ~KBOMirror.get
        ~KBOMirror.read
        ~KBOMirror.read_configuration
+       ~KBOMirror.stage_group_instances
        ~KBOMirror.stop
        ~KBOMirror.summary
        ~KBOMirror.trigger
@@ -161,6 +162,8 @@ pcdsdevices.mirror.KBOMirror
        ~KBOMirror.connected
        ~KBOMirror.hints
        ~KBOMirror.kind
+       ~KBOMirror.needs_parent
+       ~KBOMirror.stage_group
        ~KBOMirror.transmission
     
     

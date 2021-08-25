@@ -76,6 +76,7 @@ pcdsdevices.pim.PIMWithLED
        ~PIMWithLED.read
        ~PIMWithLED.read_configuration
        ~PIMWithLED.remove
+       ~PIMWithLED.stage_group_instances
        ~PIMWithLED.stop
        ~PIMWithLED.summary
        ~PIMWithLED.trigger
@@ -92,6 +93,8 @@ pcdsdevices.pim.PIMWithLED
        ~PIMWithLED.connected
        ~PIMWithLED.hints
        ~PIMWithLED.kind
+       ~PIMWithLED.needs_parent
        ~PIMWithLED.prefix_start
+       ~PIMWithLED.stage_group
     
     

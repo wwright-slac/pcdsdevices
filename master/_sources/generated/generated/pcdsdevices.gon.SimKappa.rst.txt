@@ -110,6 +110,7 @@ pcdsdevices.gon.SimKappa
        ~SimKappa.read_configuration
        ~SimKappa.set
        ~SimKappa.set_current_position
+       ~SimKappa.stage_group_instances
        ~SimKappa.stop
        ~SimKappa.summary
        ~SimKappa.to_pseudo_tuple
@@ -139,12 +140,14 @@ pcdsdevices.gon.SimKappa
        ~SimKappa.limits
        ~SimKappa.low_limit
        ~SimKappa.moving
+       ~SimKappa.needs_parent
        ~SimKappa.position
        ~SimKappa.pseudo_positioners
        ~SimKappa.real_position
        ~SimKappa.real_positioners
        ~SimKappa.sequential
        ~SimKappa.settle_time
+       ~SimKappa.stage_group
        ~SimKappa.target
        ~SimKappa.timeout
     

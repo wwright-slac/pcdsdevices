@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.stage\_group\_instances
+===============================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.stage_group_instances

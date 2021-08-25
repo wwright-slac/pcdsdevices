@@ -1,0 +1,6 @@
+pcdsdevices.gon.GonWithDetArm.stage\_group\_instances
+=====================================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: GonWithDetArm.stage_group_instances
