@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.epics_motor.IMS.reinitialize &mdash; PCDS Devices 4.7.1+55.geafbfdb documentation</title>
+  <title>pcdsdevices.epics_motor.IMS.reinitialize &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+55.geafbfdb
+                4.7.1+58.gf9dca89
               </div>
             
           
@@ -291,11 +291,14 @@
 <h1>pcdsdevices.epics_motor.IMS.reinitialize<a class="headerlink" href="#pcdsdevices-epics-motor-ims-reinitialize" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="pcdsdevices.epics_motor.IMS.reinitialize">
-<span class="sig-prename descclassname"><span class="pre">IMS.</span></span><span class="sig-name descname"><span class="pre">reinitialize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.epics_motor.IMS.reinitialize" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">IMS.</span></span><span class="sig-name descname"><span class="pre">reinitialize</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><span class="pre">bool</span></a></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><span class="pre">float</span></a></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">10.0</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.SubscriptionStatus.html#ophyd.status.SubscriptionStatus" title="(in ophyd v1.6.1.post78+g3c95cc7)"><span class="pre">ophyd.status.SubscriptionStatus</span></a></span></span><a class="headerlink" href="#pcdsdevices.epics_motor.IMS.reinitialize" title="Permalink to this definition">¶</a></dt>
 <dd><p>Reinitialize the IMS motor.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
-<dd class="field-odd"><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a>) – Wait for the motor to be fully intialized.</p>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>wait</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Wait for the motor to be fully intialized.</p></li>
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em>, </em><em>optional</em>) – If the re-initialization takes too long, raise an error.</p></li>
+</ul>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><p><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.SubscriptionStatus.html#ophyd.status.SubscriptionStatus" title="(in ophyd v1.6.1.post78+g3c95cc7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">SubscriptionStatus</span></code></a> – Status object reporting the initialization state of the motor.</p>
