@@ -111,6 +111,7 @@ pcdsdevices.gon.Kappa
        ~Kappa.set
        ~Kappa.set_current_position
        ~Kappa.stage_group_instances
+       ~Kappa.status
        ~Kappa.stop
        ~Kappa.summary
        ~Kappa.to_pseudo_tuple

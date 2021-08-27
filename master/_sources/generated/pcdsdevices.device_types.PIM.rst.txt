@@ -68,6 +68,7 @@
        ~PIM.read_configuration
        ~PIM.remove
        ~PIM.stage_group_instances
+       ~PIM.status
        ~PIM.stop
        ~PIM.summary
        ~PIM.trigger

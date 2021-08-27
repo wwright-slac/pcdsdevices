@@ -135,6 +135,7 @@ pcdsdevices.pulsepicker.PulsePicker
        ~PulsePicker.remove
        ~PulsePicker.reset
        ~PulsePicker.set
+       ~PulsePicker.status
        ~PulsePicker.summary
        ~PulsePicker.trigger
        ~PulsePicker.wait

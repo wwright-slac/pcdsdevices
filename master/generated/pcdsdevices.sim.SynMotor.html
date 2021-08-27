@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.sim.SynMotor &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.sim.SynMotor &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -116,6 +116,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.read_configuration.html">pcdsdevices.sim.SynMotor.read_configuration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.set.html">pcdsdevices.sim.SynMotor.set</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.set_position.html">pcdsdevices.sim.SynMotor.set_position</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.status.html">pcdsdevices.sim.SynMotor.status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stop.html">pcdsdevices.sim.SynMotor.stop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.summary.html">pcdsdevices.sim.SynMotor.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.trigger.html">pcdsdevices.sim.SynMotor.trigger</a></li>
@@ -313,31 +314,34 @@ documentation in ophyd.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.set_position.html#pcdsdevices.sim.SynMotor.set_position" title="pcdsdevices.sim.SynMotor.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stop.html#pcdsdevices.sim.SynMotor.stop" title="pcdsdevices.sim.SynMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.status.html#pcdsdevices.sim.SynMotor.status" title="pcdsdevices.sim.SynMotor.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.stop.html#pcdsdevices.sim.SynMotor.stop" title="pcdsdevices.sim.SynMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.summary.html#pcdsdevices.sim.SynMotor.summary" title="pcdsdevices.sim.SynMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.summary.html#pcdsdevices.sim.SynMotor.summary" title="pcdsdevices.sim.SynMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.trigger.html#pcdsdevices.sim.SynMotor.trigger" title="pcdsdevices.sim.SynMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.trigger.html#pcdsdevices.sim.SynMotor.trigger" title="pcdsdevices.sim.SynMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.tweak.html#pcdsdevices.sim.SynMotor.tweak" title="pcdsdevices.sim.SynMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.tweak.html#pcdsdevices.sim.SynMotor.tweak" title="pcdsdevices.sim.SynMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umv.html#pcdsdevices.sim.SynMotor.umv" title="pcdsdevices.sim.SynMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umv.html#pcdsdevices.sim.SynMotor.umv" title="pcdsdevices.sim.SynMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umvr.html#pcdsdevices.sim.SynMotor.umvr" title="pcdsdevices.sim.SynMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.umvr.html#pcdsdevices.sim.SynMotor.umvr" title="pcdsdevices.sim.SynMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wait.html#pcdsdevices.sim.SynMotor.wait" title="pcdsdevices.sim.SynMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wait.html#pcdsdevices.sim.SynMotor.wait" title="pcdsdevices.sim.SynMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm.html#pcdsdevices.sim.SynMotor.wm" title="pcdsdevices.sim.SynMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm.html#pcdsdevices.sim.SynMotor.wm" title="pcdsdevices.sim.SynMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm_update.html#pcdsdevices.sim.SynMotor.wm_update" title="pcdsdevices.sim.SynMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.sim.SynMotor.wm_update.html#pcdsdevices.sim.SynMotor.wm_update" title="pcdsdevices.sim.SynMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

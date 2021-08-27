@@ -102,6 +102,7 @@
        ~Trigger.get
        ~Trigger.read
        ~Trigger.read_configuration
+       ~Trigger.status
        ~Trigger.stop
        ~Trigger.summary
        ~Trigger.trigger

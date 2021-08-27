@@ -139,6 +139,7 @@ pcdsdevices.mirror.TwinCATMirrorStripe
        ~TwinCATMirrorStripe.read_configuration
        ~TwinCATMirrorStripe.remove
        ~TwinCATMirrorStripe.set
+       ~TwinCATMirrorStripe.status
        ~TwinCATMirrorStripe.summary
        ~TwinCATMirrorStripe.trigger
        ~TwinCATMirrorStripe.wait

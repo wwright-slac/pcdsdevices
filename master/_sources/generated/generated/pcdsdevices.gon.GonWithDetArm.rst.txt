@@ -110,6 +110,7 @@ pcdsdevices.gon.GonWithDetArm
        ~GonWithDetArm.read
        ~GonWithDetArm.read_configuration
        ~GonWithDetArm.stage_group_instances
+       ~GonWithDetArm.status
        ~GonWithDetArm.stop
        ~GonWithDetArm.summary
        ~GonWithDetArm.trigger

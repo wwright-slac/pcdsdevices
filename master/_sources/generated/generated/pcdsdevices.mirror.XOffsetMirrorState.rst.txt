@@ -209,6 +209,7 @@ pcdsdevices.mirror.XOffsetMirrorState
        ~XOffsetMirrorState.read
        ~XOffsetMirrorState.read_configuration
        ~XOffsetMirrorState.stage_group_instances
+       ~XOffsetMirrorState.status
        ~XOffsetMirrorState.stop
        ~XOffsetMirrorState.summary
        ~XOffsetMirrorState.trigger

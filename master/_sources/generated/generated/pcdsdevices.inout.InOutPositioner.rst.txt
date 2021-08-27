@@ -33,6 +33,7 @@ pcdsdevices.inout.InOutPositioner
        ~InOutPositioner.read_configuration
        ~InOutPositioner.remove
        ~InOutPositioner.set
+       ~InOutPositioner.status
        ~InOutPositioner.summary
        ~InOutPositioner.trigger
        ~InOutPositioner.wait

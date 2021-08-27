@@ -55,6 +55,7 @@
        ~SlowMotor.set
        ~SlowMotor.set_current_position
        ~SlowMotor.set_position
+       ~SlowMotor.status
        ~SlowMotor.stop
        ~SlowMotor.summary
        ~SlowMotor.trigger

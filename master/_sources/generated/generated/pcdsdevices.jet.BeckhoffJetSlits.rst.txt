@@ -74,6 +74,7 @@ pcdsdevices.jet.BeckhoffJetSlits
        ~BeckhoffJetSlits.read
        ~BeckhoffJetSlits.read_configuration
        ~BeckhoffJetSlits.stage_group_instances
+       ~BeckhoffJetSlits.status
        ~BeckhoffJetSlits.stop
        ~BeckhoffJetSlits.summary
        ~BeckhoffJetSlits.trigger

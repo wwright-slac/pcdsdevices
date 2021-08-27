@@ -12,6 +12,13 @@ pcdsdevices.mps.MPSBase
 
     
     
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MPSBase.status
+    
     
 
     

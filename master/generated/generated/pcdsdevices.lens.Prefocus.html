@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lens.Prefocus &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.lens.Prefocus &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -147,6 +147,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.remove.html">pcdsdevices.lens.Prefocus.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.set.html">pcdsdevices.lens.Prefocus.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.stage_group_instances.html">pcdsdevices.lens.Prefocus.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.status.html">pcdsdevices.lens.Prefocus.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html">pcdsdevices.lens.Prefocus.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html">pcdsdevices.lens.Prefocus.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html">pcdsdevices.lens.Prefocus.wait</a></li>
@@ -359,19 +360,22 @@ record controlling an X and a Y motor.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.stage_group_instances.html#pcdsdevices.lens.Prefocus.stage_group_instances" title="pcdsdevices.lens.Prefocus.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html#pcdsdevices.lens.Prefocus.summary" title="pcdsdevices.lens.Prefocus.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.status.html#pcdsdevices.lens.Prefocus.status" title="pcdsdevices.lens.Prefocus.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.summary.html#pcdsdevices.lens.Prefocus.summary" title="pcdsdevices.lens.Prefocus.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html#pcdsdevices.lens.Prefocus.trigger" title="pcdsdevices.lens.Prefocus.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.trigger.html#pcdsdevices.lens.Prefocus.trigger" title="pcdsdevices.lens.Prefocus.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html#pcdsdevices.lens.Prefocus.wait" title="pcdsdevices.lens.Prefocus.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wait.html#pcdsdevices.lens.Prefocus.wait" title="pcdsdevices.lens.Prefocus.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm.html#pcdsdevices.lens.Prefocus.wm" title="pcdsdevices.lens.Prefocus.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm.html#pcdsdevices.lens.Prefocus.wm" title="pcdsdevices.lens.Prefocus.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm_update.html#pcdsdevices.lens.Prefocus.wm_update" title="pcdsdevices.lens.Prefocus.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lens.Prefocus.wm_update.html#pcdsdevices.lens.Prefocus.wm_update" title="pcdsdevices.lens.Prefocus.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

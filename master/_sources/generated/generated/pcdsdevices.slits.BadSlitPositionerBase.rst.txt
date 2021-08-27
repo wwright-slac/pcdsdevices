@@ -63,6 +63,7 @@ pcdsdevices.slits.BadSlitPositionerBase
        ~BadSlitPositionerBase.read_configuration
        ~BadSlitPositionerBase.set
        ~BadSlitPositionerBase.set_position
+       ~BadSlitPositionerBase.status
        ~BadSlitPositionerBase.stop
        ~BadSlitPositionerBase.summary
        ~BadSlitPositionerBase.trigger

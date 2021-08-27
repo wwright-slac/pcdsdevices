@@ -67,6 +67,7 @@ pcdsdevices.lodcm.Y1
        ~Y1.remove
        ~Y1.set
        ~Y1.stage_group_instances
+       ~Y1.status
        ~Y1.stop
        ~Y1.summary
        ~Y1.trigger

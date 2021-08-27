@@ -59,6 +59,7 @@ pcdsdevices.analog\_signals.Mesh
        ~Mesh.read_configuration
        ~Mesh.set_mesh_voltage
        ~Mesh.set_rel_mesh_voltage
+       ~Mesh.status
        ~Mesh.stop
        ~Mesh.summary
        ~Mesh.trigger

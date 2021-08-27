@@ -368,6 +368,7 @@ pcdsdevices.attenuator.AttenuatorCalculator\_AT2L0
        ~AttenuatorCalculator_AT2L0.get_moving_status
        ~AttenuatorCalculator_AT2L0.read
        ~AttenuatorCalculator_AT2L0.read_configuration
+       ~AttenuatorCalculator_AT2L0.status
        ~AttenuatorCalculator_AT2L0.stop
        ~AttenuatorCalculator_AT2L0.summary
        ~AttenuatorCalculator_AT2L0.trigger

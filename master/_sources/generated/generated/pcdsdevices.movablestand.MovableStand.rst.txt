@@ -75,6 +75,7 @@ pcdsdevices.movablestand.MovableStand
        ~MovableStand.read_configuration
        ~MovableStand.remove
        ~MovableStand.set
+       ~MovableStand.status
        ~MovableStand.summary
        ~MovableStand.trigger
        ~MovableStand.wait

@@ -68,6 +68,7 @@ pcdsdevices.pseudopos.DelayBase
        ~DelayBase.set
        ~DelayBase.set_current_position
        ~DelayBase.set_position
+       ~DelayBase.status
        ~DelayBase.stop
        ~DelayBase.summary
        ~DelayBase.to_pseudo_tuple

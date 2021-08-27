@@ -55,6 +55,7 @@ pcdsdevices.attenuator.FEESolidAttenuatorBlade
        ~FEESolidAttenuatorBlade.get
        ~FEESolidAttenuatorBlade.read
        ~FEESolidAttenuatorBlade.read_configuration
+       ~FEESolidAttenuatorBlade.status
        ~FEESolidAttenuatorBlade.stop
        ~FEESolidAttenuatorBlade.summary
        ~FEESolidAttenuatorBlade.trigger

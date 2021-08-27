@@ -129,6 +129,7 @@ pcdsdevices.ipm.IPIMB
        ~IPIMB.read_configuration
        ~IPIMB.screen
        ~IPIMB.stage_group_instances
+       ~IPIMB.status
        ~IPIMB.stop
        ~IPIMB.summary
        ~IPIMB.trigger

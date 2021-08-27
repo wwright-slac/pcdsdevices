@@ -239,6 +239,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorSXR\_FourBlade
        ~AttenuatorCalculatorSXR_FourBlade.get_moving_status
        ~AttenuatorCalculatorSXR_FourBlade.read
        ~AttenuatorCalculatorSXR_FourBlade.read_configuration
+       ~AttenuatorCalculatorSXR_FourBlade.status
        ~AttenuatorCalculatorSXR_FourBlade.stop
        ~AttenuatorCalculatorSXR_FourBlade.summary
        ~AttenuatorCalculatorSXR_FourBlade.trigger

@@ -272,6 +272,7 @@ pcdsdevices.epics\_motor.BeckhoffAxisNoOffset
        ~BeckhoffAxisNoOffset.set_lim
        ~BeckhoffAxisNoOffset.set_low_limit
        ~BeckhoffAxisNoOffset.set_position
+       ~BeckhoffAxisNoOffset.status
        ~BeckhoffAxisNoOffset.stop
        ~BeckhoffAxisNoOffset.summary
        ~BeckhoffAxisNoOffset.trigger

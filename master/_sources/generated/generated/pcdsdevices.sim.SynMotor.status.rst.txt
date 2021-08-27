@@ -1,0 +1,6 @@
+pcdsdevices.sim.SynMotor.status
+===============================
+
+.. currentmodule:: pcdsdevices.sim
+
+.. automethod:: SynMotor.status

@@ -128,6 +128,7 @@ pcdsdevices.slits.SimLusiSlits
        ~SimLusiSlits.remove
        ~SimLusiSlits.set
        ~SimLusiSlits.stage_group_instances
+       ~SimLusiSlits.status
        ~SimLusiSlits.stop
        ~SimLusiSlits.summary
        ~SimLusiSlits.trigger

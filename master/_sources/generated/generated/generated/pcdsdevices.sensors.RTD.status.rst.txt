@@ -1,0 +1,6 @@
+pcdsdevices.sensors.RTD.status
+==============================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: RTD.status

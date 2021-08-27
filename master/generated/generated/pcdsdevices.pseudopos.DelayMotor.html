@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pseudopos.DelayMotor &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.pseudopos.DelayMotor &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -156,6 +156,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.set.html">pcdsdevices.pseudopos.DelayMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.set_current_position.html">pcdsdevices.pseudopos.DelayMotor.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.set_position.html">pcdsdevices.pseudopos.DelayMotor.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.status.html">pcdsdevices.pseudopos.DelayMotor.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.stop.html">pcdsdevices.pseudopos.DelayMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.summary.html">pcdsdevices.pseudopos.DelayMotor.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple.html">pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple</a></li>
@@ -318,7 +319,7 @@ If False (default), increasing the real motor will increase the delay.</p></li>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html#pcdsdevices.pseudopos.DelayBase" title="pcdsdevices.pseudopos.DelayBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DelayBase</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>motor (InterfaceComponent)</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/reference/positioners.html#ophyd.positioner.PositionerBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PositionerBase</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/reference/positioners.html#ophyd.positioner.PositionerBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PositionerBase</span></code></a></p></td>
 <td></td>
 <td></td>
 <td><p>normal</p></td>
@@ -387,37 +388,40 @@ If False (default), increasing the real motor will increase the delay.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.set_position.html#pcdsdevices.pseudopos.DelayMotor.set_position" title="pcdsdevices.pseudopos.DelayMotor.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.stop.html#pcdsdevices.pseudopos.DelayMotor.stop" title="pcdsdevices.pseudopos.DelayMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.status.html#pcdsdevices.pseudopos.DelayMotor.status" title="pcdsdevices.pseudopos.DelayMotor.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.stop.html#pcdsdevices.pseudopos.DelayMotor.stop" title="pcdsdevices.pseudopos.DelayMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.summary.html#pcdsdevices.pseudopos.DelayMotor.summary" title="pcdsdevices.pseudopos.DelayMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.summary.html#pcdsdevices.pseudopos.DelayMotor.summary" title="pcdsdevices.pseudopos.DelayMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple.html#pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple" title="pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple.html#pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple" title="pcdsdevices.pseudopos.DelayMotor.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.to_real_tuple.html#pcdsdevices.pseudopos.DelayMotor.to_real_tuple" title="pcdsdevices.pseudopos.DelayMotor.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.to_real_tuple.html#pcdsdevices.pseudopos.DelayMotor.to_real_tuple" title="pcdsdevices.pseudopos.DelayMotor.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.trigger.html#pcdsdevices.pseudopos.DelayMotor.trigger" title="pcdsdevices.pseudopos.DelayMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.trigger.html#pcdsdevices.pseudopos.DelayMotor.trigger" title="pcdsdevices.pseudopos.DelayMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.tweak.html#pcdsdevices.pseudopos.DelayMotor.tweak" title="pcdsdevices.pseudopos.DelayMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.tweak.html#pcdsdevices.pseudopos.DelayMotor.tweak" title="pcdsdevices.pseudopos.DelayMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.umv.html#pcdsdevices.pseudopos.DelayMotor.umv" title="pcdsdevices.pseudopos.DelayMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.umv.html#pcdsdevices.pseudopos.DelayMotor.umv" title="pcdsdevices.pseudopos.DelayMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.umvr.html#pcdsdevices.pseudopos.DelayMotor.umvr" title="pcdsdevices.pseudopos.DelayMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.umvr.html#pcdsdevices.pseudopos.DelayMotor.umvr" title="pcdsdevices.pseudopos.DelayMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wait.html#pcdsdevices.pseudopos.DelayMotor.wait" title="pcdsdevices.pseudopos.DelayMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wait.html#pcdsdevices.pseudopos.DelayMotor.wait" title="pcdsdevices.pseudopos.DelayMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wm.html#pcdsdevices.pseudopos.DelayMotor.wm" title="pcdsdevices.pseudopos.DelayMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wm.html#pcdsdevices.pseudopos.DelayMotor.wm" title="pcdsdevices.pseudopos.DelayMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wm_update.html#pcdsdevices.pseudopos.DelayMotor.wm_update" title="pcdsdevices.pseudopos.DelayMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pseudopos.DelayMotor.wm_update.html#pcdsdevices.pseudopos.DelayMotor.wm_update" title="pcdsdevices.pseudopos.DelayMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

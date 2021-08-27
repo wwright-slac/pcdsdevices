@@ -64,6 +64,7 @@ pcdsdevices.sensors.TwinCATThermocouple
        ~TwinCATThermocouple.get
        ~TwinCATThermocouple.read
        ~TwinCATThermocouple.read_configuration
+       ~TwinCATThermocouple.status
        ~TwinCATThermocouple.stop
        ~TwinCATThermocouple.summary
        ~TwinCATThermocouple.trigger

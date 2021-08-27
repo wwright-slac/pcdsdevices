@@ -128,6 +128,7 @@ pcdsdevices.slits.Slits
        ~Slits.remove
        ~Slits.set
        ~Slits.stage_group_instances
+       ~Slits.status
        ~Slits.stop
        ~Slits.summary
        ~Slits.trigger

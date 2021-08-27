@@ -46,6 +46,7 @@ pcdsdevices.attenuator.GasAttenuator
        ~GasAttenuator.get
        ~GasAttenuator.read
        ~GasAttenuator.read_configuration
+       ~GasAttenuator.status
        ~GasAttenuator.stop
        ~GasAttenuator.summary
        ~GasAttenuator.trigger

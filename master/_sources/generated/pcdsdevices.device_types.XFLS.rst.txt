@@ -67,6 +67,7 @@
        ~XFLS.remove
        ~XFLS.set
        ~XFLS.stage_group_instances
+       ~XFLS.status
        ~XFLS.stop
        ~XFLS.summary
        ~XFLS.trigger

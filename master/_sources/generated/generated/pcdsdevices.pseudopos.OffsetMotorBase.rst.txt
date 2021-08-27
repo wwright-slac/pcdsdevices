@@ -68,6 +68,7 @@ pcdsdevices.pseudopos.OffsetMotorBase
        ~OffsetMotorBase.set
        ~OffsetMotorBase.set_current_position
        ~OffsetMotorBase.set_position
+       ~OffsetMotorBase.status
        ~OffsetMotorBase.stop
        ~OffsetMotorBase.summary
        ~OffsetMotorBase.to_pseudo_tuple

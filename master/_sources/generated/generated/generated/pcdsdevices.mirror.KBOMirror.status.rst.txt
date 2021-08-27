@@ -1,0 +1,6 @@
+pcdsdevices.mirror.KBOMirror.status
+===================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: KBOMirror.status

@@ -93,6 +93,7 @@ pcdsdevices.lens.SimLensStack
        ~SimLensStack.set
        ~SimLensStack.set_current_position
        ~SimLensStack.set_lens_set
+       ~SimLensStack.status
        ~SimLensStack.stop
        ~SimLensStack.summary
        ~SimLensStack.to_pseudo_tuple

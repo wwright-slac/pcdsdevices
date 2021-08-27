@@ -73,6 +73,7 @@ pcdsdevices.pim.XPIMLED
        ~XPIMLED.get
        ~XPIMLED.read
        ~XPIMLED.read_configuration
+       ~XPIMLED.status
        ~XPIMLED.stop
        ~XPIMLED.summary
        ~XPIMLED.trigger

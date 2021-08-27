@@ -94,6 +94,7 @@ pcdsdevices.mirror.PointingMirror
        ~PointingMirror.remove
        ~PointingMirror.set
        ~PointingMirror.stage_group_instances
+       ~PointingMirror.status
        ~PointingMirror.stop
        ~PointingMirror.summary
        ~PointingMirror.trigger

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.analog_signals.Mesh &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.analog_signals.Mesh &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -124,6 +124,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.read_configuration.html">pcdsdevices.analog_signals.Mesh.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.set_mesh_voltage.html">pcdsdevices.analog_signals.Mesh.set_mesh_voltage</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage.html">pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.status.html">pcdsdevices.analog_signals.Mesh.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.stop.html">pcdsdevices.analog_signals.Mesh.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.summary.html">pcdsdevices.analog_signals.Mesh.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.trigger.html">pcdsdevices.analog_signals.Mesh.trigger</a></li>
@@ -321,16 +322,19 @@ Range is 0 to 15.</p></li>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.set_rel_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_rel_mesh_voltage</span></code></a>(delta_hv_sp[, wait])</p></td>
 <td><p>Increase/decrease the power supply setpoint by a specified amount.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.stop.html#pcdsdevices.analog_signals.Mesh.stop" title="pcdsdevices.analog_signals.Mesh.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.status.html#pcdsdevices.analog_signals.Mesh.status" title="pcdsdevices.analog_signals.Mesh.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.stop.html#pcdsdevices.analog_signals.Mesh.stop" title="pcdsdevices.analog_signals.Mesh.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.summary.html#pcdsdevices.analog_signals.Mesh.summary" title="pcdsdevices.analog_signals.Mesh.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.summary.html#pcdsdevices.analog_signals.Mesh.summary" title="pcdsdevices.analog_signals.Mesh.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.trigger.html#pcdsdevices.analog_signals.Mesh.trigger" title="pcdsdevices.analog_signals.Mesh.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.trigger.html#pcdsdevices.analog_signals.Mesh.trigger" title="pcdsdevices.analog_signals.Mesh.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_mesh_voltage</span></code></a>(delta_hv_sp[, test_flag])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage.html#pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage" title="pcdsdevices.analog_signals.Mesh.tweak_mesh_voltage"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_mesh_voltage</span></code></a>(delta_hv_sp[, test_flag])</p></td>
 <td><p>Increase/decrease power supply setpoint using the arrow keys.</p></td>
 </tr>
 </tbody>

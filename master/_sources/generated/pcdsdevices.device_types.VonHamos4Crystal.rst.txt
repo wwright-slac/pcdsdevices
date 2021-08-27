@@ -92,6 +92,7 @@
        ~VonHamos4Crystal.read
        ~VonHamos4Crystal.read_configuration
        ~VonHamos4Crystal.stage_group_instances
+       ~VonHamos4Crystal.status
        ~VonHamos4Crystal.stop
        ~VonHamos4Crystal.summary
        ~VonHamos4Crystal.trigger

@@ -86,6 +86,7 @@
        ~Stopper.read_configuration
        ~Stopper.remove
        ~Stopper.set
+       ~Stopper.status
        ~Stopper.summary
        ~Stopper.trigger
        ~Stopper.wait

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.describe
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.describe

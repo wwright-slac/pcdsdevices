@@ -24,6 +24,7 @@ pcdsdevices.ipm.IPM\_Det
        ~IPM_Det.isum
        ~IPM_Det.read
        ~IPM_Det.read_configuration
+       ~IPM_Det.status
        ~IPM_Det.stop
        ~IPM_Det.summary
        ~IPM_Det.trigger

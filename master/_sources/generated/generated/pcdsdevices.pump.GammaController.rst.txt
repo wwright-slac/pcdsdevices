@@ -127,6 +127,7 @@ pcdsdevices.pump.GammaController
        ~GammaController.get
        ~GammaController.read
        ~GammaController.read_configuration
+       ~GammaController.status
        ~GammaController.stop
        ~GammaController.summary
        ~GammaController.trigger

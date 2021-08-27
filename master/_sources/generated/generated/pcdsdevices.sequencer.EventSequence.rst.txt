@@ -85,6 +85,7 @@ pcdsdevices.sequencer.EventSequence
        ~EventSequence.read
        ~EventSequence.read_configuration
        ~EventSequence.show
+       ~EventSequence.status
        ~EventSequence.stop
        ~EventSequence.summary
        ~EventSequence.trigger

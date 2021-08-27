@@ -65,6 +65,7 @@ pcdsdevices.jet.Injector
        ~Injector.read
        ~Injector.read_configuration
        ~Injector.stage_group_instances
+       ~Injector.status
        ~Injector.stop
        ~Injector.summary
        ~Injector.trigger

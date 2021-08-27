@@ -103,6 +103,7 @@ pcdsdevices.timetool.TimetoolWithNav
        ~TimetoolWithNav.remove
        ~TimetoolWithNav.set
        ~TimetoolWithNav.stage_group_instances
+       ~TimetoolWithNav.status
        ~TimetoolWithNav.summary
        ~TimetoolWithNav.trigger
        ~TimetoolWithNav.wait

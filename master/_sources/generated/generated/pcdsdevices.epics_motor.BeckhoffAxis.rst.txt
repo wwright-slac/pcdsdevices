@@ -256,6 +256,7 @@ pcdsdevices.epics\_motor.BeckhoffAxis
        ~BeckhoffAxis.set_lim
        ~BeckhoffAxis.set_low_limit
        ~BeckhoffAxis.set_position
+       ~BeckhoffAxis.status
        ~BeckhoffAxis.stop
        ~BeckhoffAxis.summary
        ~BeckhoffAxis.trigger

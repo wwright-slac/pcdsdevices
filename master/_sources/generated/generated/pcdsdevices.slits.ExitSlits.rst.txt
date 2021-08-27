@@ -173,6 +173,7 @@ pcdsdevices.slits.ExitSlits
        ~ExitSlits.read
        ~ExitSlits.read_configuration
        ~ExitSlits.stage_group_instances
+       ~ExitSlits.status
        ~ExitSlits.stop
        ~ExitSlits.summary
        ~ExitSlits.trigger

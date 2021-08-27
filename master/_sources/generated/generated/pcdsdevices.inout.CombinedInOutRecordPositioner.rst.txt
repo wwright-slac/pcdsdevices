@@ -76,6 +76,7 @@ pcdsdevices.inout.CombinedInOutRecordPositioner
        ~CombinedInOutRecordPositioner.remove
        ~CombinedInOutRecordPositioner.set
        ~CombinedInOutRecordPositioner.stage_group_instances
+       ~CombinedInOutRecordPositioner.status
        ~CombinedInOutRecordPositioner.summary
        ~CombinedInOutRecordPositioner.trigger
        ~CombinedInOutRecordPositioner.wait

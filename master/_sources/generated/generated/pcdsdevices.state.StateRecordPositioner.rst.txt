@@ -62,6 +62,7 @@ pcdsdevices.state.StateRecordPositioner
        ~StateRecordPositioner.read_configuration
        ~StateRecordPositioner.set
        ~StateRecordPositioner.stage_group_instances
+       ~StateRecordPositioner.status
        ~StateRecordPositioner.stop
        ~StateRecordPositioner.summary
        ~StateRecordPositioner.trigger

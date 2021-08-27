@@ -277,6 +277,7 @@
        ~Newport.spg_go
        ~Newport.spg_pause
        ~Newport.spg_stop
+       ~Newport.status
        ~Newport.stop
        ~Newport.summary
        ~Newport.trigger

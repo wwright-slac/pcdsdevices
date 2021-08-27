@@ -1,0 +1,6 @@
+pcdsdevices.slits.ExitSlits.status
+==================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: ExitSlits.status

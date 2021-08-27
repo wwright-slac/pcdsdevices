@@ -92,6 +92,7 @@ pcdsdevices.jet.InjectorWithFine
        ~InjectorWithFine.read
        ~InjectorWithFine.read_configuration
        ~InjectorWithFine.stage_group_instances
+       ~InjectorWithFine.status
        ~InjectorWithFine.stop
        ~InjectorWithFine.summary
        ~InjectorWithFine.trigger

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.lodcm.SimEnergySi &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.lodcm.SimEnergySi &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -166,6 +166,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.set_current_position.html">pcdsdevices.lodcm.SimEnergySi.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.set_position.html">pcdsdevices.lodcm.SimEnergySi.set_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.stage_group_instances.html">pcdsdevices.lodcm.SimEnergySi.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.status.html">pcdsdevices.lodcm.SimEnergySi.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.stop.html">pcdsdevices.lodcm.SimEnergySi.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.summary.html">pcdsdevices.lodcm.SimEnergySi.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple.html">pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple</a></li>
@@ -426,37 +427,40 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.stage_group_instances.html#pcdsdevices.lodcm.SimEnergySi.stage_group_instances" title="pcdsdevices.lodcm.SimEnergySi.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.stop.html#pcdsdevices.lodcm.SimEnergySi.stop" title="pcdsdevices.lodcm.SimEnergySi.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.status.html#pcdsdevices.lodcm.SimEnergySi.status" title="pcdsdevices.lodcm.SimEnergySi.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.stop.html#pcdsdevices.lodcm.SimEnergySi.stop" title="pcdsdevices.lodcm.SimEnergySi.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.summary.html#pcdsdevices.lodcm.SimEnergySi.summary" title="pcdsdevices.lodcm.SimEnergySi.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.summary.html#pcdsdevices.lodcm.SimEnergySi.summary" title="pcdsdevices.lodcm.SimEnergySi.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple.html#pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple" title="pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple.html#pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple" title="pcdsdevices.lodcm.SimEnergySi.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.to_real_tuple.html#pcdsdevices.lodcm.SimEnergySi.to_real_tuple" title="pcdsdevices.lodcm.SimEnergySi.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.to_real_tuple.html#pcdsdevices.lodcm.SimEnergySi.to_real_tuple" title="pcdsdevices.lodcm.SimEnergySi.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.trigger.html#pcdsdevices.lodcm.SimEnergySi.trigger" title="pcdsdevices.lodcm.SimEnergySi.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.trigger.html#pcdsdevices.lodcm.SimEnergySi.trigger" title="pcdsdevices.lodcm.SimEnergySi.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.tweak.html#pcdsdevices.lodcm.SimEnergySi.tweak" title="pcdsdevices.lodcm.SimEnergySi.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.tweak.html#pcdsdevices.lodcm.SimEnergySi.tweak" title="pcdsdevices.lodcm.SimEnergySi.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.umv.html#pcdsdevices.lodcm.SimEnergySi.umv" title="pcdsdevices.lodcm.SimEnergySi.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.umv.html#pcdsdevices.lodcm.SimEnergySi.umv" title="pcdsdevices.lodcm.SimEnergySi.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.umvr.html#pcdsdevices.lodcm.SimEnergySi.umvr" title="pcdsdevices.lodcm.SimEnergySi.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.umvr.html#pcdsdevices.lodcm.SimEnergySi.umvr" title="pcdsdevices.lodcm.SimEnergySi.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wait.html#pcdsdevices.lodcm.SimEnergySi.wait" title="pcdsdevices.lodcm.SimEnergySi.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wait.html#pcdsdevices.lodcm.SimEnergySi.wait" title="pcdsdevices.lodcm.SimEnergySi.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wm.html#pcdsdevices.lodcm.SimEnergySi.wm" title="pcdsdevices.lodcm.SimEnergySi.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wm.html#pcdsdevices.lodcm.SimEnergySi.wm" title="pcdsdevices.lodcm.SimEnergySi.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wm_update.html#pcdsdevices.lodcm.SimEnergySi.wm_update" title="pcdsdevices.lodcm.SimEnergySi.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.lodcm.SimEnergySi.wm_update.html#pcdsdevices.lodcm.SimEnergySi.wm_update" title="pcdsdevices.lodcm.SimEnergySi.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

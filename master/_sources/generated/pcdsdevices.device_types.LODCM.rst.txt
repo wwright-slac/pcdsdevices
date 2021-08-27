@@ -126,6 +126,7 @@
        ~LODCM.remove_dia
        ~LODCM.set_energy
        ~LODCM.stage_group_instances
+       ~LODCM.status
        ~LODCM.stop
        ~LODCM.summary
        ~LODCM.trigger

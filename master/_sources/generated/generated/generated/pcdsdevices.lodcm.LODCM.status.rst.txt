@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCM.status
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCM.status

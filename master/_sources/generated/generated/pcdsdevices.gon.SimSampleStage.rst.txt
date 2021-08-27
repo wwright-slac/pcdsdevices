@@ -65,6 +65,7 @@ pcdsdevices.gon.SimSampleStage
        ~SimSampleStage.read
        ~SimSampleStage.read_configuration
        ~SimSampleStage.stage_group_instances
+       ~SimSampleStage.status
        ~SimSampleStage.stop
        ~SimSampleStage.summary
        ~SimSampleStage.trigger

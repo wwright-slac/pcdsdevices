@@ -229,6 +229,7 @@ pcdsdevices.ipm.Wave8
        ~Wave8.read_configuration
        ~Wave8.screen
        ~Wave8.stage_group_instances
+       ~Wave8.status
        ~Wave8.stop
        ~Wave8.summary
        ~Wave8.trigger

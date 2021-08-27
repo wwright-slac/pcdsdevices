@@ -67,6 +67,7 @@ pcdsdevices.pim.PIMY
        ~PIMY.remove
        ~PIMY.set
        ~PIMY.stage_group_instances
+       ~PIMY.status
        ~PIMY.stop
        ~PIMY.summary
        ~PIMY.trigger

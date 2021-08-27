@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttenuatorCalculatorFilter.status
+========================================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttenuatorCalculatorFilter.status

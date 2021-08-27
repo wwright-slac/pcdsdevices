@@ -24,6 +24,7 @@ pcdsdevices.interface.FltMvInterface
        ~FltMvInterface.mv_ginput
        ~FltMvInterface.mvr
        ~FltMvInterface.set_position
+       ~FltMvInterface.status
        ~FltMvInterface.tweak
        ~FltMvInterface.umv
        ~FltMvInterface.umvr

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.slits.SlitsBase &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.slits.SlitsBase &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -164,6 +164,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.remove.html">pcdsdevices.slits.SlitsBase.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.set.html">pcdsdevices.slits.SlitsBase.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.stage_group_instances.html">pcdsdevices.slits.SlitsBase.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.status.html">pcdsdevices.slits.SlitsBase.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.stop.html">pcdsdevices.slits.SlitsBase.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.summary.html">pcdsdevices.slits.SlitsBase.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.trigger.html">pcdsdevices.slits.SlitsBase.trigger</a></li>
@@ -349,22 +350,25 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.stage_group_instances.html#pcdsdevices.slits.SlitsBase.stage_group_instances" title="pcdsdevices.slits.SlitsBase.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.stop.html#pcdsdevices.slits.SlitsBase.stop" title="pcdsdevices.slits.SlitsBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.status.html#pcdsdevices.slits.SlitsBase.status" title="pcdsdevices.slits.SlitsBase.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.stop.html#pcdsdevices.slits.SlitsBase.stop" title="pcdsdevices.slits.SlitsBase.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.summary.html#pcdsdevices.slits.SlitsBase.summary" title="pcdsdevices.slits.SlitsBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.summary.html#pcdsdevices.slits.SlitsBase.summary" title="pcdsdevices.slits.SlitsBase.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.trigger.html#pcdsdevices.slits.SlitsBase.trigger" title="pcdsdevices.slits.SlitsBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.trigger.html#pcdsdevices.slits.SlitsBase.trigger" title="pcdsdevices.slits.SlitsBase.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wait.html#pcdsdevices.slits.SlitsBase.wait" title="pcdsdevices.slits.SlitsBase.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wait.html#pcdsdevices.slits.SlitsBase.wait" title="pcdsdevices.slits.SlitsBase.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wm.html#pcdsdevices.slits.SlitsBase.wm" title="pcdsdevices.slits.SlitsBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wm.html#pcdsdevices.slits.SlitsBase.wm" title="pcdsdevices.slits.SlitsBase.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wm_update.html#pcdsdevices.slits.SlitsBase.wm_update" title="pcdsdevices.slits.SlitsBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.wm_update.html#pcdsdevices.slits.SlitsBase.wm_update" title="pcdsdevices.slits.SlitsBase.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

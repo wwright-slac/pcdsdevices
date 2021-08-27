@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.Stopper &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.device_types.Stopper &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -148,6 +148,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.read_configuration.html">pcdsdevices.device_types.Stopper.read_configuration</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.remove.html">pcdsdevices.device_types.Stopper.remove</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.set.html">pcdsdevices.device_types.Stopper.set</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.status.html">pcdsdevices.device_types.Stopper.status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.summary.html">pcdsdevices.device_types.Stopper.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.trigger.html">pcdsdevices.device_types.Stopper.trigger</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wait.html">pcdsdevices.device_types.Stopper.wait</a></li>
@@ -374,19 +375,22 @@ installations as well as un-interlocked <a class="reference internal" href="pcds
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.set.html#pcdsdevices.device_types.Stopper.set" title="pcdsdevices.device_types.Stopper.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.summary.html#pcdsdevices.device_types.Stopper.summary" title="pcdsdevices.device_types.Stopper.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.status.html#pcdsdevices.device_types.Stopper.status" title="pcdsdevices.device_types.Stopper.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.summary.html#pcdsdevices.device_types.Stopper.summary" title="pcdsdevices.device_types.Stopper.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.trigger.html#pcdsdevices.device_types.Stopper.trigger" title="pcdsdevices.device_types.Stopper.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.trigger.html#pcdsdevices.device_types.Stopper.trigger" title="pcdsdevices.device_types.Stopper.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wait.html#pcdsdevices.device_types.Stopper.wait" title="pcdsdevices.device_types.Stopper.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wait.html#pcdsdevices.device_types.Stopper.wait" title="pcdsdevices.device_types.Stopper.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wm.html#pcdsdevices.device_types.Stopper.wm" title="pcdsdevices.device_types.Stopper.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wm.html#pcdsdevices.device_types.Stopper.wm" title="pcdsdevices.device_types.Stopper.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wm_update.html#pcdsdevices.device_types.Stopper.wm_update" title="pcdsdevices.device_types.Stopper.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.Stopper.wm_update.html#pcdsdevices.device_types.Stopper.wm_update" title="pcdsdevices.device_types.Stopper.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

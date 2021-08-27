@@ -67,6 +67,7 @@ pcdsdevices.lodcm.CHI1
        ~CHI1.remove
        ~CHI1.set
        ~CHI1.stage_group_instances
+       ~CHI1.status
        ~CHI1.stop
        ~CHI1.summary
        ~CHI1.trigger

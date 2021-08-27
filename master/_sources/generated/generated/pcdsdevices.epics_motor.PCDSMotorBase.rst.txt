@@ -268,6 +268,7 @@ pcdsdevices.epics\_motor.PCDSMotorBase
        ~PCDSMotorBase.spg_go
        ~PCDSMotorBase.spg_pause
        ~PCDSMotorBase.spg_stop
+       ~PCDSMotorBase.status
        ~PCDSMotorBase.stop
        ~PCDSMotorBase.summary
        ~PCDSMotorBase.trigger

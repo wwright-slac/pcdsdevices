@@ -83,6 +83,7 @@ pcdsdevices.pim.IM2K0
        ~IM2K0.read
        ~IM2K0.read_configuration
        ~IM2K0.stage_group_instances
+       ~IM2K0.status
        ~IM2K0.stop
        ~IM2K0.summary
        ~IM2K0.trigger

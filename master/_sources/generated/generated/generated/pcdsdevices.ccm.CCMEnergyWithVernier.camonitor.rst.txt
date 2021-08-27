@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.camonitor
+==============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.camonitor

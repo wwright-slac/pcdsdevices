@@ -188,6 +188,7 @@ pcdsdevices.slits.BeckhoffSlits
        ~BeckhoffSlits.remove
        ~BeckhoffSlits.set
        ~BeckhoffSlits.stage_group_instances
+       ~BeckhoffSlits.status
        ~BeckhoffSlits.stop
        ~BeckhoffSlits.summary
        ~BeckhoffSlits.trigger

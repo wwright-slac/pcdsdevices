@@ -182,6 +182,7 @@ pcdsdevices.mirror.XOffsetMirrorSwitch
        ~XOffsetMirrorSwitch.read
        ~XOffsetMirrorSwitch.read_configuration
        ~XOffsetMirrorSwitch.stage_group_instances
+       ~XOffsetMirrorSwitch.status
        ~XOffsetMirrorSwitch.stop
        ~XOffsetMirrorSwitch.summary
        ~XOffsetMirrorSwitch.trigger

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.sim.SlowMotor &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -157,6 +157,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.set.html">pcdsdevices.sim.SlowMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.set_current_position.html">pcdsdevices.sim.SlowMotor.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.set_position.html">pcdsdevices.sim.SlowMotor.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.status.html">pcdsdevices.sim.SlowMotor.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.stop.html">pcdsdevices.sim.SlowMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.summary.html">pcdsdevices.sim.SlowMotor.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.sim.SlowMotor.trigger.html">pcdsdevices.sim.SlowMotor.trigger</a></li>
@@ -327,31 +328,34 @@ destination. Use this when you need some sort of delay.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.set_position.html#pcdsdevices.sim.SlowMotor.set_position" title="pcdsdevices.sim.SlowMotor.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.stop.html#pcdsdevices.sim.SlowMotor.stop" title="pcdsdevices.sim.SlowMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.status.html#pcdsdevices.sim.SlowMotor.status" title="pcdsdevices.sim.SlowMotor.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.stop.html#pcdsdevices.sim.SlowMotor.stop" title="pcdsdevices.sim.SlowMotor.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>()</p></td>
 <td><p>Stops motion.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.summary.html#pcdsdevices.sim.SlowMotor.summary" title="pcdsdevices.sim.SlowMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.summary.html#pcdsdevices.sim.SlowMotor.summary" title="pcdsdevices.sim.SlowMotor.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.trigger.html#pcdsdevices.sim.SlowMotor.trigger" title="pcdsdevices.sim.SlowMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.trigger.html#pcdsdevices.sim.SlowMotor.trigger" title="pcdsdevices.sim.SlowMotor.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.tweak.html#pcdsdevices.sim.SlowMotor.tweak" title="pcdsdevices.sim.SlowMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.tweak.html#pcdsdevices.sim.SlowMotor.tweak" title="pcdsdevices.sim.SlowMotor.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.umv.html#pcdsdevices.sim.SlowMotor.umv" title="pcdsdevices.sim.SlowMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.umv.html#pcdsdevices.sim.SlowMotor.umv" title="pcdsdevices.sim.SlowMotor.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.umvr.html#pcdsdevices.sim.SlowMotor.umvr" title="pcdsdevices.sim.SlowMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.umvr.html#pcdsdevices.sim.SlowMotor.umvr" title="pcdsdevices.sim.SlowMotor.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wait.html#pcdsdevices.sim.SlowMotor.wait" title="pcdsdevices.sim.SlowMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wait.html#pcdsdevices.sim.SlowMotor.wait" title="pcdsdevices.sim.SlowMotor.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wm.html#pcdsdevices.sim.SlowMotor.wm" title="pcdsdevices.sim.SlowMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wm.html#pcdsdevices.sim.SlowMotor.wm" title="pcdsdevices.sim.SlowMotor.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wm_update.html#pcdsdevices.sim.SlowMotor.wm_update" title="pcdsdevices.sim.SlowMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="pcdsdevices.sim.SlowMotor.wm_update.html#pcdsdevices.sim.SlowMotor.wm_update" title="pcdsdevices.sim.SlowMotor.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

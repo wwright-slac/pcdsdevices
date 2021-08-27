@@ -116,6 +116,7 @@ pcdsdevices.state.TwinCATStatePositioner
        ~TwinCATStatePositioner.read
        ~TwinCATStatePositioner.read_configuration
        ~TwinCATStatePositioner.set
+       ~TwinCATStatePositioner.status
        ~TwinCATStatePositioner.summary
        ~TwinCATStatePositioner.trigger
        ~TwinCATStatePositioner.wait

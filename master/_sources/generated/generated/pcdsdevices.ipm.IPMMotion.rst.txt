@@ -58,6 +58,7 @@ pcdsdevices.ipm.IPMMotion
        ~IPMMotion.read_configuration
        ~IPMMotion.remove
        ~IPMMotion.stage_group_instances
+       ~IPMMotion.status
        ~IPMMotion.stop
        ~IPMMotion.summary
        ~IPMMotion.target_in

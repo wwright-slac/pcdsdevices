@@ -21,6 +21,7 @@ pcdsdevices.interface.MvInterface
        ~MvInterface.end_monitor_thread
        ~MvInterface.move
        ~MvInterface.mv
+       ~MvInterface.status
        ~MvInterface.wait
        ~MvInterface.wm
        ~MvInterface.wm_update

@@ -73,6 +73,7 @@ pcdsdevices.ipm.IPIMBChannel
        ~IPIMBChannel.get
        ~IPIMBChannel.read
        ~IPIMBChannel.read_configuration
+       ~IPIMBChannel.status
        ~IPIMBChannel.stop
        ~IPIMBChannel.summary
        ~IPIMBChannel.trigger

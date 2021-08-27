@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ccm.CCMPico &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ccm.CCMPico &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -121,7 +121,9 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMAlio.html">pcdsdevices.ccm.CCMAlio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMEnergy.html">pcdsdevices.ccm.CCMEnergy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMEnergyWithVernier.html">pcdsdevices.ccm.CCMEnergyWithVernier</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMPico</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.camonitor.html">pcdsdevices.ccm.CCMPico.camonitor</a></li>
@@ -149,6 +151,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.set_lim.html">pcdsdevices.ccm.CCMPico.set_lim</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.set_low_limit.html">pcdsdevices.ccm.CCMPico.set_low_limit</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.set_position.html">pcdsdevices.ccm.CCMPico.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.status.html">pcdsdevices.ccm.CCMPico.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.stop.html">pcdsdevices.ccm.CCMPico.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.summary.html">pcdsdevices.ccm.CCMPico.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.trigger.html">pcdsdevices.ccm.CCMPico.trigger</a></li>
@@ -397,7 +400,7 @@ file to accomodate these.</p>
 <tr class="row-odd"><td><p>direction_of_travel</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">Signal</span></code></p></td>
 <td></td>
-<td></td>
+<td><p>The direction the motor is moving.</p></td>
 <td><p>omitted</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.epics_motor.EpicsMotorInterface.html#pcdsdevices.epics_motor.EpicsMotorInterface" title="pcdsdevices.epics_motor.EpicsMotorInterface"><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsMotorInterface</span></code></a></p></td>
 </tr>
@@ -527,31 +530,34 @@ file to accomodate these.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.set_position.html#pcdsdevices.ccm.CCMPico.set_position" title="pcdsdevices.ccm.CCMPico.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.stop.html#pcdsdevices.ccm.CCMPico.stop" title="pcdsdevices.ccm.CCMPico.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.status.html#pcdsdevices.ccm.CCMPico.status" title="pcdsdevices.ccm.CCMPico.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.stop.html#pcdsdevices.ccm.CCMPico.stop" title="pcdsdevices.ccm.CCMPico.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.summary.html#pcdsdevices.ccm.CCMPico.summary" title="pcdsdevices.ccm.CCMPico.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.summary.html#pcdsdevices.ccm.CCMPico.summary" title="pcdsdevices.ccm.CCMPico.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.trigger.html#pcdsdevices.ccm.CCMPico.trigger" title="pcdsdevices.ccm.CCMPico.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.trigger.html#pcdsdevices.ccm.CCMPico.trigger" title="pcdsdevices.ccm.CCMPico.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.tweak.html#pcdsdevices.ccm.CCMPico.tweak" title="pcdsdevices.ccm.CCMPico.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.tweak.html#pcdsdevices.ccm.CCMPico.tweak" title="pcdsdevices.ccm.CCMPico.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.umv.html#pcdsdevices.ccm.CCMPico.umv" title="pcdsdevices.ccm.CCMPico.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.umv.html#pcdsdevices.ccm.CCMPico.umv" title="pcdsdevices.ccm.CCMPico.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.umvr.html#pcdsdevices.ccm.CCMPico.umvr" title="pcdsdevices.ccm.CCMPico.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.umvr.html#pcdsdevices.ccm.CCMPico.umvr" title="pcdsdevices.ccm.CCMPico.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wait.html#pcdsdevices.ccm.CCMPico.wait" title="pcdsdevices.ccm.CCMPico.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wait.html#pcdsdevices.ccm.CCMPico.wait" title="pcdsdevices.ccm.CCMPico.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wm.html#pcdsdevices.ccm.CCMPico.wm" title="pcdsdevices.ccm.CCMPico.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wm.html#pcdsdevices.ccm.CCMPico.wm" title="pcdsdevices.ccm.CCMPico.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wm_update.html#pcdsdevices.ccm.CCMPico.wm_update" title="pcdsdevices.ccm.CCMPico.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.wm_update.html#pcdsdevices.ccm.CCMPico.wm_update" title="pcdsdevices.ccm.CCMPico.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

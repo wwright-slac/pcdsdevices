@@ -83,6 +83,7 @@ pcdsdevices.gon.BaseGon
        ~BaseGon.read
        ~BaseGon.read_configuration
        ~BaseGon.stage_group_instances
+       ~BaseGon.status
        ~BaseGon.stop
        ~BaseGon.summary
        ~BaseGon.trigger

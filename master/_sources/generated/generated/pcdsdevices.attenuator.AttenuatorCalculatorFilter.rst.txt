@@ -100,6 +100,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorFilter
        ~AttenuatorCalculatorFilter.get
        ~AttenuatorCalculatorFilter.read
        ~AttenuatorCalculatorFilter.read_configuration
+       ~AttenuatorCalculatorFilter.status
        ~AttenuatorCalculatorFilter.stop
        ~AttenuatorCalculatorFilter.summary
        ~AttenuatorCalculatorFilter.trigger

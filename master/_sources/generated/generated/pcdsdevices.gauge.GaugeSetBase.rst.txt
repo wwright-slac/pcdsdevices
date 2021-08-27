@@ -48,6 +48,7 @@ pcdsdevices.gauge.GaugeSetBase
        ~GaugeSetBase.pressure
        ~GaugeSetBase.read
        ~GaugeSetBase.read_configuration
+       ~GaugeSetBase.status
        ~GaugeSetBase.stop
        ~GaugeSetBase.summary
        ~GaugeSetBase.trigger

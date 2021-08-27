@@ -121,6 +121,7 @@ pcdsdevices.inout.TwinCATInOutPositioner
        ~TwinCATInOutPositioner.read_configuration
        ~TwinCATInOutPositioner.remove
        ~TwinCATInOutPositioner.set
+       ~TwinCATInOutPositioner.status
        ~TwinCATInOutPositioner.summary
        ~TwinCATInOutPositioner.trigger
        ~TwinCATInOutPositioner.wait

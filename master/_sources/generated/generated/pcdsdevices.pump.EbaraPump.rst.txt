@@ -47,6 +47,7 @@ pcdsdevices.pump.EbaraPump
        ~EbaraPump.read
        ~EbaraPump.read_configuration
        ~EbaraPump.run
+       ~EbaraPump.status
        ~EbaraPump.stop
        ~EbaraPump.summary
        ~EbaraPump.trigger

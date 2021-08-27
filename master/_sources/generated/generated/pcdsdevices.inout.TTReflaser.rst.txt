@@ -67,6 +67,7 @@ pcdsdevices.inout.TTReflaser
        ~TTReflaser.remove
        ~TTReflaser.set
        ~TTReflaser.stage_group_instances
+       ~TTReflaser.status
        ~TTReflaser.stop
        ~TTReflaser.summary
        ~TTReflaser.trigger

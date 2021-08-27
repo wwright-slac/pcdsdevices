@@ -86,6 +86,7 @@ pcdsdevices.pim.PIMWithBoth
        ~PIMWithBoth.read_configuration
        ~PIMWithBoth.remove
        ~PIMWithBoth.stage_group_instances
+       ~PIMWithBoth.status
        ~PIMWithBoth.stop
        ~PIMWithBoth.summary
        ~PIMWithBoth.trigger

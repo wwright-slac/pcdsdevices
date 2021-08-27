@@ -52,6 +52,7 @@ pcdsdevices.state.PVStatePositioner
        ~PVStatePositioner.read
        ~PVStatePositioner.read_configuration
        ~PVStatePositioner.set
+       ~PVStatePositioner.status
        ~PVStatePositioner.summary
        ~PVStatePositioner.trigger
        ~PVStatePositioner.wait

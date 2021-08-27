@@ -126,7 +126,7 @@ pcdsdevices.ccm.CCMPico
        *  -  direction_of_travel
           -  :class:`~ophyd.signal.Signal`
           -  
-          -  
+          -  The direction the motor is moving.
           -  omitted
           -  Inherited from :class:`~pcdsdevices.epics_motor.EpicsMotorInterface`
    
@@ -255,6 +255,7 @@ pcdsdevices.ccm.CCMPico
        ~CCMPico.set_lim
        ~CCMPico.set_low_limit
        ~CCMPico.set_position
+       ~CCMPico.status
        ~CCMPico.stop
        ~CCMPico.summary
        ~CCMPico.trigger

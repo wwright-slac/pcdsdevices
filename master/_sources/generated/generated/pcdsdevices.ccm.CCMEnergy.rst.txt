@@ -1,0 +1,141 @@
+pcdsdevices.ccm.CCMEnergy
+=========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMEnergy
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  energy
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  PseudoSingle that moves the calculated CCM selected energy in keV.
+          -  hinted
+          -  
+   
+       *  -  alio
+          -  :class:`~pcdsdevices.ccm.CCMAlio`
+          -  
+          -  The motor that rotates the CCM crystal.
+          -  normal
+          -  
+   
+       *  -  theta_deg
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  The crystal angle in degrees.
+          -  normal
+          -  
+   
+       *  -  wavelength
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  The wavelength picked by the CCM in Angstroms.
+          -  normal
+          -  
+   
+       *  -  resolution
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  A measure of how finely we can control the ccm output at this position in eV/um.
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMEnergy.alio_to_energy
+       ~CCMEnergy.camonitor
+       ~CCMEnergy.check_single
+       ~CCMEnergy.configure
+       ~CCMEnergy.describe
+       ~CCMEnergy.end_monitor_thread
+       ~CCMEnergy.energy_to_alio
+       ~CCMEnergy.forward
+       ~CCMEnergy.get
+       ~CCMEnergy.inverse
+       ~CCMEnergy.move
+       ~CCMEnergy.move_single
+       ~CCMEnergy.mv
+       ~CCMEnergy.mv_ginput
+       ~CCMEnergy.mvr
+       ~CCMEnergy.read
+       ~CCMEnergy.read_configuration
+       ~CCMEnergy.set
+       ~CCMEnergy.set_current_position
+       ~CCMEnergy.set_position
+       ~CCMEnergy.status
+       ~CCMEnergy.stop
+       ~CCMEnergy.summary
+       ~CCMEnergy.to_pseudo_tuple
+       ~CCMEnergy.to_real_tuple
+       ~CCMEnergy.trigger
+       ~CCMEnergy.tweak
+       ~CCMEnergy.umv
+       ~CCMEnergy.umvr
+       ~CCMEnergy.wait
+       ~CCMEnergy.wm
+       ~CCMEnergy.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMEnergy.composite_egu
+       ~CCMEnergy.concurrent
+       ~CCMEnergy.configuration_attrs
+       ~CCMEnergy.connected
+       ~CCMEnergy.egu
+       ~CCMEnergy.high_limit
+       ~CCMEnergy.hints
+       ~CCMEnergy.kind
+       ~CCMEnergy.limits
+       ~CCMEnergy.low_limit
+       ~CCMEnergy.moving
+       ~CCMEnergy.position
+       ~CCMEnergy.pseudo_positioners
+       ~CCMEnergy.real_position
+       ~CCMEnergy.real_positioners
+       ~CCMEnergy.sequential
+       ~CCMEnergy.settle_time
+       ~CCMEnergy.target
+       ~CCMEnergy.timeout
+    
+    

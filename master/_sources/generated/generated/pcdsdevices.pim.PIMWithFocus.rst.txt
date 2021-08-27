@@ -77,6 +77,7 @@ pcdsdevices.pim.PIMWithFocus
        ~PIMWithFocus.read_configuration
        ~PIMWithFocus.remove
        ~PIMWithFocus.stage_group_instances
+       ~PIMWithFocus.status
        ~PIMWithFocus.stop
        ~PIMWithFocus.summary
        ~PIMWithFocus.trigger

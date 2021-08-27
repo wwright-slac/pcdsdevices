@@ -67,6 +67,7 @@ pcdsdevices.lodcm.Diode
        ~Diode.remove
        ~Diode.set
        ~Diode.stage_group_instances
+       ~Diode.status
        ~Diode.stop
        ~Diode.summary
        ~Diode.trigger

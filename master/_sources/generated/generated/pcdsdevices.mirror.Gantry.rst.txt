@@ -162,6 +162,7 @@ pcdsdevices.mirror.Gantry
        ~Gantry.read_configuration
        ~Gantry.set
        ~Gantry.set_position
+       ~Gantry.status
        ~Gantry.stop
        ~Gantry.summary
        ~Gantry.trigger

@@ -55,6 +55,7 @@ pcdsdevices.mps.MPS
        ~MPS.get
        ~MPS.read
        ~MPS.read_configuration
+       ~MPS.status
        ~MPS.stop
        ~MPS.summary
        ~MPS.trigger

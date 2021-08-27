@@ -74,6 +74,7 @@ pcdsdevices.pim.LCLS2ImagerBase
        ~LCLS2ImagerBase.read
        ~LCLS2ImagerBase.read_configuration
        ~LCLS2ImagerBase.stage_group_instances
+       ~LCLS2ImagerBase.status
        ~LCLS2ImagerBase.stop
        ~LCLS2ImagerBase.summary
        ~LCLS2ImagerBase.trigger

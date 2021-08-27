@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.LODCM &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.device_types.LODCM &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -129,6 +129,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.remove_dia.html">pcdsdevices.device_types.LODCM.remove_dia</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.set_energy.html">pcdsdevices.device_types.LODCM.set_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.stage_group_instances.html">pcdsdevices.device_types.LODCM.stage_group_instances</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.status.html">pcdsdevices.device_types.LODCM.status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.stop.html">pcdsdevices.device_types.LODCM.stop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.summary.html">pcdsdevices.device_types.LODCM.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.trigger.html">pcdsdevices.device_types.LODCM.trigger</a></li>
@@ -383,22 +384,25 @@ Tower 2 has the second Si and C crystals and a diode behind the crystals.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.stage_group_instances.html#pcdsdevices.device_types.LODCM.stage_group_instances" title="pcdsdevices.device_types.LODCM.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.stop.html#pcdsdevices.device_types.LODCM.stop" title="pcdsdevices.device_types.LODCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.status.html#pcdsdevices.device_types.LODCM.status" title="pcdsdevices.device_types.LODCM.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.stop.html#pcdsdevices.device_types.LODCM.stop" title="pcdsdevices.device_types.LODCM.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.summary.html#pcdsdevices.device_types.LODCM.summary" title="pcdsdevices.device_types.LODCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.summary.html#pcdsdevices.device_types.LODCM.summary" title="pcdsdevices.device_types.LODCM.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.trigger.html#pcdsdevices.device_types.LODCM.trigger" title="pcdsdevices.device_types.LODCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.trigger.html#pcdsdevices.device_types.LODCM.trigger" title="pcdsdevices.device_types.LODCM.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.tweak_parallel.html#pcdsdevices.device_types.LODCM.tweak_parallel" title="pcdsdevices.device_types.LODCM.tweak_parallel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_parallel</span></code></a>(p_value[, material, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.tweak_parallel.html#pcdsdevices.device_types.LODCM.tweak_parallel" title="pcdsdevices.device_types.LODCM.tweak_parallel"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_parallel</span></code></a>(p_value[, material, wait])</p></td>
 <td><p>Tweak the <code class="xref any docutils literal notranslate"><span class="pre">x2</span></code> and <code class="xref any docutils literal notranslate"><span class="pre">z2</span></code> motors.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.tweak_x.html#pcdsdevices.device_types.LODCM.tweak_x" title="pcdsdevices.device_types.LODCM.tweak_x"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_x</span></code></a>(x_value[, material, wait])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.tweak_x.html#pcdsdevices.device_types.LODCM.tweak_x" title="pcdsdevices.device_types.LODCM.tweak_x"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak_x</span></code></a>(x_value[, material, wait])</p></td>
 <td><p>Tweak some motors to center the beam on YAG2 horizontally based on the calibrated s4 position.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.wait_energy.html#pcdsdevices.device_types.LODCM.wait_energy" title="pcdsdevices.device_types.LODCM.wait_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_energy</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.LODCM.wait_energy.html#pcdsdevices.device_types.LODCM.wait_energy" title="pcdsdevices.device_types.LODCM.wait_energy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait_energy</span></code></a>([timeout])</p></td>
 <td><p>Block all these motors untill some action completes.</p></td>
 </tr>
 </tbody>

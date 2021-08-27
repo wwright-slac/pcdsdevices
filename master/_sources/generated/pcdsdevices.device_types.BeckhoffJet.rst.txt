@@ -65,6 +65,7 @@
        ~BeckhoffJet.read
        ~BeckhoffJet.read_configuration
        ~BeckhoffJet.stage_group_instances
+       ~BeckhoffJet.status
        ~BeckhoffJet.stop
        ~BeckhoffJet.summary
        ~BeckhoffJet.trigger

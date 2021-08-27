@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ccm &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ccm &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -121,7 +121,9 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMAlio.html">pcdsdevices.ccm.CCMAlio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMEnergy.html">pcdsdevices.ccm.CCMEnergy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMEnergyWithVernier.html">pcdsdevices.ccm.CCMEnergyWithVernier</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.html">pcdsdevices.ccm.CCMPico</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.html">pcdsdevices.ccm.CCMX</a></li>
@@ -266,11 +268,17 @@
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.html#pcdsdevices.ccm.CCM" title="pcdsdevices.ccm.CCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCM</span></code></a>(alio_prefix, theta2fine_prefix, …[, …])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCM.html#pcdsdevices.ccm.CCM" title="pcdsdevices.ccm.CCM"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCM</span></code></a>(*, prefix, in_pos, out_pos, theta0, …)</p></td>
 <td><p>The full CCM assembly.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMCalc.html#pcdsdevices.ccm.CCMCalc" title="pcdsdevices.ccm.CCMCalc"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMCalc</span></code></a>(prefix, *args[, theta0, dspacing, …])</p></td>
-<td><p>CCM calculation motors to move in terms of physics quantities.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMAlio.html#pcdsdevices.ccm.CCMAlio" title="pcdsdevices.ccm.CCMAlio"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMAlio</span></code></a>(prefix, *, name[, atol, rtol])</p></td>
+<td><p>Controls specifically the Alio motor.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMEnergy.html#pcdsdevices.ccm.CCMEnergy" title="pcdsdevices.ccm.CCMEnergy"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMEnergy</span></code></a>(prefix, theta0, dspacing, gr, gd, …)</p></td>
+<td><p>CCM energy motor.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMEnergyWithVernier.html#pcdsdevices.ccm.CCMEnergyWithVernier" title="pcdsdevices.ccm.CCMEnergyWithVernier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMEnergyWithVernier</span></code></a>(prefix, hutch, **kwargs)</p></td>
+<td><p>CCM energy motor and the vernier.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMMotor.html#pcdsdevices.ccm.CCMMotor" title="pcdsdevices.ccm.CCMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMMotor</span></code></a>(prefix, *, name[, atol, rtol])</p></td>
 <td><p>Goofy records used in the CCM.</p></td>
@@ -278,10 +286,10 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMPico.html#pcdsdevices.ccm.CCMPico" title="pcdsdevices.ccm.CCMPico"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMPico</span></code></a>(*args, **kwargs)</p></td>
 <td><p>The Pico motors used here seem non-standard, as they are missing spg.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.html#pcdsdevices.ccm.CCMX" title="pcdsdevices.ccm.CCMX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMX</span></code></a>(down_prefix, up_prefix, *args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMX.html#pcdsdevices.ccm.CCMX" title="pcdsdevices.ccm.CCMX"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMX</span></code></a>(prefix, **kwargs)</p></td>
 <td><p>Combined motion of the CCM X motors.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.html#pcdsdevices.ccm.CCMY" title="pcdsdevices.ccm.CCMY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMY</span></code></a>(down_prefix, up_north_prefix, …)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.html#pcdsdevices.ccm.CCMY" title="pcdsdevices.ccm.CCMY"><code class="xref py py-obj docutils literal notranslate"><span class="pre">CCMY</span></code></a>(prefix, **kwargs)</p></td>
 <td><p>Combined motion of the CCM Y motors.</p></td>
 </tr>
 </tbody>

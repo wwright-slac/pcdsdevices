@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.timetool.Timetool &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.timetool.Timetool &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -161,6 +161,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.remove.html">pcdsdevices.timetool.Timetool.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.set.html">pcdsdevices.timetool.Timetool.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.stage_group_instances.html">pcdsdevices.timetool.Timetool.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.status.html">pcdsdevices.timetool.Timetool.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.summary.html">pcdsdevices.timetool.Timetool.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.trigger.html">pcdsdevices.timetool.Timetool.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wait.html">pcdsdevices.timetool.Timetool.wait</a></li>
@@ -363,19 +364,22 @@ the area detector’s PV must be passed as a keyword argument, as labeled.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.stage_group_instances.html#pcdsdevices.timetool.Timetool.stage_group_instances" title="pcdsdevices.timetool.Timetool.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.summary.html#pcdsdevices.timetool.Timetool.summary" title="pcdsdevices.timetool.Timetool.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.status.html#pcdsdevices.timetool.Timetool.status" title="pcdsdevices.timetool.Timetool.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.summary.html#pcdsdevices.timetool.Timetool.summary" title="pcdsdevices.timetool.Timetool.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.trigger.html#pcdsdevices.timetool.Timetool.trigger" title="pcdsdevices.timetool.Timetool.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.trigger.html#pcdsdevices.timetool.Timetool.trigger" title="pcdsdevices.timetool.Timetool.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wait.html#pcdsdevices.timetool.Timetool.wait" title="pcdsdevices.timetool.Timetool.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wait.html#pcdsdevices.timetool.Timetool.wait" title="pcdsdevices.timetool.Timetool.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wm.html#pcdsdevices.timetool.Timetool.wm" title="pcdsdevices.timetool.Timetool.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wm.html#pcdsdevices.timetool.Timetool.wm" title="pcdsdevices.timetool.Timetool.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wm_update.html#pcdsdevices.timetool.Timetool.wm_update" title="pcdsdevices.timetool.Timetool.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.timetool.Timetool.wm_update.html#pcdsdevices.timetool.Timetool.wm_update" title="pcdsdevices.timetool.Timetool.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

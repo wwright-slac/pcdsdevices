@@ -126,6 +126,7 @@ pcdsdevices.lodcm.LODCMEnergySi
        ~LODCMEnergySi.set_current_position
        ~LODCMEnergySi.set_position
        ~LODCMEnergySi.stage_group_instances
+       ~LODCMEnergySi.status
        ~LODCMEnergySi.stop
        ~LODCMEnergySi.summary
        ~LODCMEnergySi.to_pseudo_tuple

@@ -25,17 +25,17 @@ pcdsdevices.ccm.CCMX
           -  omitted
           -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxis`
    
-       *  -  down (FCpt)
+       *  -  down (UCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self.down_prefix}``
           -  
+          -  Downstream ccm x translation motor (x1).
           -  normal
           -  
    
-       *  -  up (FCpt)
+       *  -  up (UCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self.up_prefix}``
           -  
+          -  Upstream ccm x translation motor(x2).
           -  normal
           -  
    
@@ -82,6 +82,7 @@ pcdsdevices.ccm.CCMX
        ~CCMX.set
        ~CCMX.set_current_position
        ~CCMX.set_position
+       ~CCMX.status
        ~CCMX.stop
        ~CCMX.summary
        ~CCMX.to_pseudo_tuple

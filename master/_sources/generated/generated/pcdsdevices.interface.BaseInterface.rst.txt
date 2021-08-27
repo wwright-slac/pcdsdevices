@@ -12,6 +12,13 @@ pcdsdevices.interface.BaseInterface
 
     
     
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~BaseInterface.status
+    
     
 
     

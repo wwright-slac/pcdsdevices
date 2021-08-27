@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.move\_single
+=================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.move_single

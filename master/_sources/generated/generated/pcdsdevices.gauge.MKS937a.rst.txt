@@ -118,6 +118,7 @@ pcdsdevices.gauge.MKS937a
        ~MKS937a.get
        ~MKS937a.read
        ~MKS937a.read_configuration
+       ~MKS937a.status
        ~MKS937a.stop
        ~MKS937a.summary
        ~MKS937a.trigger

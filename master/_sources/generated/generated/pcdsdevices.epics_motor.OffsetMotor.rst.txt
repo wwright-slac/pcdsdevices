@@ -77,6 +77,7 @@ pcdsdevices.epics\_motor.OffsetMotor
        ~OffsetMotor.set
        ~OffsetMotor.set_current_position
        ~OffsetMotor.set_position
+       ~OffsetMotor.status
        ~OffsetMotor.stop
        ~OffsetMotor.summary
        ~OffsetMotor.to_pseudo_tuple

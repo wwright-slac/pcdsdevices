@@ -243,6 +243,7 @@ pcdsdevices.attenuator.AT2L0
        ~AT2L0.read_configuration
        ~AT2L0.set
        ~AT2L0.set_position
+       ~AT2L0.status
        ~AT2L0.stop
        ~AT2L0.summary
        ~AT2L0.trigger

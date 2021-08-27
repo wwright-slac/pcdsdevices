@@ -58,6 +58,7 @@ pcdsdevices.ipm.IPMDiode
        ~IPMDiode.read_configuration
        ~IPMDiode.remove
        ~IPMDiode.stage_group_instances
+       ~IPMDiode.status
        ~IPMDiode.stop
        ~IPMDiode.summary
        ~IPMDiode.trigger

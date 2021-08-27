@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMCalc.set\_position
-=====================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMCalc.set_position

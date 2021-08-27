@@ -70,6 +70,7 @@ pcdsdevices.pim.XPIMFilterWheel
        ~XPIMFilterWheel.read
        ~XPIMFilterWheel.read_configuration
        ~XPIMFilterWheel.set
+       ~XPIMFilterWheel.status
        ~XPIMFilterWheel.summary
        ~XPIMFilterWheel.trigger
        ~XPIMFilterWheel.wait

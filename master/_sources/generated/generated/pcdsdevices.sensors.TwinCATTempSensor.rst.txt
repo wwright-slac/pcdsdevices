@@ -64,6 +64,7 @@ pcdsdevices.sensors.TwinCATTempSensor
        ~TwinCATTempSensor.get
        ~TwinCATTempSensor.read
        ~TwinCATTempSensor.read_configuration
+       ~TwinCATTempSensor.status
        ~TwinCATTempSensor.stop
        ~TwinCATTempSensor.summary
        ~TwinCATTempSensor.trigger

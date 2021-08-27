@@ -71,6 +71,7 @@ pcdsdevices.state.CombinedStateRecordPositioner
        ~CombinedStateRecordPositioner.read_configuration
        ~CombinedStateRecordPositioner.set
        ~CombinedStateRecordPositioner.stage_group_instances
+       ~CombinedStateRecordPositioner.status
        ~CombinedStateRecordPositioner.summary
        ~CombinedStateRecordPositioner.trigger
        ~CombinedStateRecordPositioner.wait

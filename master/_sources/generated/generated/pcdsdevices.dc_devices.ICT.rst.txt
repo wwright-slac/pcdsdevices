@@ -164,6 +164,7 @@ pcdsdevices.dc\_devices.ICT
        ~ICT.read
        ~ICT.read_configuration
        ~ICT.stage_group_instances
+       ~ICT.status
        ~ICT.stop
        ~ICT.summary
        ~ICT.trigger

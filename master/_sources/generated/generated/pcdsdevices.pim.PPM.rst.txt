@@ -101,6 +101,7 @@ pcdsdevices.pim.PPM
        ~PPM.read
        ~PPM.read_configuration
        ~PPM.stage_group_instances
+       ~PPM.status
        ~PPM.stop
        ~PPM.summary
        ~PPM.trigger

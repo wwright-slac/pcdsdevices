@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.GasAttenuator.status
+===========================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: GasAttenuator.status

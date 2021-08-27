@@ -65,6 +65,7 @@ pcdsdevices.gon.KappaXYZStage
        ~KappaXYZStage.read
        ~KappaXYZStage.read_configuration
        ~KappaXYZStage.stage_group_instances
+       ~KappaXYZStage.status
        ~KappaXYZStage.stop
        ~KappaXYZStage.summary
        ~KappaXYZStage.trigger

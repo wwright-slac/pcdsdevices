@@ -65,6 +65,7 @@ pcdsdevices.jet.BeckhoffJetManipulator
        ~BeckhoffJetManipulator.read
        ~BeckhoffJetManipulator.read_configuration
        ~BeckhoffJetManipulator.stage_group_instances
+       ~BeckhoffJetManipulator.status
        ~BeckhoffJetManipulator.stop
        ~BeckhoffJetManipulator.summary
        ~BeckhoffJetManipulator.trigger

@@ -46,6 +46,7 @@ pcdsdevices.sensors.RTD
        ~RTD.get
        ~RTD.read
        ~RTD.read_configuration
+       ~RTD.status
        ~RTD.stop
        ~RTD.summary
        ~RTD.trigger

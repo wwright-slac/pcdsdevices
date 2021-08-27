@@ -85,6 +85,7 @@
        ~Timetool.remove
        ~Timetool.set
        ~Timetool.stage_group_instances
+       ~Timetool.status
        ~Timetool.summary
        ~Timetool.trigger
        ~Timetool.wait

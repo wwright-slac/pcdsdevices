@@ -55,6 +55,7 @@
        ~FastMotor.set
        ~FastMotor.set_current_position
        ~FastMotor.set_position
+       ~FastMotor.status
        ~FastMotor.stop
        ~FastMotor.summary
        ~FastMotor.trigger

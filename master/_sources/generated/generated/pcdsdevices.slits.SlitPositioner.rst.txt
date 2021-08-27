@@ -72,6 +72,7 @@ pcdsdevices.slits.SlitPositioner
        ~SlitPositioner.read_configuration
        ~SlitPositioner.set
        ~SlitPositioner.set_position
+       ~SlitPositioner.status
        ~SlitPositioner.stop
        ~SlitPositioner.summary
        ~SlitPositioner.trigger

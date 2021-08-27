@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GaugeSetBase.status
+=====================================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GaugeSetBase.status

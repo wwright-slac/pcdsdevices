@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetMotor.status
+===========================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetMotor.status

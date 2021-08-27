@@ -28,6 +28,7 @@ pcdsdevices.state.StatePositioner
        ~StatePositioner.read
        ~StatePositioner.read_configuration
        ~StatePositioner.set
+       ~StatePositioner.status
        ~StatePositioner.summary
        ~StatePositioner.trigger
        ~StatePositioner.wait

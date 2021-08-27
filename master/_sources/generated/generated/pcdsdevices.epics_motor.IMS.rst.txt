@@ -340,6 +340,7 @@ pcdsdevices.epics\_motor.IMS
        ~IMS.spg_go
        ~IMS.spg_pause
        ~IMS.spg_stop
+       ~IMS.status
        ~IMS.stop
        ~IMS.summary
        ~IMS.trigger

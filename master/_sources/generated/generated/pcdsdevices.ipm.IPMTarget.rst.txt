@@ -104,6 +104,7 @@ pcdsdevices.ipm.IPMTarget
        ~IPMTarget.remove
        ~IPMTarget.set
        ~IPMTarget.stage_group_instances
+       ~IPMTarget.status
        ~IPMTarget.stop
        ~IPMTarget.summary
        ~IPMTarget.trigger

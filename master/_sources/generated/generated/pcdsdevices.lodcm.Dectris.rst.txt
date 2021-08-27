@@ -67,6 +67,7 @@ pcdsdevices.lodcm.Dectris
        ~Dectris.remove
        ~Dectris.set
        ~Dectris.stage_group_instances
+       ~Dectris.status
        ~Dectris.stop
        ~Dectris.summary
        ~Dectris.trigger

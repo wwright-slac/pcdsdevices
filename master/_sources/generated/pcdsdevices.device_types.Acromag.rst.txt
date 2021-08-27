@@ -326,6 +326,7 @@
        ~Acromag.read
        ~Acromag.read_configuration
        ~Acromag.stage_group_instances
+       ~Acromag.status
        ~Acromag.stop
        ~Acromag.summary
        ~Acromag.trigger

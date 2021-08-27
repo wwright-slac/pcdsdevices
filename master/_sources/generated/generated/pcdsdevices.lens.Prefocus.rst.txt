@@ -76,6 +76,7 @@ pcdsdevices.lens.Prefocus
        ~Prefocus.remove
        ~Prefocus.set
        ~Prefocus.stage_group_instances
+       ~Prefocus.status
        ~Prefocus.summary
        ~Prefocus.trigger
        ~Prefocus.wait

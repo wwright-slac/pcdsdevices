@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CrystalTower1.status
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CrystalTower1.status

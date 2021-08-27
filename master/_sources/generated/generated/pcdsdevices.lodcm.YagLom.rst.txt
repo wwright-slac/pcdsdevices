@@ -67,6 +67,7 @@ pcdsdevices.lodcm.YagLom
        ~YagLom.remove
        ~YagLom.set
        ~YagLom.stage_group_instances
+       ~YagLom.status
        ~YagLom.stop
        ~YagLom.summary
        ~YagLom.trigger

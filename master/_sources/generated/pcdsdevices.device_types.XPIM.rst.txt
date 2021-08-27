@@ -128,6 +128,7 @@
        ~XPIM.read
        ~XPIM.read_configuration
        ~XPIM.stage_group_instances
+       ~XPIM.status
        ~XPIM.stop
        ~XPIM.summary
        ~XPIM.trigger

@@ -67,6 +67,7 @@ pcdsdevices.lodcm.H1N
        ~H1N.remove
        ~H1N.set
        ~H1N.stage_group_instances
+       ~H1N.status
        ~H1N.stop
        ~H1N.summary
        ~H1N.trigger

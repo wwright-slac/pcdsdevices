@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.state.StatePositioner &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -156,6 +156,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read.html">pcdsdevices.state.StatePositioner.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.read_configuration.html">pcdsdevices.state.StatePositioner.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.set.html">pcdsdevices.state.StatePositioner.set</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.status.html">pcdsdevices.state.StatePositioner.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.summary.html">pcdsdevices.state.StatePositioner.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.trigger.html">pcdsdevices.state.StatePositioner.trigger</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait.html">pcdsdevices.state.StatePositioner.wait</a></li>
@@ -382,19 +383,22 @@ optionally be overriden in a child class.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.set.html#pcdsdevices.state.StatePositioner.set" title="pcdsdevices.state.StatePositioner.set"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set</span></code></a>(position[, moved_cb, timeout])</p></td>
 <td><p>Move to the desired state and return completion information.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.summary.html#pcdsdevices.state.StatePositioner.summary" title="pcdsdevices.state.StatePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.status.html#pcdsdevices.state.StatePositioner.status" title="pcdsdevices.state.StatePositioner.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.summary.html#pcdsdevices.state.StatePositioner.summary" title="pcdsdevices.state.StatePositioner.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.trigger.html#pcdsdevices.state.StatePositioner.trigger" title="pcdsdevices.state.StatePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.trigger.html#pcdsdevices.state.StatePositioner.trigger" title="pcdsdevices.state.StatePositioner.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait.html#pcdsdevices.state.StatePositioner.wait" title="pcdsdevices.state.StatePositioner.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wait.html#pcdsdevices.state.StatePositioner.wait" title="pcdsdevices.state.StatePositioner.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm.html#pcdsdevices.state.StatePositioner.wm" title="pcdsdevices.state.StatePositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm.html#pcdsdevices.state.StatePositioner.wm" title="pcdsdevices.state.StatePositioner.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm_update.html#pcdsdevices.state.StatePositioner.wm_update" title="pcdsdevices.state.StatePositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.state.StatePositioner.wm_update.html#pcdsdevices.state.StatePositioner.wm_update" title="pcdsdevices.state.StatePositioner.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

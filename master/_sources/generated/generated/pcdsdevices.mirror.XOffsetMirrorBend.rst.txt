@@ -236,6 +236,7 @@ pcdsdevices.mirror.XOffsetMirrorBend
        ~XOffsetMirrorBend.read
        ~XOffsetMirrorBend.read_configuration
        ~XOffsetMirrorBend.stage_group_instances
+       ~XOffsetMirrorBend.status
        ~XOffsetMirrorBend.stop
        ~XOffsetMirrorBend.summary
        ~XOffsetMirrorBend.trigger

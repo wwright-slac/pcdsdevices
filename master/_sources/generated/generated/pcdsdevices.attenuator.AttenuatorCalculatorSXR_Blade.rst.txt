@@ -181,6 +181,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorSXR\_Blade
        ~AttenuatorCalculatorSXR_Blade.get
        ~AttenuatorCalculatorSXR_Blade.read
        ~AttenuatorCalculatorSXR_Blade.read_configuration
+       ~AttenuatorCalculatorSXR_Blade.status
        ~AttenuatorCalculatorSXR_Blade.stop
        ~AttenuatorCalculatorSXR_Blade.summary
        ~AttenuatorCalculatorSXR_Blade.trigger

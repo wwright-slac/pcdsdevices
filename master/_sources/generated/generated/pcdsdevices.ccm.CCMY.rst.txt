@@ -25,24 +25,24 @@ pcdsdevices.ccm.CCMY
           -  omitted
           -  Inherited from :class:`~pcdsdevices.pseudopos.SyncAxis`
    
-       *  -  down (FCpt)
+       *  -  down (UCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self.down_prefix}``
           -  
+          -  Downstream ccm y translation motor (y1).
           -  normal
           -  
    
-       *  -  up_north (FCpt)
+       *  -  up_north (UCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self.up_north_prefix}``
           -  
+          -  North upstream ccm y translation motor (y2).
           -  normal
           -  
    
-       *  -  up_south (FCpt)
+       *  -  up_south (UCpt)
           -  :class:`~pcdsdevices.epics_motor.IMS`
-          -  ``{self.up_south_prefix}``
           -  
+          -  South upstream ccm y translation motor (y3).
           -  normal
           -  
    
@@ -91,6 +91,7 @@ pcdsdevices.ccm.CCMY
        ~CCMY.set
        ~CCMY.set_current_position
        ~CCMY.set_position
+       ~CCMY.status
        ~CCMY.stop
        ~CCMY.summary
        ~CCMY.to_pseudo_tuple

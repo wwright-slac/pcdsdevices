@@ -145,6 +145,7 @@ pcdsdevices.pulsepicker.PulsePickerInOut
        ~PulsePickerInOut.reset
        ~PulsePickerInOut.set
        ~PulsePickerInOut.stage_group_instances
+       ~PulsePickerInOut.status
        ~PulsePickerInOut.summary
        ~PulsePickerInOut.trigger
        ~PulsePickerInOut.wait

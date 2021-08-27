@@ -160,6 +160,7 @@
        ~EventSequencer.read
        ~EventSequencer.read_configuration
        ~EventSequencer.start
+       ~EventSequencer.status
        ~EventSequencer.stop
        ~EventSequencer.summary
        ~EventSequencer.trigger

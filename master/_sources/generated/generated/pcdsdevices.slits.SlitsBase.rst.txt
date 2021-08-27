@@ -89,6 +89,7 @@ pcdsdevices.slits.SlitsBase
        ~SlitsBase.remove
        ~SlitsBase.set
        ~SlitsBase.stage_group_instances
+       ~SlitsBase.status
        ~SlitsBase.stop
        ~SlitsBase.summary
        ~SlitsBase.trigger

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimEnergySi.status
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimEnergySi.status

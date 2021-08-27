@@ -67,6 +67,7 @@
        ~Reflaser.remove
        ~Reflaser.set
        ~Reflaser.stage_group_instances
+       ~Reflaser.status
        ~Reflaser.stop
        ~Reflaser.summary
        ~Reflaser.trigger

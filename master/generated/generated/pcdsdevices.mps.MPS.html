@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.mps.MPS &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -140,6 +140,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.get.html">pcdsdevices.mps.MPS.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read.html">pcdsdevices.mps.MPS.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read_configuration.html">pcdsdevices.mps.MPS.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.status.html">pcdsdevices.mps.MPS.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stop.html">pcdsdevices.mps.MPS.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html">pcdsdevices.mps.MPS.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.mps.MPS.trigger.html">pcdsdevices.mps.MPS.trigger</a></li>
@@ -312,13 +313,16 @@ this device and the <code class="docutils literal notranslate"><span class="pre"
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.read_configuration.html#pcdsdevices.mps.MPS.read_configuration" title="pcdsdevices.mps.MPS.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stop.html#pcdsdevices.mps.MPS.stop" title="pcdsdevices.mps.MPS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.status.html#pcdsdevices.mps.MPS.status" title="pcdsdevices.mps.MPS.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.stop.html#pcdsdevices.mps.MPS.stop" title="pcdsdevices.mps.MPS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html#pcdsdevices.mps.MPS.summary" title="pcdsdevices.mps.MPS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.summary.html#pcdsdevices.mps.MPS.summary" title="pcdsdevices.mps.MPS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.trigger.html#pcdsdevices.mps.MPS.trigger" title="pcdsdevices.mps.MPS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mps.MPS.trigger.html#pcdsdevices.mps.MPS.trigger" title="pcdsdevices.mps.MPS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>

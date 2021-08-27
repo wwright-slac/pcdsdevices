@@ -108,6 +108,7 @@ pcdsdevices.attenuator.AT1K4
        ~AT1K4.read_configuration
        ~AT1K4.set
        ~AT1K4.set_position
+       ~AT1K4.status
        ~AT1K4.stop
        ~AT1K4.summary
        ~AT1K4.trigger

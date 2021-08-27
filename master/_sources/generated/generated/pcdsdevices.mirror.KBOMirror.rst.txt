@@ -146,6 +146,7 @@ pcdsdevices.mirror.KBOMirror
        ~KBOMirror.read
        ~KBOMirror.read_configuration
        ~KBOMirror.stage_group_instances
+       ~KBOMirror.status
        ~KBOMirror.stop
        ~KBOMirror.summary
        ~KBOMirror.trigger

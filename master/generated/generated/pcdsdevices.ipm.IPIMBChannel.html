@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ipm.IPIMBChannel &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ipm.IPIMBChannel &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -133,6 +133,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.get.html">pcdsdevices.ipm.IPIMBChannel.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.read.html">pcdsdevices.ipm.IPIMBChannel.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.read_configuration.html">pcdsdevices.ipm.IPIMBChannel.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.status.html">pcdsdevices.ipm.IPIMBChannel.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.stop.html">pcdsdevices.ipm.IPIMBChannel.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.summary.html">pcdsdevices.ipm.IPIMBChannel.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.trigger.html">pcdsdevices.ipm.IPIMBChannel.trigger</a></li>
@@ -320,13 +321,16 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.read_configuration.html#pcdsdevices.ipm.IPIMBChannel.read_configuration" title="pcdsdevices.ipm.IPIMBChannel.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.stop.html#pcdsdevices.ipm.IPIMBChannel.stop" title="pcdsdevices.ipm.IPIMBChannel.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.status.html#pcdsdevices.ipm.IPIMBChannel.status" title="pcdsdevices.ipm.IPIMBChannel.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.stop.html#pcdsdevices.ipm.IPIMBChannel.stop" title="pcdsdevices.ipm.IPIMBChannel.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.summary.html#pcdsdevices.ipm.IPIMBChannel.summary" title="pcdsdevices.ipm.IPIMBChannel.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.summary.html#pcdsdevices.ipm.IPIMBChannel.summary" title="pcdsdevices.ipm.IPIMBChannel.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.trigger.html#pcdsdevices.ipm.IPIMBChannel.trigger" title="pcdsdevices.ipm.IPIMBChannel.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPIMBChannel.trigger.html#pcdsdevices.ipm.IPIMBChannel.trigger" title="pcdsdevices.ipm.IPIMBChannel.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>

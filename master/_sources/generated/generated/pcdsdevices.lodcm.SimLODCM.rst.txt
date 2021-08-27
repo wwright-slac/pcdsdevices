@@ -126,6 +126,7 @@ pcdsdevices.lodcm.SimLODCM
        ~SimLODCM.remove_dia
        ~SimLODCM.set_energy
        ~SimLODCM.stage_group_instances
+       ~SimLODCM.status
        ~SimLODCM.stop
        ~SimLODCM.summary
        ~SimLODCM.trigger

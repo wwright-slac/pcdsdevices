@@ -1,0 +1,6 @@
+pcdsdevices.evr.Trigger.status
+==============================
+
+.. currentmodule:: pcdsdevices.evr
+
+.. automethod:: Trigger.status

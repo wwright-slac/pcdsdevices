@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.gon.BaseGon &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.gon.BaseGon &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -130,6 +130,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.read.html">pcdsdevices.gon.BaseGon.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.read_configuration.html">pcdsdevices.gon.BaseGon.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.stage_group_instances.html">pcdsdevices.gon.BaseGon.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.status.html">pcdsdevices.gon.BaseGon.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.stop.html">pcdsdevices.gon.BaseGon.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.summary.html">pcdsdevices.gon.BaseGon.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.trigger.html">pcdsdevices.gon.BaseGon.trigger</a></li>
@@ -335,13 +336,16 @@ arguments, and they are all labelled accordingly.</p>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.stage_group_instances.html#pcdsdevices.gon.BaseGon.stage_group_instances" title="pcdsdevices.gon.BaseGon.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.stop.html#pcdsdevices.gon.BaseGon.stop" title="pcdsdevices.gon.BaseGon.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.status.html#pcdsdevices.gon.BaseGon.status" title="pcdsdevices.gon.BaseGon.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.stop.html#pcdsdevices.gon.BaseGon.stop" title="pcdsdevices.gon.BaseGon.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.summary.html#pcdsdevices.gon.BaseGon.summary" title="pcdsdevices.gon.BaseGon.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.summary.html#pcdsdevices.gon.BaseGon.summary" title="pcdsdevices.gon.BaseGon.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.trigger.html#pcdsdevices.gon.BaseGon.trigger" title="pcdsdevices.gon.BaseGon.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.gon.BaseGon.trigger.html#pcdsdevices.gon.BaseGon.trigger" title="pcdsdevices.gon.BaseGon.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>

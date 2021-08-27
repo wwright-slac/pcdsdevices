@@ -86,6 +86,7 @@ pcdsdevices.epics\_motor.OffsetIMSWithPreset
        ~OffsetIMSWithPreset.set
        ~OffsetIMSWithPreset.set_current_position
        ~OffsetIMSWithPreset.set_position
+       ~OffsetIMSWithPreset.status
        ~OffsetIMSWithPreset.stop
        ~OffsetIMSWithPreset.summary
        ~OffsetIMSWithPreset.to_pseudo_tuple

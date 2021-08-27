@@ -57,6 +57,7 @@ pcdsdevices.gauge.GaugeSetMks
        ~GaugeSetMks.pressure
        ~GaugeSetMks.read
        ~GaugeSetMks.read_configuration
+       ~GaugeSetMks.status
        ~GaugeSetMks.stop
        ~GaugeSetMks.summary
        ~GaugeSetMks.trigger

@@ -135,6 +135,7 @@ pcdsdevices.mirror.Pitch
        ~Pitch.read_configuration
        ~Pitch.set
        ~Pitch.set_position
+       ~Pitch.status
        ~Pitch.stop
        ~Pitch.summary
        ~Pitch.trigger

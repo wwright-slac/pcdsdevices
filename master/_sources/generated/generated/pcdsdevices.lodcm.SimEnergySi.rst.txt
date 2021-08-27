@@ -126,6 +126,7 @@ pcdsdevices.lodcm.SimEnergySi
        ~SimEnergySi.set_current_position
        ~SimEnergySi.set_position
        ~SimEnergySi.stage_group_instances
+       ~SimEnergySi.status
        ~SimEnergySi.stop
        ~SimEnergySi.summary
        ~SimEnergySi.to_pseudo_tuple

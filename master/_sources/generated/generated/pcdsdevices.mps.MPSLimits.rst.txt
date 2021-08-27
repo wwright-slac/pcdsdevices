@@ -55,6 +55,7 @@ pcdsdevices.mps.MPSLimits
        ~MPSLimits.get
        ~MPSLimits.read
        ~MPSLimits.read_configuration
+       ~MPSLimits.status
        ~MPSLimits.stop
        ~MPSLimits.summary
        ~MPSLimits.trigger

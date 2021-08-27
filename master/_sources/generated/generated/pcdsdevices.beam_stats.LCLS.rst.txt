@@ -231,6 +231,7 @@ pcdsdevices.beam\_stats.LCLS
        ~LCLS.get
        ~LCLS.read
        ~LCLS.read_configuration
+       ~LCLS.status
        ~LCLS.stop
        ~LCLS.summary
        ~LCLS.trigger

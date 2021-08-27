@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisNoOffset.status
+====================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisNoOffset.status

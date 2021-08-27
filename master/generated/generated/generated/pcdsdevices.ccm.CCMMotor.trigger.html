@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ccm.CCMMotor.trigger &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ccm.CCMMotor.trigger &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -121,7 +121,9 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMAlio.html">pcdsdevices.ccm.CCMAlio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMEnergy.html">pcdsdevices.ccm.CCMEnergy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMEnergyWithVernier.html">pcdsdevices.ccm.CCMEnergyWithVernier</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.camonitor.html">pcdsdevices.ccm.CCMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.configure.html">pcdsdevices.ccm.CCMMotor.configure</a></li>
@@ -137,6 +139,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.read_configuration.html">pcdsdevices.ccm.CCMMotor.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.set.html">pcdsdevices.ccm.CCMMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.set_position.html">pcdsdevices.ccm.CCMMotor.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.status.html">pcdsdevices.ccm.CCMMotor.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.stop.html">pcdsdevices.ccm.CCMMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.summary.html">pcdsdevices.ccm.CCMMotor.summary</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMMotor.trigger</a></li>
@@ -263,7 +266,7 @@
 <h1>pcdsdevices.ccm.CCMMotor.trigger<a class="headerlink" href="#pcdsdevices-ccm-ccmmotor-trigger" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="pcdsdevices.ccm.CCMMotor.trigger">
-<span class="sig-prename descclassname"><span class="pre">CCMMotor.</span></span><span class="sig-name descname"><span class="pre">trigger</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><span class="pre">ophyd.status.StatusBase</span></a></span></span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor.trigger" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">CCMMotor.</span></span><span class="sig-name descname"><span class="pre">trigger</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><span class="pre">ophyd.status.StatusBase</span></a></span></span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor.trigger" title="Permalink to this definition">¶</a></dt>
 <dd><p>Trigger the device and return status object.</p>
 <p>This method is responsible for implementing ‘trigger’ or
 ‘acquire’ functionality of this device.</p>
@@ -271,14 +274,14 @@
 and it being able to be read (via the
 <code class="xref py py-meth docutils literal notranslate"><span class="pre">read()</span></code> method) then this method is
 also responsible for arranging that the
-<a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
+<a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object returned by this method
 is notified when the device is ready to be read.</p>
 <p>If there is no delay between triggering and being readable,
-then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
+then this method must return a <a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a>
 object which is already completed.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
-<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
+<dd class="field-odd"><p><strong>status</strong> (<em>StatusBase</em>) – <a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StatusBase</span></code></a> object which will be marked
 as complete when the device is ready to be read.</p>
 </dd>
 </dl>

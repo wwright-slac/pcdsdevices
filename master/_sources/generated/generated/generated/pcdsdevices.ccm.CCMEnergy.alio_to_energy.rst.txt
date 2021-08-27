@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.alio\_to\_energy
+==========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.alio_to_energy

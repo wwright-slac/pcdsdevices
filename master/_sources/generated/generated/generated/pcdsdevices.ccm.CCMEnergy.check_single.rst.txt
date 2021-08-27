@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.check\_single
+=======================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.check_single

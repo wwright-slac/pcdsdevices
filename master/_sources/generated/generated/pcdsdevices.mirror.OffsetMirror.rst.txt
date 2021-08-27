@@ -65,6 +65,7 @@ pcdsdevices.mirror.OffsetMirror
        ~OffsetMirror.read
        ~OffsetMirror.read_configuration
        ~OffsetMirror.stage_group_instances
+       ~OffsetMirror.status
        ~OffsetMirror.stop
        ~OffsetMirror.summary
        ~OffsetMirror.trigger

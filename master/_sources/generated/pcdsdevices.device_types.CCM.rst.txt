@@ -18,56 +18,65 @@
           - Kind
           - Notes
    
-       *  -  calc (FCpt)
-          -  :class:`~pcdsdevices.ccm.CCMCalc`
-          -  ``{self.alio_prefix}``
+       *  -  energy
+          -  :class:`~pcdsdevices.ccm.CCMEnergy`
           -  
+          -  PseudoPositioner that moves the alio in terms of the calculated CCM energy.
           -  hinted
           -  
    
-       *  -  theta2fine (FCpt)
+       *  -  energy_with_vernier
+          -  :class:`~pcdsdevices.ccm.CCMEnergyWithVernier`
+          -  
+          -  PsuedoPositioner that moves the alio in terms of the calculated CCM energy while also requesting a vernier move.
+          -  normal
+          -  
+   
+       *  -  alio (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMAlio`
+          -  
+          -  The motor that rotates the CCM crystal.
+          -  normal
+          -  
+   
+       *  -  theta2fine (UCpt)
           -  :class:`~pcdsdevices.ccm.CCMMotor`
-          -  ``{self.theta2fine_prefix}``
           -  
+          -  The motor that controls the fine adjustment of the of the second crystal theta angle.
           -  normal
           -  
    
-       *  -  theta2coarse (FCpt)
+       *  -  theta2coarse (UCpt)
           -  :class:`~pcdsdevices.ccm.CCMPico`
-          -  ``{self.theta2coarse_prefix}``
           -  
+          -  The motor that controls the coarse adjustment of the of the second crystal theta angle.
           -  normal
           -  
    
-       *  -  chi2 (FCpt)
+       *  -  chi2 (UCpt)
           -  :class:`~pcdsdevices.ccm.CCMPico`
-          -  ``{self.chi2_prefix}``
           -  
+          -  The motor that controls the adjustment of thesecond crystal chi angle.
           -  normal
           -  
    
-       *  -  x (FCpt)
+       *  -  x (UCpt)
           -  :class:`~pcdsdevices.ccm.CCMX`
           -  
-          -  
-          -  omitted
+          -  Combined motion of the CCM X motors.
+          -  normal
           -  
    
-       *  -  y (FCpt)
+       *  -  y (UCpt)
           -  :class:`~pcdsdevices.ccm.CCMY`
           -  
-          -  
-          -  omitted
-          -  
-   
-       *  -  state
-          -  :class:`~ophyd.signal.AttributeSignal`
-          -  
-          -  
-          -  omitted
+          -  Combined motion of the CCM Y motors.
+          -  normal
           -  
    
 
+   
+   
    
    
    
@@ -95,28 +104,18 @@
     .. autosummary::
        :toctree: generated
     
-       ~CCM.camonitor
-       ~CCM.check_inserted
-       ~CCM.check_removed
-       ~CCM.check_transmission
        ~CCM.configure
        ~CCM.describe
-       ~CCM.end_monitor_thread
        ~CCM.get
-       ~CCM.get_state
        ~CCM.insert
-       ~CCM.move
-       ~CCM.mv
        ~CCM.read
        ~CCM.read_configuration
        ~CCM.remove
-       ~CCM.set
        ~CCM.stage_group_instances
+       ~CCM.status
+       ~CCM.stop
        ~CCM.summary
        ~CCM.trigger
-       ~CCM.wait
-       ~CCM.wm
-       ~CCM.wm_update
     
     
 
@@ -128,22 +127,15 @@
     
        ~CCM.configuration_attrs
        ~CCM.connected
-       ~CCM.egu
-       ~CCM.high_limit
+       ~CCM.dspacing
+       ~CCM.gd
+       ~CCM.gr
        ~CCM.hints
-       ~CCM.in_states
        ~CCM.kind
-       ~CCM.limits
-       ~CCM.low_limit
-       ~CCM.moving
+       ~CCM.lightpath_cpts
        ~CCM.needs_parent
-       ~CCM.out_states
-       ~CCM.position
-       ~CCM.settle_time
        ~CCM.stage_group
-       ~CCM.states_list
-       ~CCM.stop
-       ~CCM.timeout
+       ~CCM.theta0
        ~CCM.transmission
     
     

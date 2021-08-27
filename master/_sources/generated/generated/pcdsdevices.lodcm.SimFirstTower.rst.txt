@@ -240,6 +240,7 @@ pcdsdevices.lodcm.SimFirstTower
        ~SimFirstTower.read
        ~SimFirstTower.read_configuration
        ~SimFirstTower.stage_group_instances
+       ~SimFirstTower.status
        ~SimFirstTower.stop
        ~SimFirstTower.summary
        ~SimFirstTower.trigger

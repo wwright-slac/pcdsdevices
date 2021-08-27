@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.wm\_update
+====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.wm_update

@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.XPIM.status
+=====================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: XPIM.status

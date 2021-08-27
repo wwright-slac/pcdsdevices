@@ -67,6 +67,7 @@ pcdsdevices.lodcm.Foil
        ~Foil.remove
        ~Foil.set
        ~Foil.stage_group_instances
+       ~Foil.status
        ~Foil.stop
        ~Foil.summary
        ~Foil.trigger

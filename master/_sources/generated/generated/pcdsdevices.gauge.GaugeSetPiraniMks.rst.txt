@@ -66,6 +66,7 @@ pcdsdevices.gauge.GaugeSetPiraniMks
        ~GaugeSetPiraniMks.pressure
        ~GaugeSetPiraniMks.read
        ~GaugeSetPiraniMks.read_configuration
+       ~GaugeSetPiraniMks.status
        ~GaugeSetPiraniMks.stop
        ~GaugeSetPiraniMks.summary
        ~GaugeSetPiraniMks.trigger

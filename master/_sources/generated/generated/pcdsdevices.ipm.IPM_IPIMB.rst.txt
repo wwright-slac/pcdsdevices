@@ -69,6 +69,7 @@ pcdsdevices.ipm.IPM\_IPIMB
        ~IPM_IPIMB.read_configuration
        ~IPM_IPIMB.remove
        ~IPM_IPIMB.stage_group_instances
+       ~IPM_IPIMB.status
        ~IPM_IPIMB.stop
        ~IPM_IPIMB.summary
        ~IPM_IPIMB.target_in

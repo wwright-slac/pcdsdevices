@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ccm.CCMY &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -121,7 +121,9 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMAlio.html">pcdsdevices.ccm.CCMAlio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMEnergy.html">pcdsdevices.ccm.CCMEnergy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMEnergyWithVernier.html">pcdsdevices.ccm.CCMEnergyWithVernier</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMPico.html">pcdsdevices.ccm.CCMPico</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.ccm.CCMX.html">pcdsdevices.ccm.CCMX</a></li>
@@ -149,6 +151,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set.html">pcdsdevices.ccm.CCMY.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set_current_position.html">pcdsdevices.ccm.CCMY.set_current_position</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set_position.html">pcdsdevices.ccm.CCMY.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.status.html">pcdsdevices.ccm.CCMY.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stop.html">pcdsdevices.ccm.CCMY.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.summary.html">pcdsdevices.ccm.CCMY.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html">pcdsdevices.ccm.CCMY.to_pseudo_tuple</a></li>
@@ -272,8 +275,23 @@
 <h1>pcdsdevices.ccm.CCMY<a class="headerlink" href="#pcdsdevices-ccm-ccmy" title="Permalink to this headline">¶</a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="pcdsdevices.ccm.CCMY">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.ccm.</span></span><span class="sig-name descname"><span class="pre">CCMY</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">down_prefix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">up_north_prefix</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">up_south_prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMY" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.ccm.</span></span><span class="sig-name descname"><span class="pre">CCMY</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.ccm.CCMY" title="Permalink to this definition">¶</a></dt>
 <dd><p>Combined motion of the CCM Y motors.</p>
+<p>You can use this device like a motor, and the position setpoint will be
+forwarded to all three y motors.</p>
+<p>These motors are typically powered off for RP reasons.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – Devices are required to have a positional argument here,
+but this is not used. If provided, it should be the same as
+down_prefix (y1).</p></li>
+<li><p><strong>down_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>required keyword</em>) – The prefix for the downstream ccm y translation motor (y1).</p></li>
+<li><p><strong>up_north_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>required keyword</em>) – The prefix for the north upstream ccm y translation motor (y2).</p></li>
+<li><p><strong>up_south_prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>required keyword</em>) – The prefix for the south upstream ccm y translation motor (y3).</p></li>
+</ul>
+</dd>
+</dl>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table">¶</a></caption>
 <thead>
@@ -293,24 +311,24 @@
 <td><p>omitted</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pseudopos.SyncAxis.html#pcdsdevices.pseudopos.SyncAxis" title="pcdsdevices.pseudopos.SyncAxis"><code class="xref py py-class docutils literal notranslate"><span class="pre">SyncAxis</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>down (FCpt)</p></td>
+<tr class="row-odd"><td><p>down (UCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self.down_prefix}</span></code></p></td>
 <td></td>
+<td><p>Downstream ccm y translation motor (y1).</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>up_north (FCpt)</p></td>
+<tr class="row-even"><td><p>up_north (UCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self.up_north_prefix}</span></code></p></td>
 <td></td>
+<td><p>North upstream ccm y translation motor (y2).</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>up_south (FCpt)</p></td>
+<tr class="row-odd"><td><p>up_south (UCpt)</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.epics_motor.IMS.html#pcdsdevices.epics_motor.IMS" title="pcdsdevices.epics_motor.IMS"><code class="xref py py-class docutils literal notranslate"><span class="pre">IMS</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">{self.up_south_prefix}</span></code></p></td>
 <td></td>
+<td><p>South upstream ccm y translation motor (y3).</p></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
@@ -392,37 +410,40 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.set_position.html#pcdsdevices.ccm.CCMY.set_position" title="pcdsdevices.ccm.CCMY.set_position"><code class="xref py py-obj docutils literal notranslate"><span class="pre">set_position</span></code></a>(position)</p></td>
 <td><p>Alias for set_current_position.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stop.html#pcdsdevices.ccm.CCMY.stop" title="pcdsdevices.ccm.CCMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.status.html#pcdsdevices.ccm.CCMY.status" title="pcdsdevices.ccm.CCMY.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.stop.html#pcdsdevices.ccm.CCMY.stop" title="pcdsdevices.ccm.CCMY.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>([success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.summary.html#pcdsdevices.ccm.CCMY.summary" title="pcdsdevices.ccm.CCMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.summary.html#pcdsdevices.ccm.CCMY.summary" title="pcdsdevices.ccm.CCMY.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html#pcdsdevices.ccm.CCMY.to_pseudo_tuple" title="pcdsdevices.ccm.CCMY.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_pseudo_tuple.html#pcdsdevices.ccm.CCMY.to_pseudo_tuple" title="pcdsdevices.ccm.CCMY.to_pseudo_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_pseudo_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a PseudoPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_real_tuple.html#pcdsdevices.ccm.CCMY.to_real_tuple" title="pcdsdevices.ccm.CCMY.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.to_real_tuple.html#pcdsdevices.ccm.CCMY.to_real_tuple" title="pcdsdevices.ccm.CCMY.to_real_tuple"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_real_tuple</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Convert arguments to a RealPosition namedtuple and kwargs</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.trigger.html#pcdsdevices.ccm.CCMY.trigger" title="pcdsdevices.ccm.CCMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.trigger.html#pcdsdevices.ccm.CCMY.trigger" title="pcdsdevices.ccm.CCMY.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.tweak.html#pcdsdevices.ccm.CCMY.tweak" title="pcdsdevices.ccm.CCMY.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.tweak.html#pcdsdevices.ccm.CCMY.tweak" title="pcdsdevices.ccm.CCMY.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umv.html#pcdsdevices.ccm.CCMY.umv" title="pcdsdevices.ccm.CCMY.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umv.html#pcdsdevices.ccm.CCMY.umv" title="pcdsdevices.ccm.CCMY.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umvr.html#pcdsdevices.ccm.CCMY.umvr" title="pcdsdevices.ccm.CCMY.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.umvr.html#pcdsdevices.ccm.CCMY.umvr" title="pcdsdevices.ccm.CCMY.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wait.html#pcdsdevices.ccm.CCMY.wait" title="pcdsdevices.ccm.CCMY.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wait.html#pcdsdevices.ccm.CCMY.wait" title="pcdsdevices.ccm.CCMY.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm.html#pcdsdevices.ccm.CCMY.wm" title="pcdsdevices.ccm.CCMY.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm.html#pcdsdevices.ccm.CCMY.wm" title="pcdsdevices.ccm.CCMY.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html#pcdsdevices.ccm.CCMY.wm_update" title="pcdsdevices.ccm.CCMY.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ccm.CCMY.wm_update.html#pcdsdevices.ccm.CCMY.wm_update" title="pcdsdevices.ccm.CCMY.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

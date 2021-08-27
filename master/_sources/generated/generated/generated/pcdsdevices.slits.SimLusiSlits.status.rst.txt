@@ -1,0 +1,6 @@
+pcdsdevices.slits.SimLusiSlits.status
+=====================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: SimLusiSlits.status

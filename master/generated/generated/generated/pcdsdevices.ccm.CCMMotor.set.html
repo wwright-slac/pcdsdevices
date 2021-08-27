@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ccm.CCMMotor.set &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ccm.CCMMotor.set &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -121,7 +121,9 @@
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_energy.html">pcdsdevices.ccm.wavelength_to_energy</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.wavelength_to_theta.html">pcdsdevices.ccm.wavelength_to_theta</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCM.html">pcdsdevices.ccm.CCM</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMCalc.html">pcdsdevices.ccm.CCMCalc</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMAlio.html">pcdsdevices.ccm.CCMAlio</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMEnergy.html">pcdsdevices.ccm.CCMEnergy</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../pcdsdevices.ccm.CCMEnergyWithVernier.html">pcdsdevices.ccm.CCMEnergyWithVernier</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../pcdsdevices.ccm.CCMMotor.html">pcdsdevices.ccm.CCMMotor</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.camonitor.html">pcdsdevices.ccm.CCMMotor.camonitor</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.configure.html">pcdsdevices.ccm.CCMMotor.configure</a></li>
@@ -137,6 +139,7 @@
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.read_configuration.html">pcdsdevices.ccm.CCMMotor.read_configuration</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">pcdsdevices.ccm.CCMMotor.set</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.set_position.html">pcdsdevices.ccm.CCMMotor.set_position</a></li>
+<li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.status.html">pcdsdevices.ccm.CCMMotor.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.stop.html">pcdsdevices.ccm.CCMMotor.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.summary.html">pcdsdevices.ccm.CCMMotor.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="pcdsdevices.ccm.CCMMotor.trigger.html">pcdsdevices.ccm.CCMMotor.trigger</a></li>
@@ -263,7 +266,7 @@
 <h1>pcdsdevices.ccm.CCMMotor.set<a class="headerlink" href="#pcdsdevices-ccm-ccmmotor-set" title="Permalink to this headline">¶</a></h1>
 <dl class="py method">
 <dt class="sig sig-object py" id="pcdsdevices.ccm.CCMMotor.set">
-<span class="sig-prename descclassname"><span class="pre">CCMMotor.</span></span><span class="sig-name descname"><span class="pre">set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">new_position</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Any</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><span class="pre">float</span></a><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moved_cb</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Callable</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><span class="pre">bool</span></a></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post78+g3c95cc7)"><span class="pre">ophyd.status.StatusBase</span></a></span></span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor.set" title="Permalink to this definition">¶</a></dt>
+<span class="sig-prename descclassname"><span class="pre">CCMMotor.</span></span><span class="sig-name descname"><span class="pre">set</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">new_position</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Any</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timeout</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><span class="pre">float</span></a><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">moved_cb</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><span class="pre">Callable</span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">wait</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><span class="pre">bool</span></a></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><a class="reference external" href="https://blueskyproject.io/ophyd/generated/ophyd.status.StatusBase.html#ophyd.status.StatusBase" title="(in ophyd v1.6.1.post81+gf245d9f)"><span class="pre">ophyd.status.StatusBase</span></a></span></span><a class="headerlink" href="#pcdsdevices.ccm.CCMMotor.set" title="Permalink to this definition">¶</a></dt>
 <dd><p>Set a value and return a Status object</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>

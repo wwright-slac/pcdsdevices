@@ -1,0 +1,6 @@
+pcdsdevices.valve.GateValve.status
+==================================
+
+.. currentmodule:: pcdsdevices.valve
+
+.. automethod:: GateValve.status

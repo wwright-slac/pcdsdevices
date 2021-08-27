@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.Newport.status
+=======================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: Newport.status

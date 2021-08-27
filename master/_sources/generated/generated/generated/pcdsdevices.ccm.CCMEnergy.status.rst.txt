@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.status
+================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.status

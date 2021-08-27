@@ -203,6 +203,7 @@ pcdsdevices.attenuator.AttenuatorCalculatorBase
        ~AttenuatorCalculatorBase.get_moving_status
        ~AttenuatorCalculatorBase.read
        ~AttenuatorCalculatorBase.read_configuration
+       ~AttenuatorCalculatorBase.status
        ~AttenuatorCalculatorBase.stop
        ~AttenuatorCalculatorBase.summary
        ~AttenuatorCalculatorBase.trigger

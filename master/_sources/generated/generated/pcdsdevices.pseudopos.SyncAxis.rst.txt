@@ -64,6 +64,7 @@ pcdsdevices.pseudopos.SyncAxis
        ~SyncAxis.set
        ~SyncAxis.set_current_position
        ~SyncAxis.set_position
+       ~SyncAxis.status
        ~SyncAxis.stop
        ~SyncAxis.summary
        ~SyncAxis.to_pseudo_tuple

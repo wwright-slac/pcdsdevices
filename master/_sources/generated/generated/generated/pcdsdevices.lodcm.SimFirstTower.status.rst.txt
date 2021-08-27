@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimFirstTower.status
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimFirstTower.status

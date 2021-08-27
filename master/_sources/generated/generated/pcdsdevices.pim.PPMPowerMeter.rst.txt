@@ -127,6 +127,7 @@ pcdsdevices.pim.PPMPowerMeter
        ~PPMPowerMeter.get
        ~PPMPowerMeter.read
        ~PPMPowerMeter.read_configuration
+       ~PPMPowerMeter.status
        ~PPMPowerMeter.stop
        ~PPMPowerMeter.summary
        ~PPMPowerMeter.trigger

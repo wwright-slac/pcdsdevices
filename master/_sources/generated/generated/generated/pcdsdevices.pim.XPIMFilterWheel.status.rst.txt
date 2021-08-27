@@ -1,0 +1,6 @@
+pcdsdevices.pim.XPIMFilterWheel.status
+======================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: XPIMFilterWheel.status

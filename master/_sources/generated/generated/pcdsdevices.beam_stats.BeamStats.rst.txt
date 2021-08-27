@@ -91,6 +91,7 @@ pcdsdevices.beam\_stats.BeamStats
        ~BeamStats.get
        ~BeamStats.read
        ~BeamStats.read_configuration
+       ~BeamStats.status
        ~BeamStats.stop
        ~BeamStats.summary
        ~BeamStats.trigger

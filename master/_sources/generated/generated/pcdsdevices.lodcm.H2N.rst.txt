@@ -67,6 +67,7 @@ pcdsdevices.lodcm.H2N
        ~H2N.remove
        ~H2N.set
        ~H2N.stage_group_instances
+       ~H2N.status
        ~H2N.stop
        ~H2N.summary
        ~H2N.trigger

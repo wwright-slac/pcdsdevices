@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.device_types.IMS &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.device_types.IMS &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -151,6 +151,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.spg_go.html">pcdsdevices.device_types.IMS.spg_go</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.spg_pause.html">pcdsdevices.device_types.IMS.spg_pause</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.spg_stop.html">pcdsdevices.device_types.IMS.spg_stop</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.status.html">pcdsdevices.device_types.IMS.status</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.stop.html">pcdsdevices.device_types.IMS.stop</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.summary.html">pcdsdevices.device_types.IMS.summary</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.trigger.html">pcdsdevices.device_types.IMS.trigger</a></li>
@@ -629,31 +630,34 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.spg_stop.html#pcdsdevices.device_types.IMS.spg_stop" title="pcdsdevices.device_types.IMS.spg_stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">spg_stop</span></code></a>()</p></td>
 <td><p>Stops the motor.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.stop.html#pcdsdevices.device_types.IMS.stop" title="pcdsdevices.device_types.IMS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.status.html#pcdsdevices.device_types.IMS.status" title="pcdsdevices.device_types.IMS.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.stop.html#pcdsdevices.device_types.IMS.stop" title="pcdsdevices.device_types.IMS.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.summary.html#pcdsdevices.device_types.IMS.summary" title="pcdsdevices.device_types.IMS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.summary.html#pcdsdevices.device_types.IMS.summary" title="pcdsdevices.device_types.IMS.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.trigger.html#pcdsdevices.device_types.IMS.trigger" title="pcdsdevices.device_types.IMS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.trigger.html#pcdsdevices.device_types.IMS.trigger" title="pcdsdevices.device_types.IMS.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.tweak.html#pcdsdevices.device_types.IMS.tweak" title="pcdsdevices.device_types.IMS.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.tweak.html#pcdsdevices.device_types.IMS.tweak" title="pcdsdevices.device_types.IMS.tweak"><code class="xref py py-obj docutils literal notranslate"><span class="pre">tweak</span></code></a>()</p></td>
 <td><p>Control this motor using the arrow keys.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.umv.html#pcdsdevices.device_types.IMS.umv" title="pcdsdevices.device_types.IMS.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.umv.html#pcdsdevices.device_types.IMS.umv" title="pcdsdevices.device_types.IMS.umv"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umv</span></code></a>(position[, timeout, log, newline])</p></td>
 <td><p>Move to a position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.umvr.html#pcdsdevices.device_types.IMS.umvr" title="pcdsdevices.device_types.IMS.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.umvr.html#pcdsdevices.device_types.IMS.umvr" title="pcdsdevices.device_types.IMS.umvr"><code class="xref py py-obj docutils literal notranslate"><span class="pre">umvr</span></code></a>(delta[, timeout, log, newline])</p></td>
 <td><p>Relative move from this position, wait, and update with a progress bar.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wait.html#pcdsdevices.device_types.IMS.wait" title="pcdsdevices.device_types.IMS.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wait.html#pcdsdevices.device_types.IMS.wait" title="pcdsdevices.device_types.IMS.wait"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wait</span></code></a>([timeout])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm.html#pcdsdevices.device_types.IMS.wm" title="pcdsdevices.device_types.IMS.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm.html#pcdsdevices.device_types.IMS.wm" title="pcdsdevices.device_types.IMS.wm"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm</span></code></a>()</p></td>
 <td><p>Get the mover’s current positon (where motor).</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm_update.html#pcdsdevices.device_types.IMS.wm_update" title="pcdsdevices.device_types.IMS.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.device_types.IMS.wm_update.html#pcdsdevices.device_types.IMS.wm_update" title="pcdsdevices.device_types.IMS.wm_update"><code class="xref py py-obj docutils literal notranslate"><span class="pre">wm_update</span></code></a>()</p></td>
 <td><p>Shows a live-updating motor position in the terminal.</p></td>
 </tr>
 </tbody>

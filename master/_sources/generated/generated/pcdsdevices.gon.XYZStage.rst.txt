@@ -65,6 +65,7 @@ pcdsdevices.gon.XYZStage
        ~XYZStage.read
        ~XYZStage.read_configuration
        ~XYZStage.stage_group_instances
+       ~XYZStage.status
        ~XYZStage.stop
        ~XYZStage.summary
        ~XYZStage.trigger

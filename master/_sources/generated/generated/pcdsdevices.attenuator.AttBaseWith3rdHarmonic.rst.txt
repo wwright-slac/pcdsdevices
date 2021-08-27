@@ -192,6 +192,7 @@ pcdsdevices.attenuator.AttBaseWith3rdHarmonic
        ~AttBaseWith3rdHarmonic.set
        ~AttBaseWith3rdHarmonic.set_energy
        ~AttBaseWith3rdHarmonic.set_position
+       ~AttBaseWith3rdHarmonic.status
        ~AttBaseWith3rdHarmonic.stop
        ~AttBaseWith3rdHarmonic.summary
        ~AttBaseWith3rdHarmonic.trigger

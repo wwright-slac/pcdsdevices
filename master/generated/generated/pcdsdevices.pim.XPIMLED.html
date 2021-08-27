@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.pim.XPIMLED &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.pim.XPIMLED &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -150,6 +150,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.get.html">pcdsdevices.pim.XPIMLED.get</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read.html">pcdsdevices.pim.XPIMLED.read</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read_configuration.html">pcdsdevices.pim.XPIMLED.read_configuration</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.status.html">pcdsdevices.pim.XPIMLED.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stop.html">pcdsdevices.pim.XPIMLED.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.summary.html">pcdsdevices.pim.XPIMLED.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.trigger.html">pcdsdevices.pim.XPIMLED.trigger</a></li>
@@ -324,13 +325,16 @@ useful. Disable this if the state configuration is wrong.</p>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.read_configuration.html#pcdsdevices.pim.XPIMLED.read_configuration" title="pcdsdevices.pim.XPIMLED.read_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">read_configuration</span></code></a>()</p></td>
 <td><p>Dictionary mapping names to value dicts with keys: value, timestamp</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stop.html#pcdsdevices.pim.XPIMLED.stop" title="pcdsdevices.pim.XPIMLED.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.status.html#pcdsdevices.pim.XPIMLED.status" title="pcdsdevices.pim.XPIMLED.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.stop.html#pcdsdevices.pim.XPIMLED.stop" title="pcdsdevices.pim.XPIMLED.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.summary.html#pcdsdevices.pim.XPIMLED.summary" title="pcdsdevices.pim.XPIMLED.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.summary.html#pcdsdevices.pim.XPIMLED.summary" title="pcdsdevices.pim.XPIMLED.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.trigger.html#pcdsdevices.pim.XPIMLED.trigger" title="pcdsdevices.pim.XPIMLED.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.pim.XPIMLED.trigger.html#pcdsdevices.pim.XPIMLED.trigger" title="pcdsdevices.pim.XPIMLED.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
 </tbody>

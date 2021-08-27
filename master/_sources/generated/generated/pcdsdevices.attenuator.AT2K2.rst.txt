@@ -108,6 +108,7 @@ pcdsdevices.attenuator.AT2K2
        ~AT2K2.read_configuration
        ~AT2K2.set
        ~AT2K2.set_position
+       ~AT2K2.status
        ~AT2K2.stop
        ~AT2K2.summary
        ~AT2K2.trigger

@@ -282,6 +282,7 @@ pcdsdevices.slits.PowerSlits
        ~PowerSlits.remove
        ~PowerSlits.set
        ~PowerSlits.stage_group_instances
+       ~PowerSlits.status
        ~PowerSlits.stop
        ~PowerSlits.summary
        ~PowerSlits.trigger

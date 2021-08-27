@@ -28,14 +28,14 @@ pcdsdevices.ccm.CCMMotor
        *  -  setpoint
           -  :class:`~ophyd.signal.EpicsSignal`
           -  ``:POSITIONSET``
-          -  
+          -  The motor setpoint. Writing begins a move.
           -  normal
           -  
    
        *  -  readback
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:POSITIONGET``
-          -  
+          -  The current motor position.
           -  hinted
           -  
    
@@ -73,6 +73,7 @@ pcdsdevices.ccm.CCMMotor
        ~CCMMotor.read_configuration
        ~CCMMotor.set
        ~CCMMotor.set_position
+       ~CCMMotor.status
        ~CCMMotor.stop
        ~CCMMotor.summary
        ~CCMMotor.trigger

@@ -73,6 +73,7 @@ pcdsdevices.ipm.Wave8Channel
        ~Wave8Channel.get
        ~Wave8Channel.read
        ~Wave8Channel.read_configuration
+       ~Wave8Channel.status
        ~Wave8Channel.stop
        ~Wave8Channel.summary
        ~Wave8Channel.trigger

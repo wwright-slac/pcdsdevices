@@ -77,6 +77,7 @@
        ~DelayNewport.set
        ~DelayNewport.set_current_position
        ~DelayNewport.set_position
+       ~DelayNewport.status
        ~DelayNewport.stop
        ~DelayNewport.summary
        ~DelayNewport.to_pseudo_tuple

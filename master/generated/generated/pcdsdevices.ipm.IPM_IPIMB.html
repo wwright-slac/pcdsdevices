@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>pcdsdevices.ipm.IPM_IPIMB &mdash; PCDS Devices 4.7.1+58.gf9dca89 documentation</title>
+  <title>pcdsdevices.ipm.IPM_IPIMB &mdash; PCDS Devices 4.7.1+77.g50a62b3 documentation</title>
   
 
   
@@ -65,7 +65,7 @@
             
             
               <div class="version">
-                4.7.1+58.gf9dca89
+                4.7.1+77.g50a62b3
               </div>
             
           
@@ -143,6 +143,7 @@
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.read_configuration.html">pcdsdevices.ipm.IPM_IPIMB.read_configuration</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.remove.html">pcdsdevices.ipm.IPM_IPIMB.remove</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.stage_group_instances.html">pcdsdevices.ipm.IPM_IPIMB.stage_group_instances</a></li>
+<li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.status.html">pcdsdevices.ipm.IPM_IPIMB.status</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.stop.html">pcdsdevices.ipm.IPM_IPIMB.stop</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.summary.html">pcdsdevices.ipm.IPM_IPIMB.summary</a></li>
 <li class="toctree-l4"><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.target_in.html">pcdsdevices.ipm.IPM_IPIMB.target_in</a></li>
@@ -346,22 +347,25 @@ in-progress move as failed.</p></li>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.stage_group_instances.html#pcdsdevices.ipm.IPM_IPIMB.stage_group_instances" title="pcdsdevices.ipm.IPM_IPIMB.stage_group_instances"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stage_group_instances</span></code></a>()</p></td>
 <td><p>Yields an iterator of subdevices that should be staged.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.stop.html#pcdsdevices.ipm.IPM_IPIMB.stop" title="pcdsdevices.ipm.IPM_IPIMB.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.status.html#pcdsdevices.ipm.IPM_IPIMB.status" title="pcdsdevices.ipm.IPM_IPIMB.status"><code class="xref py py-obj docutils literal notranslate"><span class="pre">status</span></code></a>()</p></td>
+<td><p>Returns a str with the current pv values for the device.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.stop.html#pcdsdevices.ipm.IPM_IPIMB.stop" title="pcdsdevices.ipm.IPM_IPIMB.stop"><code class="xref py py-obj docutils literal notranslate"><span class="pre">stop</span></code></a>(*[, success])</p></td>
 <td><p>Stop the Device and all (instantiated) subdevices</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.summary.html#pcdsdevices.ipm.IPM_IPIMB.summary" title="pcdsdevices.ipm.IPM_IPIMB.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.summary.html#pcdsdevices.ipm.IPM_IPIMB.summary" title="pcdsdevices.ipm.IPM_IPIMB.summary"><code class="xref py py-obj docutils literal notranslate"><span class="pre">summary</span></code></a>()</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.target_in.html#pcdsdevices.ipm.IPM_IPIMB.target_in" title="pcdsdevices.ipm.IPM_IPIMB.target_in"><code class="xref py py-obj docutils literal notranslate"><span class="pre">target_in</span></code></a>(target_num[, moved_cb, timeout, wait])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.target_in.html#pcdsdevices.ipm.IPM_IPIMB.target_in" title="pcdsdevices.ipm.IPM_IPIMB.target_in"><code class="xref py py-obj docutils literal notranslate"><span class="pre">target_in</span></code></a>(target_num[, moved_cb, timeout, wait])</p></td>
 <td><p>Moves the target to one of the target positions.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.trigger.html#pcdsdevices.ipm.IPM_IPIMB.trigger" title="pcdsdevices.ipm.IPM_IPIMB.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.trigger.html#pcdsdevices.ipm.IPM_IPIMB.trigger" title="pcdsdevices.ipm.IPM_IPIMB.trigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">trigger</span></code></a>()</p></td>
 <td><p>Trigger the device and return status object.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.xpos.html#pcdsdevices.ipm.IPM_IPIMB.xpos" title="pcdsdevices.ipm.IPM_IPIMB.xpos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xpos</span></code></a>()</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.xpos.html#pcdsdevices.ipm.IPM_IPIMB.xpos" title="pcdsdevices.ipm.IPM_IPIMB.xpos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">xpos</span></code></a>()</p></td>
 <td><p>Returns the detector’s xpos value.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.ypos.html#pcdsdevices.ipm.IPM_IPIMB.ypos" title="pcdsdevices.ipm.IPM_IPIMB.ypos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ypos</span></code></a>()</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.ipm.IPM_IPIMB.ypos.html#pcdsdevices.ipm.IPM_IPIMB.ypos" title="pcdsdevices.ipm.IPM_IPIMB.ypos"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ypos</span></code></a>()</p></td>
 <td><p>Returns the detector’s ypos value.</p></td>
 </tr>
 </tbody>
