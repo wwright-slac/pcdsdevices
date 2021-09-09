@@ -88,6 +88,20 @@ pcdsdevices.gauge.GCC500PLC
           -  normal
           -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
    
+       *  -  auto_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:Auto_On``
+          -  Setting to automatically turn on the gauge when thereference gauge pressure is below protection setpoint
+          -  config
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
+       *  -  autoOn_countdown
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AutoOn_timer_RBV``
+          -  timer count down to turn on the gauge 
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.gauge.GCCPLC`
+   
        *  -  high_voltage_is_on
           -  :class:`~ophyd.signal.EpicsSignalRO`
           -  ``:HV_ON_RBV``
@@ -103,6 +117,10 @@ pcdsdevices.gauge.GCC500PLC
           -  
    
 
+   
+   
+   
+   
    
    
    

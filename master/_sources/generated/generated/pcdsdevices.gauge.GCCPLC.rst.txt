@@ -88,7 +88,25 @@ pcdsdevices.gauge.GCCPLC
           -  normal
           -  
    
+       *  -  auto_on
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:Auto_On``
+          -  Setting to automatically turn on the gauge when thereference gauge pressure is below protection setpoint
+          -  config
+          -  
+   
+       *  -  autoOn_countdown
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AutoOn_timer_RBV``
+          -  timer count down to turn on the gauge 
+          -  normal
+          -  
+   
 
+   
+   
+   
+   
    
    
    

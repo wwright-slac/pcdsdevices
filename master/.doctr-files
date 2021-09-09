@@ -1147,6 +1147,14 @@ master/_sources/generated/generated/generated/pcdsdevices.gauge.GCT.read_configu
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GCT.stop.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GCT.summary.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GCT.trigger.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.configure.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.describe.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.get.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.read.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.read_configuration.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.stop.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.summary.rst.txt
+master/_sources/generated/generated/generated/pcdsdevices.gauge.GFSPLC.trigger.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GHCPLC.configure.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GHCPLC.describe.rst.txt
 master/_sources/generated/generated/generated/pcdsdevices.gauge.GHCPLC.get.rst.txt
@@ -4722,6 +4730,7 @@ master/_sources/generated/generated/pcdsdevices.gauge.BaseGauge.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GCC500PLC.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GCCPLC.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GCT.rst.txt
+master/_sources/generated/generated/pcdsdevices.gauge.GFSPLC.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GHCPLC.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GaugeColdCathode.rst.txt
 master/_sources/generated/generated/pcdsdevices.gauge.GaugePLC.rst.txt
@@ -5127,6 +5136,7 @@ master/_sources/upcoming_release_notes/859-group_device.rst.txt
 master/_sources/upcoming_release_notes/863-embed-tests.rst.txt
 master/_sources/upcoming_release_notes/865-ccm-rework.rst.txt
 master/_sources/upcoming_release_notes/866-ims_timeout.rst.txt
+master/_sources/upcoming_release_notes/869-added_GFS_fault_setpoint,_GCC,_PIP_autoOn_and_countdown_timer.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -6351,6 +6361,14 @@ master/generated/generated/generated/pcdsdevices.gauge.GCT.read_configuration.ht
 master/generated/generated/generated/pcdsdevices.gauge.GCT.stop.html
 master/generated/generated/generated/pcdsdevices.gauge.GCT.summary.html
 master/generated/generated/generated/pcdsdevices.gauge.GCT.trigger.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.configure.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.describe.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.get.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.read.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.read_configuration.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.stop.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.summary.html
+master/generated/generated/generated/pcdsdevices.gauge.GFSPLC.trigger.html
 master/generated/generated/generated/pcdsdevices.gauge.GHCPLC.configure.html
 master/generated/generated/generated/pcdsdevices.gauge.GHCPLC.describe.html
 master/generated/generated/generated/pcdsdevices.gauge.GHCPLC.get.html
@@ -9926,6 +9944,7 @@ master/generated/generated/pcdsdevices.gauge.BaseGauge.html
 master/generated/generated/pcdsdevices.gauge.GCC500PLC.html
 master/generated/generated/pcdsdevices.gauge.GCCPLC.html
 master/generated/generated/pcdsdevices.gauge.GCT.html
+master/generated/generated/pcdsdevices.gauge.GFSPLC.html
 master/generated/generated/pcdsdevices.gauge.GHCPLC.html
 master/generated/generated/pcdsdevices.gauge.GaugeColdCathode.html
 master/generated/generated/pcdsdevices.gauge.GaugePLC.html
@@ -10336,5 +10355,6 @@ master/upcoming_release_notes/859-group_device.html
 master/upcoming_release_notes/863-embed-tests.html
 master/upcoming_release_notes/865-ccm-rework.html
 master/upcoming_release_notes/866-ims_timeout.html
+master/upcoming_release_notes/869-added_GFS_fault_setpoint,_GCC,_PIP_autoOn_and_countdown_timer.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

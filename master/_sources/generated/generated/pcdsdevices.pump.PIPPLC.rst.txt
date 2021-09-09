@@ -89,8 +89,8 @@ pcdsdevices.pump.PIPPLC
           -  
    
        *  -  auto_on
-          -  :class:`~ophyd.signal.EpicsSignalRO`
-          -  ``:Auto_On_RBV``
+          -  :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
+          -  ``:Auto_On``
           -  Setting to automatically turn on the ion pump when thereference gauge pressure is below protection setpoint
           -  config
           -  
@@ -130,7 +130,16 @@ pcdsdevices.pump.PIPPLC
           -  config
           -  
    
+       *  -  autoOn_countdown
+          -  :class:`~ophyd.signal.EpicsSignalRO`
+          -  ``:AutoOn_timer_RBV``
+          -  Timer count down to turn on the ion pump 
+          -  normal
+          -  
+   
 
+   
+   
    
    
    
