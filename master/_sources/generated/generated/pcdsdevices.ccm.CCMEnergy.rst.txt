@@ -18,6 +18,34 @@ pcdsdevices.ccm.CCMEnergy
           - Kind
           - Notes
    
+       *  -  theta0_deg (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:THETA0``
+          -  Reference angle for the first crystal in deg.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  dspacing (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:DSPACING``
+          -  Crystal lattice spacing.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gr (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GR``
+          -  The radius of the sapphire ball connected to the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gd (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GD``
+          -  Distance between the rotation axis and the center of the sapphire sphere located on the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
        *  -  energy
           -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
@@ -65,6 +93,14 @@ pcdsdevices.ccm.CCMEnergy
    
    
    
+   
+   
+   
+   
+   
+   
+   
+   
 
    
    
@@ -94,6 +130,7 @@ pcdsdevices.ccm.CCMEnergy
        ~CCMEnergy.mvr
        ~CCMEnergy.read
        ~CCMEnergy.read_configuration
+       ~CCMEnergy.reset_calc_constant_defaults
        ~CCMEnergy.set
        ~CCMEnergy.set_current_position
        ~CCMEnergy.set_position
@@ -107,6 +144,7 @@ pcdsdevices.ccm.CCMEnergy
        ~CCMEnergy.umv
        ~CCMEnergy.umvr
        ~CCMEnergy.wait
+       ~CCMEnergy.warn_invalid_constants
        ~CCMEnergy.wm
        ~CCMEnergy.wm_update
     
@@ -122,7 +160,10 @@ pcdsdevices.ccm.CCMEnergy
        ~CCMEnergy.concurrent
        ~CCMEnergy.configuration_attrs
        ~CCMEnergy.connected
+       ~CCMEnergy.dspacing_val
        ~CCMEnergy.egu
+       ~CCMEnergy.gd_val
+       ~CCMEnergy.gr_val
        ~CCMEnergy.high_limit
        ~CCMEnergy.hints
        ~CCMEnergy.kind
@@ -136,6 +177,8 @@ pcdsdevices.ccm.CCMEnergy
        ~CCMEnergy.sequential
        ~CCMEnergy.settle_time
        ~CCMEnergy.target
+       ~CCMEnergy.theta0_deg_val
+       ~CCMEnergy.theta0_rad_val
        ~CCMEnergy.timeout
     
     

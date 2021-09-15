@@ -18,6 +18,34 @@
           - Kind
           - Notes
    
+       *  -  theta0_deg (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:THETA0``
+          -  Reference angle for the first crystal in deg.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  dspacing (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:DSPACING``
+          -  Crystal lattice spacing.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gr (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GR``
+          -  The radius of the sapphire ball connected to the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gd (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GD``
+          -  Distance between the rotation axis and the center of the sapphire sphere located on the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
        *  -  energy
           -  :class:`~pcdsdevices.ccm.CCMEnergy`
           -  
@@ -92,6 +120,14 @@
    
    
    
+   
+   
+   
+   
+   
+   
+   
+   
 
    
    
@@ -111,11 +147,13 @@
        ~CCM.read
        ~CCM.read_configuration
        ~CCM.remove
+       ~CCM.reset_calc_constant_defaults
        ~CCM.stage_group_instances
        ~CCM.status
        ~CCM.stop
        ~CCM.summary
        ~CCM.trigger
+       ~CCM.warn_invalid_constants
     
     
 
@@ -127,15 +165,16 @@
     
        ~CCM.configuration_attrs
        ~CCM.connected
-       ~CCM.dspacing
-       ~CCM.gd
-       ~CCM.gr
+       ~CCM.dspacing_val
+       ~CCM.gd_val
+       ~CCM.gr_val
        ~CCM.hints
        ~CCM.kind
        ~CCM.lightpath_cpts
        ~CCM.needs_parent
        ~CCM.stage_group
-       ~CCM.theta0
+       ~CCM.theta0_deg_val
+       ~CCM.theta0_rad_val
        ~CCM.transmission
     
     

@@ -18,6 +18,34 @@ pcdsdevices.ccm.CCMEnergyWithVernier
           - Kind
           - Notes
    
+       *  -  theta0_deg (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:THETA0``
+          -  Reference angle for the first crystal in deg.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMEnergy`
+   
+       *  -  dspacing (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:DSPACING``
+          -  Crystal lattice spacing.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMEnergy`
+   
+       *  -  gr (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GR``
+          -  The radius of the sapphire ball connected to the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMEnergy`
+   
+       *  -  gd (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GD``
+          -  Distance between the rotation axis and the center of the sapphire sphere located on the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMEnergy`
+   
        *  -  energy
           -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
           -  
@@ -74,6 +102,14 @@ pcdsdevices.ccm.CCMEnergyWithVernier
    
    
    
+   
+   
+   
+   
+   
+   
+   
+   
 
    
    
@@ -103,6 +139,7 @@ pcdsdevices.ccm.CCMEnergyWithVernier
        ~CCMEnergyWithVernier.mvr
        ~CCMEnergyWithVernier.read
        ~CCMEnergyWithVernier.read_configuration
+       ~CCMEnergyWithVernier.reset_calc_constant_defaults
        ~CCMEnergyWithVernier.set
        ~CCMEnergyWithVernier.set_current_position
        ~CCMEnergyWithVernier.set_position
@@ -116,6 +153,7 @@ pcdsdevices.ccm.CCMEnergyWithVernier
        ~CCMEnergyWithVernier.umv
        ~CCMEnergyWithVernier.umvr
        ~CCMEnergyWithVernier.wait
+       ~CCMEnergyWithVernier.warn_invalid_constants
        ~CCMEnergyWithVernier.wm
        ~CCMEnergyWithVernier.wm_update
     
@@ -131,7 +169,10 @@ pcdsdevices.ccm.CCMEnergyWithVernier
        ~CCMEnergyWithVernier.concurrent
        ~CCMEnergyWithVernier.configuration_attrs
        ~CCMEnergyWithVernier.connected
+       ~CCMEnergyWithVernier.dspacing_val
        ~CCMEnergyWithVernier.egu
+       ~CCMEnergyWithVernier.gd_val
+       ~CCMEnergyWithVernier.gr_val
        ~CCMEnergyWithVernier.high_limit
        ~CCMEnergyWithVernier.hints
        ~CCMEnergyWithVernier.kind
@@ -145,6 +186,9 @@ pcdsdevices.ccm.CCMEnergyWithVernier
        ~CCMEnergyWithVernier.sequential
        ~CCMEnergyWithVernier.settle_time
        ~CCMEnergyWithVernier.target
+       ~CCMEnergyWithVernier.theta0_deg_val
+       ~CCMEnergyWithVernier.theta0_rad_val
        ~CCMEnergyWithVernier.timeout
+       ~CCMEnergyWithVernier.hutch
     
     

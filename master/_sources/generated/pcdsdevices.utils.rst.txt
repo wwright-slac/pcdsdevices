@@ -12,6 +12,7 @@
    
       combine_status_info
       convert_unit
+      doc_format_decorator
       format_status_table
       get_component
       get_input

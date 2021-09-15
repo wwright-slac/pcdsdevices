@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.warn\_invalid\_constants
+=============================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.warn_invalid_constants

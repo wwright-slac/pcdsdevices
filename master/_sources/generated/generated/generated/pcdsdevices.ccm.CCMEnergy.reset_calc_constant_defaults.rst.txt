@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.reset\_calc\_constant\_defaults
+=========================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.reset_calc_constant_defaults

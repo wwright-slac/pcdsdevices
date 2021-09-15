@@ -28,6 +28,8 @@
    
       CCM
       CCMAlio
+      CCMConstantWarning
+      CCMConstantsMixin
       CCMEnergy
       CCMEnergyWithVernier
       CCMMotor

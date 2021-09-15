@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMConstantsMixin.trigger
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMConstantsMixin.trigger

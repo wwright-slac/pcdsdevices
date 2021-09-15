@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMConstantsMixin.get
+=====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMConstantsMixin.get

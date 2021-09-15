@@ -1,0 +1,100 @@
+pcdsdevices.ccm.CCMConstantsMixin
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMConstantsMixin
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  theta0_deg (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:THETA0``
+          -  Reference angle for the first crystal in deg.
+          -  config
+          -  
+   
+       *  -  dspacing (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:DSPACING``
+          -  Crystal lattice spacing.
+          -  config
+          -  
+   
+       *  -  gr (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GR``
+          -  The radius of the sapphire ball connected to the Alio stage in mm.
+          -  config
+          -  
+   
+       *  -  gd (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GD``
+          -  Distance between the rotation axis and the center of the sapphire sphere located on the Alio stage in mm.
+          -  config
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCMConstantsMixin.configure
+       ~CCMConstantsMixin.describe
+       ~CCMConstantsMixin.get
+       ~CCMConstantsMixin.read
+       ~CCMConstantsMixin.read_configuration
+       ~CCMConstantsMixin.reset_calc_constant_defaults
+       ~CCMConstantsMixin.stop
+       ~CCMConstantsMixin.summary
+       ~CCMConstantsMixin.trigger
+       ~CCMConstantsMixin.warn_invalid_constants
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMConstantsMixin.configuration_attrs
+       ~CCMConstantsMixin.connected
+       ~CCMConstantsMixin.dspacing_val
+       ~CCMConstantsMixin.gd_val
+       ~CCMConstantsMixin.gr_val
+       ~CCMConstantsMixin.hints
+       ~CCMConstantsMixin.kind
+       ~CCMConstantsMixin.theta0_deg_val
+       ~CCMConstantsMixin.theta0_rad_val
+    
+    
