@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.EpicsMotorInterfaceAlarmFilter.filter
+==============================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: EpicsMotorInterfaceAlarmFilter.filter

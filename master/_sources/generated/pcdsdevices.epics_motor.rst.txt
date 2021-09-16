@@ -25,6 +25,7 @@
       BeckhoffAxisNoOffset
       BeckhoffAxisPLC
       EpicsMotorInterface
+      EpicsMotorInterfaceAlarmFilter
       IMS
       Newport
       OffsetIMSWithPreset

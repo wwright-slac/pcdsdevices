@@ -1,0 +1,26 @@
+pcdsdevices.epics\_motor.EpicsMotorInterfaceAlarmFilter
+=======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: EpicsMotorInterfaceAlarmFilter
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~EpicsMotorInterfaceAlarmFilter.filter
+    
+    
+
+    
+    
+    
