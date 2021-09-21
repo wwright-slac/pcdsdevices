@@ -5162,6 +5162,7 @@ master/_sources/upcoming_release_notes/866-ims_timeout.rst.txt
 master/_sources/upcoming_release_notes/868-filter-motor-spam.rst.txt
 master/_sources/upcoming_release_notes/869-added_GFS_fault_setpoint,_GCC,_PIP_autoOn_and_countdown_timer.rst.txt
 master/_sources/upcoming_release_notes/871-ccm-pvs.rst.txt
+master/_sources/upcoming_release_notes/873-slits-template.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -10369,5 +10370,6 @@ master/upcoming_release_notes/866-ims_timeout.html
 master/upcoming_release_notes/868-filter-motor-spam.html
 master/upcoming_release_notes/869-added_GFS_fault_setpoint,_GCC,_PIP_autoOn_and_countdown_timer.html
 master/upcoming_release_notes/871-ccm-pvs.html
+master/upcoming_release_notes/873-slits-template.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
