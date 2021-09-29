@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirror2.configure
+===========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirror2.configure

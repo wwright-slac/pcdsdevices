@@ -1,0 +1,6 @@
+pcdsdevices.mps.MPS.status
+==========================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. automethod:: MPS.status

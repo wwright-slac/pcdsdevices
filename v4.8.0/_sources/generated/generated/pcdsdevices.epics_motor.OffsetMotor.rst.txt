@@ -1,0 +1,121 @@
+pcdsdevices.epics\_motor.OffsetMotor
+====================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. autoclass:: OffsetMotor
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  pseudo_motor
+          -  :class:`~pcdsdevices.pseudopos.PseudoSingleInterface`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.OffsetMotorBase`
+   
+       *  -  user_offset
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.pseudopos.OffsetMotorBase`
+   
+       *  -  motor (FCpt)
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``{self._motor_prefix}``
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~OffsetMotor.camonitor
+       ~OffsetMotor.check_single
+       ~OffsetMotor.configure
+       ~OffsetMotor.describe
+       ~OffsetMotor.end_monitor_thread
+       ~OffsetMotor.forward
+       ~OffsetMotor.get
+       ~OffsetMotor.inverse
+       ~OffsetMotor.move
+       ~OffsetMotor.move_single
+       ~OffsetMotor.mv
+       ~OffsetMotor.mv_ginput
+       ~OffsetMotor.mvr
+       ~OffsetMotor.read
+       ~OffsetMotor.read_configuration
+       ~OffsetMotor.set
+       ~OffsetMotor.set_current_position
+       ~OffsetMotor.set_position
+       ~OffsetMotor.status
+       ~OffsetMotor.stop
+       ~OffsetMotor.summary
+       ~OffsetMotor.to_pseudo_tuple
+       ~OffsetMotor.to_real_tuple
+       ~OffsetMotor.trigger
+       ~OffsetMotor.tweak
+       ~OffsetMotor.umv
+       ~OffsetMotor.umvr
+       ~OffsetMotor.wait
+       ~OffsetMotor.wm
+       ~OffsetMotor.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~OffsetMotor.composite_egu
+       ~OffsetMotor.concurrent
+       ~OffsetMotor.configuration_attrs
+       ~OffsetMotor.connected
+       ~OffsetMotor.egu
+       ~OffsetMotor.high_limit
+       ~OffsetMotor.hints
+       ~OffsetMotor.kind
+       ~OffsetMotor.limits
+       ~OffsetMotor.low_limit
+       ~OffsetMotor.moving
+       ~OffsetMotor.position
+       ~OffsetMotor.pseudo_positioners
+       ~OffsetMotor.real_position
+       ~OffsetMotor.real_positioners
+       ~OffsetMotor.sequential
+       ~OffsetMotor.settle_time
+       ~OffsetMotor.target
+       ~OffsetMotor.timeout
+    
+    

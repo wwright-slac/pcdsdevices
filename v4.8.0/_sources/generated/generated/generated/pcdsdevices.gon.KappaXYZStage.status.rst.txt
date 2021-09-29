@@ -1,0 +1,6 @@
+pcdsdevices.gon.KappaXYZStage.status
+====================================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: KappaXYZStage.status

@@ -1,0 +1,33 @@
+pcdsdevices.mps.MPSBase
+=======================
+
+.. currentmodule:: pcdsdevices.mps
+
+.. autoclass:: MPSBase
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~MPSBase.status
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~MPSBase.SUB_FAULT_CH
+       ~MPSBase.tripped
+    
+    

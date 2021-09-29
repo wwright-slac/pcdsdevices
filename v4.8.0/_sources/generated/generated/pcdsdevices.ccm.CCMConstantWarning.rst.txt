@@ -1,0 +1,29 @@
+pcdsdevices.ccm.CCMConstantWarning
+==================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. autoclass:: CCMConstantWarning
+
+   
+   
+   
+
+
+    
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCMConstantWarning.NO_WARNING
+       ~CCMConstantWarning.ALWAYS_DISCONNECT
+       ~CCMConstantWarning.VALID_DISCONNECT
+       ~CCMConstantWarning.INVALID_DISCONNECT
+       ~CCMConstantWarning.INVALID_CONNECT
+    
+    

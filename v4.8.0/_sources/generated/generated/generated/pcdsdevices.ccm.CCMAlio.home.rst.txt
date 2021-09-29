@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.home
+============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.home

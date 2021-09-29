@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.done\_comparator
+========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.done_comparator

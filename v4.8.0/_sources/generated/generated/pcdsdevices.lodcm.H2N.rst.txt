@@ -1,0 +1,105 @@
+pcdsdevices.lodcm.H2N
+=====================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. autoclass:: H2N
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  state
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+       *  -  motor
+          -  :class:`~pcdsdevices.epics_motor.IMS`
+          -  ``:MOTOR``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.inout.InOutRecordPositioner`
+   
+
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~H2N.camonitor
+       ~H2N.check_inserted
+       ~H2N.check_removed
+       ~H2N.check_transmission
+       ~H2N.configure
+       ~H2N.describe
+       ~H2N.end_monitor_thread
+       ~H2N.get
+       ~H2N.get_state
+       ~H2N.insert
+       ~H2N.move
+       ~H2N.mv
+       ~H2N.read
+       ~H2N.read_configuration
+       ~H2N.remove
+       ~H2N.set
+       ~H2N.stage_group_instances
+       ~H2N.status
+       ~H2N.stop
+       ~H2N.summary
+       ~H2N.trigger
+       ~H2N.wait
+       ~H2N.wm
+       ~H2N.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~H2N.configuration_attrs
+       ~H2N.connected
+       ~H2N.egu
+       ~H2N.high_limit
+       ~H2N.hints
+       ~H2N.in_states
+       ~H2N.kind
+       ~H2N.limits
+       ~H2N.low_limit
+       ~H2N.moving
+       ~H2N.needs_parent
+       ~H2N.out_states
+       ~H2N.position
+       ~H2N.settle_time
+       ~H2N.stage_group
+       ~H2N.states_list
+       ~H2N.timeout
+       ~H2N.transmission
+    
+    

@@ -1,0 +1,6 @@
+pcdsdevices.gon.Kappa.forward
+=============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: Kappa.forward

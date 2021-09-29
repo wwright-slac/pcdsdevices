@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.wait
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.wait

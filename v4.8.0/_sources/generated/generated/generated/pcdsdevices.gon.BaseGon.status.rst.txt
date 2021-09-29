@@ -1,0 +1,6 @@
+pcdsdevices.gon.BaseGon.status
+==============================
+
+.. currentmodule:: pcdsdevices.gon
+
+.. automethod:: BaseGon.status

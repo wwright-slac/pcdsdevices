@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.set
+===========================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.set

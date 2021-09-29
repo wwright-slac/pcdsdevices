@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AttBase.status
+=====================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AttBase.status

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H2N.configure
+===============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H2N.configure

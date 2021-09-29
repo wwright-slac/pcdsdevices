@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.BeckhoffAxisNoOffset.mv\_ginput
+========================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: BeckhoffAxisNoOffset.mv_ginput

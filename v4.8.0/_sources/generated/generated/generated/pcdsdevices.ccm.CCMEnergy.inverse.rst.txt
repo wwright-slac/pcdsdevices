@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.inverse
+=================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.inverse

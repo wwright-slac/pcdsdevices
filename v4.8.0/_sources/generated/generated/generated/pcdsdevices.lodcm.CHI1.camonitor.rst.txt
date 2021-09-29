@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI1.camonitor
+================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI1.camonitor

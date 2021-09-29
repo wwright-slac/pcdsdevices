@@ -1,0 +1,6 @@
+pcdsdevices.device\_types.CCM.reset\_calc\_constant\_defaults
+=============================================================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. automethod:: CCM.reset_calc_constant_defaults

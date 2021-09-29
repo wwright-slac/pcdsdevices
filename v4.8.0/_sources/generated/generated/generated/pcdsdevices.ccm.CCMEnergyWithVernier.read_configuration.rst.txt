@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.read\_configuration
+========================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.read_configuration

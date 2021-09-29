@@ -1,0 +1,6 @@
+pcdsdevices.epics\_motor.OffsetMotor.to\_pseudo\_tuple
+======================================================
+
+.. currentmodule:: pcdsdevices.epics_motor
+
+.. automethod:: OffsetMotor.to_pseudo_tuple

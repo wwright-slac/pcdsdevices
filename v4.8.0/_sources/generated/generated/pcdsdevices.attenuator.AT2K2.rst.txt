@@ -1,0 +1,154 @@
+pcdsdevices.attenuator.AT2K2
+============================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. autoclass:: AT2K2
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  num_in
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  num_out
+          -  :class:`~pcdsdevices.signal.InternalSignal`
+          -  
+          -  
+          -  hinted
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  calculator (UCpt)
+          -  :class:`~pcdsdevices.attenuator.AttenuatorCalculatorSXR_FourBlade`
+          -  
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  blade_01
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:01``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  blade_02
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:02``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  blade_03
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:03``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+       *  -  blade_04
+          -  :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          -  ``:MMS:04``
+          -  
+          -  normal
+          -  Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~AT2K2.camonitor
+       ~AT2K2.configure
+       ~AT2K2.describe
+       ~AT2K2.end_monitor_thread
+       ~AT2K2.get
+       ~AT2K2.move
+       ~AT2K2.mv
+       ~AT2K2.mv_ginput
+       ~AT2K2.mvr
+       ~AT2K2.read
+       ~AT2K2.read_configuration
+       ~AT2K2.set
+       ~AT2K2.set_position
+       ~AT2K2.status
+       ~AT2K2.stop
+       ~AT2K2.summary
+       ~AT2K2.trigger
+       ~AT2K2.tweak
+       ~AT2K2.umv
+       ~AT2K2.umvr
+       ~AT2K2.wait
+       ~AT2K2.wm
+       ~AT2K2.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~AT2K2.actuate
+       ~AT2K2.actuate_value
+       ~AT2K2.configuration_attrs
+       ~AT2K2.connected
+       ~AT2K2.done
+       ~AT2K2.done_value
+       ~AT2K2.egu
+       ~AT2K2.high_limit
+       ~AT2K2.hints
+       ~AT2K2.kind
+       ~AT2K2.lightpath_cpts
+       ~AT2K2.limits
+       ~AT2K2.low_limit
+       ~AT2K2.moving
+       ~AT2K2.position
+       ~AT2K2.put_complete
+       ~AT2K2.readback
+       ~AT2K2.setpoint
+       ~AT2K2.settle_time
+       ~AT2K2.stop_signal
+       ~AT2K2.stop_value
+       ~AT2K2.timeout
+       ~AT2K2.transmission
+    
+    

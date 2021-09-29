@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.Diode.status
+==============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: Diode.status

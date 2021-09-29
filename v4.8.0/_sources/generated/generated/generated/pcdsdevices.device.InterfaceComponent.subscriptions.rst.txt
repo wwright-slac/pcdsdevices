@@ -1,0 +1,6 @@
+pcdsdevices.device.InterfaceComponent.subscriptions
+===================================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: InterfaceComponent.subscriptions

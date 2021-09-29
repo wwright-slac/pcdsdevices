@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.status
+============================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.status

@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.energy\_to\_alio
+=====================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.energy_to_alio

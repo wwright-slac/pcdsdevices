@@ -1,0 +1,6 @@
+pcdsdevices.attenuator.AT1K4.status
+===================================
+
+.. currentmodule:: pcdsdevices.attenuator
+
+.. automethod:: AT1K4.status

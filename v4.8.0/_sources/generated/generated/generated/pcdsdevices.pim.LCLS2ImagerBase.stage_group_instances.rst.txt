@@ -1,0 +1,6 @@
+pcdsdevices.pim.LCLS2ImagerBase.stage\_group\_instances
+=======================================================
+
+.. currentmodule:: pcdsdevices.pim
+
+.. automethod:: LCLS2ImagerBase.stage_group_instances

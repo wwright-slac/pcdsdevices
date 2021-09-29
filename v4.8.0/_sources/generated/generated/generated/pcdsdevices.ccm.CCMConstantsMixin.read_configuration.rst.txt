@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMConstantsMixin.read\_configuration
+=====================================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMConstantsMixin.read_configuration

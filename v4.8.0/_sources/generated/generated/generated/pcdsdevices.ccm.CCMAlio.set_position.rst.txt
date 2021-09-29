@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.set\_position
+=====================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.set_position

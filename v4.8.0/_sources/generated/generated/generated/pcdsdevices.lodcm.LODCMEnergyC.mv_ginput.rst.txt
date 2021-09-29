@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.mv\_ginput
+=========================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.mv_ginput

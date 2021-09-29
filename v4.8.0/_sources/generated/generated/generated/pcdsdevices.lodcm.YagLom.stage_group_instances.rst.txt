@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.YagLom.stage\_group\_instances
+================================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: YagLom.stage_group_instances

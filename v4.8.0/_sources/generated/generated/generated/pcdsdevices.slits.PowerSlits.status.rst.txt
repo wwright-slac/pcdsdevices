@@ -1,0 +1,6 @@
+pcdsdevices.slits.PowerSlits.status
+===================================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. automethod:: PowerSlits.status

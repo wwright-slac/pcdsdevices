@@ -1,0 +1,180 @@
+﻿pcdsdevices.device\_types.CCM
+=============================
+
+.. currentmodule:: pcdsdevices.device_types
+
+.. autoclass:: CCM
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  theta0_deg (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:THETA0``
+          -  Reference angle for the first crystal in deg.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  dspacing (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:DSPACING``
+          -  Crystal lattice spacing.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gr (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GR``
+          -  The radius of the sapphire ball connected to the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  gd (FCpt)
+          -  :class:`~ophyd.signal.EpicsSignal`
+          -  ``{_constants_prefix}:GD``
+          -  Distance between the rotation axis and the center of the sapphire sphere located on the Alio stage in mm.
+          -  config
+          -  Inherited from :class:`~pcdsdevices.ccm.CCMConstantsMixin`
+   
+       *  -  energy
+          -  :class:`~pcdsdevices.ccm.CCMEnergy`
+          -  
+          -  PseudoPositioner that moves the alio in terms of the calculated CCM energy.
+          -  hinted
+          -  
+   
+       *  -  energy_with_vernier
+          -  :class:`~pcdsdevices.ccm.CCMEnergyWithVernier`
+          -  
+          -  PsuedoPositioner that moves the alio in terms of the calculated CCM energy while also requesting a vernier move.
+          -  normal
+          -  
+   
+       *  -  alio (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMAlio`
+          -  
+          -  The motor that rotates the CCM crystal.
+          -  normal
+          -  
+   
+       *  -  theta2fine (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMMotor`
+          -  
+          -  The motor that controls the fine adjustment of the of the second crystal theta angle.
+          -  normal
+          -  
+   
+       *  -  theta2coarse (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMPico`
+          -  
+          -  The motor that controls the coarse adjustment of the of the second crystal theta angle.
+          -  normal
+          -  
+   
+       *  -  chi2 (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMPico`
+          -  
+          -  The motor that controls the adjustment of thesecond crystal chi angle.
+          -  normal
+          -  
+   
+       *  -  x (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMX`
+          -  
+          -  Combined motion of the CCM X motors.
+          -  normal
+          -  
+   
+       *  -  y (UCpt)
+          -  :class:`~pcdsdevices.ccm.CCMY`
+          -  
+          -  Combined motion of the CCM Y motors.
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~CCM.configure
+       ~CCM.describe
+       ~CCM.get
+       ~CCM.insert
+       ~CCM.read
+       ~CCM.read_configuration
+       ~CCM.remove
+       ~CCM.reset_calc_constant_defaults
+       ~CCM.stage_group_instances
+       ~CCM.status
+       ~CCM.stop
+       ~CCM.summary
+       ~CCM.trigger
+       ~CCM.warn_invalid_constants
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~CCM.configuration_attrs
+       ~CCM.connected
+       ~CCM.dspacing_val
+       ~CCM.gd_val
+       ~CCM.gr_val
+       ~CCM.hints
+       ~CCM.kind
+       ~CCM.lightpath_cpts
+       ~CCM.needs_parent
+       ~CCM.stage_group
+       ~CCM.theta0_deg_val
+       ~CCM.theta0_rad_val
+       ~CCM.transmission
+    
+    

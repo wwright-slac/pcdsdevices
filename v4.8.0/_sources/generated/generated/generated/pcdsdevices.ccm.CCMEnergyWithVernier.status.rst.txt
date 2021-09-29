@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.status
+===========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.status

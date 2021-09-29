@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPMTarget.status
+================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPMTarget.status

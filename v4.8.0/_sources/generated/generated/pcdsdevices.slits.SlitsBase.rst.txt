@@ -1,0 +1,119 @@
+pcdsdevices.slits.SlitsBase
+===========================
+
+.. currentmodule:: pcdsdevices.slits
+
+.. autoclass:: SlitsBase
+
+   
+   
+    .. list-table:: Ophyd Device Components
+       :header-rows: 1
+       :widths: auto
+
+       *  - Attribute
+          - Class
+          - Suffix
+          - Docs
+          - Kind
+          - Notes
+   
+       *  -  nominal_aperture
+          -  :class:`~ophyd.signal.Signal`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  xwidth
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ywidth
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  xcenter
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+       *  -  ycenter
+          -  :class:`~ophyd.signal.SignalRO`
+          -  
+          -  
+          -  normal
+          -  
+   
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~SlitsBase.camonitor
+       ~SlitsBase.configure
+       ~SlitsBase.describe
+       ~SlitsBase.end_monitor_thread
+       ~SlitsBase.get
+       ~SlitsBase.move
+       ~SlitsBase.mv
+       ~SlitsBase.read
+       ~SlitsBase.read_configuration
+       ~SlitsBase.remove
+       ~SlitsBase.set
+       ~SlitsBase.stage_group_instances
+       ~SlitsBase.status
+       ~SlitsBase.stop
+       ~SlitsBase.summary
+       ~SlitsBase.trigger
+       ~SlitsBase.wait
+       ~SlitsBase.wm
+       ~SlitsBase.wm_update
+    
+    
+
+    
+    
+    .. rubric:: Attributes
+
+    .. autosummary::
+    
+       ~SlitsBase.configuration_attrs
+       ~SlitsBase.connected
+       ~SlitsBase.current_aperture
+       ~SlitsBase.hints
+       ~SlitsBase.kind
+       ~SlitsBase.lightpath_cpts
+       ~SlitsBase.needs_parent
+       ~SlitsBase.position
+       ~SlitsBase.stage_group
+       ~SlitsBase.transmission
+    
+    

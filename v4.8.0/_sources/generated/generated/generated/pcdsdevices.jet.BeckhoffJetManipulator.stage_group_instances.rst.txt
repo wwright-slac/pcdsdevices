@@ -1,0 +1,6 @@
+pcdsdevices.jet.BeckhoffJetManipulator.stage\_group\_instances
+==============================================================
+
+.. currentmodule:: pcdsdevices.jet
+
+.. automethod:: BeckhoffJetManipulator.stage_group_instances

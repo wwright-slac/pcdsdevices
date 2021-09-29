@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirrorState.get
+=========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirrorState.get

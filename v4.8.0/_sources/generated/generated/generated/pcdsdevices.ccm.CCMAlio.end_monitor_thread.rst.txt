@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.end\_monitor\_thread
+============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.end_monitor_thread

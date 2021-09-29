@@ -1,0 +1,6 @@
+pcdsdevices.sensors.TwinCATTempSensor.status
+============================================
+
+.. currentmodule:: pcdsdevices.sensors
+
+.. automethod:: TwinCATTempSensor.status

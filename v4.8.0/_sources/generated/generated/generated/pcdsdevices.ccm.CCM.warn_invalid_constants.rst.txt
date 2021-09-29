@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCM.warn\_invalid\_constants
+============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCM.warn_invalid_constants

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.H2N.trigger
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: H2N.trigger

@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.SimLODCM.configure
+====================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: SimLODCM.configure

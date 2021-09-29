@@ -1,0 +1,6 @@
+pcdsdevices.device.GroupDevice.read
+===================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: GroupDevice.read

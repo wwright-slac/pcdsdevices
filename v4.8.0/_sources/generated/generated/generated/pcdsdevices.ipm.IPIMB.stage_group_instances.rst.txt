@@ -1,0 +1,6 @@
+pcdsdevices.ipm.IPIMB.stage\_group\_instances
+=============================================
+
+.. currentmodule:: pcdsdevices.ipm
+
+.. automethod:: IPIMB.stage_group_instances

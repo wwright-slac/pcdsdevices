@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.forward
+============================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.forward

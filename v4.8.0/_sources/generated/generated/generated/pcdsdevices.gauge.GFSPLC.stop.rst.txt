@@ -1,0 +1,6 @@
+pcdsdevices.gauge.GFSPLC.stop
+=============================
+
+.. currentmodule:: pcdsdevices.gauge
+
+.. automethod:: GFSPLC.stop

@@ -1,0 +1,6 @@
+pcdsdevices.device.GroupDevice.summary
+======================================
+
+.. currentmodule:: pcdsdevices.device
+
+.. automethod:: GroupDevice.summary

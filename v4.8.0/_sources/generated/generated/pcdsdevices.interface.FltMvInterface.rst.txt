@@ -1,0 +1,39 @@
+pcdsdevices.interface.FltMvInterface
+====================================
+
+.. currentmodule:: pcdsdevices.interface
+
+.. autoclass:: FltMvInterface
+
+   
+   
+   
+
+
+    
+    
+    .. rubric:: Methods
+
+    .. autosummary::
+       :toctree: generated
+    
+       ~FltMvInterface.camonitor
+       ~FltMvInterface.end_monitor_thread
+       ~FltMvInterface.move
+       ~FltMvInterface.mv
+       ~FltMvInterface.mv_ginput
+       ~FltMvInterface.mvr
+       ~FltMvInterface.set_position
+       ~FltMvInterface.status
+       ~FltMvInterface.tweak
+       ~FltMvInterface.umv
+       ~FltMvInterface.umvr
+       ~FltMvInterface.wait
+       ~FltMvInterface.wm
+       ~FltMvInterface.wm_update
+    
+    
+
+    
+    
+    

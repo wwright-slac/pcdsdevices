@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergyWithVernier.stop
+=========================================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergyWithVernier.stop

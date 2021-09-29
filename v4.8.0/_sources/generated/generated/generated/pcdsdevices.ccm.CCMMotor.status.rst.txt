@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMMotor.status
+===============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMMotor.status

@@ -1,0 +1,6 @@
+pcdsdevices.utils.doc\_format\_decorator
+========================================
+
+.. currentmodule:: pcdsdevices.utils
+
+.. autofunction:: doc_format_decorator

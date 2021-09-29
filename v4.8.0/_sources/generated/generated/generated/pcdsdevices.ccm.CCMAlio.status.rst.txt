@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMAlio.status
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMAlio.status

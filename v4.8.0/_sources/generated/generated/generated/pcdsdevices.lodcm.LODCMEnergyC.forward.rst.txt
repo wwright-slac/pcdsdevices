@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.LODCMEnergyC.forward
+======================================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: LODCMEnergyC.forward

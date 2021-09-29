@@ -1,0 +1,6 @@
+pcdsdevices.pump.TurboPump.status
+=================================
+
+.. currentmodule:: pcdsdevices.pump
+
+.. automethod:: TurboPump.status

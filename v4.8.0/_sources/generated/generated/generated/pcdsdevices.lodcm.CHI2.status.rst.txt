@@ -1,0 +1,6 @@
+pcdsdevices.lodcm.CHI2.status
+=============================
+
+.. currentmodule:: pcdsdevices.lodcm
+
+.. automethod:: CHI2.status

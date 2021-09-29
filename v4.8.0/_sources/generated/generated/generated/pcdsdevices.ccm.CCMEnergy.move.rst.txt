@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.move
+==============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.move

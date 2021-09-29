@@ -1,0 +1,6 @@
+pcdsdevices.mirror.XOffsetMirrorBend.read
+=========================================
+
+.. currentmodule:: pcdsdevices.mirror
+
+.. automethod:: XOffsetMirrorBend.read

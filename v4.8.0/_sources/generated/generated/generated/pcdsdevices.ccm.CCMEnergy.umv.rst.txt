@@ -1,0 +1,6 @@
+pcdsdevices.ccm.CCMEnergy.umv
+=============================
+
+.. currentmodule:: pcdsdevices.ccm
+
+.. automethod:: CCMEnergy.umv
