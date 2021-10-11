@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.signal.EpicsSignalEditMD &mdash; PCDS Devices 4.8.0+7.g8033c40 documentation</title>
+  <title>pcdsdevices.signal.EpicsSignalEditMD &mdash; PCDS Devices 4.8.0+10.g0427e1b documentation</title>
       <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
@@ -29,7 +29,7 @@
             <a href="../../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.8.0+7.g8033c40
+                4.8.0+10.g0427e1b
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -169,24 +169,24 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>read_pv</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The PV to read from</p></li>
-<li><p><strong>write_pv</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – The PV to write to if different from the read PV</p></li>
-<li><p><strong>limits</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Check limits prior to writing value</p></li>
-<li><p><strong>auto_monitor</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Use automonitor with epics.PV</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – Name of signal.  If not given defaults to read_pv</p></li>
-<li><p><strong>put_complete</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – Use put completion when writing the value</p></li>
+<li><p><strong>read_pv</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – The PV to read from</p></li>
+<li><p><strong>write_pv</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The PV to write to if different from the read PV</p></li>
+<li><p><strong>limits</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em>, </em><em>optional</em>) – Check limits prior to writing value</p></li>
+<li><p><strong>auto_monitor</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em>, </em><em>optional</em>) – Use automonitor with epics.PV</p></li>
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – Name of signal.  If not given defaults to read_pv</p></li>
+<li><p><strong>put_complete</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em>, </em><em>optional</em>) – Use put completion when writing the value</p></li>
 <li><p><strong>tolerance</strong> (<em>any</em><em>, </em><em>optional</em>) – The absolute tolerance associated with the value.
 If specified, this overrides any precision information calculated from
 the write PV</p></li>
 <li><p><strong>rtolerance</strong> (<em>any</em><em>, </em><em>optional</em>) – The relative tolerance associated with the value</p></li>
-<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em>, </em><em>optional</em>) – <p>The timeout for serving a read request on a connected channel. This is
+<li><p><strong>timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><em>None</em></a><em>, </em><em>optional</em>) – <p>The timeout for serving a read request on a connected channel. This is
 only applied if the PV is connected within connection_timeout (below).</p>
 <p>The default value DEFAULT_TIMEOUT means, “Fall back to class-wide
 default.” See EpicsSignalBase.set_defaults to configure class
 defaults.</p>
 <p>Explicitly passing None means, “Wait forever.”</p>
 </p></li>
-<li><p><strong>write_timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em>, </em><em>optional</em>) – <p>The timeout for a reply when put completion is used. This is
+<li><p><strong>write_timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><em>None</em></a><em>, </em><em>optional</em>) – <p>The timeout for a reply when put completion is used. This is
 only applied if the PV is connected within connection_timeout (below).</p>
 <p>This is very different than the connection and read timeouts
 above. It relates to how long an action takes to complete, such motor
@@ -197,7 +197,7 @@ failure. A finite value can be injected here or, perhaps more usefully,
 via <a class="reference internal" href="generated/pcdsdevices.signal.EpicsSignalEditMD.set.html#pcdsdevices.signal.EpicsSignalEditMD.set" title="pcdsdevices.signal.EpicsSignalEditMD.set"><code class="xref any py py-meth docutils literal notranslate"><span class="pre">set</span></code></a> at the Device level, where a context-appropriate value can be
 chosen.</p>
 </p></li>
-<li><p><strong>connection_timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><em>None</em></a><em>, </em><em>optional</em>) – <p>Timeout for connection. This includes the time to search and establish
+<li><p><strong>connection_timeout</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><em>None</em></a><em>, </em><em>optional</em>) – <p>Timeout for connection. This includes the time to search and establish
 a channel.</p>
 <p>The default value DEFAULT_CONNECTION_TIMEOUT means, “Fall back to
 class-wide default.” See EpicsSignalBase.set_defaults to

@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.analog_signals.acromag_ch_factory_func &mdash; PCDS Devices 4.8.0+7.g8033c40 documentation</title>
+  <title>pcdsdevices.analog_signals.acromag_ch_factory_func &mdash; PCDS Devices 4.8.0+10.g0427e1b documentation</title>
       <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
@@ -29,7 +29,7 @@
             <a href="../../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.8.0+7.g8033c40
+                4.8.0+10.g0427e1b
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -139,12 +139,12 @@
 <dl class="field-list simple">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><ul class="simple">
-<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The base EPICS PV for the Acromag. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">XPP:USR:ai1</span></code></p></li>
-<li><p><strong>channel</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a>) – The channel number. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">1</span></code> [0-15]</p></li>
-<li><p><strong>signal_class</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – Signal Class to use. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">EpicsSignal</span></code>. If <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a>
+<li><p><strong>prefix</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – The base EPICS PV for the Acromag. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">XPP:USR:ai1</span></code></p></li>
+<li><p><strong>channel</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><em>int</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a>) – The channel number. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">1</span></code> [0-15]</p></li>
+<li><p><strong>signal_class</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – Signal Class to use. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">EpicsSignalRO</span></code>, <code class="xref any docutils literal notranslate"><span class="pre">EpicsSignal</span></code>. If <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a>
 provided, it will use the prefix to try to generate the appropriate
 signal class.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – A name to refer to the Acromag Channel, if <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> it will use the
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – A name to refer to the Acromag Channel, if <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">None</span></code></a> it will use the
 prefix and channel to generate a name. E.g.: <code class="xref any docutils literal notranslate"><span class="pre">ai_1</span></code> or <code class="xref any docutils literal notranslate"><span class="pre">ao_1</span></code>.</p></li>
 </ul>
 </dd>

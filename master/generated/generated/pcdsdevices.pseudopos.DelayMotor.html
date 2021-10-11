@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.pseudopos.DelayMotor &mdash; PCDS Devices 4.8.0+7.g8033c40 documentation</title>
+  <title>pcdsdevices.pseudopos.DelayMotor &mdash; PCDS Devices 4.8.0+10.g0427e1b documentation</title>
       <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
@@ -29,7 +29,7 @@
             <a href="../../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.8.0+7.g8033c40
+                4.8.0+10.g0427e1b
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -186,14 +186,14 @@ simple multiplier based on the speed of light.</p>
 <li><p><strong>motor</strong> (<code class="xref any docutils literal notranslate"><span class="pre">PositionerBase</span></code>) – An instantiated motor to transform into a DelayMotor. Will be included
 as a subcomponent in this device. This motor must have a valid
 engineering unit assigned to it in length units.</p></li>
-<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – A name to refer to this <a class="reference internal" href="#pcdsdevices.pseudopos.DelayMotor" title="pcdsdevices.pseudopos.DelayMotor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">DelayMotor</span></code></a> by. If omitted, will default to
+<li><p><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – A name to refer to this <a class="reference internal" href="#pcdsdevices.pseudopos.DelayMotor" title="pcdsdevices.pseudopos.DelayMotor"><code class="xref any py py-class docutils literal notranslate"><span class="pre">DelayMotor</span></code></a> by. If omitted, will default to
 the motor’s name with _delay_motor appended to the end.</p></li>
-<li><p><strong>egu</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)"><em>str</em></a><em>, </em><em>optional</em>) – The units to use for the delay axis. The default is seconds. Any
+<li><p><strong>egu</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – The units to use for the delay axis. The default is seconds. Any
 time unit is acceptable.</p></li>
-<li><p><strong>n_bounces</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.9)"><em>int</em></a><em>, </em><em>optional</em>) – The number of times the laser bounces on the delay stage, e.g. the
+<li><p><strong>n_bounces</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><em>int</em></a><em>, </em><em>optional</em>) – The number of times the laser bounces on the delay stage, e.g. the
 number of mirrors that this stage moves. The default is 2, a delay
 branch that bounces the laser back along the axis it enters.</p></li>
-<li><p><strong>invert</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)"><em>bool</em></a><em>, </em><em>optional</em>) – If True, increasing the real motor will decrease the delay.
+<li><p><strong>invert</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><em>bool</em></a><em>, </em><em>optional</em>) – If True, increasing the real motor will decrease the delay.
 If False (default), increasing the real motor will increase the delay.</p></li>
 </ul>
 </dd>
@@ -225,7 +225,7 @@ If False (default), increasing the real motor will increase the delay.</p></li>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pseudopos.DelayBase.html#pcdsdevices.pseudopos.DelayBase" title="pcdsdevices.pseudopos.DelayBase"><code class="xref py py-class docutils literal notranslate"><span class="pre">DelayBase</span></code></a></p></td>
 </tr>
 <tr class="row-even"><td><p>motor (InterfaceComponent)</p></td>
-<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/reference/positioners.html#ophyd.positioner.PositionerBase" title="(in ophyd v1.6.2.post4+gf41277e)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PositionerBase</span></code></a></p></td>
+<td><p><a class="reference external" href="https://blueskyproject.io/ophyd/reference/positioners.html#ophyd.positioner.PositionerBase" title="(in ophyd v1.6.3)"><code class="xref py py-class docutils literal notranslate"><span class="pre">PositionerBase</span></code></a></p></td>
 <td></td>
 <td></td>
 <td><p>normal</p></td>

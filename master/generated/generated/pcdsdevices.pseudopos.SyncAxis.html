@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.pseudopos.SyncAxis &mdash; PCDS Devices 4.8.0+7.g8033c40 documentation</title>
+  <title>pcdsdevices.pseudopos.SyncAxis &mdash; PCDS Devices 4.8.0+10.g0427e1b documentation</title>
       <link rel="stylesheet" href="../../_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../_static/js/html5shiv.min.js"></script>
@@ -29,7 +29,7 @@
             <a href="../../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.8.0+7.g8033c40
+                4.8.0+10.g0427e1b
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
@@ -226,7 +226,7 @@ be from attribute name to offset value. Any omitted motor will have an
 offset of <code class="docutils literal notranslate"><span class="pre">default_offset</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>dict {str: float} or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)">None</a></p>
+<dd class="field-odd"><p>dict {str: float} or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)">None</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -238,7 +238,7 @@ offset of <code class="docutils literal notranslate"><span class="pre">default_o
 them and its offset. The default value is 0.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)">float</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)">float</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -251,7 +251,7 @@ be from attribute name to scale value. Any omitted motor will have a
 scale of <code class="docutils literal notranslate"><span class="pre">default_scale</span></code>.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p>dict {str: float} or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)">None</a></p>
+<dd class="field-odd"><p>dict {str: float} or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)">None</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -263,7 +263,7 @@ scale of <code class="docutils literal notranslate"><span class="pre">default_sc
 them and its scale. The default value is 1.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)">float</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)">float</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -271,12 +271,12 @@ them and its scale. The default value is 1.</p>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.pseudopos.SyncAxis.warn_inconsistent">
 <span class="sig-name descname"><span class="pre">warn_inconsistent</span></span><a class="headerlink" href="#pcdsdevices.pseudopos.SyncAxis.warn_inconsistent" title="Permalink to this definition"></a></dt>
-<dd><p>If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.9)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> (the default), warn the user if the real motors are not in a
+<dd><p>If <a class="reference external" href="https://docs.python.org/3/library/constants.html#True" title="(in Python v3.10)"><code class="xref any docutils literal notranslate"><span class="pre">True</span></code></a> (the default), warn the user if the real motors are not in a
 consistent position. An inconsistent position, or desync, can occur if
 a motor in the <a class="reference internal" href="#pcdsdevices.pseudopos.SyncAxis" title="pcdsdevices.pseudopos.SyncAxis"><code class="xref any py py-class docutils literal notranslate"><span class="pre">SyncAxis</span></code></a> group has been moved manually.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.9)">bool</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)">bool</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -288,7 +288,7 @@ a motor in the <a class="reference internal" href="#pcdsdevices.pseudopos.SyncAx
 be in an inconsistent, or desync state. Defaults to 0.001.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.9)">float</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.10)">float</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -303,7 +303,7 @@ positions. If omitted, the first motor will be considered the guiding
 motor that we do not move.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.9)">str</a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)">None</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)">str</a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)">None</a></p>
 </dd>
 </dl>
 </dd></dl>
@@ -317,7 +317,7 @@ e.g. sync_limits = (-100, 100) will bind the <a class="reference internal" href=
 -100 and 100.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
-<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.9)">tuple</a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.9)">None</a></p>
+<dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.10)">tuple</a> or <a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)">None</a></p>
 </dd>
 </dl>
 </dd></dl>
