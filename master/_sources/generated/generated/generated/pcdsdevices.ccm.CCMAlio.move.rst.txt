@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.move
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.move

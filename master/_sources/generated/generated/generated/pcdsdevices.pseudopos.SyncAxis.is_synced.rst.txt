@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.is\_synced
-=========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.is_synced

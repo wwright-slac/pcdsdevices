@@ -1,6 +1,0 @@
-pcdsdevices.slits.SimLusiSlits.wait
-===================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SimLusiSlits.wait

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI2.configure
-================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI2.configure

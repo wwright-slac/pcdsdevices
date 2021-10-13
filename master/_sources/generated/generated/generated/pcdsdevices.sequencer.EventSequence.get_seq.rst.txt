@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequence.get\_seq
-============================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequence.get_seq

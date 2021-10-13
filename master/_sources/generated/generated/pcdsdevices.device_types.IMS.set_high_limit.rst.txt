@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.set\_high\_limit
-==============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.set_high_limit

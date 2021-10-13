@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937BController.read
-========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937BController.read

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.stage\_group\_instances
-================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.stage_group_instances

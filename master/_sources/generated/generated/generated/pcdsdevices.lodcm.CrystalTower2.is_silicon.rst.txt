@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CrystalTower2.is\_silicon
-===========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CrystalTower2.is_silicon

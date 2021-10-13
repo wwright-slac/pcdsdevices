@@ -1,6 +1,0 @@
-pcdsdevices.interface.MvInterface.status
-========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: MvInterface.status

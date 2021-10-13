@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.trigger

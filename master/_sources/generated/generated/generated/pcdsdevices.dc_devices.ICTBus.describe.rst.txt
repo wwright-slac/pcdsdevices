@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.describe
-=======================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.describe

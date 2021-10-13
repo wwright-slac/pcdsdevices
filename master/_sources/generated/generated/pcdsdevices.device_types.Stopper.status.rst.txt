@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Stopper.status
-========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Stopper.status

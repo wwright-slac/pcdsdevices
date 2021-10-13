@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergyC.camonitor
-========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergyC.camonitor

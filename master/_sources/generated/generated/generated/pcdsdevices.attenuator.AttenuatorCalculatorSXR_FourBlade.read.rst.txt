@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorSXR\_FourBlade.read
-==============================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorSXR_FourBlade.read

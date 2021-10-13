@@ -1,6 +1,0 @@
-pcdsdevices.interface.FltMvInterface.wm
-=======================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: FltMvInterface.wm

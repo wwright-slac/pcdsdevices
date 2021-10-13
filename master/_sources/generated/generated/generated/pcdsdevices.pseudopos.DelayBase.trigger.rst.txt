@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.trigger
-=======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.trigger

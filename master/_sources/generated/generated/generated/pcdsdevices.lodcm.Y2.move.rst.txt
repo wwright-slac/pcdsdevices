@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Y2.move
-=========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Y2.move

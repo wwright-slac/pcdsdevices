@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttBaseWith3rdHarmonic.wm\_update
-========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttBaseWith3rdHarmonic.wm_update

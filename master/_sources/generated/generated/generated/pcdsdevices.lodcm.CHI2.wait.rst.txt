@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI2.wait
-===========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI2.wait

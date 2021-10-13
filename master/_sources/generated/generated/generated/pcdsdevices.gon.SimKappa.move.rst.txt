@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.move
-=============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.move

@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPSLimits.stop
-==============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPSLimits.stop

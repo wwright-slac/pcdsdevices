@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.check\_removed
-=======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.check_removed

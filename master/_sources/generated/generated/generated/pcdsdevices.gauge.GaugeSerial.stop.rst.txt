@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerial.stop
-==================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerial.stop

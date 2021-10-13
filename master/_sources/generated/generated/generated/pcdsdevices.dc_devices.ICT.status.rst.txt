@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICT.status
-==================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICT.status

@@ -1,6 +1,0 @@
-pcdsdevices.lens.Prefocus.status
-================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: Prefocus.status

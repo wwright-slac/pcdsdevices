@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.camonitor
-=====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.camonitor

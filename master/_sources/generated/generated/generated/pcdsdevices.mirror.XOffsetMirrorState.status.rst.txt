@@ -1,6 +1,0 @@
-pcdsdevices.mirror.XOffsetMirrorState.status
-============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: XOffsetMirrorState.status

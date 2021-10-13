@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequence.show
-========================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequence.show

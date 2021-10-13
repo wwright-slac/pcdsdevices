@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMConstantsMixin.configure
-===========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMConstantsMixin.configure

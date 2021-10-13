@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.status
-=======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.status

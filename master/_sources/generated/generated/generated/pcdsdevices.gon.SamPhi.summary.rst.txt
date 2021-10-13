@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.summary
-==============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.summary

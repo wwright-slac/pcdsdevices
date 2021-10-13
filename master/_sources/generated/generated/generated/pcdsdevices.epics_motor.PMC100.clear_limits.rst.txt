@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PMC100.clear\_limits
-=============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PMC100.clear_limits

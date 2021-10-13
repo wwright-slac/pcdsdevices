@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.inverse
-==========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.inverse

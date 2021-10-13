@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.to\_real\_tuple
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.to_real_tuple

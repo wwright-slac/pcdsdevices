@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.mvr
-==================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.mvr

@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.trigger

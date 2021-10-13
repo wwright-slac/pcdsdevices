@@ -1,6 +1,0 @@
-pcdsdevices.gon.KappaXYZStage.stop
-==================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: KappaXYZStage.stop

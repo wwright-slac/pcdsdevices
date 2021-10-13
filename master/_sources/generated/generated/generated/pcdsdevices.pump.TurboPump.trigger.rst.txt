@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.trigger
-==================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.trigger

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.clear\_limits
-====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.clear_limits

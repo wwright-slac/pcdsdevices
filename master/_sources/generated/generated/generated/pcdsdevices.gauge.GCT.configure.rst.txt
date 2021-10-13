@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.configure
-===============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.configure

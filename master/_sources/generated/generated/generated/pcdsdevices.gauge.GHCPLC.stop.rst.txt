@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GHCPLC.stop
-=============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GHCPLC.stop

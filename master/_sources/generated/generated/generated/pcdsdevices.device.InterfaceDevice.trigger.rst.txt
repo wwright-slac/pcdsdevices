@@ -1,6 +1,0 @@
-pcdsdevices.device.InterfaceDevice.trigger
-==========================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: InterfaceDevice.trigger

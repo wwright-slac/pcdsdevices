@@ -1,6 +1,0 @@
-pcdsdevices.interface.AbsProgressBar.no\_more\_updates
-======================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: AbsProgressBar.no_more_updates

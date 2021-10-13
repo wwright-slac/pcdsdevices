@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimFirstTower.configure
-=========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimFirstTower.configure

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.set
-======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.set

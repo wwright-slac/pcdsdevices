@@ -1,6 +1,0 @@
-pcdsdevices.gon.GonWithDetArm.status
-====================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: GonWithDetArm.status

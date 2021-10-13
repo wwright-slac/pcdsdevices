@@ -1,6 +1,0 @@
-pcdsdevices.device.InterfaceDevice.read
-=======================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: InterfaceDevice.read

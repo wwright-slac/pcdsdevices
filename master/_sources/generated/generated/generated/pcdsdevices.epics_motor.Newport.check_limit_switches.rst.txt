@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.check\_limit\_switches
-=======================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.check_limit_switches

@@ -1,6 +1,0 @@
-pcdsdevices.signal.SignalEditMD.describe
-========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: SignalEditMD.describe

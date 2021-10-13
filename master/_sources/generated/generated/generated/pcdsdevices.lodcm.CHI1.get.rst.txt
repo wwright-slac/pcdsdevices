@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI1.get
-==========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI1.get

@@ -1,6 +1,0 @@
-pcdsdevices.interface.get\_engineering\_mode
-============================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. autofunction:: get_engineering_mode

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.status
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.status

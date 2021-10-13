@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.inverse
-================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.inverse

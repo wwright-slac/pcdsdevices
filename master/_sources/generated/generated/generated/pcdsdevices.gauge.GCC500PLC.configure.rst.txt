@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCC500PLC.configure
-=====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCC500PLC.configure

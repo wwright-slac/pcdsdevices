@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.status
-===============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.status

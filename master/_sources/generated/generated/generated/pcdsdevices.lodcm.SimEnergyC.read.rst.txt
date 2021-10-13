@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.read
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.read

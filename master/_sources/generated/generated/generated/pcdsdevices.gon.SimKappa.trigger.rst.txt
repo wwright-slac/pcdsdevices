@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.trigger
-================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.trigger

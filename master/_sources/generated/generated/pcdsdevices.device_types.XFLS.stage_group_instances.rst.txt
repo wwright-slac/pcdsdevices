@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.XFLS.stage\_group\_instances
-======================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: XFLS.stage_group_instances

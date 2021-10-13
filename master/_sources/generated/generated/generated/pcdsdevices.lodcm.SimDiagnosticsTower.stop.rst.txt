@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimDiagnosticsTower.stop
-==========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimDiagnosticsTower.stop

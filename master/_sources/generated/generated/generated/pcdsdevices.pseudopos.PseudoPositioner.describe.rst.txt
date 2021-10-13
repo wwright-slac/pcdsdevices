@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.describe
-===============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.describe

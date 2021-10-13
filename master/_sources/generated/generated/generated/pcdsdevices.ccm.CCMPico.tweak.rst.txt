@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.tweak
-=============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.tweak

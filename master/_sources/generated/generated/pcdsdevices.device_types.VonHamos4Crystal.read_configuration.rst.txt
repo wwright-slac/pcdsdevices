@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.VonHamos4Crystal.read\_configuration
-==============================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: VonHamos4Crystal.read_configuration

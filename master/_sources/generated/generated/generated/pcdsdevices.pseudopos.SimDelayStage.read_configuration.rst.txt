@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.read\_configuration
-=======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.read_configuration

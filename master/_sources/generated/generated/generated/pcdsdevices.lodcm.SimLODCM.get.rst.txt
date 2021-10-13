@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimLODCM.get
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimLODCM.get

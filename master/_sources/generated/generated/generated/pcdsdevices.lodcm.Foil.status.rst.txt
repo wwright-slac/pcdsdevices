@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Foil.status
-=============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Foil.status

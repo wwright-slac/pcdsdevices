@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.calc\_combined
-=================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.calc_combined

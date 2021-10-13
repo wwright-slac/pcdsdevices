@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergySi.set\_position
-=============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergySi.set_position

@@ -1,6 +1,0 @@
-pcdsdevices.interface.BaseInterface.status
-==========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: BaseInterface.status

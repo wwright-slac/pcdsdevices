@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.move
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.move

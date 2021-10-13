@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetMotor.move\_single
-=================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetMotor.move_single

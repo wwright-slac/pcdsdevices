@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.mv\_ginput
-======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.mv_ginput

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.DiagnosticsTower.get
-======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: DiagnosticsTower.get

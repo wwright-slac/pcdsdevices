@@ -1,6 +1,0 @@
-pcdsdevices.interface.Presets.sync
-==================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: Presets.sync

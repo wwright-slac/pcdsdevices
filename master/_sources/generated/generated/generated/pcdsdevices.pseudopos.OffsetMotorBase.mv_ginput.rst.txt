@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.mv\_ginput
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.mv_ginput

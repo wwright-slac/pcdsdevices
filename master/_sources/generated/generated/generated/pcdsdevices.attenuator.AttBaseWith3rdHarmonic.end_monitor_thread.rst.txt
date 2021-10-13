@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttBaseWith3rdHarmonic.end\_monitor\_thread
-==================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttBaseWith3rdHarmonic.end_monitor_thread

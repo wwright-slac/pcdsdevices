@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorSXR\_Ladder.camonitor
-======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorSXR_Ladder.camonitor

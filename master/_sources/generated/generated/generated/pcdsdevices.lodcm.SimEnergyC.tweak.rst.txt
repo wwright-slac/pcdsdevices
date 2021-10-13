@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.tweak
-==================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.tweak

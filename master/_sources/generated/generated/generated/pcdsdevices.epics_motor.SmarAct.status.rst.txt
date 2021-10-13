@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.status
-=======================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.status

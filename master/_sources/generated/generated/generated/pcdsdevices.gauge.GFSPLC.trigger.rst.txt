@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GFSPLC.trigger
-================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GFSPLC.trigger

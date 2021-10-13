@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlitPositioner.status
-===============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlitPositioner.status

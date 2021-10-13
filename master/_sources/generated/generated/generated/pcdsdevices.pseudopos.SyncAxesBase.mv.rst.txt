@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.mv
-=====================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.mv

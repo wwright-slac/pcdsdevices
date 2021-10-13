@@ -1,6 +1,0 @@
-pcdsdevices.pump.PROPLC.trigger
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PROPLC.trigger

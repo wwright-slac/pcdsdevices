@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffJet.summary
-=============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffJet.summary

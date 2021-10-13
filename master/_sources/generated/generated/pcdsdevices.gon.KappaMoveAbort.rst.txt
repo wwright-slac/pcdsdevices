@@ -1,6 +1,0 @@
-pcdsdevices.gon.KappaMoveAbort
-==============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. autoexception:: KappaMoveAbort

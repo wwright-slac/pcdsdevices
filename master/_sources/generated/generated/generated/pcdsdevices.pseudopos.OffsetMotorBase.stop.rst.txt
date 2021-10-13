@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.stop
-==========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.stop

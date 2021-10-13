@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.trigger
-================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.trigger

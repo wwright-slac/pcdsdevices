@@ -1,6 +1,0 @@
-pcdsdevices.mps.must\_be\_known
-===============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. autofunction:: must_be_known

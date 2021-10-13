@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Gantry.set\_position
-=======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Gantry.set_position

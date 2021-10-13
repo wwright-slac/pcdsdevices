@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.configure
-======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.configure

@@ -1,6 +1,0 @@
-pcdsdevices.gon.BaseGon.stage\_group\_instances
-===============================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: BaseGon.stage_group_instances

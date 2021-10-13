@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GFSPLC.configure
-==================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GFSPLC.configure

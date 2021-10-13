@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.mv
-===================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.mv

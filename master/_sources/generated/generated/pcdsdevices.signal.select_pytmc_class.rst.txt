@@ -1,6 +1,0 @@
-pcdsdevices.signal.select\_pytmc\_class
-=======================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. autofunction:: select_pytmc_class

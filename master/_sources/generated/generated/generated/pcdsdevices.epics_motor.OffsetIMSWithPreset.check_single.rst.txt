@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetIMSWithPreset.check\_single
-==========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetIMSWithPreset.check_single

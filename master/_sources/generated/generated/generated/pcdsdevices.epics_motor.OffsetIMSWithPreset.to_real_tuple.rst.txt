@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetIMSWithPreset.to\_real\_tuple
-============================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetIMSWithPreset.to_real_tuple

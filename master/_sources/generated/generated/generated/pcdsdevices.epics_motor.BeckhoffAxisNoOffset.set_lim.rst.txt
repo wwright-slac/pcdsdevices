@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisNoOffset.set\_lim
-======================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisNoOffset.set_lim

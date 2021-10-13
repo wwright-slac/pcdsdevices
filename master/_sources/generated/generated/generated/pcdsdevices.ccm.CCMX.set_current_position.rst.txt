@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.set\_current\_position
-===========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.set_current_position

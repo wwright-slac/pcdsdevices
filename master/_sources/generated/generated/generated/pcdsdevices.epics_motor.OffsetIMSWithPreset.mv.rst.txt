@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetIMSWithPreset.mv
-===============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetIMSWithPreset.mv

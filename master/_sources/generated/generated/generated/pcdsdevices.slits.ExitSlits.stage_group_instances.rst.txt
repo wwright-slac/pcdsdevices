@@ -1,6 +1,0 @@
-pcdsdevices.slits.ExitSlits.stage\_group\_instances
-===================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: ExitSlits.stage_group_instances

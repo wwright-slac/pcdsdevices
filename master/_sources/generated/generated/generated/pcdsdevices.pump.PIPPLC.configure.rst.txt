@@ -1,6 +1,0 @@
-pcdsdevices.pump.PIPPLC.configure
-=================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PIPPLC.configure

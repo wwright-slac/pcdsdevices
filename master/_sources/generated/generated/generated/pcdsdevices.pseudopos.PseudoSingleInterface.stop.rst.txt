@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.stop
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.stop

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.H2N.mv
-========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: H2N.mv

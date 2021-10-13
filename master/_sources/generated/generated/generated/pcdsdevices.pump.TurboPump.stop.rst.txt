@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.stop
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.stop

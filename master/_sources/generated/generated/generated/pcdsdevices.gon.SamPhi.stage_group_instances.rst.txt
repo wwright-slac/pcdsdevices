@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.stage\_group\_instances
-==============================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.stage_group_instances

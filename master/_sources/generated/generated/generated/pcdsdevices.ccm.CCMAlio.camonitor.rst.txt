@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.camonitor
-=================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.camonitor

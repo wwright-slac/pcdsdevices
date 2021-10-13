@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.wait
-=======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.wait

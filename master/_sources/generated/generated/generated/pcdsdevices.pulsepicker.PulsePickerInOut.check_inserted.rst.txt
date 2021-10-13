@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePickerInOut.check\_inserted
-========================================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePickerInOut.check_inserted

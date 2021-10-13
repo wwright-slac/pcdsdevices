@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.mv\_ginput
-=============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.mv_ginput

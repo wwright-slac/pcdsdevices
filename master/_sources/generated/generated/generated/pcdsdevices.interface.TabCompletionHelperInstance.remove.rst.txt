@@ -1,6 +1,0 @@
-pcdsdevices.interface.TabCompletionHelperInstance.remove
-========================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: TabCompletionHelperInstance.remove

@@ -1,6 +1,0 @@
-pcdsdevices.gauge.BaseGauge.stop
-================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: BaseGauge.stop

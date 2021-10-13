@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Y1.check\_removed
-===================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Y1.check_removed

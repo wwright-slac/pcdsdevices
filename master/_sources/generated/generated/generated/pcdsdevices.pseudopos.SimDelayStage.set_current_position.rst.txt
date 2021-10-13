@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.set\_current\_position
-==========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.set_current_position

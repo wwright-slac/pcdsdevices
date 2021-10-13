@@ -1,6 +1,0 @@
-pcdsdevices.interface.FltMvInterface.move
-=========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: FltMvInterface.move

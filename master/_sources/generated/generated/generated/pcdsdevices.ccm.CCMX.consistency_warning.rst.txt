@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMX.consistency\_warning
-=========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMX.consistency_warning

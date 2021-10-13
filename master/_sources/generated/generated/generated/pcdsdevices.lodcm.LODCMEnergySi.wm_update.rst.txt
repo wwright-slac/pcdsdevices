@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergySi.wm\_update
-==========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergySi.wm_update

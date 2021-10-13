@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergySi.inverse
-=====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergySi.inverse

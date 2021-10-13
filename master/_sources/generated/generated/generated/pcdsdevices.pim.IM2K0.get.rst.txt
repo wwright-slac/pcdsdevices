@@ -1,6 +1,0 @@
-pcdsdevices.pim.IM2K0.get
-=========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: IM2K0.get

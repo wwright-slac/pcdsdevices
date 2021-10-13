@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.inverse
-========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.inverse

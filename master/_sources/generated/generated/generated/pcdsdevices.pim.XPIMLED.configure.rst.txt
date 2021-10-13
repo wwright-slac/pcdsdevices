@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMLED.configure
-=================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMLED.configure

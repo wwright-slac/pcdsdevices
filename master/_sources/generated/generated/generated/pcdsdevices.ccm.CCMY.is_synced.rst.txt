@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.is\_synced
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.is_synced

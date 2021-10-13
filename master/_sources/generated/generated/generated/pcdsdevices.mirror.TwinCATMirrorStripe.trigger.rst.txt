@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.trigger
-==============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.trigger

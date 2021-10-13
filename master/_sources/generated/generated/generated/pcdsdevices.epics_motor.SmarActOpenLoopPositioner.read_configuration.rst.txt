@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActOpenLoopPositioner.read\_configuration
-======================================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActOpenLoopPositioner.read_configuration

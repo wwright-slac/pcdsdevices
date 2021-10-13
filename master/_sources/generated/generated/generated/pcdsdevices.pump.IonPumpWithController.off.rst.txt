@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpWithController.off
-==========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpWithController.off

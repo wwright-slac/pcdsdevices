@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.umv
-===========================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.umv

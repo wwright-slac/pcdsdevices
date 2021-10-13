@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.mv
-======================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.mv

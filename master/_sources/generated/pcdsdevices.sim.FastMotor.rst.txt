@@ -5,66 +5,63 @@
 
 .. autoclass:: FastMotor
 
-   
-   
+    
+    
     .. list-table:: Ophyd Device Components
-       :header-rows: 1
-       :widths: auto
+        :header-rows: 1
+        :widths: auto
 
-       *  - Attribute
+        * - Attribute
           - Class
           - Suffix
           - Docs
           - Kind
           - Notes
-   
-       *  -  user_readback
-          -  :class:`~ophyd.signal.AttributeSignal`
-          -  ``position``
-          -  
-          -  normal
-          -  
-   
+    
+        * - user_readback
+          - :class:`~ophyd.signal.AttributeSignal`
+          - ``position``
+          - 
+          - normal
+          - 
+    
 
-   
-   
-   
+    
+    
+    
 
-   
-   
-
+    
+    
 
     
     
     .. rubric:: Methods
 
-    .. autosummary::
-       :toctree: generated
     
-       ~FastMotor.camonitor
-       ~FastMotor.configure
-       ~FastMotor.describe
-       ~FastMotor.end_monitor_thread
-       ~FastMotor.get
-       ~FastMotor.move
-       ~FastMotor.mv
-       ~FastMotor.mv_ginput
-       ~FastMotor.mvr
-       ~FastMotor.read
-       ~FastMotor.read_configuration
-       ~FastMotor.set
-       ~FastMotor.set_current_position
-       ~FastMotor.set_position
-       ~FastMotor.status
-       ~FastMotor.stop
-       ~FastMotor.summary
-       ~FastMotor.trigger
-       ~FastMotor.tweak
-       ~FastMotor.umv
-       ~FastMotor.umvr
-       ~FastMotor.wait
-       ~FastMotor.wm
-       ~FastMotor.wm_update
+    .. automethod:: camonitor
+    .. automethod:: configure
+    .. automethod:: describe
+    .. automethod:: end_monitor_thread
+    .. automethod:: get
+    .. automethod:: move
+    .. automethod:: mv
+    .. automethod:: mv_ginput
+    .. automethod:: mvr
+    .. automethod:: read
+    .. automethod:: read_configuration
+    .. automethod:: set
+    .. automethod:: set_current_position
+    .. automethod:: set_position
+    .. automethod:: status
+    .. automethod:: stop
+    .. automethod:: summary
+    .. automethod:: trigger
+    .. automethod:: tweak
+    .. automethod:: umv
+    .. automethod:: umvr
+    .. automethod:: wait
+    .. automethod:: wm
+    .. automethod:: wm_update
     
     
 
@@ -72,19 +69,18 @@
     
     .. rubric:: Attributes
 
-    .. autosummary::
     
-       ~FastMotor.configuration_attrs
-       ~FastMotor.connected
-       ~FastMotor.egu
-       ~FastMotor.high_limit
-       ~FastMotor.hints
-       ~FastMotor.kind
-       ~FastMotor.limits
-       ~FastMotor.low_limit
-       ~FastMotor.moving
-       ~FastMotor.position
-       ~FastMotor.settle_time
-       ~FastMotor.timeout
+    .. autoattribute:: configuration_attrs
+    .. autoattribute:: connected
+    .. autoattribute:: egu
+    .. autoattribute:: high_limit
+    .. autoattribute:: hints
+    .. autoattribute:: kind
+    .. autoattribute:: limits
+    .. autoattribute:: low_limit
+    .. autoattribute:: moving
+    .. autoattribute:: position
+    .. autoattribute:: settle_time
+    .. autoattribute:: timeout
     
     

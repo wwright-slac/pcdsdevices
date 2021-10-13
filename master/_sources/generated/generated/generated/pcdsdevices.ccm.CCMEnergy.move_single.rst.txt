@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.move\_single
-======================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.move_single

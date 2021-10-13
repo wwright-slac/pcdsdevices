@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.read
-==========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.read

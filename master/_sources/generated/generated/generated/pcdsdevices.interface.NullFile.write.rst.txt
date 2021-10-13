@@ -1,6 +1,0 @@
-pcdsdevices.interface.NullFile.write
-====================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: NullFile.write

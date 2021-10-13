@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMDiode.status
-===============================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMDiode.status

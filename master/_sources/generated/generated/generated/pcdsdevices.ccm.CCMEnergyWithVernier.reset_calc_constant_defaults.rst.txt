@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.reset\_calc\_constant\_defaults
-====================================================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.reset_calc_constant_defaults

@@ -1,6 +1,0 @@
-pcdsdevices.inout.InOutPositioner.check\_inserted
-=================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: InOutPositioner.check_inserted

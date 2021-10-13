@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.mv
-==========================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.mv

@@ -1,6 +1,0 @@
-pcdsdevices.gon.KappaXYZStage.configure
-=======================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: KappaXYZStage.configure

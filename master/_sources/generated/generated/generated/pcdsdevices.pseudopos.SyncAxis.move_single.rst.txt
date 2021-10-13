@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.move\_single
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.move_single

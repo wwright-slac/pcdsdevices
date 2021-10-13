@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.LODCM.get\_material
-=============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: LODCM.get_material

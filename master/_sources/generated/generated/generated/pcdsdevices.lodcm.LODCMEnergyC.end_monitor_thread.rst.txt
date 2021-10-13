@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergyC.end\_monitor\_thread
-===================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergyC.end_monitor_thread

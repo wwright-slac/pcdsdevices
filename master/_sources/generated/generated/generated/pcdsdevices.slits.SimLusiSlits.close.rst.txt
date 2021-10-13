@@ -1,6 +1,0 @@
-pcdsdevices.slits.SimLusiSlits.close
-====================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SimLusiSlits.close

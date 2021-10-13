@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.tweak
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.tweak

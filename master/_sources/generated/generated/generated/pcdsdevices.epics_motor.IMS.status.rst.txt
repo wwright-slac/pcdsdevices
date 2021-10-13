@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.IMS.status
-===================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: IMS.status

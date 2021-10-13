@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.k\_to\_e
-=================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.k_to_e

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.H2N.stage\_group\_instances
-=============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: H2N.stage_group_instances

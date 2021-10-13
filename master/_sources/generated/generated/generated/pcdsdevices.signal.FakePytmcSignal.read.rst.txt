@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakePytmcSignal.read
-=======================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakePytmcSignal.read

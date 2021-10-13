@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuator.set\_position
-=======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuator.set_position

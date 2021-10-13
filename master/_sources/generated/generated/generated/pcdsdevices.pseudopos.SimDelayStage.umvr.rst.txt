@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.umvr
-========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.umvr

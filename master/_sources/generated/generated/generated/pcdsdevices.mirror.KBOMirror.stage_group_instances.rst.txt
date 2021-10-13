@@ -1,6 +1,0 @@
-pcdsdevices.mirror.KBOMirror.stage\_group\_instances
-====================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: KBOMirror.stage_group_instances

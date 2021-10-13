@@ -1,6 +1,0 @@
-pcdsdevices.interface.positionerbase\_info
-==========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. autofunction:: positionerbase_info

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.stage\_group\_instances
-=================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.stage_group_instances

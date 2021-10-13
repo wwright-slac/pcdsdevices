@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.set\_high\_limit
-=================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.set_high_limit

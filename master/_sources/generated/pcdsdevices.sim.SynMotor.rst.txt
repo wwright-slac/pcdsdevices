@@ -5,101 +5,98 @@
 
 .. autoclass:: SynMotor
 
-   
-   
+    
+    
     .. list-table:: Ophyd Device Components
-       :header-rows: 1
-       :widths: auto
+        :header-rows: 1
+        :widths: auto
 
-       *  - Attribute
+        * - Attribute
           - Class
           - Suffix
           - Docs
           - Kind
           - Notes
-   
-       *  -  readback
-          -  :class:`~ophyd.sim._ReadbackSignal`
-          -  
-          -  
-          -  hinted
-          -  Inherited from :class:`~ophyd.sim.SynAxis`
-   
-       *  -  setpoint
-          -  :class:`~ophyd.sim._SetpointSignal`
-          -  
-          -  
-          -  normal
-          -  Inherited from :class:`~ophyd.sim.SynAxis`
-   
-       *  -  velocity
-          -  :class:`~ophyd.signal.Signal`
-          -  
-          -  
-          -  config
-          -  Inherited from :class:`~ophyd.sim.SynAxis`
-   
-       *  -  acceleration
-          -  :class:`~ophyd.signal.Signal`
-          -  
-          -  
-          -  config
-          -  Inherited from :class:`~ophyd.sim.SynAxis`
-   
-       *  -  unused
-          -  :class:`~ophyd.signal.Signal`
-          -  
-          -  
-          -  omitted
-          -  Inherited from :class:`~ophyd.sim.SynAxis`
-   
+    
+        * - readback
+          - :class:`~ophyd.sim._ReadbackSignal`
+          - 
+          - 
+          - hinted
+          - Inherited from :class:`~ophyd.sim.SynAxis`
+    
+        * - setpoint
+          - :class:`~ophyd.sim._SetpointSignal`
+          - 
+          - 
+          - normal
+          - Inherited from :class:`~ophyd.sim.SynAxis`
+    
+        * - velocity
+          - :class:`~ophyd.signal.Signal`
+          - 
+          - 
+          - config
+          - Inherited from :class:`~ophyd.sim.SynAxis`
+    
+        * - acceleration
+          - :class:`~ophyd.signal.Signal`
+          - 
+          - 
+          - config
+          - Inherited from :class:`~ophyd.sim.SynAxis`
+    
+        * - unused
+          - :class:`~ophyd.signal.Signal`
+          - 
+          - 
+          - omitted
+          - Inherited from :class:`~ophyd.sim.SynAxis`
+    
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
-   
-   
-
+    
+    
 
     
     
     .. rubric:: Methods
 
-    .. autosummary::
-       :toctree: generated
     
-       ~SynMotor.camonitor
-       ~SynMotor.configure
-       ~SynMotor.describe
-       ~SynMotor.end_monitor_thread
-       ~SynMotor.get
-       ~SynMotor.move
-       ~SynMotor.mv
-       ~SynMotor.mv_ginput
-       ~SynMotor.mvr
-       ~SynMotor.read
-       ~SynMotor.read_configuration
-       ~SynMotor.set
-       ~SynMotor.set_position
-       ~SynMotor.status
-       ~SynMotor.stop
-       ~SynMotor.summary
-       ~SynMotor.trigger
-       ~SynMotor.tweak
-       ~SynMotor.umv
-       ~SynMotor.umvr
-       ~SynMotor.wait
-       ~SynMotor.wm
-       ~SynMotor.wm_update
+    .. automethod:: camonitor
+    .. automethod:: configure
+    .. automethod:: describe
+    .. automethod:: end_monitor_thread
+    .. automethod:: get
+    .. automethod:: move
+    .. automethod:: mv
+    .. automethod:: mv_ginput
+    .. automethod:: mvr
+    .. automethod:: read
+    .. automethod:: read_configuration
+    .. automethod:: set
+    .. automethod:: set_position
+    .. automethod:: status
+    .. automethod:: stop
+    .. automethod:: summary
+    .. automethod:: trigger
+    .. automethod:: tweak
+    .. automethod:: umv
+    .. automethod:: umvr
+    .. automethod:: wait
+    .. automethod:: wm
+    .. automethod:: wm_update
     
     
 
@@ -107,12 +104,11 @@
     
     .. rubric:: Attributes
 
-    .. autosummary::
     
-       ~SynMotor.configuration_attrs
-       ~SynMotor.connected
-       ~SynMotor.hints
-       ~SynMotor.kind
-       ~SynMotor.position
+    .. autoattribute:: configuration_attrs
+    .. autoattribute:: connected
+    .. autoattribute:: hints
+    .. autoattribute:: kind
+    .. autoattribute:: position
     
     

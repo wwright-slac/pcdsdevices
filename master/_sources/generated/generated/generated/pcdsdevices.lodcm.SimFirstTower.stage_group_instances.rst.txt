@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimFirstTower.stage\_group\_instances
-=======================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimFirstTower.stage_group_instances

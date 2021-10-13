@@ -1,6 +1,0 @@
-pcdsdevices.device.InterfaceDevice.stop
-=======================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: InterfaceDevice.stop

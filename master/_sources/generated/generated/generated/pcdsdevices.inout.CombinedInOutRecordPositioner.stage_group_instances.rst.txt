@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.stage\_group\_instances
-=======================================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.stage_group_instances

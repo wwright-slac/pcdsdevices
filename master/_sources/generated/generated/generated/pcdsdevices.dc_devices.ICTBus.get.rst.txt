@@ -1,6 +1,0 @@
-pcdsdevices.dc\_devices.ICTBus.get
-==================================
-
-.. currentmodule:: pcdsdevices.dc_devices
-
-.. automethod:: ICTBus.get

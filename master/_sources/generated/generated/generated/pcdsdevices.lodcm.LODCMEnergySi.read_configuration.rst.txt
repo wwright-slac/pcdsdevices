@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergySi.read\_configuration
-===================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergySi.read_configuration

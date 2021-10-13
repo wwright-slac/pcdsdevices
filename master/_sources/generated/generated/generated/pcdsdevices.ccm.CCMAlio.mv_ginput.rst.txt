@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.mv\_ginput
-==================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.mv_ginput

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimDiagnosticsTower.read
-==========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimDiagnosticsTower.read

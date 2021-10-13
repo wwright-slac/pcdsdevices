@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaController.stop
-=====================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaController.stop

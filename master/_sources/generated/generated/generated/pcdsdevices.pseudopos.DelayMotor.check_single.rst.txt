@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.check\_single
-==============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.check_single

@@ -1,6 +1,0 @@
-pcdsdevices.pump.QPCPCT.read
-============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: QPCPCT.read

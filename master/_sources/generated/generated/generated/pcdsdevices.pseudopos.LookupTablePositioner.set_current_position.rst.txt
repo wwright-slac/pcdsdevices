@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.set\_current\_position
-==================================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.set_current_position

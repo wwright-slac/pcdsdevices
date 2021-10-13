@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.set\_position
-=======================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.set_position

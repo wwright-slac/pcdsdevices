@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CrystalTower1.is\_diamond
-===========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CrystalTower1.is_diamond

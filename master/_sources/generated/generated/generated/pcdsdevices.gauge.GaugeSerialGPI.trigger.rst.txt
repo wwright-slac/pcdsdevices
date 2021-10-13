@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGPI.trigger
-========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGPI.trigger

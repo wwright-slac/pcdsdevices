@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CrystalTower1.stage\_group\_instances
-=======================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CrystalTower1.stage_group_instances

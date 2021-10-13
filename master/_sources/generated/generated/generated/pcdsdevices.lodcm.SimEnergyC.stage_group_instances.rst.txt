@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.stage\_group\_instances
-====================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.stage_group_instances

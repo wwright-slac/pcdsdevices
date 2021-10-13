@@ -1,6 +1,0 @@
-﻿pcdsdevices.device\_types.AcromagChannel
-========================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. autofunction:: AcromagChannel

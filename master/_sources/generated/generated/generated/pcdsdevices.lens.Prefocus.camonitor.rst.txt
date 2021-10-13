@@ -1,6 +1,0 @@
-pcdsdevices.lens.Prefocus.camonitor
-===================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: Prefocus.camonitor

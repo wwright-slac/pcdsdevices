@@ -1,6 +1,0 @@
-pcdsdevices.signal.EpicsSignalROEditMD.describe
-===============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: EpicsSignalROEditMD.describe

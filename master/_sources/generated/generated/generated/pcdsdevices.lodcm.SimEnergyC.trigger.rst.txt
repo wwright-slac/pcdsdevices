@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.trigger
-====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.trigger

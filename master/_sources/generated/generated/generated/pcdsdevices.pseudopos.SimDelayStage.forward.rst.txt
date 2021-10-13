@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.forward
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.forward

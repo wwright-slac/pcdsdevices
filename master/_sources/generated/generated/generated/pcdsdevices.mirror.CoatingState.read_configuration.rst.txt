@@ -1,6 +1,0 @@
-pcdsdevices.mirror.CoatingState.read\_configuration
-===================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: CoatingState.read_configuration

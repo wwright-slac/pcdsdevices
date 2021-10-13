@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Dectris.wait
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Dectris.wait

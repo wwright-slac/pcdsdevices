@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimSampleStage.configure
-========================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimSampleStage.configure

@@ -1,6 +1,0 @@
-pcdsdevices.slits.SimLusiSlits.configure
-========================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SimLusiSlits.configure

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.read
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.read

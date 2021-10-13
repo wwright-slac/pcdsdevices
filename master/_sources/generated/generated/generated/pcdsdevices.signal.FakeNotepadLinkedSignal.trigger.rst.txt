@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakeNotepadLinkedSignal.trigger
-==================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakeNotepadLinkedSignal.trigger

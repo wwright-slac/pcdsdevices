@@ -1,6 +1,0 @@
-pcdsdevices.mirror.FFMirror.read
-================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: FFMirror.read

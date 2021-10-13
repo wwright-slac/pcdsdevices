@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.check\_transmission
-==========================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.check_transmission

@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.summary
-================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.summary

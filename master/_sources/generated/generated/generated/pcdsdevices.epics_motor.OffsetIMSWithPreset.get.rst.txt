@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetIMSWithPreset.get
-================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetIMSWithPreset.get

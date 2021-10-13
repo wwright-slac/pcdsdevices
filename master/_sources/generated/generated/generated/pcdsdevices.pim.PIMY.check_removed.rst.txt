@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.check\_removed
-===================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.check_removed

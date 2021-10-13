@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.end\_monitor\_thread
-===========================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.end_monitor_thread

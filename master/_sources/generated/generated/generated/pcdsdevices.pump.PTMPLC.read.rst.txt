@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.read
-============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.read

@@ -1,6 +1,0 @@
-pcdsdevices.device.ObjectComponent.sub\_value
-=============================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: ObjectComponent.sub_value

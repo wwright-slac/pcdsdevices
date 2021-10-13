@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937a.describe
-==================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937a.describe

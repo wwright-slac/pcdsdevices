@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CrystalTower1.read
-====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CrystalTower1.read

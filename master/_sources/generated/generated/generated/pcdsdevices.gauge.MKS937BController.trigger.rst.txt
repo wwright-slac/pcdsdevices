@@ -1,6 +1,0 @@
-pcdsdevices.gauge.MKS937BController.trigger
-===========================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: MKS937BController.trigger

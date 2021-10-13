@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.IMS.set\_high\_limit
-=============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: IMS.set_high_limit

@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.stage\_group\_instances
-===================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.stage_group_instances

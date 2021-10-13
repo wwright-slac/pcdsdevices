@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.move
-============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.move

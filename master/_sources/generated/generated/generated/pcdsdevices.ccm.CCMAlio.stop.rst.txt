@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.stop
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.stop

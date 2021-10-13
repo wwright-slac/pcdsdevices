@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSetPiraniMks.pressure
-============================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSetPiraniMks.pressure

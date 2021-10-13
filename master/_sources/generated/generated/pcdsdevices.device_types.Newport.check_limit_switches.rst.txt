@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Newport.check\_limit\_switches
-========================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Newport.check_limit_switches

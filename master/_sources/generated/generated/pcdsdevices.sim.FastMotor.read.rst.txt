@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.read
-==============================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.read

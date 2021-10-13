@@ -1,6 +1,0 @@
-pcdsdevices.signal.NotImplementedSignal.describe
-================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: NotImplementedSignal.describe

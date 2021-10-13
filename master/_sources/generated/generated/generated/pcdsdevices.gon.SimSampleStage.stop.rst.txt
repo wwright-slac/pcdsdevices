@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimSampleStage.stop
-===================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimSampleStage.stop

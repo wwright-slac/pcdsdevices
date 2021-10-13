@@ -1,6 +1,0 @@
-pcdsdevices.pump.PTMPLC.get
-===========================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: PTMPLC.get

@@ -1,6 +1,0 @@
-pcdsdevices.interface.get\_value
-================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. autofunction:: get_value

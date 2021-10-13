@@ -1,6 +1,0 @@
-pcdsdevices.interface.PresetPosition.update\_comment
-====================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: PresetPosition.update_comment

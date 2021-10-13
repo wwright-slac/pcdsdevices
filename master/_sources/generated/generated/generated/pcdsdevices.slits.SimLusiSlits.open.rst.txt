@@ -1,6 +1,0 @@
-pcdsdevices.slits.SimLusiSlits.open
-===================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SimLusiSlits.open

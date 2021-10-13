@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisNoOffset.trigger
-=====================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisNoOffset.trigger

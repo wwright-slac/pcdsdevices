@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttBaseWith3rdHarmonic.set\_energy
-=========================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttBaseWith3rdHarmonic.set_energy

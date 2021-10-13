@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetIMSWithPreset.status
-===================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetIMSWithPreset.status

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithLED.stage\_group\_instances
-==================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithLED.stage_group_instances

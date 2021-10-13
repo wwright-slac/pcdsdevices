@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeSerialGPI.stop
-=====================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeSerialGPI.stop

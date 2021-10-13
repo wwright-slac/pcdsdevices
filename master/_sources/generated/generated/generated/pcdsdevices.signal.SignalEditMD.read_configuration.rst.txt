@@ -1,6 +1,0 @@
-pcdsdevices.signal.SignalEditMD.read\_configuration
-===================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: SignalEditMD.read_configuration

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.status
-=============================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.status

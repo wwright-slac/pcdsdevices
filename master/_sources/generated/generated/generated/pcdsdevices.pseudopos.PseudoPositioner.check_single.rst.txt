@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.check\_single
-====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.check_single

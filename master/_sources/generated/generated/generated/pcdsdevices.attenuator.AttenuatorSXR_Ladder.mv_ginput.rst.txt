@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorSXR\_Ladder.mv\_ginput
-=======================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorSXR_Ladder.mv_ginput

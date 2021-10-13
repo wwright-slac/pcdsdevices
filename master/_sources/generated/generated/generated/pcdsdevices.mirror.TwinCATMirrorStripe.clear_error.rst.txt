@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.clear\_error
-===================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.clear_error

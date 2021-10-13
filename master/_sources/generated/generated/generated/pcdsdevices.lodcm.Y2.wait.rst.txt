@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Y2.wait
-=========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Y2.wait

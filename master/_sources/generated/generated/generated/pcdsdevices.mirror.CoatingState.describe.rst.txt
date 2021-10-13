@@ -1,6 +1,0 @@
-pcdsdevices.mirror.CoatingState.describe
-========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: CoatingState.describe

@@ -1,6 +1,0 @@
-pcdsdevices.slits.BeckhoffSlitPositioner.camonitor
-==================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BeckhoffSlitPositioner.camonitor

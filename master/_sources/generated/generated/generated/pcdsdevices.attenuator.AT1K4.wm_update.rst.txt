@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AT1K4.wm\_update
-=======================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AT1K4.wm_update

@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.read
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.read

@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GFSPLC.read
-=============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GFSPLC.read

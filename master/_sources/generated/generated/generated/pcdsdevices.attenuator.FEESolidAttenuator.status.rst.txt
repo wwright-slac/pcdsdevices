@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.FEESolidAttenuator.status
-================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: FEESolidAttenuator.status

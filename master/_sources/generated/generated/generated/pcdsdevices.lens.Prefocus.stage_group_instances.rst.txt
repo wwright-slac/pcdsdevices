@@ -1,6 +1,0 @@
-pcdsdevices.lens.Prefocus.stage\_group\_instances
-=================================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: Prefocus.stage_group_instances

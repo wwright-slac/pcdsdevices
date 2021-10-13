@@ -1,6 +1,0 @@
-pcdsdevices.signal.PVStateSignal.describe
-=========================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: PVStateSignal.describe

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.status
-=============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.status

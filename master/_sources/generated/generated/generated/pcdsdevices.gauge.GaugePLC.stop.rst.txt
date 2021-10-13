@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugePLC.stop
-===============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugePLC.stop

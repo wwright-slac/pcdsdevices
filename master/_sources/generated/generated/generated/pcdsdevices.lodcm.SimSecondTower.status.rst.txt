@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimSecondTower.status
-=======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimSecondTower.status

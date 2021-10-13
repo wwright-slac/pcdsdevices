@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.trigger
-===============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.trigger

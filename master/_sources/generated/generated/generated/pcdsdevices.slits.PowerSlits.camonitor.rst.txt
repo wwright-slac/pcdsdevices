@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.camonitor
-======================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.camonitor

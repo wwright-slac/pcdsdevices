@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergySi.trigger
-=======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergySi.trigger

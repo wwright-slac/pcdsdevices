@@ -1,6 +1,0 @@
-pcdsdevices.pulsepicker.PulsePickerInOut.stage\_group\_instances
-================================================================
-
-.. currentmodule:: pcdsdevices.pulsepicker
-
-.. automethod:: PulsePickerInOut.stage_group_instances

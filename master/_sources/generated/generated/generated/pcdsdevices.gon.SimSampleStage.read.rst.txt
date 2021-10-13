@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimSampleStage.read
-===================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimSampleStage.read

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.configure
-==================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.configure

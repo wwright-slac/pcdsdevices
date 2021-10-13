@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.wm
-=================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.wm

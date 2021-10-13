@@ -1,6 +1,0 @@
-pcdsdevices.slits.BadSlitPositionerBase.tweak
-=============================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: BadSlitPositionerBase.tweak

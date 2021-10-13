@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.set\_position
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.set_position

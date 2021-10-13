@@ -1,6 +1,0 @@
-pcdsdevices.device.GroupDevice.get
-==================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: GroupDevice.get

@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorSXR\_Ladder.trigger
-====================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorSXR_Ladder.trigger

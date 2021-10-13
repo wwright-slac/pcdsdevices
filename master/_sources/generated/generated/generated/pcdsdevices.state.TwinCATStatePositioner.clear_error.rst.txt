@@ -1,6 +1,0 @@
-pcdsdevices.state.TwinCATStatePositioner.clear\_error
-=====================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: TwinCATStatePositioner.clear_error

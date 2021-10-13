@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergyC.read
-===================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergyC.read

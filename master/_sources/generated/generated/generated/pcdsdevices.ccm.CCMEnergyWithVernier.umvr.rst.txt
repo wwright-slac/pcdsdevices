@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.umvr
-=========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.umvr

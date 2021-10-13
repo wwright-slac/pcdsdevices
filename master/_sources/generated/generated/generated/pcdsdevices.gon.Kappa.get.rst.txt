@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.get
-=========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.get

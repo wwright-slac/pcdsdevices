@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.read\_configuration
-====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.read_configuration

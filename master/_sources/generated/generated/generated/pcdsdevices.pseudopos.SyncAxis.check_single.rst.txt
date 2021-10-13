@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.check\_single
-============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.check_single

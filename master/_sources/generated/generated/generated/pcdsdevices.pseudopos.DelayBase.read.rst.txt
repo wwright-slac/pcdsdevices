@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.read
-====================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.read

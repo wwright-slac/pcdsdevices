@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergyC.inverse
-======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergyC.inverse

@@ -1,6 +1,0 @@
-pcdsdevices.gon.BaseGon.stop
-============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: BaseGon.stop

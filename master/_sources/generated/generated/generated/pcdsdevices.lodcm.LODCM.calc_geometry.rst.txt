@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCM.calc\_geometry
-======================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCM.calc_geometry

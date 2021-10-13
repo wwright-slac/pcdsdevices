@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.umv
-==================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.umv

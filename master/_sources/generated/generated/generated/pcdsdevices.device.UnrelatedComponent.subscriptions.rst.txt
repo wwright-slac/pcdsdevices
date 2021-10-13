@@ -1,6 +1,0 @@
-pcdsdevices.device.UnrelatedComponent.subscriptions
-===================================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: UnrelatedComponent.subscriptions

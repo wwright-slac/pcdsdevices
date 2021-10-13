@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.to\_pseudo\_tuple
-=======================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.to_pseudo_tuple

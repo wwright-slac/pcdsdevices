@@ -1,6 +1,0 @@
-pcdsdevices.pump.IonPumpBase.configure
-======================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: IonPumpBase.configure

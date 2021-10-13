@@ -1,6 +1,0 @@
-pcdsdevices.pump.Navigator.read
-===============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: Navigator.read

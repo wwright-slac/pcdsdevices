@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Prefocus.stage\_group\_instances
-==========================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Prefocus.stage_group_instances

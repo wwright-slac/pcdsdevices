@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.wait
-=============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.wait

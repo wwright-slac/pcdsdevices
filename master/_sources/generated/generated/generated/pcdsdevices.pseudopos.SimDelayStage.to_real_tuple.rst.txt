@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.to\_real\_tuple
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.to_real_tuple

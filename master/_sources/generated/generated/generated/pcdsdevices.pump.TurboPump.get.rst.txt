@@ -1,6 +1,0 @@
-pcdsdevices.pump.TurboPump.get
-==============================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: TurboPump.get

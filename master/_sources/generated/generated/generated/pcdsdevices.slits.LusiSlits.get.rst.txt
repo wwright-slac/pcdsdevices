@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.get
-===============================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.get

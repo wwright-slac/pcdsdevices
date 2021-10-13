@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.get
-==================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.get

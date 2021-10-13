@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.read
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.read

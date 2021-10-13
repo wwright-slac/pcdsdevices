@@ -1,6 +1,0 @@
-pcdsdevices.slits.Slits.status
-==============================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: Slits.status

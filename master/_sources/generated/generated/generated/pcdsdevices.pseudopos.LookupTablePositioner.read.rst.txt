@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.read
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.read

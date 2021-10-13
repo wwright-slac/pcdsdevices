@@ -1,6 +1,0 @@
-pcdsdevices.analog\_signals.acromag\_ch\_factory\_func
-======================================================
-
-.. currentmodule:: pcdsdevices.analog_signals
-
-.. autofunction:: acromag_ch_factory_func

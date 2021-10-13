@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.stop
-==============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.stop

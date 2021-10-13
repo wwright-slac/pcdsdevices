@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.get
-============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.get

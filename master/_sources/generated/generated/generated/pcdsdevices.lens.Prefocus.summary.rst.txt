@@ -1,6 +1,0 @@
-pcdsdevices.lens.Prefocus.summary
-=================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: Prefocus.summary

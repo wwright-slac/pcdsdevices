@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI1.end\_monitor\_thread
-===========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI1.end_monitor_thread

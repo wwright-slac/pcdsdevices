@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.configure
-==============================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.configure

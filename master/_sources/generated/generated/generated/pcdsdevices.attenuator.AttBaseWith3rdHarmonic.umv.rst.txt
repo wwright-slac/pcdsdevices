@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttBaseWith3rdHarmonic.umv
-=================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttBaseWith3rdHarmonic.umv

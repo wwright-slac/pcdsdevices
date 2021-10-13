@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.get\_lim
-=========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.get_lim

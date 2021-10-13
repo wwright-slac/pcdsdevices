@@ -1,6 +1,0 @@
-pcdsdevices.attenuator.AttenuatorCalculatorSXR\_FourBlade.trigger
-=================================================================
-
-.. currentmodule:: pcdsdevices.attenuator
-
-.. automethod:: AttenuatorCalculatorSXR_FourBlade.trigger

@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.check\_transmission
-================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.check_transmission

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.status
-===========================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.status

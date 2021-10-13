@@ -1,6 +1,0 @@
-pcdsdevices.sequencer.EventSequencer.read\_configuration
-========================================================
-
-.. currentmodule:: pcdsdevices.sequencer
-
-.. automethod:: EventSequencer.read_configuration

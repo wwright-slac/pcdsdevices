@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.trigger
-=============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.trigger

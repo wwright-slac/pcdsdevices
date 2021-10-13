@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.to\_real\_tuple
-===========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.to_real_tuple

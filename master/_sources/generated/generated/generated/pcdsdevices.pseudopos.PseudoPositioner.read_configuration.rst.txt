@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.read\_configuration
-==========================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.read_configuration

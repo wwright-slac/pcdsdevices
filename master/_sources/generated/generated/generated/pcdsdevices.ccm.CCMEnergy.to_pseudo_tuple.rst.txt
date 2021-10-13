@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.to\_pseudo\_tuple
-===========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.to_pseudo_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIM.stage\_group\_instances
-============================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIM.stage_group_instances

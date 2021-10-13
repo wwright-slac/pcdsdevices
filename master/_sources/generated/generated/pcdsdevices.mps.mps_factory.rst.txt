@@ -1,6 +1,0 @@
-pcdsdevices.mps.mps\_factory
-============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. autofunction:: mps_factory

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.trigger
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.trigger

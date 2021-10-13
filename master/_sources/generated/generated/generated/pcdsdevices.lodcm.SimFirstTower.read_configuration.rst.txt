@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimFirstTower.read\_configuration
-===================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimFirstTower.read_configuration

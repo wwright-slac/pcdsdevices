@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.set\_position
-=======================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.set_position

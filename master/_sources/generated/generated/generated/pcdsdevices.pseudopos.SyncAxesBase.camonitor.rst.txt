@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxesBase.camonitor
-============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxesBase.camonitor

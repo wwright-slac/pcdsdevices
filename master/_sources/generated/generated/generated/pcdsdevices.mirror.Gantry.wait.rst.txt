@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Gantry.wait
-==============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Gantry.wait

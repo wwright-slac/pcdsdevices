@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.BeckhoffAxis.check\_limit\_switches
-=============================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: BeckhoffAxis.check_limit_switches

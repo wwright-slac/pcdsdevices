@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.stop
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.stop

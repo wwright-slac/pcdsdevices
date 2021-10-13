@@ -1,6 +1,0 @@
-pcdsdevices.mirror.KBOMirror.configure
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: KBOMirror.configure

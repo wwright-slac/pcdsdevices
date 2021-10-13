@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.stage\_group\_instances
-================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.stage_group_instances

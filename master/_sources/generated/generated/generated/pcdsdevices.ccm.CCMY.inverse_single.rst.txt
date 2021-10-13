@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMY.inverse\_single
-====================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMY.inverse_single

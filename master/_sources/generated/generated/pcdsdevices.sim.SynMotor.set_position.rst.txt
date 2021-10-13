@@ -1,6 +1,0 @@
-pcdsdevices.sim.SynMotor.set\_position
-======================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: SynMotor.set_position

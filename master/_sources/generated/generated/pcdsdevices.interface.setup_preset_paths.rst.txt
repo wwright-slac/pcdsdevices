@@ -1,6 +1,0 @@
-pcdsdevices.interface.setup\_preset\_paths
-==========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. autofunction:: setup_preset_paths

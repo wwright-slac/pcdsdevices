@@ -1,6 +1,0 @@
-pcdsdevices.jet.InjectorWithFine.describe
-=========================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: InjectorWithFine.describe

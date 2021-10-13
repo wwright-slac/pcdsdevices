@@ -1,6 +1,0 @@
-pcdsdevices.lens.LensStackBase.set\_current\_position
-=====================================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: LensStackBase.set_current_position

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.PPM.stage\_group\_instances
-=====================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: PPM.stage_group_instances

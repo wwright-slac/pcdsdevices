@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPMMotion.status
-================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPMMotion.status

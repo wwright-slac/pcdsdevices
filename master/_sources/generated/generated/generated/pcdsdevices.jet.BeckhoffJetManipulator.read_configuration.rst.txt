@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJetManipulator.read\_configuration
-==========================================================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJetManipulator.read_configuration

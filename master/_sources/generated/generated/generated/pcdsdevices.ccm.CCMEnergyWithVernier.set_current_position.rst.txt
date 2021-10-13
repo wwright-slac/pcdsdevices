@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.set\_current\_position
-===========================================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.set_current_position

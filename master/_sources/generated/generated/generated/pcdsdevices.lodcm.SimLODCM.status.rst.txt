@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimLODCM.status
-=================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimLODCM.status

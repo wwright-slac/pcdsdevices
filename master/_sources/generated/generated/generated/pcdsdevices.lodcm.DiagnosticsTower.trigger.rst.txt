@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.DiagnosticsTower.trigger
-==========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: DiagnosticsTower.trigger

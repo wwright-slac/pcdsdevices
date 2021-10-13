@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GCT.trigger
-=============================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GCT.trigger

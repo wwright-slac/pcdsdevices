@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakeEpicsSignalEditMD.sim\_set\_func
-=======================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakeEpicsSignalEditMD.sim_set_func

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.YagLom.check\_inserted
-========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: YagLom.check_inserted

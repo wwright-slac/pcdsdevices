@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimDiagnosticsTower.trigger
-=============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimDiagnosticsTower.trigger

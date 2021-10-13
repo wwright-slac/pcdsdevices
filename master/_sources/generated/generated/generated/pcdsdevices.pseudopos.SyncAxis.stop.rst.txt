@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.stop
-===================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.stop

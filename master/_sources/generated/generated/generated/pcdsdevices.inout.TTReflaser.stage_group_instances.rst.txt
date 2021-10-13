@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.stage\_group\_instances
-====================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.stage_group_instances

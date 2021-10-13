@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI2.move
-===========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI2.move

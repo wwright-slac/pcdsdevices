@@ -1,6 +1,0 @@
-pcdsdevices.pim.PPM.stage\_group\_instances
-===========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PPM.stage_group_instances

@@ -1,6 +1,0 @@
-pcdsdevices.device.GroupDevice.stage\_group\_instances
-======================================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: GroupDevice.stage_group_instances

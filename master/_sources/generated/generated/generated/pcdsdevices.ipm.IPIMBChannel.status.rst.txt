@@ -1,6 +1,0 @@
-pcdsdevices.ipm.IPIMBChannel.status
-===================================
-
-.. currentmodule:: pcdsdevices.ipm
-
-.. automethod:: IPIMBChannel.status

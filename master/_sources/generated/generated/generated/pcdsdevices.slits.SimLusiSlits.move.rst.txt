@@ -1,6 +1,0 @@
-pcdsdevices.slits.SimLusiSlits.move
-===================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SimLusiSlits.move

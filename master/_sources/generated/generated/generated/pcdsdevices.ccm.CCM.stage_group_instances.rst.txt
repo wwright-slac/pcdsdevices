@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCM.stage\_group\_instances
-===========================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCM.stage_group_instances

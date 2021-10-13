@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.to\_real\_tuple
-======================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.to_real_tuple

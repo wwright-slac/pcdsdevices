@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakeNotepadLinkedSignal.read
-===============================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakeNotepadLinkedSignal.read

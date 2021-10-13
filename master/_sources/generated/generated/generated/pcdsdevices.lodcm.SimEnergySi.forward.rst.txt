@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergySi.forward
-=====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergySi.forward

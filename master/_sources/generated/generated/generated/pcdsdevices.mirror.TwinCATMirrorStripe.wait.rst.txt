@@ -1,6 +1,0 @@
-pcdsdevices.mirror.TwinCATMirrorStripe.wait
-===========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: TwinCATMirrorStripe.wait

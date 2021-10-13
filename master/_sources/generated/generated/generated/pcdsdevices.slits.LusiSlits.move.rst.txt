@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.move
-================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.move

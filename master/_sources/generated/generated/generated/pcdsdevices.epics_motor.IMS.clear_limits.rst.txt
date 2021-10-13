@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.IMS.clear\_limits
-==========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: IMS.clear_limits

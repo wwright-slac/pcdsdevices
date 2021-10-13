@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActTipTilt.summary
-===============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActTipTilt.summary

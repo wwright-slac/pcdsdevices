@@ -1,6 +1,0 @@
-pcdsdevices.mirror.FFMirror.configure
-=====================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: FFMirror.configure

@@ -4,8 +4,10 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Preset Positions &mdash; PCDS Devices 4.8.0+10.g0427e1b documentation</title>
-      <link rel="stylesheet" href="_static/theme_overrides.css" type="text/css" />
+  <title>Preset Positions &mdash; PCDS Devices 4.8.0+20.g5927018.dirty documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/_static/theme_overrides.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -29,7 +31,7 @@
             <a href="index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.8.0+10.g0427e1b
+                4.8.0+20.g5927018.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -39,7 +41,13 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Features</span></p>
+              <p class="caption" role="heading"><span class="caption-text">Device Types</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="base_classes.html">Base Classes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sim_types.html">Simulated Devices</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Features</span></p>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="mv.html">Shortcuts</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Preset Positions</a><ul>
@@ -52,19 +60,10 @@
 <li class="toctree-l1"><a class="reference internal" href="tab.html">IPython Tab Curation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="ui.html">UI Templates</a></li>
 </ul>
-<p class="caption" role="heading"><span class="caption-text">Device Types</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="epics_types.html">Common EPICS Devices</a></li>
-<li class="toctree-l1"><a class="reference internal" href="base_classes.html">Base Classes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sim_types.html">Simulated Devices</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sample_delivery.html">Sample Delivery</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sample_delivery.html#api">API</a></li>
-</ul>
 <p class="caption" role="heading"><span class="caption-text">Developer Notes</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="releases.html">Release History</a></li>
 <li class="toctree-l1"><a class="reference internal" href="upcoming_changes.html">Upcoming Changes</a></li>
-<li class="toctree-l1"><a class="reference internal" href="api.html">Full API</a></li>
 </ul>
 
         </div>
@@ -94,7 +93,7 @@
   <section id="preset-positions">
 <h1>Preset Positions<a class="headerlink" href="#preset-positions" title="Permalink to this headline"></a></h1>
 <p>All <code class="docutils literal notranslate"><span class="pre">pcdsdevices</span></code> objects that involve moving positioners across a
-continuum of positions can save preset positions. See <a class="reference internal" href="generated/generated/pcdsdevices.interface.Presets.html#pcdsdevices.interface.Presets" title="pcdsdevices.interface.Presets"><code class="xref any py py-class docutils literal notranslate"><span class="pre">Presets</span></code></a> for a
+continuum of positions can save preset positions. See <code class="xref any docutils literal notranslate"><span class="pre">Presets</span></code> for a
 full API description, or stay here for the user guide.</p>
 <section id="creating-a-preset">
 <h2>Creating a Preset<a class="headerlink" href="#creating-a-preset" title="Permalink to this headline"></a></h2>
@@ -161,7 +160,7 @@ These will be added directly to the object, not to the <code class="docutils lit
 <p>You can see all existing presets via checking <code class="docutils literal notranslate"><span class="pre">my_motor.presets.positions</span></code>.
 In <code class="xref any docutils literal notranslate"><span class="pre">IPython</span></code>, this will show you all the current presets. You can also use
 this <code class="docutils literal notranslate"><span class="pre">presets.positions</span></code> object to manage the set positions. Each attribute
-is an instance of <a class="reference internal" href="generated/generated/pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a> that can be managed. See <a class="reference internal" href="generated/generated/pcdsdevices.interface.PresetPosition.html#pcdsdevices.interface.PresetPosition" title="pcdsdevices.interface.PresetPosition"><code class="xref any py py-class docutils literal notranslate"><span class="pre">PresetPosition</span></code></a>
+is an instance of <code class="xref any docutils literal notranslate"><span class="pre">PresetPosition</span></code> that can be managed. See <code class="xref any docutils literal notranslate"><span class="pre">PresetPosition</span></code>
 for the full API.</p>
 </section>
 <section id="configuring-presets">
@@ -169,7 +168,7 @@ for the full API.</p>
 <p>Presets are configured in <code class="docutils literal notranslate"><span class="pre">hutch-python</span></code> to use <code class="docutils literal notranslate"><span class="pre">add_hutch</span></code> and <code class="docutils literal notranslate"><span class="pre">add_exp</span></code>
 as the preset-adding methods, with the <code class="docutils literal notranslate"><span class="pre">add_hutch</span></code> method saving to a hutch
 directory and <code class="docutils literal notranslate"><span class="pre">add_exp</span></code> saving to an experiment directory. This can be
-changed for other applications using the <a class="reference internal" href="generated/generated/pcdsdevices.interface.setup_preset_paths.html#pcdsdevices.interface.setup_preset_paths" title="pcdsdevices.interface.setup_preset_paths"><code class="xref any py py-func docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a> method.
+changed for other applications using the <a class="reference internal" href="generated/pcdsdevices.interface.setup_preset_paths.html#pcdsdevices.interface.setup_preset_paths" title="pcdsdevices.interface.setup_preset_paths"><code class="xref any py py-func docutils literal notranslate"><span class="pre">setup_preset_paths</span></code></a> method.
 This method must be called for the presets to be saved and loaded.</p>
 </section>
 </section>

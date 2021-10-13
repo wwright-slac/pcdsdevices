@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.mv\_ginput
-====================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.mv_ginput

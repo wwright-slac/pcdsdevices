@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI2.trigger
-==============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI2.trigger

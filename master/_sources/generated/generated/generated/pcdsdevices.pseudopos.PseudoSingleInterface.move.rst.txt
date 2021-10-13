@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.move
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.move

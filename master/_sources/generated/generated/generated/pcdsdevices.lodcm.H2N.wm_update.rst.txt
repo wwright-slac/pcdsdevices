@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.H2N.wm\_update
-================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: H2N.wm_update

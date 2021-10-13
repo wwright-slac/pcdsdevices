@@ -1,6 +1,0 @@
-pcdsdevices.signal.InternalSignal.read\_configuration
-=====================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: InternalSignal.read_configuration

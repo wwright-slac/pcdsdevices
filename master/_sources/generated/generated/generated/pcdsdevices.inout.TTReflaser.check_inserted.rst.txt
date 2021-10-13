@@ -1,6 +1,0 @@
-pcdsdevices.inout.TTReflaser.check\_inserted
-============================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: TTReflaser.check_inserted

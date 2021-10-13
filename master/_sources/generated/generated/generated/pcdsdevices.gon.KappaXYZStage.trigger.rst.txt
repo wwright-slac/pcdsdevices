@@ -1,6 +1,0 @@
-pcdsdevices.gon.KappaXYZStage.trigger
-=====================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: KappaXYZStage.trigger

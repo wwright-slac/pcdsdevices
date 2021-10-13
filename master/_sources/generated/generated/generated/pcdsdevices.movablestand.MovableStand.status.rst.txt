@@ -1,6 +1,0 @@
-pcdsdevices.movablestand.MovableStand.status
-============================================
-
-.. currentmodule:: pcdsdevices.movablestand
-
-.. automethod:: MovableStand.status

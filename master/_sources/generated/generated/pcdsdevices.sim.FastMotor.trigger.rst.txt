@@ -1,6 +1,0 @@
-pcdsdevices.sim.FastMotor.trigger
-=================================
-
-.. currentmodule:: pcdsdevices.sim
-
-.. automethod:: FastMotor.trigger

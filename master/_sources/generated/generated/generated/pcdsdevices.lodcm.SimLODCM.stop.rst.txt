@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimLODCM.stop
-===============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimLODCM.stop

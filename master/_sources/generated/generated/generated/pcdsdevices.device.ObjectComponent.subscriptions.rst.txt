@@ -1,6 +1,0 @@
-pcdsdevices.device.ObjectComponent.subscriptions
-================================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: ObjectComponent.subscriptions

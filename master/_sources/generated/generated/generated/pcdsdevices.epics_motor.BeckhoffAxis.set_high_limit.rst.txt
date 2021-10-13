@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxis.set\_high\_limit
-======================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxis.set_high_limit

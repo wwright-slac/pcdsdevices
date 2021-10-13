@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GaugeColdCathode.configure
-============================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GaugeColdCathode.configure

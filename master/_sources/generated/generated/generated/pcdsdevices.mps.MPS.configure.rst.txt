@@ -1,6 +1,0 @@
-pcdsdevices.mps.MPS.configure
-=============================
-
-.. currentmodule:: pcdsdevices.mps
-
-.. automethod:: MPS.configure

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Y2.get
-========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Y2.get

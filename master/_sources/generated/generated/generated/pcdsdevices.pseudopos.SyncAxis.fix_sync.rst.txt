@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.fix\_sync
-========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.fix_sync

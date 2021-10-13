@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Prefocus.end\_monitor\_thread
-=======================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Prefocus.end_monitor_thread

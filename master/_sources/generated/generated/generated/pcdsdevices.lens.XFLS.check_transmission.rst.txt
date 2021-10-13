@@ -1,6 +1,0 @@
-pcdsdevices.lens.XFLS.check\_transmission
-=========================================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: XFLS.check_transmission

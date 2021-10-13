@@ -1,6 +1,0 @@
-pcdsdevices.mirror.PointingMirror.wait
-======================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: PointingMirror.wait

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.get
-====================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.get

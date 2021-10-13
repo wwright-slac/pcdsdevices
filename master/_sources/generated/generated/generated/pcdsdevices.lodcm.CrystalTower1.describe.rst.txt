@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CrystalTower1.describe
-========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CrystalTower1.describe

@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimSampleStage.stage\_group\_instances
-======================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimSampleStage.stage_group_instances

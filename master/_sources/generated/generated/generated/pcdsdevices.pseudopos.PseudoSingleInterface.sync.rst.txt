@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoSingleInterface.sync
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoSingleInterface.sync

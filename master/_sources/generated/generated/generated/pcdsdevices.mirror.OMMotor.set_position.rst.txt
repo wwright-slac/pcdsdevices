@@ -1,6 +1,0 @@
-pcdsdevices.mirror.OMMotor.set\_position
-========================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: OMMotor.set_position

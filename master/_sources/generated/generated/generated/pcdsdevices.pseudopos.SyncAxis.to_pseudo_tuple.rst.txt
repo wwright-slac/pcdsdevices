@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.to\_pseudo\_tuple
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.to_pseudo_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.DiagnosticsTower.stage\_group\_instances
-==========================================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: DiagnosticsTower.stage_group_instances

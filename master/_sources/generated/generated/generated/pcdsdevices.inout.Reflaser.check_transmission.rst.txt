@@ -1,6 +1,0 @@
-pcdsdevices.inout.Reflaser.check\_transmission
-==============================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: Reflaser.check_transmission

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.mvr
-====================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.mvr

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SyncAxis.read\_configuration
-==================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SyncAxis.read_configuration

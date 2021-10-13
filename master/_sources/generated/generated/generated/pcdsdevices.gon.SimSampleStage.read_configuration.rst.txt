@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimSampleStage.read\_configuration
-==================================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimSampleStage.read_configuration

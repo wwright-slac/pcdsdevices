@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMConstantsMixin.stop
-======================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMConstantsMixin.stop

@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMWithBoth.stage\_group\_instances
-===================================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMWithBoth.stage_group_instances

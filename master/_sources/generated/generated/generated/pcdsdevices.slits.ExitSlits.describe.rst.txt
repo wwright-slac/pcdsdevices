@@ -1,6 +1,0 @@
-pcdsdevices.slits.ExitSlits.describe
-====================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: ExitSlits.describe

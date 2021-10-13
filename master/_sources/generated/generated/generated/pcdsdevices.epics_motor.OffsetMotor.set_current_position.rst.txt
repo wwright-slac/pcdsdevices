@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetMotor.set\_current\_position
-===========================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetMotor.set_current_position

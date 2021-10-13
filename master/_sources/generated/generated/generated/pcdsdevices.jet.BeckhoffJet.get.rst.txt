@@ -1,6 +1,0 @@
-pcdsdevices.jet.BeckhoffJet.get
-===============================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: BeckhoffJet.get

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.umv
-===================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.umv

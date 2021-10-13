@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetMotor.mv\_ginput
-===============================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetMotor.mv_ginput

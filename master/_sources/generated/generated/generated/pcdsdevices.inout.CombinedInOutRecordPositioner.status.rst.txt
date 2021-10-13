@@ -1,6 +1,0 @@
-pcdsdevices.inout.CombinedInOutRecordPositioner.status
-======================================================
-
-.. currentmodule:: pcdsdevices.inout
-
-.. automethod:: CombinedInOutRecordPositioner.status

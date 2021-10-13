@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.PseudoPositioner.forward
-==============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: PseudoPositioner.forward

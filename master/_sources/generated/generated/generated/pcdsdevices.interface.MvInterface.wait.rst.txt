@@ -1,6 +1,0 @@
-pcdsdevices.interface.MvInterface.wait
-======================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: MvInterface.wait

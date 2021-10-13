@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.OffsetMotor.umv
-========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: OffsetMotor.umv

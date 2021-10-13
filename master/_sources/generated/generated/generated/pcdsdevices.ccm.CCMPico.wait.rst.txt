@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMPico.wait
-============================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMPico.wait

@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.IMS.find\_configuration
-=================================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: IMS.find_configuration

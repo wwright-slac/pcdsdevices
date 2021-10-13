@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.H2N.stop
-==========================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: H2N.stop

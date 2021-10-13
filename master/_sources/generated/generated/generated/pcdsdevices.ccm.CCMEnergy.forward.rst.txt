@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergy.forward
-=================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergy.forward

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergyC.status
-=====================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergyC.status

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.move\_single
-================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.move_single

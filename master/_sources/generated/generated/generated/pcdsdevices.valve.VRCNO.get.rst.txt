@@ -1,6 +1,0 @@
-pcdsdevices.valve.VRCNO.get
-===========================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VRCNO.get

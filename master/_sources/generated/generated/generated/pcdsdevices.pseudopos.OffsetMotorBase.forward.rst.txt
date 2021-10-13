@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.forward
-=============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.forward

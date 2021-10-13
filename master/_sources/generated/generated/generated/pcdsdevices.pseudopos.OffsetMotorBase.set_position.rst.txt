@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.set\_position
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.set_position

@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.CHI1.check\_transmission
-==========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: CHI1.check_transmission

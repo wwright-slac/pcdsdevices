@@ -1,6 +1,0 @@
-pcdsdevices.gon.XYZStage.read
-=============================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: XYZStage.read

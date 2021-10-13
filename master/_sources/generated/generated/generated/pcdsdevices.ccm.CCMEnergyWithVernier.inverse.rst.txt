@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.inverse
-============================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.inverse

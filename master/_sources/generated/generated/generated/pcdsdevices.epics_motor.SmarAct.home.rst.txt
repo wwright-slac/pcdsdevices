@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarAct.home
-=====================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarAct.home

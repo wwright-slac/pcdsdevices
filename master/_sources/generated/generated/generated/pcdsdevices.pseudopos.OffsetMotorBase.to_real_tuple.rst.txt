@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.to\_real\_tuple
-=====================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.to_real_tuple

@@ -1,6 +1,0 @@
-pcdsdevices.pim.XPIMFilterWheel.wait
-====================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: XPIMFilterWheel.wait

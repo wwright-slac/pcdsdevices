@@ -1,6 +1,0 @@
-pcdsdevices.signal.FakePytmcSignalRO.sim\_set\_enum\_strs
-=========================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: FakePytmcSignalRO.sim_set_enum_strs

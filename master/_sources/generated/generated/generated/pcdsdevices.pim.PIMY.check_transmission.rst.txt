@@ -1,6 +1,0 @@
-pcdsdevices.pim.PIMY.check\_transmission
-========================================
-
-.. currentmodule:: pcdsdevices.pim
-
-.. automethod:: PIMY.check_transmission

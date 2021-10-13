@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.read\_configuration
-============================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.read_configuration

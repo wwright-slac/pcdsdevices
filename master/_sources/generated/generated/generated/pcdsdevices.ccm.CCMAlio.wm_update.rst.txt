@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMAlio.wm\_update
-==================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMAlio.wm_update

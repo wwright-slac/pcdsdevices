@@ -1,6 +1,0 @@
-pcdsdevices.valve.VRCNO.summary
-===============================
-
-.. currentmodule:: pcdsdevices.valve
-
-.. automethod:: VRCNO.summary

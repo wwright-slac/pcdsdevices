@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositioner.stage\_group\_instances
-===============================================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositioner.stage_group_instances

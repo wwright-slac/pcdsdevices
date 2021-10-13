@@ -1,6 +1,0 @@
-pcdsdevices.device\_types.Newport.clear\_limits
-===============================================
-
-.. currentmodule:: pcdsdevices.device_types
-
-.. automethod:: Newport.clear_limits

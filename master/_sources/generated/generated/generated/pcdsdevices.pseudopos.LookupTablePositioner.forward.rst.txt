@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.LookupTablePositioner.forward
-===================================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: LookupTablePositioner.forward

@@ -1,6 +1,0 @@
-pcdsdevices.interface.FltMvInterface.set\_position
-==================================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: FltMvInterface.set_position

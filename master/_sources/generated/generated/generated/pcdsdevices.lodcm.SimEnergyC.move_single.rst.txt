@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.SimEnergyC.move\_single
-=========================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: SimEnergyC.move_single

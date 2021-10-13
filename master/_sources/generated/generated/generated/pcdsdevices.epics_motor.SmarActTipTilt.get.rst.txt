@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.SmarActTipTilt.get
-===========================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: SmarActTipTilt.get

@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.BeckhoffAxisNoOffset.mv
-================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: BeckhoffAxisNoOffset.mv

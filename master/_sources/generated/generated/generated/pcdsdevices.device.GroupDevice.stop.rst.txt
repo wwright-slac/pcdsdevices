@@ -1,6 +1,0 @@
-pcdsdevices.device.GroupDevice.stop
-===================================
-
-.. currentmodule:: pcdsdevices.device
-
-.. automethod:: GroupDevice.stop

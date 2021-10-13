@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.Newport.set\_high\_limit
-=================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: Newport.set_high_limit

@@ -1,6 +1,0 @@
-pcdsdevices.mirror.FFMirror.stage\_group\_instances
-===================================================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: FFMirror.stage_group_instances

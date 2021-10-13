@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaPCT.configure
-===================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaPCT.configure

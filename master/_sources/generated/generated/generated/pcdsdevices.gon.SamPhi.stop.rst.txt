@@ -1,6 +1,0 @@
-pcdsdevices.gon.SamPhi.stop
-===========================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SamPhi.stop

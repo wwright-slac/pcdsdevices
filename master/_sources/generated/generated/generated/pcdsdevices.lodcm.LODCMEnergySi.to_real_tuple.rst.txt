@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.LODCMEnergySi.to\_real\_tuple
-===============================================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: LODCMEnergySi.to_real_tuple

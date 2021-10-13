@@ -1,6 +1,0 @@
-pcdsdevices.slits.SlitsBase.move
-================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: SlitsBase.move

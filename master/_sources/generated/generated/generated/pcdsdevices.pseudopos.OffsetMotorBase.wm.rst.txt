@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.OffsetMotorBase.wm
-========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: OffsetMotorBase.wm

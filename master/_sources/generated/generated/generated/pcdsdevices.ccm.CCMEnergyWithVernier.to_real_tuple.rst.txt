@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMEnergyWithVernier.to\_real\_tuple
-====================================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMEnergyWithVernier.to_real_tuple

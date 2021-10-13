@@ -1,6 +1,0 @@
-pcdsdevices.lodcm.Y2.wm\_update
-===============================
-
-.. currentmodule:: pcdsdevices.lodcm
-
-.. automethod:: Y2.wm_update

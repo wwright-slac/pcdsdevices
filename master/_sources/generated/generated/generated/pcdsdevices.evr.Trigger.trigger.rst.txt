@@ -1,6 +1,0 @@
-pcdsdevices.evr.Trigger.trigger
-===============================
-
-.. currentmodule:: pcdsdevices.evr
-
-.. automethod:: Trigger.trigger

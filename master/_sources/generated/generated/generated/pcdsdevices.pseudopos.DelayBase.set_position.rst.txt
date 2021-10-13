@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayBase.set\_position
-=============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayBase.set_position

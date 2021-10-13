@@ -1,6 +1,0 @@
-pcdsdevices.epics\_motor.PCDSMotorBase.check\_limit\_switches
-=============================================================
-
-.. currentmodule:: pcdsdevices.epics_motor
-
-.. automethod:: PCDSMotorBase.check_limit_switches

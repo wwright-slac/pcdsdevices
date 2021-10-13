@@ -1,6 +1,0 @@
-pcdsdevices.jet.Injector.read
-=============================
-
-.. currentmodule:: pcdsdevices.jet
-
-.. automethod:: Injector.read

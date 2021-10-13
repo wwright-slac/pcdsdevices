@@ -1,6 +1,0 @@
-pcdsdevices.lens.Prefocus.wm
-============================
-
-.. currentmodule:: pcdsdevices.lens
-
-.. automethod:: Prefocus.wm

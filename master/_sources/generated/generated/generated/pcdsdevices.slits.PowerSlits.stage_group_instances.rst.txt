@@ -1,6 +1,0 @@
-pcdsdevices.slits.PowerSlits.stage\_group\_instances
-====================================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: PowerSlits.stage_group_instances

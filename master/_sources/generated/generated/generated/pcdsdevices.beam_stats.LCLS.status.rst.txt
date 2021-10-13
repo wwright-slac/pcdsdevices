@@ -1,6 +1,0 @@
-pcdsdevices.beam\_stats.LCLS.status
-===================================
-
-.. currentmodule:: pcdsdevices.beam_stats
-
-.. automethod:: LCLS.status

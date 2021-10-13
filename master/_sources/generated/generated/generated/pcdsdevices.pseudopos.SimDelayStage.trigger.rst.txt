@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.trigger
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.trigger

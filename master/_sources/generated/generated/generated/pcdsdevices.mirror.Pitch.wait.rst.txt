@@ -1,6 +1,0 @@
-pcdsdevices.mirror.Pitch.wait
-=============================
-
-.. currentmodule:: pcdsdevices.mirror
-
-.. automethod:: Pitch.wait

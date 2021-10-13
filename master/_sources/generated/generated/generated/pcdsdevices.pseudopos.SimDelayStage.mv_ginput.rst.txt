@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.SimDelayStage.mv\_ginput
-==============================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: SimDelayStage.mv_ginput

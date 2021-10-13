@@ -1,6 +1,0 @@
-pcdsdevices.ccm.CCMConstantsMixin.warn\_invalid\_constants
-==========================================================
-
-.. currentmodule:: pcdsdevices.ccm
-
-.. automethod:: CCMConstantsMixin.warn_invalid_constants

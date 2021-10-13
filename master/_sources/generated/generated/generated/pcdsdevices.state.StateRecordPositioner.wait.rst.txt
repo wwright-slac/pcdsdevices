@@ -1,6 +1,0 @@
-pcdsdevices.state.StateRecordPositioner.wait
-============================================
-
-.. currentmodule:: pcdsdevices.state
-
-.. automethod:: StateRecordPositioner.wait

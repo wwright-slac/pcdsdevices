@@ -1,6 +1,0 @@
-pcdsdevices.interface.FltMvInterface.status
-===========================================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. automethod:: FltMvInterface.status

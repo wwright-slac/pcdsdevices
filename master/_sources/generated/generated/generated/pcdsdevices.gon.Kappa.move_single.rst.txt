@@ -1,6 +1,0 @@
-pcdsdevices.gon.Kappa.move\_single
-==================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: Kappa.move_single

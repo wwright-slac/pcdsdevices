@@ -1,6 +1,0 @@
-pcdsdevices.interface.get\_kind
-===============================
-
-.. currentmodule:: pcdsdevices.interface
-
-.. autofunction:: get_kind

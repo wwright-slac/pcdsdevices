@@ -1,6 +1,0 @@
-pcdsdevices.gon.SimKappa.check\_single
-======================================
-
-.. currentmodule:: pcdsdevices.gon
-
-.. automethod:: SimKappa.check_single

@@ -1,6 +1,0 @@
-pcdsdevices.gauge.GHCPLC.read\_configuration
-============================================
-
-.. currentmodule:: pcdsdevices.gauge
-
-.. automethod:: GHCPLC.read_configuration

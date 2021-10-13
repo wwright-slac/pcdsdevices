@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.DelayMotor.forward
-========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. automethod:: DelayMotor.forward

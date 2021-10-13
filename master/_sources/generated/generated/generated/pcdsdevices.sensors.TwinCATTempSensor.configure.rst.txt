@@ -1,6 +1,0 @@
-pcdsdevices.sensors.TwinCATTempSensor.configure
-===============================================
-
-.. currentmodule:: pcdsdevices.sensors
-
-.. automethod:: TwinCATTempSensor.configure

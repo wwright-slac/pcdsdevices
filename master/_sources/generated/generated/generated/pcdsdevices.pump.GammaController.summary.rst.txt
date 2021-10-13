@@ -1,6 +1,0 @@
-pcdsdevices.pump.GammaController.summary
-========================================
-
-.. currentmodule:: pcdsdevices.pump
-
-.. automethod:: GammaController.summary

@@ -1,6 +1,0 @@
-pcdsdevices.pseudopos.delay\_class\_factory
-===========================================
-
-.. currentmodule:: pcdsdevices.pseudopos
-
-.. autofunction:: delay_class_factory

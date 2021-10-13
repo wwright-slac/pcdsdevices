@@ -1,6 +1,0 @@
-pcdsdevices.signal.UnitConversionDerivedSignal.set
-==================================================
-
-.. currentmodule:: pcdsdevices.signal
-
-.. automethod:: UnitConversionDerivedSignal.set

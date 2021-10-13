@@ -1,6 +1,0 @@
-pcdsdevices.slits.LusiSlits.wait
-================================
-
-.. currentmodule:: pcdsdevices.slits
-
-.. automethod:: LusiSlits.wait
