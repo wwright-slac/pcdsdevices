@@ -423,6 +423,7 @@ master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/344-stop_methods.rst.txt
 master/_sources/upcoming_release_notes/820-fix-docs-api.rst.txt
+master/_sources/upcoming_release_notes/864-test_cleanup.rst.txt
 master/_sources/upcoming_release_notes/882-lampflowcell.rst.txt
 master/_sources/upcoming_release_notes/886-doc_ccm_typo.rst.txt
 master/_sources/upcoming_release_notes/887-lampflowcell.rst.txt
@@ -893,6 +894,7 @@ master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/344-stop_methods.html
 master/upcoming_release_notes/820-fix-docs-api.html
+master/upcoming_release_notes/864-test_cleanup.html
 master/upcoming_release_notes/882-lampflowcell.html
 master/upcoming_release_notes/886-doc_ccm_typo.html
 master/upcoming_release_notes/887-lampflowcell.html
