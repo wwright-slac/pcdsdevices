@@ -124,6 +124,17 @@ pcdsdevices.ccm
     pcdsdevices.ccm.wavelength_to_energy
     pcdsdevices.ccm.wavelength_to_theta
 
+pcdsdevices.crix_motion
+-----------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.crix_motion.QuadraticBeckhoffMotor
+    pcdsdevices.crix_motion.QuadraticSimMotor
+    pcdsdevices.crix_motion.VLSOptics
+    pcdsdevices.crix_motion.VLSOpticsSim
+
 pcdsdevices.cvmi_motion
 -----------------------
 

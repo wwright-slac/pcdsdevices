@@ -67,6 +67,10 @@ master/_sources/generated/pcdsdevices.ccm.theta_to_alio.rst.txt
 master/_sources/generated/pcdsdevices.ccm.theta_to_wavelength.rst.txt
 master/_sources/generated/pcdsdevices.ccm.wavelength_to_energy.rst.txt
 master/_sources/generated/pcdsdevices.ccm.wavelength_to_theta.rst.txt
+master/_sources/generated/pcdsdevices.crix_motion.QuadraticBeckhoffMotor.rst.txt
+master/_sources/generated/pcdsdevices.crix_motion.QuadraticSimMotor.rst.txt
+master/_sources/generated/pcdsdevices.crix_motion.VLSOptics.rst.txt
+master/_sources/generated/pcdsdevices.crix_motion.VLSOpticsSim.rst.txt
 master/_sources/generated/pcdsdevices.cvmi_motion.CVMI.rst.txt
 master/_sources/generated/pcdsdevices.cvmi_motion.KTOF.rst.txt
 master/_sources/generated/pcdsdevices.dc_devices.ICT.rst.txt
@@ -421,6 +425,7 @@ master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -528,6 +533,10 @@ master/generated/pcdsdevices.ccm.theta_to_alio.html
 master/generated/pcdsdevices.ccm.theta_to_wavelength.html
 master/generated/pcdsdevices.ccm.wavelength_to_energy.html
 master/generated/pcdsdevices.ccm.wavelength_to_theta.html
+master/generated/pcdsdevices.crix_motion.QuadraticBeckhoffMotor.html
+master/generated/pcdsdevices.crix_motion.QuadraticSimMotor.html
+master/generated/pcdsdevices.crix_motion.VLSOptics.html
+master/generated/pcdsdevices.crix_motion.VLSOpticsSim.html
 master/generated/pcdsdevices.cvmi_motion.CVMI.html
 master/generated/pcdsdevices.cvmi_motion.KTOF.html
 master/generated/pcdsdevices.dc_devices.ICT.html
@@ -886,5 +895,6 @@ master/sim_types.html
 master/tab.html
 master/ui.html
 master/upcoming_changes.html
+master/upcoming_release_notes/889-vls-optics.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

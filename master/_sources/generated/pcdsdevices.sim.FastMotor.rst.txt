@@ -25,7 +25,16 @@
           - normal
           - 
     
+        * - user_setpoint
+          - :class:`~ophyd.signal.AttributeSignal`
+          - ``position``
+          - 
+          - normal
+          - 
+    
 
+    
+    
     
     
     

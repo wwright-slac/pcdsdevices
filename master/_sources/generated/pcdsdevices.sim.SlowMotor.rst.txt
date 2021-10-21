@@ -25,7 +25,16 @@
           - normal
           - Inherited from :class:`~pcdsdevices.sim.FastMotor`
     
+        * - user_setpoint
+          - :class:`~ophyd.signal.AttributeSignal`
+          - ``position``
+          - 
+          - normal
+          - Inherited from :class:`~pcdsdevices.sim.FastMotor`
+    
 
+    
+    
     
     
     
