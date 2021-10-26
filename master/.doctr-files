@@ -308,6 +308,7 @@ master/_sources/generated/pcdsdevices.rtds_ebd.PneumaticActuator.rst.txt
 master/_sources/generated/pcdsdevices.rtds_ebd.RTDSBase.rst.txt
 master/_sources/generated/pcdsdevices.rtds_ebd.RTDSK0.rst.txt
 master/_sources/generated/pcdsdevices.rtds_ebd.RTDSL0.rst.txt
+master/_sources/generated/pcdsdevices.sample_delivery.Bronkhorst.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.CoolerShaker.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.FlowIntegrator.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.GasManifold.rst.txt
@@ -318,6 +319,7 @@ master/_sources/generated/pcdsdevices.sample_delivery.ManifoldValve.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.PCM.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.PropAir.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.Selector.rst.txt
+master/_sources/generated/pcdsdevices.sample_delivery.Sensirion.rst.txt
 master/_sources/generated/pcdsdevices.sample_delivery.ViciValve.rst.txt
 master/_sources/generated/pcdsdevices.sensors.RTD.rst.txt
 master/_sources/generated/pcdsdevices.sensors.TwinCATTempSensor.rst.txt
@@ -427,6 +429,7 @@ master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/867-signal_edit_enum.rst.txt
+master/_sources/upcoming_release_notes/883-sds-reorg.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
 master/_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
@@ -777,6 +780,7 @@ master/generated/pcdsdevices.rtds_ebd.PneumaticActuator.html
 master/generated/pcdsdevices.rtds_ebd.RTDSBase.html
 master/generated/pcdsdevices.rtds_ebd.RTDSK0.html
 master/generated/pcdsdevices.rtds_ebd.RTDSL0.html
+master/generated/pcdsdevices.sample_delivery.Bronkhorst.html
 master/generated/pcdsdevices.sample_delivery.CoolerShaker.html
 master/generated/pcdsdevices.sample_delivery.FlowIntegrator.html
 master/generated/pcdsdevices.sample_delivery.GasManifold.html
@@ -787,6 +791,7 @@ master/generated/pcdsdevices.sample_delivery.ManifoldValve.html
 master/generated/pcdsdevices.sample_delivery.PCM.html
 master/generated/pcdsdevices.sample_delivery.PropAir.html
 master/generated/pcdsdevices.sample_delivery.Selector.html
+master/generated/pcdsdevices.sample_delivery.Sensirion.html
 master/generated/pcdsdevices.sample_delivery.ViciValve.html
 master/generated/pcdsdevices.sensors.RTD.html
 master/generated/pcdsdevices.sensors.TwinCATTempSensor.html
@@ -900,6 +905,7 @@ master/tab.html
 master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/867-signal_edit_enum.html
+master/upcoming_release_notes/883-sds-reorg.html
 master/upcoming_release_notes/889-vls-optics.html
 master/upcoming_release_notes/897-Add_VRCClsLS.html
 master/upcoming_release_notes/template-full.html

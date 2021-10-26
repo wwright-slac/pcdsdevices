@@ -644,6 +644,7 @@ pcdsdevices.sample_delivery
 .. autosummary::
     :toctree: generated
 
+    pcdsdevices.sample_delivery.Bronkhorst
     pcdsdevices.sample_delivery.CoolerShaker
     pcdsdevices.sample_delivery.FlowIntegrator
     pcdsdevices.sample_delivery.GasManifold
@@ -654,6 +655,7 @@ pcdsdevices.sample_delivery
     pcdsdevices.sample_delivery.PCM
     pcdsdevices.sample_delivery.PropAir
     pcdsdevices.sample_delivery.Selector
+    pcdsdevices.sample_delivery.Sensirion
     pcdsdevices.sample_delivery.ViciValve
 
 pcdsdevices.sensors

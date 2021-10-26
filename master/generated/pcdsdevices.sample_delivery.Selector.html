@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.sample_delivery.Selector &mdash; PCDS Devices 4.9.0+21.g100fcbc.dirty documentation</title>
+  <title>pcdsdevices.sample_delivery.Selector &mdash; PCDS Devices 4.9.0+24.gba67769.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -19,7 +19,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.sample_delivery.ViciValve" href="pcdsdevices.sample_delivery.ViciValve.html" />
+    <link rel="next" title="pcdsdevices.sample_delivery.Sensirion" href="pcdsdevices.sample_delivery.Sensirion.html" />
     <link rel="prev" title="pcdsdevices.sample_delivery.PropAir" href="pcdsdevices.sample_delivery.PropAir.html" /> 
 </head>
 
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.9.0+21.g100fcbc.dirty
+                4.9.0+24.gba67769.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -92,6 +92,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../api.html#pcdsdevices-ref">pcdsdevices.ref</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../api.html#pcdsdevices-rtds-ebd">pcdsdevices.rtds_ebd</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../api.html#pcdsdevices-sample-delivery">pcdsdevices.sample_delivery</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.Bronkhorst.html">pcdsdevices.sample_delivery.Bronkhorst</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.CoolerShaker.html">pcdsdevices.sample_delivery.CoolerShaker</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.FlowIntegrator.html">pcdsdevices.sample_delivery.FlowIntegrator</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.GasManifold.html">pcdsdevices.sample_delivery.GasManifold</a></li>
@@ -102,6 +103,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.PCM.html">pcdsdevices.sample_delivery.PCM</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.PropAir.html">pcdsdevices.sample_delivery.PropAir</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.sample_delivery.Selector</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.Sensirion.html">pcdsdevices.sample_delivery.Sensirion</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.sample_delivery.ViciValve.html">pcdsdevices.sample_delivery.ViciValve</a></li>
 </ul>
 </li>
@@ -199,86 +201,16 @@ flowmeters, a Bronkhorst mass flow meter, and two 12-position Vici valves.</p>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.sample_delivery.M3BasePLCDevice.html#pcdsdevices.sample_delivery.M3BasePLCDevice" title="pcdsdevices.sample_delivery.M3BasePLCDevice"><code class="xref py py-class docutils literal notranslate"><span class="pre">M3BasePLCDevice</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>sampleFM_flow</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM:Flow</span></code></p></td>
+<tr class="row-odd"><td><p>sampleFM</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.sample_delivery.Sensirion.html#pcdsdevices.sample_delivery.Sensirion" title="pcdsdevices.sample_delivery.Sensirion"><code class="xref py py-class docutils literal notranslate"><span class="pre">Sensirion</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM</span></code></p></td>
 <td></td>
 <td><p>normal</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>sampleFM_state</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM:State</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>sampleFM_reset</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM:Reset</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>sampleFM_mode</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM:Mode</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>sampleFM_mode_rb</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SampleFM:ModeRb</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>sheathFM_flow</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM:Flow</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>sheathFM_state</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM:State</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>sheathFM_reset</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM:Reset</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>sheathFM_mode</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM:Mode</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>sheathFM_mode_rb</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM:ModeRb</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>massFM_unit</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:MassFM:Unit</span></code></p></td>
-<td></td>
-<td><p>normal</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>massFM_flow</p></td>
-<td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:MassFM:Flow</span></code></p></td>
+<tr class="row-even"><td><p>sheathFM</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.sample_delivery.Sensirion.html#pcdsdevices.sample_delivery.Sensirion" title="pcdsdevices.sample_delivery.Sensirion"><code class="xref py py-class docutils literal notranslate"><span class="pre">Sensirion</span></code></a></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">:SheathFM</span></code></p></td>
 <td></td>
 <td><p>normal</p></td>
 <td></td>
@@ -527,7 +459,7 @@ as complete when the device is ready to be read.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="pcdsdevices.sample_delivery.PropAir.html" class="btn btn-neutral float-left" title="pcdsdevices.sample_delivery.PropAir" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pcdsdevices.sample_delivery.ViciValve.html" class="btn btn-neutral float-right" title="pcdsdevices.sample_delivery.ViciValve" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pcdsdevices.sample_delivery.Sensirion.html" class="btn btn-neutral float-right" title="pcdsdevices.sample_delivery.Sensirion" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

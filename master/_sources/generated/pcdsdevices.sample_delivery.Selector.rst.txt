@@ -25,86 +25,16 @@
           - normal
           - Inherited from :class:`~pcdsdevices.sample_delivery.M3BasePLCDevice`
     
-        * - sampleFM_flow
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SampleFM:Flow``
+        * - sampleFM
+          - :class:`~pcdsdevices.sample_delivery.Sensirion`
+          - ``:SampleFM``
           - 
           - normal
           - 
     
-        * - sampleFM_state
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SampleFM:State``
-          - 
-          - normal
-          - 
-    
-        * - sampleFM_reset
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SampleFM:Reset``
-          - 
-          - normal
-          - 
-    
-        * - sampleFM_mode
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SampleFM:Mode``
-          - 
-          - normal
-          - 
-    
-        * - sampleFM_mode_rb
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SampleFM:ModeRb``
-          - 
-          - normal
-          - 
-    
-        * - sheathFM_flow
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SheathFM:Flow``
-          - 
-          - normal
-          - 
-    
-        * - sheathFM_state
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SheathFM:State``
-          - 
-          - normal
-          - 
-    
-        * - sheathFM_reset
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SheathFM:Reset``
-          - 
-          - normal
-          - 
-    
-        * - sheathFM_mode
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SheathFM:Mode``
-          - 
-          - normal
-          - 
-    
-        * - sheathFM_mode_rb
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:SheathFM:ModeRb``
-          - 
-          - normal
-          - 
-    
-        * - massFM_unit
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:MassFM:Unit``
-          - 
-          - normal
-          - 
-    
-        * - massFM_flow
-          - :class:`~pcdsdevices.signal.PytmcSignal`
-          - ``:MassFM:Flow``
+        * - sheathFM
+          - :class:`~pcdsdevices.sample_delivery.Sensirion`
+          - ``:SheathFM``
           - 
           - normal
           - 
@@ -194,26 +124,6 @@
           - 
     
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
     
