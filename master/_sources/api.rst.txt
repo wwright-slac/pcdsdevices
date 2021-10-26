@@ -842,6 +842,7 @@ pcdsdevices.valve
     pcdsdevices.valve.VGCLegacy
     pcdsdevices.valve.VGC_2S
     pcdsdevices.valve.VRC
+    pcdsdevices.valve.VRCClsLS
     pcdsdevices.valve.VRCNO
     pcdsdevices.valve.VVC
     pcdsdevices.valve.VVCNO

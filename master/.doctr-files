@@ -408,6 +408,7 @@ master/_sources/generated/pcdsdevices.valve.VGC.rst.txt
 master/_sources/generated/pcdsdevices.valve.VGCLegacy.rst.txt
 master/_sources/generated/pcdsdevices.valve.VGC_2S.rst.txt
 master/_sources/generated/pcdsdevices.valve.VRC.rst.txt
+master/_sources/generated/pcdsdevices.valve.VRCClsLS.rst.txt
 master/_sources/generated/pcdsdevices.valve.VRCNO.rst.txt
 master/_sources/generated/pcdsdevices.valve.VVC.rst.txt
 master/_sources/generated/pcdsdevices.valve.VVCNO.rst.txt
@@ -426,6 +427,7 @@ master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
+master/_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -874,6 +876,7 @@ master/generated/pcdsdevices.valve.VGC.html
 master/generated/pcdsdevices.valve.VGCLegacy.html
 master/generated/pcdsdevices.valve.VGC_2S.html
 master/generated/pcdsdevices.valve.VRC.html
+master/generated/pcdsdevices.valve.VRCClsLS.html
 master/generated/pcdsdevices.valve.VRCNO.html
 master/generated/pcdsdevices.valve.VVC.html
 master/generated/pcdsdevices.valve.VVCNO.html
@@ -896,5 +899,6 @@ master/tab.html
 master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/889-vls-optics.html
+master/upcoming_release_notes/897-Add_VRCClsLS.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
