@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.signal.EpicsSignalBaseEditMD &mdash; PCDS Devices 4.9.0+16.ga80c612.dirty documentation</title>
+  <title>pcdsdevices.signal.EpicsSignalBaseEditMD &mdash; PCDS Devices 4.9.0+21.g100fcbc.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.9.0+16.ga80c612.dirty
+                4.9.0+21.g100fcbc.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -180,12 +180,30 @@
 <h1>pcdsdevices.signal.EpicsSignalBaseEditMD<a class="headerlink" href="#pcdsdevices-signal-epicssignalbaseeditmd" title="Permalink to this headline"></a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD">
-<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.signal.</span></span><span class="sig-name descname"><span class="pre">EpicsSignalBaseEditMD</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="pre">read_pv</span></em>, <em class="sig-param"><span class="pre">*</span></em>, <em class="sig-param"><span class="pre">string=False</span></em>, <em class="sig-param"><span class="pre">auto_monitor=&lt;object</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">name=None</span></em>, <em class="sig-param"><span class="pre">metadata=None</span></em>, <em class="sig-param"><span class="pre">all_pvs=None</span></em>, <em class="sig-param"><span class="pre">timeout=&lt;object</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">write_timeout=&lt;object</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">connection_timeout=&lt;object</span> <span class="pre">object&gt;</span></em>, <em class="sig-param"><span class="pre">**kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD" title="Permalink to this definition"></a></dt>
-<dd><p class="rubric">Methods</p>
+<em class="property"><span class="pre">class</span> </em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.signal.</span></span><span class="sig-name descname"><span class="pre">EpicsSignalBaseEditMD</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">enum_attrs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><span class="pre">typing.Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">enum_strs</span></span><span class="p"><span class="pre">:</span></span> <span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.10)"><span class="pre">list</span></a><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span> <span class="o"><span class="pre">=</span></span> <span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD" title="Permalink to this definition"></a></dt>
+<dd><p>EpicsSignal variant which allows for user correction of various metadata.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>enum_strings</strong> (<em>list of str</em><em>, </em><em>optional</em>) – List of enum strings to replace the EPICS originals.  May not be
+used in conjunction with the dynamic <code class="docutils literal notranslate"><span class="pre">enum_attrs</span></code>.</p></li>
+<li><p><strong>enum_attrs</strong> (<em>list of str</em><em>, </em><em>optional</em>) – List of signal attribute names, relative to the parent device.  That is
+to say a given attribute is assumed to be a sibling of this signal
+instance.  Attribute names may be <code class="docutils literal notranslate"><span class="pre">None</span></code> in the case where the
+original enum string should be passed through.</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.10)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">None</span></code></a></p>
+</div>
+<p class="rubric">Methods</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.describe">
 <span class="sig-name descname"><span class="pre">describe</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.describe" title="Permalink to this definition"></a></dt>
-<dd><p>Return the description as a dictionary</p>
+<dd><p>Return the signal description as a dictionary.</p>
+<p>Units, limits, precision, and enum strings may be overridden.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><p><em>dict</em> – Dictionary of name and formatted description string</p>
@@ -326,7 +344,7 @@ None, waits forever.</p></li>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.connected">
 <span class="sig-name descname"><span class="pre">connected</span></span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.connected" title="Permalink to this definition"></a></dt>
-<dd><p>Is the signal connected to its associated hardware, and ready to use?</p>
+<dd><p>Is the signal connected and ready to use?</p>
 </dd></dl>
 
 <dl class="py attribute">
@@ -335,9 +353,25 @@ None, waits forever.</p></li>
 <dd></dd></dl>
 
 <dl class="py attribute">
+<dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.enum_attrs">
+<span class="sig-name descname"><span class="pre">enum_attrs</span></span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.enum_attrs" title="Permalink to this definition"></a></dt>
+<dd><p>Enum attribute names - the source of each enum string.</p>
+</dd></dl>
+
+<dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.enum_strs">
 <span class="sig-name descname"><span class="pre">enum_strs</span></span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.enum_strs" title="Permalink to this definition"></a></dt>
-<dd><p>List of strings if PV is an enum type</p>
+<dd><p>List of enum strings.</p>
+<p>For an EpicsSignalEditMD, this could be one of:</p>
+<ol class="arabic simple">
+<li><p>The original enum strings from the PV</p></li>
+<li><dl class="simple">
+<dt>The strings found from the respective signals referenced by</dt><dd><p><code class="docutils literal notranslate"><span class="pre">enum_attrs</span></code>.</p>
+</dd>
+</dl>
+</li>
+<li><p>The user-provided strings in <code class="docutils literal notranslate"><span class="pre">enum_strs</span></code>.</p></li>
+</ol>
 </dd></dl>
 
 <dl class="py attribute">
@@ -360,7 +394,8 @@ None, waits forever.</p></li>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.limits">
 <span class="sig-name descname"><span class="pre">limits</span></span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.limits" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>The PV limits as reported by EPICS (or EpicsSignalEditMD).</p>
+</dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.low_limit">
@@ -382,7 +417,8 @@ None, waits forever.</p></li>
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.precision">
 <span class="sig-name descname"><span class="pre">precision</span></span><a class="headerlink" href="#pcdsdevices.signal.EpicsSignalBaseEditMD.precision" title="Permalink to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>The PV precision as reported by EPICS (or EpicsSignalEditMD).</p>
+</dd></dl>
 
 <dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.signal.EpicsSignalBaseEditMD.pvname">

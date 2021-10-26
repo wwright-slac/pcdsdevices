@@ -19,7 +19,7 @@
           - Notes
     
         * - state
-          - :class:`~ophyd.signal.EpicsSignal`
+          - :class:`~pcdsdevices.signal.EpicsSignalEditMD`
           - ``:GET_RBV``
           - Setpoint and readback for TwinCAT state position.
           - hinted

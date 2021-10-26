@@ -35,6 +35,7 @@
     
     .. autoattribute:: SUB_META
     .. autoattribute:: connected
+    .. autoattribute:: enum_attrs
     .. autoattribute:: enum_strs
     .. autoattribute:: high_limit
     .. autoattribute:: hints

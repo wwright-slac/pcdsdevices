@@ -426,6 +426,7 @@ master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/867-signal_edit_enum.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
 master/_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
@@ -898,6 +899,7 @@ master/sim_types.html
 master/tab.html
 master/ui.html
 master/upcoming_changes.html
+master/upcoming_release_notes/867-signal_edit_enum.html
 master/upcoming_release_notes/889-vls-optics.html
 master/upcoming_release_notes/897-Add_VRCClsLS.html
 master/upcoming_release_notes/template-full.html

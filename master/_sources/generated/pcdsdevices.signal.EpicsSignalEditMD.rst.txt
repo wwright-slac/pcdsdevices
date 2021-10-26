@@ -39,6 +39,7 @@
     .. autoattribute:: as_string
     .. autoattribute:: connected
     .. autoattribute:: connection_timeout
+    .. autoattribute:: enum_attrs
     .. autoattribute:: enum_strs
     .. autoattribute:: high_limit
     .. autoattribute:: hints

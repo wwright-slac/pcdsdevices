@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IssueNumber Title &mdash; PCDS Devices 4.9.0+21.g100fcbc.dirty documentation</title>
+  <title>867 signal_edit_enum &mdash; PCDS Devices 4.9.0+21.g100fcbc.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -18,7 +18,9 @@
         <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="889 vls-optics" href="889-vls-optics.html" />
+    <link rel="prev" title="Upcoming Changes" href="../upcoming_changes.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -53,9 +55,23 @@
 <li class="toctree-l1"><a class="reference internal" href="../ui.html">UI Templates</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Developer Notes</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../releases.html">Release History</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../upcoming_changes.html">Upcoming Changes</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../upcoming_changes.html">Upcoming Changes</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">867 signal_edit_enum</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#api-changes">API Changes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#features">Features</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#device-updates">Device Updates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#new-devices">New Devices</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bugfixes">Bugfixes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#maintenance">Maintenance</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#contributors">Contributors</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="889-vls-optics.html">889 vls-optics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="897-Add_VRCClsLS.html">897 Add VRCClsLS</a></li>
+</ul>
+</li>
 </ul>
 
         </div>
@@ -72,9 +88,10 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>IssueNumber Title</li>
+          <li><a href="../upcoming_changes.html">Upcoming Changes</a> &raquo;</li>
+      <li>867 signal_edit_enum</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/upcoming_release_notes/template-short.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/upcoming_release_notes/867-signal_edit_enum.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -82,8 +99,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="issuenumber-title">
-<h1>IssueNumber Title<a class="headerlink" href="#issuenumber-title" title="Permalink to this headline"></a></h1>
+  <section id="signal-edit-enum">
+<h1>867 signal_edit_enum<a class="headerlink" href="#signal-edit-enum" title="Permalink to this headline"></a></h1>
 <section id="api-changes">
 <h2>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
@@ -93,7 +110,10 @@
 <section id="features">
 <h2>Features<a class="headerlink" href="#features" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>N/A</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">EpicsSignalEditMD</span></code> and <code class="docutils literal notranslate"><span class="pre">EpicsSignalROEditMD</span></code> now allow for overriding of
+enumeration strings (<code class="docutils literal notranslate"><span class="pre">enum_strs</span></code>) by way of a static list of strings
+(<code class="docutils literal notranslate"><span class="pre">enum_strs</span></code> kwarg) or a list of signal attribute names (<code class="docutils literal notranslate"><span class="pre">enum_attrs</span></code>
+kwarg).</p></li>
 </ul>
 </section>
 <section id="device-updates">
@@ -123,7 +143,7 @@
 <section id="contributors">
 <h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>N/A</p></li>
+<li><p>klauer</p></li>
 </ul>
 </section>
 </section>
@@ -131,7 +151,10 @@
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="../upcoming_changes.html" class="btn btn-neutral float-left" title="Upcoming Changes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="889-vls-optics.html" class="btn btn-neutral float-right" title="889 vls-optics" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
