@@ -40,28 +40,28 @@
           - Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
     
         * - blade_01
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:01``
           - 
           - normal
           - Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
     
         * - blade_02
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:02``
           - 
           - normal
           - Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
     
         * - blade_03
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:03``
           - 
           - normal
           - Inherited from :class:`~pcdsdevices.attenuator.AttenuatorSXR_Ladder`
     
         * - blade_04
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:04``
           - 
           - normal

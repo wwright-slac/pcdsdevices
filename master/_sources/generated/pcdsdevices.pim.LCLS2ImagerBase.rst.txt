@@ -19,7 +19,7 @@
           - Notes
     
         * - target
-          - :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          - :class:`~pcdsdevices.pim.LCLS2Target`
           - ``:MMS:STATE``
           - Control of the diagnostic stack via saved positions.
           - hinted

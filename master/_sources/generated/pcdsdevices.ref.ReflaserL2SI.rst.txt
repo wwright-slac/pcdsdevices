@@ -26,7 +26,7 @@
           - 
     
         * - mirror
-          - :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          - :class:`~pcdsdevices.ref.ReflaserL2SIMirror`
           - ``:MMS:STATE``
           - In/Out control of Reflaser Mirror
           - hinted

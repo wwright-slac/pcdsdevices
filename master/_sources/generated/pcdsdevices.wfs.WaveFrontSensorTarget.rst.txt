@@ -19,7 +19,7 @@
           - Notes
     
         * - target
-          - :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          - :class:`~pcdsdevices.wfs.WaveFrontSensorStates`
           - ``:MMS:STATE``
           - Control of the diagnostic stack via saved positions.
           - hinted

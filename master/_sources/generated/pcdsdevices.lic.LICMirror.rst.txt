@@ -67,8 +67,8 @@
           - normal
           - Inherited from :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
     
-        * - config
-          - :class:`~pcdsdevices.state.TwinCATStateConfigAll`
+        * - config (UpdateComponent)
+          - :class:`~pcdsdevices.state.TwinCATStateConfigDynamic`
           - 
           - Configuration of state positions, deltas, etc.
           - omitted

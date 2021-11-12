@@ -19,7 +19,7 @@
           - Notes
     
         * - state
-          - :class:`~pcdsdevices.inout.TwinCATInOutPositioner`
+          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorStates`
           - ``:STATE``
           - 
           - normal

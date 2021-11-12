@@ -40,28 +40,28 @@
           - 
     
         * - blade_01
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:01``
           - 
           - normal
           - 
     
         * - blade_02
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:02``
           - 
           - normal
           - 
     
         * - blade_03
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:03``
           - 
           - normal
           - 
     
         * - blade_04
-          - :class:`~pcdsdevices.attenuator.FEESolidAttenuatorBlade`
+          - :class:`~pcdsdevices.attenuator.SXRLadderAttenuatorBlade`
           - ``:MMS:04``
           - 
           - normal

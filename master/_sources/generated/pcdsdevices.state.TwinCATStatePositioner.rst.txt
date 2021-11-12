@@ -68,7 +68,7 @@
           - 
     
         * - config
-          - :class:`~pcdsdevices.state.TwinCATStateConfigAll`
+          - :class:`~pcdsdevices.state.TwinCATStateConfigDynamic`
           - 
           - Configuration of state positions, deltas, etc.
           - omitted

@@ -22,28 +22,28 @@
           - :class:`~pcdsdevices.signal.PytmcSignal`
           - ``:NAME``
           - The defined state name.
-          - omitted
+          - config
           - 
     
         * - setpoint
           - :class:`~pcdsdevices.signal.PytmcSignal`
           - ``:SETPOINT``
           - The corresponding motor set position.
-          - omitted
+          - config
           - 
     
         * - delta
           - :class:`~pcdsdevices.signal.PytmcSignal`
           - ``:DELTA``
           - The deviation from setpoint that still counts as at the position.
-          - omitted
+          - config
           - 
     
         * - velo
           - :class:`~pcdsdevices.signal.PytmcSignal`
           - ``:VELO``
           - Velocity to move to the state at.
-          - omitted
+          - config
           - 
     
         * - accl
