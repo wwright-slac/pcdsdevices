@@ -53,7 +53,16 @@
           - config
           - 
     
+        * - user_enable
+          - :class:`~pcdsdevices.signal.PytmcSignal`
+          - ``bUserEnable``
+          - Power enable/disable
+          - config
+          - 
+    
 
+    
+    
     
     
     
