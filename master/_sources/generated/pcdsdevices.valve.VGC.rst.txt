@@ -105,14 +105,14 @@
         * - setpoint_hysterisis
           - :class:`~ophyd.areadetector.base.EpicsSignalWithRBV`
           - ``:AT_VAC_HYS``
-          - AT VAC Hysterisis
+          - AT VAC Hysteresis
           - config
           - 
     
         * - at_vac
           - :class:`~ophyd.signal.EpicsSignalRO`
           - ``:AT_VAC_RBV``
-          - at vacuum sp is reached
+          - at vacuum setpoint is reached
           - normal
           - 
     

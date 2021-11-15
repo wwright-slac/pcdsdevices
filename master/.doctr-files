@@ -443,6 +443,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/867-signal_edit_enum.rst.txt
 master/_sources/upcoming_release_notes/875-twincat-states.rst.txt
 master/_sources/upcoming_release_notes/883-sds-reorg.rst.txt
+master/_sources/upcoming_release_notes/884-vgc_2s.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
 master/_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt
 master/_sources/upcoming_release_notes/905-ephot-pvs.rst.txt
@@ -933,6 +934,7 @@ master/upcoming_changes.html
 master/upcoming_release_notes/867-signal_edit_enum.html
 master/upcoming_release_notes/875-twincat-states.html
 master/upcoming_release_notes/883-sds-reorg.html
+master/upcoming_release_notes/884-vgc_2s.html
 master/upcoming_release_notes/889-vls-optics.html
 master/upcoming_release_notes/897-Add_VRCClsLS.html
 master/upcoming_release_notes/905-ephot-pvs.html
