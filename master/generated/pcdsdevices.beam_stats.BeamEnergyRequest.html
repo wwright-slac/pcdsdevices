@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 4.9.0+47.gf7d03f4.dirty documentation</title>
+  <title>pcdsdevices.beam_stats.BeamEnergyRequest &mdash; PCDS Devices 4.9.0+50.gbfab361.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                4.9.0+47.gf7d03f4.dirty
+                4.9.0+50.gbfab361.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -160,7 +160,7 @@
 <h1>pcdsdevices.beam_stats.BeamEnergyRequest<a class="headerlink" href="#pcdsdevices-beam-stats-beamenergyrequest" title="Permalink to this headline"></a></h1>
 <dl class="py class">
 <dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.beam_stats.</span></span><span class="sig-name descname"><span class="pre">BeamEnergyRequest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_small_moves</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">atol</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest" title="Permalink to this definition"></a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.beam_stats.</span></span><span class="sig-name descname"><span class="pre">BeamEnergyRequest</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a></span></em>, <em class="sig-param"><span class="n"><span class="pre">skip_small_moves</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.10)"><span class="pre">bool</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">atol</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/numbers.html#numbers.Real" title="(in Python v3.10)"><span class="pre">numbers.Real</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">line</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Optional</span><span class="p"><span class="pre">[</span></span><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><span class="pre">str</span></a><span class="p"><span class="pre">]</span></span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">bunch</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><span class="pre">int</span></a></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest" title="Permalink to this definition"></a></dt>
 <dd><p>Positioner to request beam color changes from ACR in eV.</p>
 <p>It is up to ACR how to and whether to fulfill these requests. This is often
 fulfilled by moving the Vernier but can also be a more involved process.</p>
@@ -183,6 +183,12 @@ can skip the small moves here and move the monochromater and beam
 request devices in parallel.</p></li>
 <li><p><strong>atol</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><em>int</em></a><em>, </em><em>optional</em>) – Absolute tolerance that determines when the move is done and when to
 skip moves using the skip_small_moves parameter.</p></li>
+<li><p><strong>line</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.10)"><em>str</em></a><em>, </em><em>optional</em>) – Whether to use the K line or L line PV. If provided this should be a
+string with a single character. The K line PVs have “EPHOTK”
+in them, the L line PVs just have “EPHOT”. This will default to the
+line associated with the prefix hutch name, or to L line failing that.</p></li>
+<li><p><strong>bunch</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.10)"><em>int</em></a><em>, </em><em>optional</em>) – Whether to move the first bunch (1) or the second bunch (2). This is
+only relevant for 2-color mode. Defaults to bunch 1.</p></li>
 </ul>
 </dd>
 </dl>
@@ -205,9 +211,9 @@ skip moves using the skip_small_moves parameter.</p></li>
 <td><p>normal</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pv_positioner.PVPositionerDone.html#pcdsdevices.pv_positioner.PVPositionerDone" title="pcdsdevices.pv_positioner.PVPositionerDone"><code class="xref py py-class docutils literal notranslate"><span class="pre">PVPositionerDone</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>setpoint</p></td>
+<tr class="row-odd"><td><p>setpoint (FCpt)</p></td>
 <td><p><code class="xref py py-class docutils literal notranslate"><span class="pre">EpicsSignal</span></code></p></td>
-<td><p><code class="docutils literal notranslate"><span class="pre">:USER:MCC:EPHOT</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">{prefix}:USER:MCC:EPHOT{line_text}:SET{bunch}</span></code></p></td>
 <td></td>
 <td><p>hinted</p></td>
 <td></td>
@@ -579,13 +585,28 @@ a background thread.</p>
 <dd></dd></dl>
 
 <dl class="py attribute">
+<dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest.k_hutch">
+<span class="sig-name descname"><span class="pre">k_hutch</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'RIX'</span></em><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest.k_hutch" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest.kind">
 <span class="sig-name descname"><span class="pre">kind</span></span><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest.kind" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">
+<dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest.l_hutch">
+<span class="sig-name descname"><span class="pre">l_hutch</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">'MEC'</span></em><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest.l_hutch" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
 <dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest.limits">
 <span class="sig-name descname"><span class="pre">limits</span></span><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest.limits" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt class="sig sig-object py" id="pcdsdevices.beam_stats.BeamEnergyRequest.line_text_dict">
+<span class="sig-name descname"><span class="pre">line_text_dict</span></span><em class="property"><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="pre">{'CXI':</span> <span class="pre">'',</span> <span class="pre">'K':</span> <span class="pre">'K',</span> <span class="pre">'L':</span> <span class="pre">'',</span> <span class="pre">'MEC':</span> <span class="pre">'',</span> <span class="pre">'MFX':</span> <span class="pre">'',</span> <span class="pre">'RIX':</span> <span class="pre">'K',</span> <span class="pre">'TMO':</span> <span class="pre">'K',</span> <span class="pre">'XCS':</span> <span class="pre">'',</span> <span class="pre">'XPP':</span> <span class="pre">'',</span> <span class="pre">'k':</span> <span class="pre">'K',</span> <span class="pre">'l':</span> <span class="pre">''}</span></em><a class="headerlink" href="#pcdsdevices.beam_stats.BeamEnergyRequest.line_text_dict" title="Permalink to this definition"></a></dt>
 <dd></dd></dl>
 
 <dl class="py attribute">

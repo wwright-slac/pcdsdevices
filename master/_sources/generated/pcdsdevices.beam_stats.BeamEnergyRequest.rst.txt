@@ -25,9 +25,9 @@
           - normal
           - Inherited from :class:`~pcdsdevices.pv_positioner.PVPositionerDone`
     
-        * - setpoint
+        * - setpoint (FCpt)
           - :class:`~ophyd.signal.EpicsSignal`
-          - ``:USER:MCC:EPHOT``
+          - ``{prefix}:USER:MCC:EPHOT{line_text}:SET{bunch}``
           - 
           - hinted
           - 
@@ -87,8 +87,11 @@
     .. autoattribute:: egu
     .. autoattribute:: high_limit
     .. autoattribute:: hints
+    .. autoattribute:: k_hutch
     .. autoattribute:: kind
+    .. autoattribute:: l_hutch
     .. autoattribute:: limits
+    .. autoattribute:: line_text_dict
     .. autoattribute:: low_limit
     .. autoattribute:: moving
     .. autoattribute:: position

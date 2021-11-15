@@ -445,6 +445,7 @@ master/_sources/upcoming_release_notes/875-twincat-states.rst.txt
 master/_sources/upcoming_release_notes/883-sds-reorg.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
 master/_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt
+master/_sources/upcoming_release_notes/905-ephot-pvs.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -934,5 +935,6 @@ master/upcoming_release_notes/875-twincat-states.html
 master/upcoming_release_notes/883-sds-reorg.html
 master/upcoming_release_notes/889-vls-optics.html
 master/upcoming_release_notes/897-Add_VRCClsLS.html
+master/upcoming_release_notes/905-ephot-pvs.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
