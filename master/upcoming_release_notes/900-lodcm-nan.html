@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>897 Add VRCClsLS &mdash; PCDS Devices 4.9.0+64.g7b00819.dirty documentation</title>
+  <title>900 lodcm-nan &mdash; PCDS Devices 4.9.0+64.g7b00819.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="900 lodcm-nan" href="900-lodcm-nan.html" />
-    <link rel="prev" title="889 vls-optics" href="889-vls-optics.html" /> 
+    <link rel="next" title="905 ephot-pvs" href="905-ephot-pvs.html" />
+    <link rel="prev" title="897 Add VRCClsLS" href="897-Add_VRCClsLS.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -63,7 +63,8 @@
 <li class="toctree-l2"><a class="reference internal" href="883-sds-reorg.html">883 sds-reorg</a></li>
 <li class="toctree-l2"><a class="reference internal" href="884-vgc_2s.html">884 vgc_2s</a></li>
 <li class="toctree-l2"><a class="reference internal" href="889-vls-optics.html">889 vls-optics</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">897 Add VRCClsLS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="897-Add_VRCClsLS.html">897 Add VRCClsLS</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">900 lodcm-nan</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#api-changes">API Changes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#features">Features</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#device-updates">Device Updates</a></li>
@@ -73,7 +74,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#contributors">Contributors</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="900-lodcm-nan.html">900 lodcm-nan</a></li>
 <li class="toctree-l2"><a class="reference internal" href="905-ephot-pvs.html">905 ephot-pvs</a></li>
 </ul>
 </li>
@@ -94,9 +94,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../upcoming_changes.html">Upcoming Changes</a> &raquo;</li>
-      <li>897 Add VRCClsLS</li>
+      <li>900 lodcm-nan</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/upcoming_release_notes/897-Add_VRCClsLS.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/upcoming_release_notes/900-lodcm-nan.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -104,8 +104,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="add-vrcclsls">
-<h1>897 Add VRCClsLS<a class="headerlink" href="#add-vrcclsls" title="Permalink to this headline"></a></h1>
+  <section id="lodcm-nan">
+<h1>900 lodcm-nan<a class="headerlink" href="#lodcm-nan" title="Permalink to this headline"></a></h1>
 <section id="api-changes">
 <h2>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
@@ -127,13 +127,17 @@
 <section id="new-devices">
 <h2>New Devices<a class="headerlink" href="#new-devices" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>Add VRCClsLS, a class for Gate Valves with Control and Closed Limit Switch Readback.</p></li>
+<li><p>N/A</p></li>
 </ul>
 </section>
 <section id="bugfixes">
 <h2>Bugfixes<a class="headerlink" href="#bugfixes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>N/A</p></li>
+<li><p>In the LODCM “inverse” calculations, return a NaN energy instead of
+raising an exception when there is a problem determining the crystal
+orientation. This prevents the calculated value from going stale when
+it has become invalid, and it prevents logger spam when this is
+called in the pseudopositioner update position callback.</p></li>
 </ul>
 </section>
 <section id="maintenance">
@@ -145,7 +149,7 @@
 <section id="contributors">
 <h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>jyin999</p></li>
+<li><p>zllentz</p></li>
 </ul>
 </section>
 </section>
@@ -154,8 +158,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="889-vls-optics.html" class="btn btn-neutral float-left" title="889 vls-optics" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="900-lodcm-nan.html" class="btn btn-neutral float-right" title="900 lodcm-nan" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="897-Add_VRCClsLS.html" class="btn btn-neutral float-left" title="897 Add VRCClsLS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="905-ephot-pvs.html" class="btn btn-neutral float-right" title="905 ephot-pvs" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
