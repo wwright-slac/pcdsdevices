@@ -189,6 +189,8 @@ pcdsdevices.epics_motor
     pcdsdevices.epics_motor.BeckhoffAxis
     pcdsdevices.epics_motor.BeckhoffAxisNoOffset
     pcdsdevices.epics_motor.BeckhoffAxisPLC
+    pcdsdevices.epics_motor.BeckhoffAxisPLC_Pre140
+    pcdsdevices.epics_motor.BeckhoffAxis_Pre140
     pcdsdevices.epics_motor.EpicsMotorInterface
     pcdsdevices.epics_motor.IMS
     pcdsdevices.epics_motor.Motor

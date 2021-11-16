@@ -91,6 +91,8 @@ master/_sources/generated/pcdsdevices.energy_monitor.XGMD.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxis.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxisNoOffset.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC.rst.txt
+master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC_Pre140.rst.txt
+master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxis_Pre140.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.EpicsMotorInterface.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.IMS.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.Motor.rst.txt
@@ -442,6 +444,7 @@ master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/867-signal_edit_enum.rst.txt
 master/_sources/upcoming_release_notes/875-twincat-states.rst.txt
+master/_sources/upcoming_release_notes/879-Various_changes_from_XPP.rst.txt
 master/_sources/upcoming_release_notes/883-sds-reorg.rst.txt
 master/_sources/upcoming_release_notes/884-vgc_2s.rst.txt
 master/_sources/upcoming_release_notes/889-vls-optics.rst.txt
@@ -580,6 +583,8 @@ master/generated/pcdsdevices.energy_monitor.XGMD.html
 master/generated/pcdsdevices.epics_motor.BeckhoffAxis.html
 master/generated/pcdsdevices.epics_motor.BeckhoffAxisNoOffset.html
 master/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC.html
+master/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC_Pre140.html
+master/generated/pcdsdevices.epics_motor.BeckhoffAxis_Pre140.html
 master/generated/pcdsdevices.epics_motor.EpicsMotorInterface.html
 master/generated/pcdsdevices.epics_motor.IMS.html
 master/generated/pcdsdevices.epics_motor.Motor.html
@@ -935,6 +940,7 @@ master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/867-signal_edit_enum.html
 master/upcoming_release_notes/875-twincat-states.html
+master/upcoming_release_notes/879-Various_changes_from_XPP.html
 master/upcoming_release_notes/883-sds-reorg.html
 master/upcoming_release_notes/884-vgc_2s.html
 master/upcoming_release_notes/889-vls-optics.html

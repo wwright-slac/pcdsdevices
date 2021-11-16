@@ -19,28 +19,28 @@
           - Notes
     
         * - top_x
-          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis_Pre140`
           - ``:TOP_X``
           - 
           - normal
           - 
     
         * - top_y
-          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis_Pre140`
           - ``:TOP_Y``
           - 
           - normal
           - 
     
         * - bot_x
-          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis_Pre140`
           - ``:BOT_X``
           - 
           - normal
           - 
     
         * - bot_y
-          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
+          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis_Pre140`
           - ``:BOT_Y``
           - 
           - normal

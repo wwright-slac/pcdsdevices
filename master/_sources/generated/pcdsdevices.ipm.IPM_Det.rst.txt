@@ -18,11 +18,11 @@
     .. automethod:: configure
     .. automethod:: describe
     .. automethod:: get
-    .. automethod:: isum
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: status
     .. automethod:: stop
+    .. automethod:: sum
     .. automethod:: summary
     .. automethod:: trigger
     .. automethod:: xpos

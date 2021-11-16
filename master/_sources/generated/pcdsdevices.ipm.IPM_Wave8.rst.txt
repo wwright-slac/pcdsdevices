@@ -61,13 +61,13 @@
     .. automethod:: describe
     .. automethod:: get
     .. automethod:: insert
-    .. automethod:: isum
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: remove
     .. automethod:: stage_group_instances
     .. automethod:: status
     .. automethod:: stop
+    .. automethod:: sum
     .. automethod:: summary
     .. automethod:: target_in
     .. automethod:: trigger

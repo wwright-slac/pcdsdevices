@@ -25,7 +25,7 @@
           - normal
           - Inherited from :class:`~pcdsdevices.pim.PIMWithFocus`
     
-        * - zoom_motor (FCpt)
+        * - zoom (FCpt)
           - :class:`~pcdsdevices.epics_motor.IMS`
           - ``{self._prefix_zoom}``
           - 
@@ -46,7 +46,7 @@
           - normal
           - Inherited from :class:`~pcdsdevices.pim.PIMWithLED`
     
-        * - focus_motor (FCpt)
+        * - focus (FCpt)
           - :class:`~pcdsdevices.epics_motor.IMS`
           - ``{self._prefix_focus}``
           - 
