@@ -361,6 +361,14 @@ pcdsdevices.lamp_motion
     pcdsdevices.lamp_motion.LAMPFlowCell
     pcdsdevices.lamp_motion.LAMPMagneticBottle
 
+pcdsdevices.lasers.dicon
+------------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.lasers.dicon.DiconSwitch
+
 pcdsdevices.lasers.ek9000
 -------------------------
 
