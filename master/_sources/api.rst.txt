@@ -533,6 +533,16 @@ pcdsdevices.mrco_motion
 
     pcdsdevices.mrco_motion.MRCO
 
+pcdsdevices.piezo
+-----------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.piezo.SliceDhv
+    pcdsdevices.piezo.SliceDhvChannel
+    pcdsdevices.piezo.SliceDhvController
+
 pcdsdevices.pim
 ---------------
 

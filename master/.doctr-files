@@ -266,6 +266,9 @@ master/_sources/generated/pcdsdevices.mps.mps_factory.rst.txt
 master/_sources/generated/pcdsdevices.mps.must_be_known.rst.txt
 master/_sources/generated/pcdsdevices.mps.must_be_out.rst.txt
 master/_sources/generated/pcdsdevices.mrco_motion.MRCO.rst.txt
+master/_sources/generated/pcdsdevices.piezo.SliceDhv.rst.txt
+master/_sources/generated/pcdsdevices.piezo.SliceDhvChannel.rst.txt
+master/_sources/generated/pcdsdevices.piezo.SliceDhvController.rst.txt
 master/_sources/generated/pcdsdevices.pim.IM2K0.rst.txt
 master/_sources/generated/pcdsdevices.pim.LCLS2ImagerBase.rst.txt
 master/_sources/generated/pcdsdevices.pim.LCLS2Target.rst.txt
@@ -442,6 +445,7 @@ master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/916-Add_slice-dhv.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -748,6 +752,9 @@ master/generated/pcdsdevices.mps.mps_factory.html
 master/generated/pcdsdevices.mps.must_be_known.html
 master/generated/pcdsdevices.mps.must_be_out.html
 master/generated/pcdsdevices.mrco_motion.MRCO.html
+master/generated/pcdsdevices.piezo.SliceDhv.html
+master/generated/pcdsdevices.piezo.SliceDhvChannel.html
+master/generated/pcdsdevices.piezo.SliceDhvController.html
 master/generated/pcdsdevices.pim.IM2K0.html
 master/generated/pcdsdevices.pim.LCLS2ImagerBase.html
 master/generated/pcdsdevices.pim.LCLS2Target.html
@@ -928,5 +935,6 @@ master/sim_types.html
 master/tab.html
 master/ui.html
 master/upcoming_changes.html
+master/upcoming_release_notes/916-Add_slice-dhv.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
