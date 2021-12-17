@@ -170,6 +170,31 @@ pcdsdevices.device
     pcdsdevices.device.InterfaceDevice
     pcdsdevices.device.to_interface
 
+pcdsdevices.digitizers
+----------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.digitizers.Wave8V2
+    pcdsdevices.digitizers.Wave8V2ADCDelayLanes
+    pcdsdevices.digitizers.Wave8V2ADCRegs
+    pcdsdevices.digitizers.Wave8V2ADCSampleReadout
+    pcdsdevices.digitizers.Wave8V2ADCSamples
+    pcdsdevices.digitizers.Wave8V2AxiVersion
+    pcdsdevices.digitizers.Wave8V2EventBuilder
+    pcdsdevices.digitizers.Wave8V2EvrV2
+    pcdsdevices.digitizers.Wave8V2Integrators
+    pcdsdevices.digitizers.Wave8V2PgpMon
+    pcdsdevices.digitizers.Wave8V2RawBuffers
+    pcdsdevices.digitizers.Wave8V2Sfp
+    pcdsdevices.digitizers.Wave8V2Simple
+    pcdsdevices.digitizers.Wave8V2SystemRegs
+    pcdsdevices.digitizers.Wave8V2Timing
+    pcdsdevices.digitizers.Wave8V2TriggerEventManager
+    pcdsdevices.digitizers.Wave8V2XpmMini
+    pcdsdevices.digitizers.Wave8V2XpmMsg
+
 pcdsdevices.energy_monitor
 --------------------------
 
