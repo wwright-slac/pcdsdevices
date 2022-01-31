@@ -203,6 +203,7 @@ master/_sources/generated/pcdsdevices.jet.InjectorWithFine.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMP.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMPFlowCell.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMPMagneticBottle.rst.txt
+master/_sources/generated/pcdsdevices.lamp_motion.LAMP_LV_17.rst.txt
 master/_sources/generated/pcdsdevices.lasers.dicon.DiconSwitch.rst.txt
 master/_sources/generated/pcdsdevices.lasers.ek9000.El3174AiCh.rst.txt
 master/_sources/generated/pcdsdevices.lasers.ek9000.EnvironmentalMonitor.rst.txt
@@ -474,6 +475,7 @@ master/_sources/upcoming_release_notes/919-wave8_device.rst.txt
 master/_sources/upcoming_release_notes/920-Add_DiCon_switch.rst.txt
 master/_sources/upcoming_release_notes/923-Add_script_for_generating_ophyd_classes.rst.txt
 master/_sources/upcoming_release_notes/927-pmgr-tab.rst.txt
+master/_sources/upcoming_release_notes/933-lamp_lv_17.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -717,6 +719,7 @@ master/generated/pcdsdevices.jet.InjectorWithFine.html
 master/generated/pcdsdevices.lamp_motion.LAMP.html
 master/generated/pcdsdevices.lamp_motion.LAMPFlowCell.html
 master/generated/pcdsdevices.lamp_motion.LAMPMagneticBottle.html
+master/generated/pcdsdevices.lamp_motion.LAMP_LV_17.html
 master/generated/pcdsdevices.lasers.dicon.DiconSwitch.html
 master/generated/pcdsdevices.lasers.ek9000.El3174AiCh.html
 master/generated/pcdsdevices.lasers.ek9000.EnvironmentalMonitor.html
@@ -992,5 +995,6 @@ master/upcoming_release_notes/919-wave8_device.html
 master/upcoming_release_notes/920-Add_DiCon_switch.html
 master/upcoming_release_notes/923-Add_script_for_generating_ophyd_classes.html
 master/upcoming_release_notes/927-pmgr-tab.html
+master/upcoming_release_notes/933-lamp_lv_17.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

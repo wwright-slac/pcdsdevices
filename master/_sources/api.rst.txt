@@ -364,6 +364,7 @@ pcdsdevices.lamp_motion
     pcdsdevices.lamp_motion.LAMP
     pcdsdevices.lamp_motion.LAMPFlowCell
     pcdsdevices.lamp_motion.LAMPMagneticBottle
+    pcdsdevices.lamp_motion.LAMP_LV_17
 
 pcdsdevices.lasers.dicon
 ------------------------
