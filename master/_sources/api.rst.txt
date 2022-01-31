@@ -176,6 +176,10 @@ pcdsdevices.digitizers
 .. autosummary::
     :toctree: generated
 
+    pcdsdevices.digitizers.Qadc
+    pcdsdevices.digitizers.Qadc134
+    pcdsdevices.digitizers.Qadc134Sparsification
+    pcdsdevices.digitizers.QadcBase
     pcdsdevices.digitizers.Wave8V2
     pcdsdevices.digitizers.Wave8V2ADCDelayLanes
     pcdsdevices.digitizers.Wave8V2ADCRegs

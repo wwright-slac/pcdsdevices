@@ -85,6 +85,10 @@ master/_sources/generated/pcdsdevices.dc_devices.ICTChannel.rst.txt
 master/_sources/generated/pcdsdevices.device.GroupDevice.rst.txt
 master/_sources/generated/pcdsdevices.device.InterfaceDevice.rst.txt
 master/_sources/generated/pcdsdevices.device.to_interface.rst.txt
+master/_sources/generated/pcdsdevices.digitizers.Qadc.rst.txt
+master/_sources/generated/pcdsdevices.digitizers.Qadc134.rst.txt
+master/_sources/generated/pcdsdevices.digitizers.Qadc134Sparsification.rst.txt
+master/_sources/generated/pcdsdevices.digitizers.QadcBase.rst.txt
 master/_sources/generated/pcdsdevices.digitizers.Wave8V2.rst.txt
 master/_sources/generated/pcdsdevices.digitizers.Wave8V2ADCDelayLanes.rst.txt
 master/_sources/generated/pcdsdevices.digitizers.Wave8V2ADCRegs.rst.txt
@@ -465,6 +469,7 @@ master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/916-Add_slice-dhv.rst.txt
+master/_sources/upcoming_release_notes/918-Add_classes_for_qadcs.rst.txt
 master/_sources/upcoming_release_notes/919-wave8_device.rst.txt
 master/_sources/upcoming_release_notes/920-Add_DiCon_switch.rst.txt
 master/_sources/upcoming_release_notes/923-Add_script_for_generating_ophyd_classes.rst.txt
@@ -594,6 +599,10 @@ master/generated/pcdsdevices.dc_devices.ICTChannel.html
 master/generated/pcdsdevices.device.GroupDevice.html
 master/generated/pcdsdevices.device.InterfaceDevice.html
 master/generated/pcdsdevices.device.to_interface.html
+master/generated/pcdsdevices.digitizers.Qadc.html
+master/generated/pcdsdevices.digitizers.Qadc134.html
+master/generated/pcdsdevices.digitizers.Qadc134Sparsification.html
+master/generated/pcdsdevices.digitizers.QadcBase.html
 master/generated/pcdsdevices.digitizers.Wave8V2.html
 master/generated/pcdsdevices.digitizers.Wave8V2ADCDelayLanes.html
 master/generated/pcdsdevices.digitizers.Wave8V2ADCRegs.html
@@ -978,6 +987,7 @@ master/tab.html
 master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/916-Add_slice-dhv.html
+master/upcoming_release_notes/918-Add_classes_for_qadcs.html
 master/upcoming_release_notes/919-wave8_device.html
 master/upcoming_release_notes/920-Add_DiCon_switch.html
 master/upcoming_release_notes/923-Add_script_for_generating_ophyd_classes.html
