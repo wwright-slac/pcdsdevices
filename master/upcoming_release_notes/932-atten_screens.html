@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>919 wave8_device &mdash; PCDS Devices 5.0.2+37.g042c999.dirty documentation</title>
+  <title>932 atten_screens &mdash; PCDS Devices 5.0.2+37.g042c999.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -19,8 +19,8 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="920 Add DiCon switch" href="920-Add_DiCon_switch.html" />
-    <link rel="prev" title="918 Add classes for qadcs" href="918-Add_classes_for_qadcs.html" /> 
+    <link rel="next" title="933 lamp_lv_17" href="933-lamp_lv_17.html" />
+    <link rel="prev" title="927 pmgr-tab" href="927-pmgr-tab.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -60,7 +60,11 @@
 <li class="toctree-l1 current"><a class="reference internal" href="../upcoming_changes.html">Upcoming Changes</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="916-Add_slice-dhv.html">916 Add_slice-dhv</a></li>
 <li class="toctree-l2"><a class="reference internal" href="918-Add_classes_for_qadcs.html">918 Add classes for qadcs</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">919 wave8_device</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="919-wave8_device.html">919 wave8_device</a></li>
+<li class="toctree-l2"><a class="reference internal" href="920-Add_DiCon_switch.html">920 Add DiCon switch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="923-Add_script_for_generating_ophyd_classes.html">923 Add script for generating ophyd classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="927-pmgr-tab.html">927 pmgr-tab</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">932 atten_screens</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#api-changes">API Changes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#features">Features</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#device-updates">Device Updates</a></li>
@@ -70,10 +74,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#contributors">Contributors</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="920-Add_DiCon_switch.html">920 Add DiCon switch</a></li>
-<li class="toctree-l2"><a class="reference internal" href="923-Add_script_for_generating_ophyd_classes.html">923 Add script for generating ophyd classes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="927-pmgr-tab.html">927 pmgr-tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="932-atten_screens.html">932 atten_screens</a></li>
 <li class="toctree-l2"><a class="reference internal" href="933-lamp_lv_17.html">933 lamp_lv_17</a></li>
 </ul>
 </li>
@@ -94,9 +94,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../upcoming_changes.html">Upcoming Changes</a> &raquo;</li>
-      <li>919 wave8_device</li>
+      <li>932 atten_screens</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/upcoming_release_notes/919-wave8_device.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/upcoming_release_notes/932-atten_screens.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -104,8 +104,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="wave8-device">
-<h1>919 wave8_device<a class="headerlink" href="#wave8-device" title="Permalink to this headline"></a></h1>
+  <section id="atten-screens">
+<h1>932 atten_screens<a class="headerlink" href="#atten-screens" title="Permalink to this headline"></a></h1>
 <section id="api-changes">
 <h2>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
@@ -126,14 +126,8 @@
 </section>
 <section id="new-devices">
 <h2>New Devices<a class="headerlink" href="#new-devices" title="Permalink to this headline"></a></h2>
-<dl class="simple">
-<dt>-Wave8V2Simple: A simple class for the LCLS-II Wave8. Provides waveforms</dt><dd><p>and acquisition start/stop buttons.</p>
-</dd>
-</dl>
 <ul class="simple">
-<li><p>Wave8V2: A complete top-level class for the LCLS-II Wave8. Includes many
-configuration and diagnostic PVs, in addition to what is provided by
-Wave8V2Simple.</p></li>
+<li><p>N/A</p></li>
 </ul>
 </section>
 <section id="bugfixes">
@@ -145,13 +139,14 @@ Wave8V2Simple.</p></li>
 <section id="maintenance">
 <h2>Maintenance<a class="headerlink" href="#maintenance" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>N/A</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">detailed_tree.ui</span></code> was vendored from typhos. The default attenuator screens
+AT2L0, AT1K4, and AT2K2 will now default to <code class="docutils literal notranslate"><span class="pre">detailed_tree.ui</span></code>.</p></li>
 </ul>
 </section>
 <section id="contributors">
 <h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>slactjohnson</p></li>
+<li><p>klauer</p></li>
 </ul>
 </section>
 </section>
@@ -160,8 +155,8 @@ Wave8V2Simple.</p></li>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="918-Add_classes_for_qadcs.html" class="btn btn-neutral float-left" title="918 Add classes for qadcs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="920-Add_DiCon_switch.html" class="btn btn-neutral float-right" title="920 Add DiCon switch" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="927-pmgr-tab.html" class="btn btn-neutral float-left" title="927 pmgr-tab" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="933-lamp_lv_17.html" class="btn btn-neutral float-right" title="933 lamp_lv_17" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
