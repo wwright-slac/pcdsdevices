@@ -404,6 +404,15 @@ pcdsdevices.lasers.qmini
     pcdsdevices.lasers.qmini.QminiSpectrometer
     pcdsdevices.lasers.qmini.QminiWithEvr
 
+pcdsdevices.lasers.rfof
+-----------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.lasers.rfof.CycleRfofRx
+    pcdsdevices.lasers.rfof.CycleRfofTx
+
 pcdsdevices.lasers.thorlabsWFS
 ------------------------------
 
