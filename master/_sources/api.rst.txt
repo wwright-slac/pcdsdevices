@@ -366,6 +366,14 @@ pcdsdevices.lamp_motion
     pcdsdevices.lamp_motion.LAMPMagneticBottle
     pcdsdevices.lamp_motion.LAMP_LV_17
 
+pcdsdevices.lasers.counters
+---------------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.lasers.counters.Agilent53210A
+
 pcdsdevices.lasers.dicon
 ------------------------
 
