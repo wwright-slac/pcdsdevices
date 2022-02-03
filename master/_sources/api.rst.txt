@@ -794,6 +794,7 @@ pcdsdevices.slits
     pcdsdevices.slits.BadSlitPositionerBase
     pcdsdevices.slits.BeckhoffSlitPositioner
     pcdsdevices.slits.BeckhoffSlits
+    pcdsdevices.slits.ExitSlitTarget
     pcdsdevices.slits.ExitSlits
     pcdsdevices.slits.LusiSlitPositioner
     pcdsdevices.slits.LusiSlits

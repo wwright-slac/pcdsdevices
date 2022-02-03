@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>API &mdash; PCDS Devices 5.0.2+49.ga938a4e.dirty documentation</title>
+  <title>API &mdash; PCDS Devices 5.0.2+51.g9bb3b26.dirty documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.0.2+49.ga938a4e.dirty
+                5.0.2+51.g9bb3b26.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -608,6 +608,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BadSlitPositionerBase.html">pcdsdevices.slits.BadSlitPositionerBase</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlitPositioner.html">pcdsdevices.slits.BeckhoffSlitPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlits.html">pcdsdevices.slits.BeckhoffSlits</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.ExitSlitTarget.html">pcdsdevices.slits.ExitSlitTarget</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.ExitSlits.html">pcdsdevices.slits.ExitSlits</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlitPositioner.html">pcdsdevices.slits.LusiSlitPositioner</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlits.html">pcdsdevices.slits.LusiSlits</a></li>
@@ -2564,28 +2565,31 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.BeckhoffSlits.html#pcdsdevices.slits.BeckhoffSlits" title="pcdsdevices.slits.BeckhoffSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.BeckhoffSlits</span></code></a>(prefix, *, ...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.ExitSlits.html#pcdsdevices.slits.ExitSlits" title="pcdsdevices.slits.ExitSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.ExitSlits</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.ExitSlitTarget.html#pcdsdevices.slits.ExitSlitTarget" title="pcdsdevices.slits.ExitSlitTarget"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.ExitSlitTarget</span></code></a>(prefix, *, ...)</p></td>
+<td><p>Controls the exit slits target state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.ExitSlits.html#pcdsdevices.slits.ExitSlits" title="pcdsdevices.slits.ExitSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.ExitSlits</span></code></a>(*args, **kwargs)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlitPositioner.html#pcdsdevices.slits.LusiSlitPositioner" title="pcdsdevices.slits.LusiSlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.LusiSlitPositioner</span></code></a>(prefix, *)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlitPositioner.html#pcdsdevices.slits.LusiSlitPositioner" title="pcdsdevices.slits.LusiSlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.LusiSlitPositioner</span></code></a>(prefix, *)</p></td>
 <td><p>Abstraction of a Slit axis from LCLS-I</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlits.html#pcdsdevices.slits.LusiSlits" title="pcdsdevices.slits.LusiSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.LusiSlits</span></code></a>(*args[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.LusiSlits.html#pcdsdevices.slits.LusiSlits" title="pcdsdevices.slits.LusiSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.LusiSlits</span></code></a>(*args[, ...])</p></td>
 <td><p>Beam slits with combined motion for center and width.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html#pcdsdevices.slits.PowerSlits" title="pcdsdevices.slits.PowerSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.PowerSlits</span></code></a>(prefix, *, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.PowerSlits.html#pcdsdevices.slits.PowerSlits" title="pcdsdevices.slits.PowerSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.PowerSlits</span></code></a>(prefix, *, ...)</p></td>
 <td><p>'SL*:POWER'.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SimLusiSlits.html#pcdsdevices.slits.SimLusiSlits" title="pcdsdevices.slits.SimLusiSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SimLusiSlits</span></code></a>(*args[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SimLusiSlits.html#pcdsdevices.slits.SimLusiSlits" title="pcdsdevices.slits.SimLusiSlits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SimLusiSlits</span></code></a>(*args[, ...])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SlitPositioner</span></code></a>(prefix, *)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitPositioner.html#pcdsdevices.slits.SlitPositioner" title="pcdsdevices.slits.SlitPositioner"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SlitPositioner</span></code></a>(prefix, *)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.Slits</span></code></a>(*args[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.Slits.html#pcdsdevices.slits.Slits" title="pcdsdevices.slits.Slits"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.Slits</span></code></a>(*args[, ...])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.html#pcdsdevices.slits.SlitsBase" title="pcdsdevices.slits.SlitsBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SlitsBase</span></code></a>(*args[, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.slits.SlitsBase.html#pcdsdevices.slits.SlitsBase" title="pcdsdevices.slits.SlitsBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.slits.SlitsBase</span></code></a>(*args[, ...])</p></td>
 <td><p>Base class for slit motion interfacing.</p></td>
 </tr>
 </tbody>

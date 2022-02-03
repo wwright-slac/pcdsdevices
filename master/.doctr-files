@@ -395,6 +395,7 @@ master/_sources/generated/pcdsdevices.sim.SynMotor.rst.txt
 master/_sources/generated/pcdsdevices.slits.BadSlitPositionerBase.rst.txt
 master/_sources/generated/pcdsdevices.slits.BeckhoffSlitPositioner.rst.txt
 master/_sources/generated/pcdsdevices.slits.BeckhoffSlits.rst.txt
+master/_sources/generated/pcdsdevices.slits.ExitSlitTarget.rst.txt
 master/_sources/generated/pcdsdevices.slits.ExitSlits.rst.txt
 master/_sources/generated/pcdsdevices.slits.LusiSlitPositioner.rst.txt
 master/_sources/generated/pcdsdevices.slits.LusiSlits.rst.txt
@@ -481,6 +482,7 @@ master/_sources/upcoming_release_notes/930-Add_Cycle_RFoF_classes.rst.txt
 master/_sources/upcoming_release_notes/932-atten_screens.rst.txt
 master/_sources/upcoming_release_notes/933-lamp_lv_17.rst.txt
 master/_sources/upcoming_release_notes/935-fix_edit_md.rst.txt
+master/_sources/upcoming_release_notes/937-sl1k2_targets.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -916,6 +918,7 @@ master/generated/pcdsdevices.sim.SynMotor.html
 master/generated/pcdsdevices.slits.BadSlitPositionerBase.html
 master/generated/pcdsdevices.slits.BeckhoffSlitPositioner.html
 master/generated/pcdsdevices.slits.BeckhoffSlits.html
+master/generated/pcdsdevices.slits.ExitSlitTarget.html
 master/generated/pcdsdevices.slits.ExitSlits.html
 master/generated/pcdsdevices.slits.LusiSlitPositioner.html
 master/generated/pcdsdevices.slits.LusiSlits.html
@@ -1006,5 +1009,6 @@ master/upcoming_release_notes/930-Add_Cycle_RFoF_classes.html
 master/upcoming_release_notes/932-atten_screens.html
 master/upcoming_release_notes/933-lamp_lv_17.html
 master/upcoming_release_notes/935-fix_edit_md.html
+master/upcoming_release_notes/937-sl1k2_targets.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

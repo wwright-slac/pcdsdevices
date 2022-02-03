@@ -19,7 +19,7 @@
           - Notes
     
         * - target
-          - :class:`~pcdsdevices.pmps.TwinCATStatePMPS`
+          - :class:`~pcdsdevices.slits.ExitSlitTarget`
           - ``:YAG:STATE``
           - Control of the YAG  stack via saved positions.
           - hinted
