@@ -485,6 +485,7 @@ master/_sources/upcoming_release_notes/933-lamp_lv_17.rst.txt
 master/_sources/upcoming_release_notes/935-fix_edit_md.rst.txt
 master/_sources/upcoming_release_notes/937-sl1k2_targets.rst.txt
 master/_sources/upcoming_release_notes/940-Agilent_53201A_device.rst.txt
+master/_sources/upcoming_release_notes/943-mr1l0_mr2l0_states.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -1014,5 +1015,6 @@ master/upcoming_release_notes/933-lamp_lv_17.html
 master/upcoming_release_notes/935-fix_edit_md.html
 master/upcoming_release_notes/937-sl1k2_targets.html
 master/upcoming_release_notes/940-Agilent_53201A_device.html
+master/upcoming_release_notes/943-mr1l0_mr2l0_states.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

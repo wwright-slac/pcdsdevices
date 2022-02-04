@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>923 Add script for generating ophyd classes &mdash; PCDS Devices 5.0.2+57.g97121a2.dirty documentation</title>
+  <title>943 mr1l0_mr2l0_states &mdash; PCDS Devices 5.0.2+57.g97121a2.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -19,8 +19,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="927 pmgr-tab" href="927-pmgr-tab.html" />
-    <link rel="prev" title="920 Add DiCon switch" href="920-Add_DiCon_switch.html" /> 
+    <link rel="prev" title="940 Agilent 53201A device" href="940-Agilent_53201A_device.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -62,7 +61,15 @@
 <li class="toctree-l2"><a class="reference internal" href="918-Add_classes_for_qadcs.html">918 Add classes for qadcs</a></li>
 <li class="toctree-l2"><a class="reference internal" href="919-wave8_device.html">919 wave8_device</a></li>
 <li class="toctree-l2"><a class="reference internal" href="920-Add_DiCon_switch.html">920 Add DiCon switch</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">923 Add script for generating ophyd classes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="923-Add_script_for_generating_ophyd_classes.html">923 Add script for generating ophyd classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="927-pmgr-tab.html">927 pmgr-tab</a></li>
+<li class="toctree-l2"><a class="reference internal" href="930-Add_Cycle_RFoF_classes.html">930 Add Cycle RFoF classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="932-atten_screens.html">932 atten_screens</a></li>
+<li class="toctree-l2"><a class="reference internal" href="933-lamp_lv_17.html">933 lamp_lv_17</a></li>
+<li class="toctree-l2"><a class="reference internal" href="935-fix_edit_md.html">935 fix_edit_md</a></li>
+<li class="toctree-l2"><a class="reference internal" href="937-sl1k2_targets.html">937 sl1k2_targets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="940-Agilent_53201A_device.html">940 Agilent 53201A device</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">943 mr1l0_mr2l0_states</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#api-changes">API Changes</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#features">Features</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#device-updates">Device Updates</a></li>
@@ -72,14 +79,6 @@
 <li class="toctree-l3"><a class="reference internal" href="#contributors">Contributors</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="927-pmgr-tab.html">927 pmgr-tab</a></li>
-<li class="toctree-l2"><a class="reference internal" href="930-Add_Cycle_RFoF_classes.html">930 Add Cycle RFoF classes</a></li>
-<li class="toctree-l2"><a class="reference internal" href="932-atten_screens.html">932 atten_screens</a></li>
-<li class="toctree-l2"><a class="reference internal" href="933-lamp_lv_17.html">933 lamp_lv_17</a></li>
-<li class="toctree-l2"><a class="reference internal" href="935-fix_edit_md.html">935 fix_edit_md</a></li>
-<li class="toctree-l2"><a class="reference internal" href="937-sl1k2_targets.html">937 sl1k2_targets</a></li>
-<li class="toctree-l2"><a class="reference internal" href="940-Agilent_53201A_device.html">940 Agilent 53201A device</a></li>
-<li class="toctree-l2"><a class="reference internal" href="943-mr1l0_mr2l0_states.html">943 mr1l0_mr2l0_states</a></li>
 </ul>
 </li>
 </ul>
@@ -99,9 +98,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="../upcoming_changes.html">Upcoming Changes</a> &raquo;</li>
-      <li>923 Add script for generating ophyd classes</li>
+      <li>943 mr1l0_mr2l0_states</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../_sources/upcoming_release_notes/923-Add_script_for_generating_ophyd_classes.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/upcoming_release_notes/943-mr1l0_mr2l0_states.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -109,8 +108,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="add-script-for-generating-ophyd-classes">
-<h1>923 Add script for generating ophyd classes<a class="headerlink" href="#add-script-for-generating-ophyd-classes" title="Permalink to this headline"></a></h1>
+  <section id="mr1l0-mr2l0-states">
+<h1>943 mr1l0_mr2l0_states<a class="headerlink" href="#mr1l0-mr2l0-states" title="Permalink to this headline"></a></h1>
 <section id="api-changes">
 <h2>API Changes<a class="headerlink" href="#api-changes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
@@ -120,8 +119,7 @@
 <section id="features">
 <h2>Features<a class="headerlink" href="#features" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>Adds a new script, make_ophyd_device.py, that helps with autogeneration of
-an ophyd device class from an IOC db file. Includes a helper script.</p></li>
+<li><p>N/A</p></li>
 </ul>
 </section>
 <section id="device-updates">
@@ -139,7 +137,8 @@ an ophyd device class from an IOC db file. Includes a helper script.</p></li>
 <section id="bugfixes">
 <h2>Bugfixes<a class="headerlink" href="#bugfixes" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>N/A</p></li>
+<li><p>Fixed mr1l0_homs and mr2l0_homs state counts in TwinCATMirrorStripe.
+This should be set to 2 for mr1l0 (B4C, B4C/Ni) and mr2l0 (B4C, Ni).</p></li>
 </ul>
 </section>
 <section id="maintenance">
@@ -151,7 +150,7 @@ an ophyd device class from an IOC db file. Includes a helper script.</p></li>
 <section id="contributors">
 <h2>Contributors<a class="headerlink" href="#contributors" title="Permalink to this headline"></a></h2>
 <ul class="simple">
-<li><p>tjohnson</p></li>
+<li><p>klauer</p></li>
 </ul>
 </section>
 </section>
@@ -160,8 +159,7 @@ an ophyd device class from an IOC db file. Includes a helper script.</p></li>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="920-Add_DiCon_switch.html" class="btn btn-neutral float-left" title="920 Add DiCon switch" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="927-pmgr-tab.html" class="btn btn-neutral float-right" title="927 pmgr-tab" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="940-Agilent_53201A_device.html" class="btn btn-neutral float-left" title="940 Agilent 53201A device" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
