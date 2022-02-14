@@ -13,8 +13,10 @@ master/_sources/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmb
 master/_sources/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosBeamStats.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger.rst.txt
+master/_sources/generated/pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.plugins.ColorConvPlugin.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.plugins.FilePlugin.rst.txt
+master/_sources/generated/pcdsdevices.areadetector.plugins.HDF5FileStore.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.plugins.HDF5Plugin.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.plugins.ImagePlugin.rst.txt
 master/_sources/generated/pcdsdevices.areadetector.plugins.JPEGPlugin.rst.txt
@@ -473,6 +475,7 @@ master/_sources/sim_types.rst.txt
 master/_sources/tab.rst.txt
 master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
+master/_sources/upcoming_release_notes/928-hdf5-save.rst.txt
 master/_sources/upcoming_release_notes/945-slow_motor_move_to_start.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -527,8 +530,10 @@ master/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorEmbedded.htm
 master/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos.html
 master/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosBeamStats.html
 master/generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger.html
+master/generated/pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable.html
 master/generated/pcdsdevices.areadetector.plugins.ColorConvPlugin.html
 master/generated/pcdsdevices.areadetector.plugins.FilePlugin.html
+master/generated/pcdsdevices.areadetector.plugins.HDF5FileStore.html
 master/generated/pcdsdevices.areadetector.plugins.HDF5Plugin.html
 master/generated/pcdsdevices.areadetector.plugins.ImagePlugin.html
 master/generated/pcdsdevices.areadetector.plugins.JPEGPlugin.html
@@ -991,6 +996,7 @@ master/sim_types.html
 master/tab.html
 master/ui.html
 master/upcoming_changes.html
+master/upcoming_release_notes/928-hdf5-save.html
 master/upcoming_release_notes/945-slow_motor_move_to_start.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

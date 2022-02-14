@@ -34,6 +34,7 @@ pcdsdevices.areadetector.detectors
     pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos
     pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosBeamStats
     pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger
+    pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable
 
 pcdsdevices.areadetector.plugins
 --------------------------------
@@ -43,6 +44,7 @@ pcdsdevices.areadetector.plugins
 
     pcdsdevices.areadetector.plugins.ColorConvPlugin
     pcdsdevices.areadetector.plugins.FilePlugin
+    pcdsdevices.areadetector.plugins.HDF5FileStore
     pcdsdevices.areadetector.plugins.HDF5Plugin
     pcdsdevices.areadetector.plugins.ImagePlugin
     pcdsdevices.areadetector.plugins.JPEGPlugin

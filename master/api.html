@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>API &mdash; PCDS Devices 5.1.0+4.g7175ce5.dirty documentation</title>
+  <title>API &mdash; PCDS Devices 5.1.0+23.g981dc88.dirty documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+4.g7175ce5.dirty
+                5.1.0+23.g981dc88.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -64,11 +64,13 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos.html">pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosBeamStats.html">pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosBeamStats</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger.html">pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable.html">pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pcdsdevices-areadetector-plugins">pcdsdevices.areadetector.plugins</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ColorConvPlugin.html">pcdsdevices.areadetector.plugins.ColorConvPlugin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.FilePlugin.html">pcdsdevices.areadetector.plugins.FilePlugin</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.HDF5FileStore.html">pcdsdevices.areadetector.plugins.HDF5FileStore</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.HDF5Plugin.html">pcdsdevices.areadetector.plugins.HDF5Plugin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ImagePlugin.html">pcdsdevices.areadetector.plugins.ImagePlugin</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.JPEGPlugin.html">pcdsdevices.areadetector.plugins.JPEGPlugin</a></li>
@@ -829,6 +831,9 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger.html#pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger" title="pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.detectors.PCDSAreaDetectorTyphosTrigger</span></code></a>([...])</p></td>
 <td><p>Expanded typhos-optimized areadetector class for cameras with triggers.</p></td>
 </tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable.html#pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable" title="pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.detectors.PCDSHDF5BlueskyTriggerable</span></code></a>(...)</p></td>
+<td><p>Saves an HDF5 file in a bluesky plan.</p></td>
+</tr>
 </tbody>
 </table>
 </section>
@@ -846,46 +851,49 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.FilePlugin.html#pcdsdevices.areadetector.plugins.FilePlugin" title="pcdsdevices.areadetector.plugins.FilePlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.FilePlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.HDF5Plugin.html#pcdsdevices.areadetector.plugins.HDF5Plugin" title="pcdsdevices.areadetector.plugins.HDF5Plugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.HDF5Plugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.HDF5FileStore.html#pcdsdevices.areadetector.plugins.HDF5FileStore" title="pcdsdevices.areadetector.plugins.HDF5FileStore"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.HDF5FileStore</span></code></a>(...)</p></td>
+<td><p>HDF5 Plugin to use for interactive/in-scan saving at LCLS.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.HDF5Plugin.html#pcdsdevices.areadetector.plugins.HDF5Plugin" title="pcdsdevices.areadetector.plugins.HDF5Plugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.HDF5Plugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ImagePlugin.html#pcdsdevices.areadetector.plugins.ImagePlugin" title="pcdsdevices.areadetector.plugins.ImagePlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ImagePlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ImagePlugin.html#pcdsdevices.areadetector.plugins.ImagePlugin" title="pcdsdevices.areadetector.plugins.ImagePlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ImagePlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.JPEGPlugin.html#pcdsdevices.areadetector.plugins.JPEGPlugin" title="pcdsdevices.areadetector.plugins.JPEGPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.JPEGPlugin</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.JPEGPlugin.html#pcdsdevices.areadetector.plugins.JPEGPlugin" title="pcdsdevices.areadetector.plugins.JPEGPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.JPEGPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.MagickPlugin.html#pcdsdevices.areadetector.plugins.MagickPlugin" title="pcdsdevices.areadetector.plugins.MagickPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.MagickPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.MagickPlugin.html#pcdsdevices.areadetector.plugins.MagickPlugin" title="pcdsdevices.areadetector.plugins.MagickPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.MagickPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.NetCDFPlugin.html#pcdsdevices.areadetector.plugins.NetCDFPlugin" title="pcdsdevices.areadetector.plugins.NetCDFPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.NetCDFPlugin</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.NetCDFPlugin.html#pcdsdevices.areadetector.plugins.NetCDFPlugin" title="pcdsdevices.areadetector.plugins.NetCDFPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.NetCDFPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.NexusPlugin.html#pcdsdevices.areadetector.plugins.NexusPlugin" title="pcdsdevices.areadetector.plugins.NexusPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.NexusPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.NexusPlugin.html#pcdsdevices.areadetector.plugins.NexusPlugin" title="pcdsdevices.areadetector.plugins.NexusPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.NexusPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.Overlay.html#pcdsdevices.areadetector.plugins.Overlay" title="pcdsdevices.areadetector.plugins.Overlay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.Overlay</span></code></a>([...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.Overlay.html#pcdsdevices.areadetector.plugins.Overlay" title="pcdsdevices.areadetector.plugins.Overlay"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.Overlay</span></code></a>([...])</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.OverlayPlugin.html#pcdsdevices.areadetector.plugins.OverlayPlugin" title="pcdsdevices.areadetector.plugins.OverlayPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.OverlayPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.OverlayPlugin.html#pcdsdevices.areadetector.plugins.OverlayPlugin" title="pcdsdevices.areadetector.plugins.OverlayPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.OverlayPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.PluginBase.html#pcdsdevices.areadetector.plugins.PluginBase" title="pcdsdevices.areadetector.plugins.PluginBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.PluginBase</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.PluginBase.html#pcdsdevices.areadetector.plugins.PluginBase" title="pcdsdevices.areadetector.plugins.PluginBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.PluginBase</span></code></a>(...)</p></td>
 <td><p>Overridden PluginBase to make it work when the root device is not a CamBase class.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ProcessPlugin.html#pcdsdevices.areadetector.plugins.ProcessPlugin" title="pcdsdevices.areadetector.plugins.ProcessPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ProcessPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ProcessPlugin.html#pcdsdevices.areadetector.plugins.ProcessPlugin" title="pcdsdevices.areadetector.plugins.ProcessPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ProcessPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ROIPlugin.html#pcdsdevices.areadetector.plugins.ROIPlugin" title="pcdsdevices.areadetector.plugins.ROIPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ROIPlugin</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.ROIPlugin.html#pcdsdevices.areadetector.plugins.ROIPlugin" title="pcdsdevices.areadetector.plugins.ROIPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.ROIPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.StatsPlugin.html#pcdsdevices.areadetector.plugins.StatsPlugin" title="pcdsdevices.areadetector.plugins.StatsPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.StatsPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.StatsPlugin.html#pcdsdevices.areadetector.plugins.StatsPlugin" title="pcdsdevices.areadetector.plugins.StatsPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.StatsPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.TIFFPlugin.html#pcdsdevices.areadetector.plugins.TIFFPlugin" title="pcdsdevices.areadetector.plugins.TIFFPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.TIFFPlugin</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.TIFFPlugin.html#pcdsdevices.areadetector.plugins.TIFFPlugin" title="pcdsdevices.areadetector.plugins.TIFFPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.TIFFPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.TransformPlugin.html#pcdsdevices.areadetector.plugins.TransformPlugin" title="pcdsdevices.areadetector.plugins.TransformPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.TransformPlugin</span></code></a>(...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.areadetector.plugins.TransformPlugin.html#pcdsdevices.areadetector.plugins.TransformPlugin" title="pcdsdevices.areadetector.plugins.TransformPlugin"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.areadetector.plugins.TransformPlugin</span></code></a>(...)</p></td>
 <td><p></p></td>
 </tr>
 </tbody>
