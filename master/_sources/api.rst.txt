@@ -525,6 +525,7 @@ pcdsdevices.mirror
     pcdsdevices.mirror.FFMirror
     pcdsdevices.mirror.Gantry
     pcdsdevices.mirror.KBOMirror
+    pcdsdevices.mirror.KBOMirrorHE
     pcdsdevices.mirror.OMMotor
     pcdsdevices.mirror.OffsetMirror
     pcdsdevices.mirror.Pitch

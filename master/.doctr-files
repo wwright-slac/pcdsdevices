@@ -266,6 +266,7 @@ master/_sources/generated/pcdsdevices.mirror.CoatingState.rst.txt
 master/_sources/generated/pcdsdevices.mirror.FFMirror.rst.txt
 master/_sources/generated/pcdsdevices.mirror.Gantry.rst.txt
 master/_sources/generated/pcdsdevices.mirror.KBOMirror.rst.txt
+master/_sources/generated/pcdsdevices.mirror.KBOMirrorHE.rst.txt
 master/_sources/generated/pcdsdevices.mirror.OMMotor.rst.txt
 master/_sources/generated/pcdsdevices.mirror.OffsetMirror.rst.txt
 master/_sources/generated/pcdsdevices.mirror.Pitch.rst.txt
@@ -477,6 +478,7 @@ master/_sources/ui.rst.txt
 master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/928-hdf5-save.rst.txt
 master/_sources/upcoming_release_notes/945-slow_motor_move_to_start.rst.txt
+master/_sources/upcoming_release_notes/949-kbo-fixes.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -783,6 +785,7 @@ master/generated/pcdsdevices.mirror.CoatingState.html
 master/generated/pcdsdevices.mirror.FFMirror.html
 master/generated/pcdsdevices.mirror.Gantry.html
 master/generated/pcdsdevices.mirror.KBOMirror.html
+master/generated/pcdsdevices.mirror.KBOMirrorHE.html
 master/generated/pcdsdevices.mirror.OMMotor.html
 master/generated/pcdsdevices.mirror.OffsetMirror.html
 master/generated/pcdsdevices.mirror.Pitch.html
@@ -998,5 +1001,6 @@ master/ui.html
 master/upcoming_changes.html
 master/upcoming_release_notes/928-hdf5-save.html
 master/upcoming_release_notes/945-slow_motor_move_to_start.html
+master/upcoming_release_notes/949-kbo-fixes.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html

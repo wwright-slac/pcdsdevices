@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>API &mdash; PCDS Devices 5.1.0+23.g981dc88.dirty documentation</title>
+  <title>API &mdash; PCDS Devices 5.1.0+31.g7c4728d.dirty documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+23.g981dc88.dirty
+                5.1.0+31.g7c4728d.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -419,6 +419,7 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.FFMirror.html">pcdsdevices.mirror.FFMirror</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.Gantry.html">pcdsdevices.mirror.Gantry</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.html">pcdsdevices.mirror.KBOMirror</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirrorHE.html">pcdsdevices.mirror.KBOMirrorHE</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.html">pcdsdevices.mirror.OMMotor</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.html">pcdsdevices.mirror.OffsetMirror</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.html">pcdsdevices.mirror.Pitch</a></li>
@@ -1964,31 +1965,34 @@
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirror.html#pcdsdevices.mirror.KBOMirror" title="pcdsdevices.mirror.KBOMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.KBOMirror</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Kirkpatrick-Baez Mirror with Bender Axes.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.html#pcdsdevices.mirror.OMMotor" title="pcdsdevices.mirror.OMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.OMMotor</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.KBOMirrorHE.html#pcdsdevices.mirror.KBOMirrorHE" title="pcdsdevices.mirror.KBOMirrorHE"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.KBOMirrorHE</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Kirkpatrick-Baez Mirror with Bender Axes and Cooling.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OMMotor.html#pcdsdevices.mirror.OMMotor" title="pcdsdevices.mirror.OMMotor"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.OMMotor</span></code></a>(*args, **kwargs)</p></td>
 <td><p>Base class for each motor in the LCLS offset mirror system.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.html#pcdsdevices.mirror.OffsetMirror" title="pcdsdevices.mirror.OffsetMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.OffsetMirror</span></code></a>(prefix, *[, ...])</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.html#pcdsdevices.mirror.OffsetMirror" title="pcdsdevices.mirror.OffsetMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.OffsetMirror</span></code></a>(prefix, *[, ...])</p></td>
 <td><p>X-ray Offset Mirror class.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.html#pcdsdevices.mirror.Pitch" title="pcdsdevices.mirror.Pitch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.Pitch</span></code></a>(prefix, **kwargs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.Pitch.html#pcdsdevices.mirror.Pitch" title="pcdsdevices.mirror.Pitch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.Pitch</span></code></a>(prefix, **kwargs)</p></td>
 <td><p>HOMS Pitch Mechanism.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.PointingMirror.html#pcdsdevices.mirror.PointingMirror" title="pcdsdevices.mirror.PointingMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.PointingMirror</span></code></a>(prefix, *)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.PointingMirror.html#pcdsdevices.mirror.PointingMirror" title="pcdsdevices.mirror.PointingMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.PointingMirror</span></code></a>(prefix, *)</p></td>
 <td><p>Retractable <a class="reference internal" href="generated/pcdsdevices.mirror.OffsetMirror.html#pcdsdevices.mirror.OffsetMirror" title="pcdsdevices.mirror.OffsetMirror"><code class="xref any py py-class docutils literal notranslate"><span class="pre">OffsetMirror</span></code></a>.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.TwinCATMirrorStripe.html#pcdsdevices.mirror.TwinCATMirrorStripe" title="pcdsdevices.mirror.TwinCATMirrorStripe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.TwinCATMirrorStripe</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.TwinCATMirrorStripe.html#pcdsdevices.mirror.TwinCATMirrorStripe" title="pcdsdevices.mirror.TwinCATMirrorStripe"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.TwinCATMirrorStripe</span></code></a>(...)</p></td>
 <td><p>Subclass of TwinCATStatePMPS for the mirror coatings.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirror.html#pcdsdevices.mirror.XOffsetMirror" title="pcdsdevices.mirror.XOffsetMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirror</span></code></a>(*args, **kwargs)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirror.html#pcdsdevices.mirror.XOffsetMirror" title="pcdsdevices.mirror.XOffsetMirror"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirror</span></code></a>(*args, **kwargs)</p></td>
 <td><p>X-ray Offset Mirror.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorBend.html#pcdsdevices.mirror.XOffsetMirrorBend" title="pcdsdevices.mirror.XOffsetMirrorBend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorBend</span></code></a>(*args, ...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorBend.html#pcdsdevices.mirror.XOffsetMirrorBend" title="pcdsdevices.mirror.XOffsetMirrorBend"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorBend</span></code></a>(*args, ...)</p></td>
 <td><p>X-ray Offset Mirror with 2 bender acutators.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorState.html#pcdsdevices.mirror.XOffsetMirrorState" title="pcdsdevices.mirror.XOffsetMirrorState"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorState</span></code></a>(*args, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorState.html#pcdsdevices.mirror.XOffsetMirrorState" title="pcdsdevices.mirror.XOffsetMirrorState"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorState</span></code></a>(*args, ...)</p></td>
 <td><p>X-ray Offset Mirror with Yleft/Yright</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorSwitch.html#pcdsdevices.mirror.XOffsetMirrorSwitch" title="pcdsdevices.mirror.XOffsetMirrorSwitch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorSwitch</span></code></a>(...)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.mirror.XOffsetMirrorSwitch.html#pcdsdevices.mirror.XOffsetMirrorSwitch" title="pcdsdevices.mirror.XOffsetMirrorSwitch"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.mirror.XOffsetMirrorSwitch</span></code></a>(...)</p></td>
 <td><p>X-ray Offset Mirror with Yleft/Yright</p></td>
 </tr>
 </tbody>
