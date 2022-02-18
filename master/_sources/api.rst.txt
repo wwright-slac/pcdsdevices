@@ -224,6 +224,7 @@ pcdsdevices.epics_motor
     pcdsdevices.epics_motor.BeckhoffAxis_Pre140
     pcdsdevices.epics_motor.EpicsMotorInterface
     pcdsdevices.epics_motor.IMS
+    pcdsdevices.epics_motor.MMC100
     pcdsdevices.epics_motor.Motor
     pcdsdevices.epics_motor.Newport
     pcdsdevices.epics_motor.OffsetIMSWithPreset

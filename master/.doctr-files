@@ -119,6 +119,7 @@ master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC_Pre140.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.BeckhoffAxis_Pre140.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.EpicsMotorInterface.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.IMS.rst.txt
+master/_sources/generated/pcdsdevices.epics_motor.MMC100.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.Motor.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.Newport.rst.txt
 master/_sources/generated/pcdsdevices.epics_motor.OffsetIMSWithPreset.rst.txt
@@ -479,6 +480,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/928-hdf5-save.rst.txt
 master/_sources/upcoming_release_notes/945-slow_motor_move_to_start.rst.txt
 master/_sources/upcoming_release_notes/949-kbo-fixes.rst.txt
+master/_sources/upcoming_release_notes/954-Add_MMC100_class.rst.txt
 master/_sources/upcoming_release_notes/955-preset-rbv.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
@@ -639,6 +641,7 @@ master/generated/pcdsdevices.epics_motor.BeckhoffAxisPLC_Pre140.html
 master/generated/pcdsdevices.epics_motor.BeckhoffAxis_Pre140.html
 master/generated/pcdsdevices.epics_motor.EpicsMotorInterface.html
 master/generated/pcdsdevices.epics_motor.IMS.html
+master/generated/pcdsdevices.epics_motor.MMC100.html
 master/generated/pcdsdevices.epics_motor.Motor.html
 master/generated/pcdsdevices.epics_motor.Newport.html
 master/generated/pcdsdevices.epics_motor.OffsetIMSWithPreset.html
@@ -1003,6 +1006,7 @@ master/upcoming_changes.html
 master/upcoming_release_notes/928-hdf5-save.html
 master/upcoming_release_notes/945-slow_motor_move_to_start.html
 master/upcoming_release_notes/949-kbo-fixes.html
+master/upcoming_release_notes/954-Add_MMC100_class.html
 master/upcoming_release_notes/955-preset-rbv.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
