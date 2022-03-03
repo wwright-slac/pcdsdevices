@@ -822,6 +822,7 @@ pcdsdevices.spectrometer
 .. autosummary::
     :toctree: generated
 
+    pcdsdevices.spectrometer.HXRSpectrometer
     pcdsdevices.spectrometer.Kmono
     pcdsdevices.spectrometer.Mono
     pcdsdevices.spectrometer.TMOSpectrometer

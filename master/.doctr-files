@@ -409,6 +409,7 @@ master/_sources/generated/pcdsdevices.slits.SimLusiSlits.rst.txt
 master/_sources/generated/pcdsdevices.slits.SlitPositioner.rst.txt
 master/_sources/generated/pcdsdevices.slits.Slits.rst.txt
 master/_sources/generated/pcdsdevices.slits.SlitsBase.rst.txt
+master/_sources/generated/pcdsdevices.spectrometer.HXRSpectrometer.rst.txt
 master/_sources/generated/pcdsdevices.spectrometer.Kmono.rst.txt
 master/_sources/generated/pcdsdevices.spectrometer.Mono.rst.txt
 master/_sources/generated/pcdsdevices.spectrometer.TMOSpectrometer.rst.txt
@@ -483,6 +484,7 @@ master/_sources/upcoming_release_notes/949-kbo-fixes.rst.txt
 master/_sources/upcoming_release_notes/954-Add_MMC100_class.rst.txt
 master/_sources/upcoming_release_notes/955-preset-rbv.rst.txt
 master/_sources/upcoming_release_notes/958-biological_parents_for_GroupDevice.rst.txt
+master/_sources/upcoming_release_notes/959-Added_HXRSpectrometer_class.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -932,6 +934,7 @@ master/generated/pcdsdevices.slits.SimLusiSlits.html
 master/generated/pcdsdevices.slits.SlitPositioner.html
 master/generated/pcdsdevices.slits.Slits.html
 master/generated/pcdsdevices.slits.SlitsBase.html
+master/generated/pcdsdevices.spectrometer.HXRSpectrometer.html
 master/generated/pcdsdevices.spectrometer.Kmono.html
 master/generated/pcdsdevices.spectrometer.Mono.html
 master/generated/pcdsdevices.spectrometer.TMOSpectrometer.html
@@ -1010,5 +1013,6 @@ master/upcoming_release_notes/949-kbo-fixes.html
 master/upcoming_release_notes/954-Add_MMC100_class.html
 master/upcoming_release_notes/955-preset-rbv.html
 master/upcoming_release_notes/958-biological_parents_for_GroupDevice.html
+master/upcoming_release_notes/959-Added_HXRSpectrometer_class.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
