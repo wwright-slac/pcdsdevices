@@ -51,6 +51,7 @@
     .. automethod:: describe
     .. automethod:: egu
     .. automethod:: get
+    .. automethod:: post_elog_status
     .. automethod:: pressure
     .. automethod:: read
     .. automethod:: read_configuration

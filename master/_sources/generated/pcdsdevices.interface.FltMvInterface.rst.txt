@@ -20,6 +20,7 @@
     .. automethod:: mv
     .. automethod:: mv_ginput
     .. automethod:: mvr
+    .. automethod:: post_elog_status
     .. automethod:: set_position
     .. automethod:: status
     .. automethod:: tweak

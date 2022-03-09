@@ -41,6 +41,7 @@
     .. automethod:: configure
     .. automethod:: describe
     .. automethod:: get
+    .. automethod:: post_elog_status
     .. automethod:: power_cycle
     .. automethod:: read
     .. automethod:: read_configuration

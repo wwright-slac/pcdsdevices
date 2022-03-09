@@ -79,6 +79,7 @@
     .. automethod:: get
     .. automethod:: off
     .. automethod:: on
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: set_current

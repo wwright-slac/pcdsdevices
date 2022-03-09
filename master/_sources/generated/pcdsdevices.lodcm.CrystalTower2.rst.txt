@@ -234,6 +234,7 @@
     .. automethod:: get_reflection
     .. automethod:: is_diamond
     .. automethod:: is_silicon
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: stage_group_instances

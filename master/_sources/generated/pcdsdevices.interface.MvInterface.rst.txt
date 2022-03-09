@@ -18,6 +18,7 @@
     .. automethod:: end_monitor_thread
     .. automethod:: move
     .. automethod:: mv
+    .. automethod:: post_elog_status
     .. automethod:: status
     .. automethod:: wait
     .. automethod:: wm

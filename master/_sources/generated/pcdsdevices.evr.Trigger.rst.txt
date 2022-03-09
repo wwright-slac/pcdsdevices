@@ -97,6 +97,7 @@
     .. automethod:: disable
     .. automethod:: enable
     .. automethod:: get
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: status

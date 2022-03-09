@@ -302,6 +302,7 @@
     .. automethod:: configure
     .. automethod:: describe
     .. automethod:: get
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: status

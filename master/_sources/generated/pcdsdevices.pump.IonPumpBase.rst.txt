@@ -153,6 +153,7 @@
     .. automethod:: info
     .. automethod:: off
     .. automethod:: on
+    .. automethod:: post_elog_status
     .. automethod:: pressure
     .. automethod:: read
     .. automethod:: read_configuration

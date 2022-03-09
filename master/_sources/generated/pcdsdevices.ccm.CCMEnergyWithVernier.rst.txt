@@ -134,6 +134,7 @@
     .. automethod:: mv
     .. automethod:: mv_ginput
     .. automethod:: mvr
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: reset_calc_constant_defaults

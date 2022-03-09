@@ -136,6 +136,7 @@
     .. automethod:: get_max_voltage
     .. automethod:: off
     .. automethod:: on
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: reset

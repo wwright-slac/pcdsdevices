@@ -103,6 +103,7 @@
     .. automethod:: k_to_e
     .. automethod:: move
     .. automethod:: move_single
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: set

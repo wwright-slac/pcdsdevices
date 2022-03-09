@@ -52,6 +52,7 @@
     .. automethod:: get
     .. automethod:: get_mesh_voltage
     .. automethod:: get_raw_mesh_voltage
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: set_mesh_voltage

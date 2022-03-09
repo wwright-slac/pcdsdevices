@@ -363,6 +363,7 @@
     .. automethod:: get_active_config
     .. automethod:: get_best_config
     .. automethod:: get_moving_status
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: status

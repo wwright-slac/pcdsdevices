@@ -154,6 +154,7 @@
     .. automethod:: describe_collect
     .. automethod:: get
     .. automethod:: kickoff
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: start

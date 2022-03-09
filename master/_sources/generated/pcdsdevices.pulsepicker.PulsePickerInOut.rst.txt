@@ -136,6 +136,7 @@
     .. automethod:: move
     .. automethod:: mv
     .. automethod:: open
+    .. automethod:: post_elog_status
     .. automethod:: read
     .. automethod:: read_configuration
     .. automethod:: remove

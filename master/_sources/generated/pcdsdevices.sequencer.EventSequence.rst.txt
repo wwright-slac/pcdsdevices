@@ -78,6 +78,7 @@
     .. automethod:: describe
     .. automethod:: get
     .. automethod:: get_seq
+    .. automethod:: post_elog_status
     .. automethod:: put_seq
     .. automethod:: read
     .. automethod:: read_configuration
