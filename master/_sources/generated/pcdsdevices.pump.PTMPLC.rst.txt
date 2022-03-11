@@ -60,6 +60,13 @@
           - normal
           - 
     
+        * - pump_current
+          - :class:`~ophyd.signal.EpicsSignalRO`
+          - ``:CURR_MON_RBV``
+          - 
+          - normal
+          - 
+    
         * - fault
           - :class:`~ophyd.signal.EpicsSignalRO`
           - ``:FAULT_RBV``
@@ -103,6 +110,8 @@
           - 
     
 
+    
+    
     
     
     

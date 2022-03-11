@@ -488,6 +488,7 @@ master/_sources/upcoming_release_notes/959-Added_HXRSpectrometer_class.rst.txt
 master/_sources/upcoming_release_notes/962-device_elog_post.rst.txt
 master/_sources/upcoming_release_notes/963-init_ordering.rst.txt
 master/_sources/upcoming_release_notes/966-perf-last-status.rst.txt
+master/_sources/upcoming_release_notes/968-PTMPLC.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -1020,5 +1021,6 @@ master/upcoming_release_notes/959-Added_HXRSpectrometer_class.html
 master/upcoming_release_notes/962-device_elog_post.html
 master/upcoming_release_notes/963-init_ordering.html
 master/upcoming_release_notes/966-perf-last-status.html
+master/upcoming_release_notes/968-PTMPLC.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
