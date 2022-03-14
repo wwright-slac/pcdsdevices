@@ -162,6 +162,16 @@ pcdsdevices.dc_devices
     pcdsdevices.dc_devices.ICTBus
     pcdsdevices.dc_devices.ICTChannel
 
+pcdsdevices.delay_generator
+---------------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.delay_generator.DelayGenerator
+    pcdsdevices.delay_generator.DelayGeneratorBase
+    pcdsdevices.delay_generator.DgChannel
+
 pcdsdevices.device
 ------------------
 

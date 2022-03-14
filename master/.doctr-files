@@ -84,6 +84,9 @@ master/_sources/generated/pcdsdevices.cvmi_motion.KTOF.rst.txt
 master/_sources/generated/pcdsdevices.dc_devices.ICT.rst.txt
 master/_sources/generated/pcdsdevices.dc_devices.ICTBus.rst.txt
 master/_sources/generated/pcdsdevices.dc_devices.ICTChannel.rst.txt
+master/_sources/generated/pcdsdevices.delay_generator.DelayGenerator.rst.txt
+master/_sources/generated/pcdsdevices.delay_generator.DelayGeneratorBase.rst.txt
+master/_sources/generated/pcdsdevices.delay_generator.DgChannel.rst.txt
 master/_sources/generated/pcdsdevices.device.GroupDevice.rst.txt
 master/_sources/generated/pcdsdevices.device.InterfaceDevice.rst.txt
 master/_sources/generated/pcdsdevices.device.to_interface.rst.txt
@@ -481,6 +484,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/928-hdf5-save.rst.txt
 master/_sources/upcoming_release_notes/945-slow_motor_move_to_start.rst.txt
 master/_sources/upcoming_release_notes/949-kbo-fixes.rst.txt
+master/_sources/upcoming_release_notes/952-delay-gen-class.rst.txt
 master/_sources/upcoming_release_notes/954-Add_MMC100_class.rst.txt
 master/_sources/upcoming_release_notes/955-preset-rbv.rst.txt
 master/_sources/upcoming_release_notes/958-biological_parents_for_GroupDevice.rst.txt
@@ -613,6 +617,9 @@ master/generated/pcdsdevices.cvmi_motion.KTOF.html
 master/generated/pcdsdevices.dc_devices.ICT.html
 master/generated/pcdsdevices.dc_devices.ICTBus.html
 master/generated/pcdsdevices.dc_devices.ICTChannel.html
+master/generated/pcdsdevices.delay_generator.DelayGenerator.html
+master/generated/pcdsdevices.delay_generator.DelayGeneratorBase.html
+master/generated/pcdsdevices.delay_generator.DgChannel.html
 master/generated/pcdsdevices.device.GroupDevice.html
 master/generated/pcdsdevices.device.InterfaceDevice.html
 master/generated/pcdsdevices.device.to_interface.html
@@ -1014,6 +1021,7 @@ master/upcoming_changes.html
 master/upcoming_release_notes/928-hdf5-save.html
 master/upcoming_release_notes/945-slow_motor_move_to_start.html
 master/upcoming_release_notes/949-kbo-fixes.html
+master/upcoming_release_notes/952-delay-gen-class.html
 master/upcoming_release_notes/954-Add_MMC100_class.html
 master/upcoming_release_notes/955-preset-rbv.html
 master/upcoming_release_notes/958-biological_parents_for_GroupDevice.html
