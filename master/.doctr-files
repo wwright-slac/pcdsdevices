@@ -447,6 +447,7 @@ master/_sources/generated/pcdsdevices.timetool.TimetoolWithNav.rst.txt
 master/_sources/generated/pcdsdevices.utils.combine_status_info.rst.txt
 master/_sources/generated/pcdsdevices.utils.convert_unit.rst.txt
 master/_sources/generated/pcdsdevices.utils.doc_format_decorator.rst.txt
+master/_sources/generated/pcdsdevices.utils.format_ophyds_to_html.rst.txt
 master/_sources/generated/pcdsdevices.utils.format_status_table.rst.txt
 master/_sources/generated/pcdsdevices.utils.get_component.rst.txt
 master/_sources/generated/pcdsdevices.utils.get_input.rst.txt
@@ -454,6 +455,7 @@ master/_sources/generated/pcdsdevices.utils.get_status_float.rst.txt
 master/_sources/generated/pcdsdevices.utils.get_status_value.rst.txt
 master/_sources/generated/pcdsdevices.utils.ipm_screen.rst.txt
 master/_sources/generated/pcdsdevices.utils.is_input.rst.txt
+master/_sources/generated/pcdsdevices.utils.post_ophyds_to_elog.rst.txt
 master/_sources/generated/pcdsdevices.utils.schedule_task.rst.txt
 master/_sources/generated/pcdsdevices.valve.GateValve.rst.txt
 master/_sources/generated/pcdsdevices.valve.VCN.rst.txt
@@ -492,6 +494,7 @@ master/_sources/upcoming_release_notes/959-Added_HXRSpectrometer_class.rst.txt
 master/_sources/upcoming_release_notes/962-device_elog_post.rst.txt
 master/_sources/upcoming_release_notes/963-init_ordering.rst.txt
 master/_sources/upcoming_release_notes/966-perf-last-status.rst.txt
+master/_sources/upcoming_release_notes/967-namespace_elog_post.rst.txt
 master/_sources/upcoming_release_notes/968-PTMPLC.rst.txt
 master/_sources/upcoming_release_notes/971-mirror-tabs.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
@@ -981,6 +984,7 @@ master/generated/pcdsdevices.timetool.TimetoolWithNav.html
 master/generated/pcdsdevices.utils.combine_status_info.html
 master/generated/pcdsdevices.utils.convert_unit.html
 master/generated/pcdsdevices.utils.doc_format_decorator.html
+master/generated/pcdsdevices.utils.format_ophyds_to_html.html
 master/generated/pcdsdevices.utils.format_status_table.html
 master/generated/pcdsdevices.utils.get_component.html
 master/generated/pcdsdevices.utils.get_input.html
@@ -988,6 +992,7 @@ master/generated/pcdsdevices.utils.get_status_float.html
 master/generated/pcdsdevices.utils.get_status_value.html
 master/generated/pcdsdevices.utils.ipm_screen.html
 master/generated/pcdsdevices.utils.is_input.html
+master/generated/pcdsdevices.utils.post_ophyds_to_elog.html
 master/generated/pcdsdevices.utils.schedule_task.html
 master/generated/pcdsdevices.valve.GateValve.html
 master/generated/pcdsdevices.valve.VCN.html
@@ -1030,6 +1035,7 @@ master/upcoming_release_notes/959-Added_HXRSpectrometer_class.html
 master/upcoming_release_notes/962-device_elog_post.html
 master/upcoming_release_notes/963-init_ordering.html
 master/upcoming_release_notes/966-perf-last-status.html
+master/upcoming_release_notes/967-namespace_elog_post.html
 master/upcoming_release_notes/968-PTMPLC.html
 master/upcoming_release_notes/971-mirror-tabs.html
 master/upcoming_release_notes/template-full.html

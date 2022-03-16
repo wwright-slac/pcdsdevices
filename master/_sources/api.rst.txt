@@ -916,6 +916,7 @@ pcdsdevices.utils
     pcdsdevices.utils.combine_status_info
     pcdsdevices.utils.convert_unit
     pcdsdevices.utils.doc_format_decorator
+    pcdsdevices.utils.format_ophyds_to_html
     pcdsdevices.utils.format_status_table
     pcdsdevices.utils.get_component
     pcdsdevices.utils.get_input
@@ -923,6 +924,7 @@ pcdsdevices.utils
     pcdsdevices.utils.get_status_value
     pcdsdevices.utils.ipm_screen
     pcdsdevices.utils.is_input
+    pcdsdevices.utils.post_ophyds_to_elog
     pcdsdevices.utils.schedule_task
 
 pcdsdevices.valve
