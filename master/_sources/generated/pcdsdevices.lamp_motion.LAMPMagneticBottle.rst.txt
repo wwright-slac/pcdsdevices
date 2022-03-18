@@ -39,13 +39,6 @@
           - normal
           - 
     
-        * - gas_needle_theta
-          - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
-          - ``:MMS:10``
-          - 
-          - normal
-          - 
-    
         * - magnet_x
           - :class:`~pcdsdevices.epics_motor.BeckhoffAxis`
           - ``:MMS:05``
@@ -68,8 +61,6 @@
           - 
     
 
-    
-    
     
     
     
