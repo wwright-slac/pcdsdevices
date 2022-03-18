@@ -379,6 +379,20 @@ pcdsdevices.lamp_motion
     pcdsdevices.lamp_motion.LAMPMagneticBottle
     pcdsdevices.lamp_motion.LAMP_LV_17
 
+pcdsdevices.lasers.btps
+-----------------------
+
+.. autosummary::
+    :toctree: generated
+
+    pcdsdevices.lasers.btps.BtpsState
+    pcdsdevices.lasers.btps.CentroidConfig
+    pcdsdevices.lasers.btps.DestinationConfig
+    pcdsdevices.lasers.btps.GlobalConfig
+    pcdsdevices.lasers.btps.RangeComparison
+    pcdsdevices.lasers.btps.ShutterSafety
+    pcdsdevices.lasers.btps.SourceConfig
+
 pcdsdevices.lasers.counters
 ---------------------------
 

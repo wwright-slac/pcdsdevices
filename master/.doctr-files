@@ -210,6 +210,13 @@ master/_sources/generated/pcdsdevices.lamp_motion.LAMP.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMPFlowCell.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMPMagneticBottle.rst.txt
 master/_sources/generated/pcdsdevices.lamp_motion.LAMP_LV_17.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.BtpsState.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.CentroidConfig.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.DestinationConfig.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.GlobalConfig.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.RangeComparison.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.ShutterSafety.rst.txt
+master/_sources/generated/pcdsdevices.lasers.btps.SourceConfig.rst.txt
 master/_sources/generated/pcdsdevices.lasers.counters.Agilent53210A.rst.txt
 master/_sources/generated/pcdsdevices.lasers.dicon.DiconSwitch.rst.txt
 master/_sources/generated/pcdsdevices.lasers.ek9000.El3174AiCh.rst.txt
@@ -486,6 +493,7 @@ master/_sources/upcoming_changes.rst.txt
 master/_sources/upcoming_release_notes/928-hdf5-save.rst.txt
 master/_sources/upcoming_release_notes/945-slow_motor_move_to_start.rst.txt
 master/_sources/upcoming_release_notes/949-kbo-fixes.rst.txt
+master/_sources/upcoming_release_notes/950-laser_btps.rst.txt
 master/_sources/upcoming_release_notes/952-delay-gen-class.rst.txt
 master/_sources/upcoming_release_notes/954-Add_MMC100_class.rst.txt
 master/_sources/upcoming_release_notes/955-preset-rbv.rst.txt
@@ -747,6 +755,13 @@ master/generated/pcdsdevices.lamp_motion.LAMP.html
 master/generated/pcdsdevices.lamp_motion.LAMPFlowCell.html
 master/generated/pcdsdevices.lamp_motion.LAMPMagneticBottle.html
 master/generated/pcdsdevices.lamp_motion.LAMP_LV_17.html
+master/generated/pcdsdevices.lasers.btps.BtpsState.html
+master/generated/pcdsdevices.lasers.btps.CentroidConfig.html
+master/generated/pcdsdevices.lasers.btps.DestinationConfig.html
+master/generated/pcdsdevices.lasers.btps.GlobalConfig.html
+master/generated/pcdsdevices.lasers.btps.RangeComparison.html
+master/generated/pcdsdevices.lasers.btps.ShutterSafety.html
+master/generated/pcdsdevices.lasers.btps.SourceConfig.html
 master/generated/pcdsdevices.lasers.counters.Agilent53210A.html
 master/generated/pcdsdevices.lasers.dicon.DiconSwitch.html
 master/generated/pcdsdevices.lasers.ek9000.El3174AiCh.html
@@ -1027,6 +1042,7 @@ master/upcoming_changes.html
 master/upcoming_release_notes/928-hdf5-save.html
 master/upcoming_release_notes/945-slow_motor_move_to_start.html
 master/upcoming_release_notes/949-kbo-fixes.html
+master/upcoming_release_notes/950-laser_btps.html
 master/upcoming_release_notes/952-delay-gen-class.html
 master/upcoming_release_notes/954-Add_MMC100_class.html
 master/upcoming_release_notes/955-preset-rbv.html
