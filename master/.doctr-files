@@ -392,6 +392,8 @@ master/_sources/generated/pcdsdevices.signal.FakePytmcSignal.rst.txt
 master/_sources/generated/pcdsdevices.signal.FakePytmcSignalRO.rst.txt
 master/_sources/generated/pcdsdevices.signal.FakePytmcSignalRW.rst.txt
 master/_sources/generated/pcdsdevices.signal.InternalSignal.rst.txt
+master/_sources/generated/pcdsdevices.signal.MultiDerivedSignal.rst.txt
+master/_sources/generated/pcdsdevices.signal.MultiDerivedSignalRO.rst.txt
 master/_sources/generated/pcdsdevices.signal.NotImplementedSignal.rst.txt
 master/_sources/generated/pcdsdevices.signal.NotepadLinkedSignal.rst.txt
 master/_sources/generated/pcdsdevices.signal.PVStateSignal.rst.txt
@@ -462,8 +464,10 @@ master/_sources/generated/pcdsdevices.utils.get_status_float.rst.txt
 master/_sources/generated/pcdsdevices.utils.get_status_value.rst.txt
 master/_sources/generated/pcdsdevices.utils.ipm_screen.rst.txt
 master/_sources/generated/pcdsdevices.utils.is_input.rst.txt
+master/_sources/generated/pcdsdevices.utils.maybe_make_method.rst.txt
 master/_sources/generated/pcdsdevices.utils.post_ophyds_to_elog.rst.txt
 master/_sources/generated/pcdsdevices.utils.schedule_task.rst.txt
+master/_sources/generated/pcdsdevices.utils.set_many.rst.txt
 master/_sources/generated/pcdsdevices.valve.GateValve.rst.txt
 master/_sources/generated/pcdsdevices.valve.VCN.rst.txt
 master/_sources/generated/pcdsdevices.valve.VFS.rst.txt
@@ -504,6 +508,7 @@ master/_sources/upcoming_release_notes/963-init_ordering.rst.txt
 master/_sources/upcoming_release_notes/966-perf-last-status.rst.txt
 master/_sources/upcoming_release_notes/967-namespace_elog_post.rst.txt
 master/_sources/upcoming_release_notes/968-PTMPLC.rst.txt
+master/_sources/upcoming_release_notes/970-multi_derived_signal.rst.txt
 master/_sources/upcoming_release_notes/971-mirror-tabs.rst.txt
 master/_sources/upcoming_release_notes/975-tmo_spec_offsets.rst.txt
 master/_sources/upcoming_release_notes/976-lamp_mbes_3_22.rst.txt
@@ -939,6 +944,8 @@ master/generated/pcdsdevices.signal.FakePytmcSignal.html
 master/generated/pcdsdevices.signal.FakePytmcSignalRO.html
 master/generated/pcdsdevices.signal.FakePytmcSignalRW.html
 master/generated/pcdsdevices.signal.InternalSignal.html
+master/generated/pcdsdevices.signal.MultiDerivedSignal.html
+master/generated/pcdsdevices.signal.MultiDerivedSignalRO.html
 master/generated/pcdsdevices.signal.NotImplementedSignal.html
 master/generated/pcdsdevices.signal.NotepadLinkedSignal.html
 master/generated/pcdsdevices.signal.PVStateSignal.html
@@ -1009,8 +1016,10 @@ master/generated/pcdsdevices.utils.get_status_float.html
 master/generated/pcdsdevices.utils.get_status_value.html
 master/generated/pcdsdevices.utils.ipm_screen.html
 master/generated/pcdsdevices.utils.is_input.html
+master/generated/pcdsdevices.utils.maybe_make_method.html
 master/generated/pcdsdevices.utils.post_ophyds_to_elog.html
 master/generated/pcdsdevices.utils.schedule_task.html
+master/generated/pcdsdevices.utils.set_many.html
 master/generated/pcdsdevices.valve.GateValve.html
 master/generated/pcdsdevices.valve.VCN.html
 master/generated/pcdsdevices.valve.VFS.html
@@ -1055,6 +1064,7 @@ master/upcoming_release_notes/963-init_ordering.html
 master/upcoming_release_notes/966-perf-last-status.html
 master/upcoming_release_notes/967-namespace_elog_post.html
 master/upcoming_release_notes/968-PTMPLC.html
+master/upcoming_release_notes/970-multi_derived_signal.html
 master/upcoming_release_notes/971-mirror-tabs.html
 master/upcoming_release_notes/975-tmo_spec_offsets.html
 master/upcoming_release_notes/976-lamp_mbes_3_22.html

@@ -798,6 +798,8 @@ pcdsdevices.signal
     pcdsdevices.signal.FakePytmcSignalRO
     pcdsdevices.signal.FakePytmcSignalRW
     pcdsdevices.signal.InternalSignal
+    pcdsdevices.signal.MultiDerivedSignal
+    pcdsdevices.signal.MultiDerivedSignalRO
     pcdsdevices.signal.NotImplementedSignal
     pcdsdevices.signal.NotepadLinkedSignal
     pcdsdevices.signal.PVStateSignal
@@ -938,8 +940,10 @@ pcdsdevices.utils
     pcdsdevices.utils.get_status_value
     pcdsdevices.utils.ipm_screen
     pcdsdevices.utils.is_input
+    pcdsdevices.utils.maybe_make_method
     pcdsdevices.utils.post_ophyds_to_elog
     pcdsdevices.utils.schedule_task
+    pcdsdevices.utils.set_many
 
 pcdsdevices.valve
 -----------------

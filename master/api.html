@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>API &mdash; PCDS Devices 5.1.0+130.gbec2fbf.dirty documentation</title>
+  <title>API &mdash; PCDS Devices 5.1.0+159.g1c64d7a.dirty documentation</title>
       <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+130.gbec2fbf.dirty
+                5.1.0+159.g1c64d7a.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -608,6 +608,8 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRO.html">pcdsdevices.signal.FakePytmcSignalRO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.FakePytmcSignalRW.html">pcdsdevices.signal.FakePytmcSignalRW</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.InternalSignal.html">pcdsdevices.signal.InternalSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.MultiDerivedSignal.html">pcdsdevices.signal.MultiDerivedSignal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.MultiDerivedSignalRO.html">pcdsdevices.signal.MultiDerivedSignalRO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.NotImplementedSignal.html">pcdsdevices.signal.NotImplementedSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.NotepadLinkedSignal.html">pcdsdevices.signal.NotepadLinkedSignal</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.signal.PVStateSignal.html">pcdsdevices.signal.PVStateSignal</a></li>
@@ -708,8 +710,10 @@
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.get_status_value.html">pcdsdevices.utils.get_status_value</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.ipm_screen.html">pcdsdevices.utils.ipm_screen</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.is_input.html">pcdsdevices.utils.is_input</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.maybe_make_method.html">pcdsdevices.utils.maybe_make_method</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.post_ophyds_to_elog.html">pcdsdevices.utils.post_ophyds_to_elog</a></li>
 <li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.schedule_task.html">pcdsdevices.utils.schedule_task</a></li>
+<li class="toctree-l3"><a class="reference internal" href="generated/pcdsdevices.utils.set_many.html">pcdsdevices.utils.set_many</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#pcdsdevices-valve">pcdsdevices.valve</a><ul>
@@ -785,7 +789,7 @@
 <h1>API<a class="headerlink" href="#api" title="Permalink to this headline"></a></h1>
 <section id="pcdsdevices-analog-signals">
 <h2>pcdsdevices.analog_signals<a class="headerlink" href="#pcdsdevices-analog-signals" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -805,7 +809,7 @@
 </section>
 <section id="pcdsdevices-areadetector-cam">
 <h2>pcdsdevices.areadetector.cam<a class="headerlink" href="#pcdsdevices-areadetector-cam" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -819,7 +823,7 @@
 </section>
 <section id="pcdsdevices-areadetector-detectors">
 <h2>pcdsdevices.areadetector.detectors<a class="headerlink" href="#pcdsdevices-areadetector-detectors" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -860,7 +864,7 @@
 </section>
 <section id="pcdsdevices-areadetector-plugins">
 <h2>pcdsdevices.areadetector.plugins<a class="headerlink" href="#pcdsdevices-areadetector-plugins" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -922,7 +926,7 @@
 </section>
 <section id="pcdsdevices-atm">
 <h2>pcdsdevices.atm<a class="headerlink" href="#pcdsdevices-atm" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -945,7 +949,7 @@
 </section>
 <section id="pcdsdevices-attenuator">
 <h2>pcdsdevices.attenuator<a class="headerlink" href="#pcdsdevices-attenuator" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1022,7 +1026,7 @@
 </section>
 <section id="pcdsdevices-beam-stats">
 <h2>pcdsdevices.beam_stats<a class="headerlink" href="#pcdsdevices-beam-stats" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1042,7 +1046,7 @@
 </section>
 <section id="pcdsdevices-ccm">
 <h2>pcdsdevices.ccm<a class="headerlink" href="#pcdsdevices-ccm" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1098,7 +1102,7 @@
 </section>
 <section id="pcdsdevices-crix-motion">
 <h2>pcdsdevices.crix_motion<a class="headerlink" href="#pcdsdevices-crix-motion" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1121,7 +1125,7 @@
 </section>
 <section id="pcdsdevices-cvmi-motion">
 <h2>pcdsdevices.cvmi_motion<a class="headerlink" href="#pcdsdevices-cvmi-motion" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1138,7 +1142,7 @@
 </section>
 <section id="pcdsdevices-dc-devices">
 <h2>pcdsdevices.dc_devices<a class="headerlink" href="#pcdsdevices-dc-devices" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1158,7 +1162,7 @@
 </section>
 <section id="pcdsdevices-delay-generator">
 <h2>pcdsdevices.delay_generator<a class="headerlink" href="#pcdsdevices-delay-generator" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1178,7 +1182,7 @@
 </section>
 <section id="pcdsdevices-device">
 <h2>pcdsdevices.device<a class="headerlink" href="#pcdsdevices-device" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1198,7 +1202,7 @@
 </section>
 <section id="pcdsdevices-digitizers">
 <h2>pcdsdevices.digitizers<a class="headerlink" href="#pcdsdevices-digitizers" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1275,7 +1279,7 @@
 </section>
 <section id="pcdsdevices-energy-monitor">
 <h2>pcdsdevices.energy_monitor<a class="headerlink" href="#pcdsdevices-energy-monitor" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1295,7 +1299,7 @@
 </section>
 <section id="pcdsdevices-epics-motor">
 <h2>pcdsdevices.epics_motor<a class="headerlink" href="#pcdsdevices-epics-motor" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1360,7 +1364,7 @@
 </section>
 <section id="pcdsdevices-evr">
 <h2>pcdsdevices.evr<a class="headerlink" href="#pcdsdevices-evr" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1374,7 +1378,7 @@
 </section>
 <section id="pcdsdevices-gauge">
 <h2>pcdsdevices.gauge<a class="headerlink" href="#pcdsdevices-gauge" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1445,7 +1449,7 @@
 </section>
 <section id="pcdsdevices-gon">
 <h2>pcdsdevices.gon<a class="headerlink" href="#pcdsdevices-gon" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1483,7 +1487,7 @@
 </section>
 <section id="pcdsdevices-inout">
 <h2>pcdsdevices.inout<a class="headerlink" href="#pcdsdevices-inout" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1515,7 +1519,7 @@
 </section>
 <section id="pcdsdevices-interface">
 <h2>pcdsdevices.interface<a class="headerlink" href="#pcdsdevices-interface" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1586,7 +1590,7 @@
 </section>
 <section id="pcdsdevices-ipm">
 <h2>pcdsdevices.ipm<a class="headerlink" href="#pcdsdevices-ipm" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1630,7 +1634,7 @@
 </section>
 <section id="pcdsdevices-jet">
 <h2>pcdsdevices.jet<a class="headerlink" href="#pcdsdevices-jet" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1656,7 +1660,7 @@
 </section>
 <section id="pcdsdevices-lamp-motion">
 <h2>pcdsdevices.lamp_motion<a class="headerlink" href="#pcdsdevices-lamp-motion" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1679,7 +1683,7 @@
 </section>
 <section id="pcdsdevices-lasers-btps">
 <h2>pcdsdevices.lasers.btps<a class="headerlink" href="#pcdsdevices-lasers-btps" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1711,7 +1715,7 @@
 </section>
 <section id="pcdsdevices-lasers-counters">
 <h2>pcdsdevices.lasers.counters<a class="headerlink" href="#pcdsdevices-lasers-counters" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1725,7 +1729,7 @@
 </section>
 <section id="pcdsdevices-lasers-dicon">
 <h2>pcdsdevices.lasers.dicon<a class="headerlink" href="#pcdsdevices-lasers-dicon" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1739,7 +1743,7 @@
 </section>
 <section id="pcdsdevices-lasers-ek9000">
 <h2>pcdsdevices.lasers.ek9000<a class="headerlink" href="#pcdsdevices-lasers-ek9000" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1756,7 +1760,7 @@
 </section>
 <section id="pcdsdevices-lasers-elliptec">
 <h2>pcdsdevices.lasers.elliptec<a class="headerlink" href="#pcdsdevices-lasers-elliptec" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1782,7 +1786,7 @@
 </section>
 <section id="pcdsdevices-lasers-qmini">
 <h2>pcdsdevices.lasers.qmini<a class="headerlink" href="#pcdsdevices-lasers-qmini" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1799,7 +1803,7 @@
 </section>
 <section id="pcdsdevices-lasers-rfof">
 <h2>pcdsdevices.lasers.rfof<a class="headerlink" href="#pcdsdevices-lasers-rfof" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1816,7 +1820,7 @@
 </section>
 <section id="pcdsdevices-lasers-thorlabswfs">
 <h2>pcdsdevices.lasers.thorlabsWFS<a class="headerlink" href="#pcdsdevices-lasers-thorlabswfs" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1830,7 +1834,7 @@
 </section>
 <section id="pcdsdevices-lasers-tuttifrutti">
 <h2>pcdsdevices.lasers.tuttifrutti<a class="headerlink" href="#pcdsdevices-lasers-tuttifrutti" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1847,7 +1851,7 @@
 </section>
 <section id="pcdsdevices-lasers-zoomtelescope">
 <h2>pcdsdevices.lasers.zoomtelescope<a class="headerlink" href="#pcdsdevices-lasers-zoomtelescope" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1861,7 +1865,7 @@
 </section>
 <section id="pcdsdevices-lens">
 <h2>pcdsdevices.lens<a class="headerlink" href="#pcdsdevices-lens" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1890,7 +1894,7 @@
 </section>
 <section id="pcdsdevices-lic">
 <h2>pcdsdevices.lic<a class="headerlink" href="#pcdsdevices-lic" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1907,7 +1911,7 @@
 </section>
 <section id="pcdsdevices-lodcm">
 <h2>pcdsdevices.lodcm<a class="headerlink" href="#pcdsdevices-lodcm" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -1984,7 +1988,7 @@
 </section>
 <section id="pcdsdevices-lxe">
 <h2>pcdsdevices.lxe<a class="headerlink" href="#pcdsdevices-lxe" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2022,7 +2026,7 @@
 </section>
 <section id="pcdsdevices-mirror">
 <h2>pcdsdevices.mirror<a class="headerlink" href="#pcdsdevices-mirror" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2075,7 +2079,7 @@
 </section>
 <section id="pcdsdevices-movablestand">
 <h2>pcdsdevices.movablestand<a class="headerlink" href="#pcdsdevices-movablestand" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2089,7 +2093,7 @@
 </section>
 <section id="pcdsdevices-mpod">
 <h2>pcdsdevices.mpod<a class="headerlink" href="#pcdsdevices-mpod" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2115,7 +2119,7 @@
 </section>
 <section id="pcdsdevices-mpod-apalis">
 <h2>pcdsdevices.mpod_apalis<a class="headerlink" href="#pcdsdevices-mpod-apalis" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2147,7 +2151,7 @@
 </section>
 <section id="pcdsdevices-mps">
 <h2>pcdsdevices.mps<a class="headerlink" href="#pcdsdevices-mps" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2176,7 +2180,7 @@
 </section>
 <section id="pcdsdevices-mrco-motion">
 <h2>pcdsdevices.mrco_motion<a class="headerlink" href="#pcdsdevices-mrco-motion" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2190,7 +2194,7 @@
 </section>
 <section id="pcdsdevices-piezo">
 <h2>pcdsdevices.piezo<a class="headerlink" href="#pcdsdevices-piezo" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2210,7 +2214,7 @@
 </section>
 <section id="pcdsdevices-pim">
 <h2>pcdsdevices.pim<a class="headerlink" href="#pcdsdevices-pim" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2260,7 +2264,7 @@
 </section>
 <section id="pcdsdevices-pmps">
 <h2>pcdsdevices.pmps<a class="headerlink" href="#pcdsdevices-pmps" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2274,7 +2278,7 @@
 </section>
 <section id="pcdsdevices-positioner">
 <h2>pcdsdevices.positioner<a class="headerlink" href="#pcdsdevices-positioner" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2288,7 +2292,7 @@
 </section>
 <section id="pcdsdevices-pseudopos">
 <h2>pcdsdevices.pseudopos<a class="headerlink" href="#pcdsdevices-pseudopos" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2332,7 +2336,7 @@
 </section>
 <section id="pcdsdevices-pulsepicker">
 <h2>pcdsdevices.pulsepicker<a class="headerlink" href="#pcdsdevices-pulsepicker" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2349,7 +2353,7 @@
 </section>
 <section id="pcdsdevices-pump">
 <h2>pcdsdevices.pump<a class="headerlink" href="#pcdsdevices-pump" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2405,7 +2409,7 @@
 </section>
 <section id="pcdsdevices-pv-positioner">
 <h2>pcdsdevices.pv_positioner<a class="headerlink" href="#pcdsdevices-pv-positioner" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2425,7 +2429,7 @@
 </section>
 <section id="pcdsdevices-ref">
 <h2>pcdsdevices.ref<a class="headerlink" href="#pcdsdevices-ref" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2442,7 +2446,7 @@
 </section>
 <section id="pcdsdevices-rtds-ebd">
 <h2>pcdsdevices.rtds_ebd<a class="headerlink" href="#pcdsdevices-rtds-ebd" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2465,7 +2469,7 @@
 </section>
 <section id="pcdsdevices-sample-delivery">
 <h2>pcdsdevices.sample_delivery<a class="headerlink" href="#pcdsdevices-sample-delivery" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2515,7 +2519,7 @@
 </section>
 <section id="pcdsdevices-sensors">
 <h2>pcdsdevices.sensors<a class="headerlink" href="#pcdsdevices-sensors" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2535,7 +2539,7 @@
 </section>
 <section id="pcdsdevices-sequencer">
 <h2>pcdsdevices.sequencer<a class="headerlink" href="#pcdsdevices-sequencer" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2552,13 +2556,13 @@
 </section>
 <section id="pcdsdevices-signal">
 <h2>pcdsdevices.signal<a class="headerlink" href="#pcdsdevices-signal" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html#pcdsdevices.signal.AggregateSignal" title="pcdsdevices.signal.AggregateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.AggregateSignal</span></code></a>(*, name, ...)</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AggregateSignal.html#pcdsdevices.signal.AggregateSignal" title="pcdsdevices.signal.AggregateSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.AggregateSignal</span></code></a>(*, name)</p></td>
 <td><p>Signal that is composed of a number of other signals.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.AvgSignal.html#pcdsdevices.signal.AvgSignal" title="pcdsdevices.signal.AvgSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.AvgSignal</span></code></a>(signal, ...[, ...])</p></td>
@@ -2593,6 +2597,12 @@
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.InternalSignal.html#pcdsdevices.signal.InternalSignal" title="pcdsdevices.signal.InternalSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.InternalSignal</span></code></a>(*args, ...)</p></td>
 <td><p>Class Signal that stores info but should only be updated by the class.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.MultiDerivedSignal.html#pcdsdevices.signal.MultiDerivedSignal" title="pcdsdevices.signal.MultiDerivedSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.MultiDerivedSignal</span></code></a>(*args, ...)</p></td>
+<td><p>Signal derived from multiple signals in the device hierarchy.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.MultiDerivedSignalRO.html#pcdsdevices.signal.MultiDerivedSignalRO" title="pcdsdevices.signal.MultiDerivedSignalRO"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.MultiDerivedSignalRO</span></code></a>(...)</p></td>
+<td><p>Read-only variant of a MultiDerivedSignal.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.signal.NotImplementedSignal.html#pcdsdevices.signal.NotImplementedSignal" title="pcdsdevices.signal.NotImplementedSignal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.signal.NotImplementedSignal</span></code></a>(...)</p></td>
 <td><p>Dummy signal for a not implemented feature.</p></td>
@@ -2632,7 +2642,7 @@
 </section>
 <section id="pcdsdevices-sim">
 <h2>pcdsdevices.sim<a class="headerlink" href="#pcdsdevices-sim" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2655,7 +2665,7 @@
 </section>
 <section id="pcdsdevices-slits">
 <h2>pcdsdevices.slits<a class="headerlink" href="#pcdsdevices-slits" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2702,7 +2712,7 @@
 </section>
 <section id="pcdsdevices-spectrometer">
 <h2>pcdsdevices.spectrometer<a class="headerlink" href="#pcdsdevices-spectrometer" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2737,7 +2747,7 @@
 </section>
 <section id="pcdsdevices-state">
 <h2>pcdsdevices.state<a class="headerlink" href="#pcdsdevices-state" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2781,7 +2791,7 @@
 </section>
 <section id="pcdsdevices-stopper">
 <h2>pcdsdevices.stopper<a class="headerlink" href="#pcdsdevices-stopper" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2801,7 +2811,7 @@
 </section>
 <section id="pcdsdevices-sxr-test-absorber">
 <h2>pcdsdevices.sxr_test_absorber<a class="headerlink" href="#pcdsdevices-sxr-test-absorber" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2815,7 +2825,7 @@
 </section>
 <section id="pcdsdevices-tags">
 <h2>pcdsdevices.tags<a class="headerlink" href="#pcdsdevices-tags" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2832,7 +2842,7 @@
 </section>
 <section id="pcdsdevices-targets">
 <h2>pcdsdevices.targets<a class="headerlink" href="#pcdsdevices-targets" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2858,7 +2868,7 @@
 </section>
 <section id="pcdsdevices-timetool">
 <h2>pcdsdevices.timetool<a class="headerlink" href="#pcdsdevices-timetool" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2875,7 +2885,7 @@
 </section>
 <section id="pcdsdevices-utils">
 <h2>pcdsdevices.utils<a class="headerlink" href="#pcdsdevices-utils" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2914,18 +2924,24 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.is_input.html#pcdsdevices.utils.is_input" title="pcdsdevices.utils.is_input"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.is_input</span></code></a>()</p></td>
 <td><p>Utility to check if there is input available.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.post_ophyds_to_elog.html#pcdsdevices.utils.post_ophyds_to_elog" title="pcdsdevices.utils.post_ophyds_to_elog"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.post_ophyds_to_elog</span></code></a>(objs)</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.maybe_make_method.html#pcdsdevices.utils.maybe_make_method" title="pcdsdevices.utils.maybe_make_method"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.maybe_make_method</span></code></a>(func, owner)</p></td>
+<td><p>Bind <code class="docutils literal notranslate"><span class="pre">func</span></code> as a method of <code class="docutils literal notranslate"><span class="pre">owner</span></code> if <code class="docutils literal notranslate"><span class="pre">self</span></code> is the first parameter.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.post_ophyds_to_elog.html#pcdsdevices.utils.post_ophyds_to_elog" title="pcdsdevices.utils.post_ophyds_to_elog"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.post_ophyds_to_elog</span></code></a>(objs)</p></td>
 <td><p>Take a list of ophyd objects and post their status representations to the elog.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.schedule_task.html#pcdsdevices.utils.schedule_task" title="pcdsdevices.utils.schedule_task"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.schedule_task</span></code></a>(func[, ...])</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.schedule_task.html#pcdsdevices.utils.schedule_task" title="pcdsdevices.utils.schedule_task"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.schedule_task</span></code></a>(func[, ...])</p></td>
 <td><p>Use ophyd's dispatcher to schedule a task for later.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="generated/pcdsdevices.utils.set_many.html#pcdsdevices.utils.set_many" title="pcdsdevices.utils.set_many"><code class="xref py py-obj docutils literal notranslate"><span class="pre">pcdsdevices.utils.set_many</span></code></a>(to_set, *[, ...])</p></td>
+<td><p>Call <code class="docutils literal notranslate"><span class="pre">set</span></code> on all given signal-to-value pairs with a single Status return value.</p></td>
 </tr>
 </tbody>
 </table>
 </section>
 <section id="pcdsdevices-valve">
 <h2>pcdsdevices.valve<a class="headerlink" href="#pcdsdevices-valve" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2972,7 +2988,7 @@
 </section>
 <section id="pcdsdevices-variety">
 <h2>pcdsdevices.variety<a class="headerlink" href="#pcdsdevices-variety" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -2995,7 +3011,7 @@
 </section>
 <section id="pcdsdevices-wfs">
 <h2>pcdsdevices.wfs<a class="headerlink" href="#pcdsdevices-wfs" title="Permalink to this headline"></a></h2>
-<table class="longtable docutils align-default">
+<table class="autosummary longtable docutils align-default">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
