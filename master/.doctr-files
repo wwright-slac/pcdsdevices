@@ -516,6 +516,7 @@ master/_sources/upcoming_release_notes/971-mirror-tabs.rst.txt
 master/_sources/upcoming_release_notes/975-tmo_spec_offsets.rst.txt
 master/_sources/upcoming_release_notes/976-lamp_mbes_3_22.rst.txt
 master/_sources/upcoming_release_notes/980-dual-valve.rst.txt
+master/_sources/upcoming_release_notes/984-tweak_step_size.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -1076,5 +1077,6 @@ master/upcoming_release_notes/971-mirror-tabs.html
 master/upcoming_release_notes/975-tmo_spec_offsets.html
 master/upcoming_release_notes/976-lamp_mbes_3_22.html
 master/upcoming_release_notes/980-dual-valve.html
+master/upcoming_release_notes/984-tweak_step_size.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
