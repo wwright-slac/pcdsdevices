@@ -874,6 +874,7 @@ pcdsdevices.state
     pcdsdevices.state.TwinCATStatePositioner
     pcdsdevices.state.get_dynamic_state_attr
     pcdsdevices.state.state_config_dotted_names
+    pcdsdevices.state.state_config_dotted_velos
 
 pcdsdevices.stopper
 -------------------

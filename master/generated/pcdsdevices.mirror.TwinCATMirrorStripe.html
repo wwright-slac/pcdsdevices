@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.mirror.TwinCATMirrorStripe &mdash; PCDS Devices 5.1.0+162.g5b2bd81.dirty documentation</title>
+  <title>pcdsdevices.mirror.TwinCATMirrorStripe &mdash; PCDS Devices 5.1.0+169.gb6f9338.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+162.g5b2bd81.dirty
+                5.1.0+169.gb6f9338.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -253,14 +253,21 @@ to automatically pick up the coatings from each mirror enum.</p>
 <td><p>omitted</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pmps.TwinCATStatePMPS.html#pcdsdevices.pmps.TwinCATStatePMPS" title="pcdsdevices.pmps.TwinCATStatePMPS"><code class="xref py py-class docutils literal notranslate"><span class="pre">TwinCATStatePMPS</span></code></a></p></td>
 </tr>
-<tr class="row-even"><td><p>arb_enable</p></td>
+<tr class="row-even"><td><p>state_velo</p></td>
+<td><p><a class="reference internal" href="pcdsdevices.signal.MultiDerivedSignal.html#pcdsdevices.signal.MultiDerivedSignal" title="pcdsdevices.signal.MultiDerivedSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">MultiDerivedSignal</span></code></a></p></td>
+<td></td>
+<td><p>State mover velocity. Displays the highest velocity of all the state move destinations and allows bulk writes to all of these velocity settings. Note that this velocity only applies to moves done using the state selector box.</p></td>
+<td><p>config</p></td>
+<td><p>Inherited from <a class="reference internal" href="pcdsdevices.pmps.TwinCATStatePMPS.html#pcdsdevices.pmps.TwinCATStatePMPS" title="pcdsdevices.pmps.TwinCATStatePMPS"><code class="xref py py-class docutils literal notranslate"><span class="pre">TwinCATStatePMPS</span></code></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>arb_enable</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:PMPS:ARB:ENABLE</span></code></p></td>
 <td><p>Enables PMPS pre-emptive protections. This can be disabled to fall back on fast-fault-only protections. Disabling this will also clear arbiter requests.</p></td>
 <td><p>config</p></td>
 <td><p>Inherited from <a class="reference internal" href="pcdsdevices.pmps.TwinCATStatePMPS.html#pcdsdevices.pmps.TwinCATStatePMPS" title="pcdsdevices.pmps.TwinCATStatePMPS"><code class="xref py py-class docutils literal notranslate"><span class="pre">TwinCATStatePMPS</span></code></a></p></td>
 </tr>
-<tr class="row-odd"><td><p>maint_mode</p></td>
+<tr class="row-even"><td><p>maint_mode</p></td>
 <td><p><a class="reference internal" href="pcdsdevices.signal.PytmcSignal.html#pcdsdevices.signal.PytmcSignal" title="pcdsdevices.signal.PytmcSignal"><code class="xref py py-class docutils literal notranslate"><span class="pre">PytmcSignal</span></code></a></p></td>
 <td><p><code class="docutils literal notranslate"><span class="pre">:PMPS:MAINT</span></code></p></td>
 <td><p>If this is on, we trip a fast fault and then can move the motor freely. Useful for debugging motion issues.</p></td>
