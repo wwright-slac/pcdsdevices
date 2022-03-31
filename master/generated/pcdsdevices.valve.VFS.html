@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.valve.VFS &mdash; PCDS Devices 5.1.0+169.gb6f9338.dirty documentation</title>
+  <title>pcdsdevices.valve.VFS &mdash; PCDS Devices 5.1.0+174.ga5ea517.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+169.gb6f9338.dirty
+                5.1.0+174.ga5ea517.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -121,6 +121,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VGC_2S.html">pcdsdevices.valve.VGC_2S</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRC.html">pcdsdevices.valve.VRC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRCClsLS.html">pcdsdevices.valve.VRCClsLS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRCDA.html">pcdsdevices.valve.VRCDA</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRCNO.html">pcdsdevices.valve.VRCNO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VVC.html">pcdsdevices.valve.VVC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VVCNO.html">pcdsdevices.valve.VVCNO</a></li>
@@ -177,7 +178,13 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="pcdsdevices.valve.VFS">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.valve.</span></span><span class="sig-name descname"><span class="pre">VFS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">read_attrs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configuration_attrs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.valve.VFS" title="Permalink to this definition"></a></dt>
-<dd><p>Class for Fast Shutter Valve.</p>
+<dd><p>VFS = Fast Shutter Valve</p>
+<p>This valve is typically used to protect sensitive beamline components
+from bad vacuum events that would otherwise damage them. It has an
+especially fast response time compared to other vacuum system elements.</p>
+<p>This corresponds with ST_VFS in the lcls-twincat-vacuum library,
+but rather than inherit from other classes it includes repeated
+elements from ST_ValveBase.</p>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
 <thead>

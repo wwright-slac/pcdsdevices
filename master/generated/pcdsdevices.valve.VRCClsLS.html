@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>pcdsdevices.valve.VRCClsLS &mdash; PCDS Devices 5.1.0+169.gb6f9338.dirty documentation</title>
+  <title>pcdsdevices.valve.VRCClsLS &mdash; PCDS Devices 5.1.0+174.ga5ea517.dirty documentation</title>
       <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../_static/_static/theme_overrides.css" type="text/css" />
@@ -19,7 +19,7 @@
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="pcdsdevices.valve.VRCNO" href="pcdsdevices.valve.VRCNO.html" />
+    <link rel="next" title="pcdsdevices.valve.VRCDA" href="pcdsdevices.valve.VRCDA.html" />
     <link rel="prev" title="pcdsdevices.valve.VRC" href="pcdsdevices.valve.VRC.html" /> 
 </head>
 
@@ -31,7 +31,7 @@
             <a href="../index.html" class="icon icon-home"> PCDS Devices
           </a>
               <div class="version">
-                5.1.0+169.gb6f9338.dirty
+                5.1.0+174.ga5ea517.dirty
               </div>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
@@ -121,6 +121,7 @@
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VGC_2S.html">pcdsdevices.valve.VGC_2S</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRC.html">pcdsdevices.valve.VRC</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">pcdsdevices.valve.VRCClsLS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRCDA.html">pcdsdevices.valve.VRCDA</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VRCNO.html">pcdsdevices.valve.VRCNO</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VVC.html">pcdsdevices.valve.VVC</a></li>
 <li class="toctree-l3"><a class="reference internal" href="pcdsdevices.valve.VVCNO.html">pcdsdevices.valve.VVCNO</a></li>
@@ -177,7 +178,8 @@
 <dl class="py class">
 <dt class="sig sig-object py" id="pcdsdevices.valve.VRCClsLS">
 <em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">pcdsdevices.valve.</span></span><span class="sig-name descname"><span class="pre">VRCClsLS</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">prefix</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">kind</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">read_attrs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">configuration_attrs</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#pcdsdevices.valve.VRCClsLS" title="Permalink to this definition"></a></dt>
-<dd><p>Class for Gate Valves with Control and Closed Limit Switch Readback.</p>
+<dd><p>Valve with Readback and Control and only a Closed Limit Switch.</p>
+<p>This class is just VRC but without open_limit.</p>
 <table class="colwidths-auto docutils align-default" id="id1">
 <caption><span class="caption-text">Ophyd Device Components</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
 <thead>
@@ -390,7 +392,7 @@ as complete when the device is ready to be read.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="pcdsdevices.valve.VRC.html" class="btn btn-neutral float-left" title="pcdsdevices.valve.VRC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="pcdsdevices.valve.VRCNO.html" class="btn btn-neutral float-right" title="pcdsdevices.valve.VRCNO" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="pcdsdevices.valve.VRCDA.html" class="btn btn-neutral float-right" title="pcdsdevices.valve.VRCDA" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

@@ -477,6 +477,7 @@ master/_sources/generated/pcdsdevices.valve.VGCLegacy.rst.txt
 master/_sources/generated/pcdsdevices.valve.VGC_2S.rst.txt
 master/_sources/generated/pcdsdevices.valve.VRC.rst.txt
 master/_sources/generated/pcdsdevices.valve.VRCClsLS.rst.txt
+master/_sources/generated/pcdsdevices.valve.VRCDA.rst.txt
 master/_sources/generated/pcdsdevices.valve.VRCNO.rst.txt
 master/_sources/generated/pcdsdevices.valve.VVC.rst.txt
 master/_sources/generated/pcdsdevices.valve.VVCNO.rst.txt
@@ -514,6 +515,7 @@ master/_sources/upcoming_release_notes/970-multi_derived_signal.rst.txt
 master/_sources/upcoming_release_notes/971-mirror-tabs.rst.txt
 master/_sources/upcoming_release_notes/975-tmo_spec_offsets.rst.txt
 master/_sources/upcoming_release_notes/976-lamp_mbes_3_22.rst.txt
+master/_sources/upcoming_release_notes/980-dual-valve.rst.txt
 master/_sources/upcoming_release_notes/template-full.rst.txt
 master/_sources/upcoming_release_notes/template-short.rst.txt
 master/_static/basic.css
@@ -1031,6 +1033,7 @@ master/generated/pcdsdevices.valve.VGCLegacy.html
 master/generated/pcdsdevices.valve.VGC_2S.html
 master/generated/pcdsdevices.valve.VRC.html
 master/generated/pcdsdevices.valve.VRCClsLS.html
+master/generated/pcdsdevices.valve.VRCDA.html
 master/generated/pcdsdevices.valve.VRCNO.html
 master/generated/pcdsdevices.valve.VVC.html
 master/generated/pcdsdevices.valve.VVCNO.html
@@ -1072,5 +1075,6 @@ master/upcoming_release_notes/970-multi_derived_signal.html
 master/upcoming_release_notes/971-mirror-tabs.html
 master/upcoming_release_notes/975-tmo_spec_offsets.html
 master/upcoming_release_notes/976-lamp_mbes_3_22.html
+master/upcoming_release_notes/980-dual-valve.html
 master/upcoming_release_notes/template-full.html
 master/upcoming_release_notes/template-short.html
